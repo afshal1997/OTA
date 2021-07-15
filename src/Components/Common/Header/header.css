@@ -1,0 +1,40 @@
+.mainNav{
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.mainNav .nav-link {
+    color: #fff !important;
+    font-size: 15px;
+    margin: auto 8px;
+}
+
+.adminLink.nav-link {
+    background-image: linear-gradient(to right, #b5406a, #6f203d);
+    border-radius: 20px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    min-width: 120px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: 2s;
+}
+
+.adminLink.nav-link:hover{
+    background-image: linear-gradient(to left, #b5406a, #6f203d);
+    transition: 2s;
+}
+
+.adminLink img {
+    height: 100%;
+    width: 100%;
+    max-width: 28px;
+    max-height: 25px;
+    margin-top: -5px;
+    object-fit: cover;
+}
