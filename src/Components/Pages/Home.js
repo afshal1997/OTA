@@ -4,9 +4,11 @@ import HomePageMainBnanner from '../../Layout/HomePageLayout/HomePageMainBnanner
 import MainSliderConatiner from "../Common/VerticalSlider";
 import solutionSliderimg01 from '../../Assets/HomeAssets/solutionSliderimg01.png'
 import solutionSliderbg from '../../Assets/HomeAssets/solution_bg.jpg'
-
 import './home.scss'
 import HomePageBannerThree from "../../Layout/HomePageLayout/HomePageBannerThree";
+import HomePageBannerFour from "../../Layout/HomePageLayout/HomePageBannerFour";
+import ClientSlider from "../Common/ClientSlider/ClientSlider";
+import TestmonialsSlider from "../Common/Testmonials/TestmonialsSlider";
 export default function Home() {
     const data = [{
         id: 0,
@@ -43,8 +45,10 @@ export default function Home() {
         <div>
             <HomePageMainBnanner />
             <HomePageBannerTwo />
-            <MainSliderConatiner data={data} />
-            <HomePageBannerThree/>
+            <MainSliderConatiner />
+            <HomePageBannerFour/>
+            <ClientSlider/>
+            <TestmonialsSlider/>
         </div>
     )
 }

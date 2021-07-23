@@ -1,4 +1,8 @@
-.button-radius{
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
+.button-radius {
   border-radius: 5rem;
   border: none;
   padding: 0.2rem 0.7rem;

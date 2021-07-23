@@ -189,7 +189,7 @@
 
 }
 
-.howWeWork{
+.howWeWork {
     background: url('../../Assets/HomeAssets/banner-3.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -200,7 +200,7 @@
     position: relative;
 }
 
-.process{
+.process {
     position: absolute;
     top: 50%;
     bottom: 50%;
@@ -208,7 +208,7 @@
 }
 
 .process .spanProcess {
-    background: -webkit-linear-gradient(#333 20%,#eee 80%);
+    background: -webkit-linear-gradient(#333 20%, #eee 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 6rem;
@@ -230,6 +230,7 @@
 .process h1 i {
     font-size: 2rem;
 }
+
 .process h6 {
     margin-left: 40px;
     line-height: 0;
@@ -242,6 +243,244 @@
     font-weight: 400;
     font-size: 0.8rem;
 }
+
+.progress-circle {
+    position: relative;
+    display: inline-block;
+    margin: 1rem;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ebebeb;
+}
+
+.progress-circle:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-animation: colorload 2s;
+    animation: colorload 2s;
+}
+
+.progress-circle span {
+    font-size: 1rem;
+    color: #8b8b8b;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin-left: -30px;
+    margin-top: -30px;
+    text-align: center;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 1;
+}
+
+.progress-circle span:after {
+    content: "%";
+    font-weight: 600;
+    color: #8b8b8b;
+}
+
+.progress-circle.progress-50:after {
+    background-image: linear-gradient(-90deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb);
+}
+
+.HomePageBannerFour {
+    background: url('../../Assets/HomeAssets/banner-4.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 75px 10px;
+}
+
+.testmonialsSlider {
+    background: url('../../Assets/HomeAssets/testmonialsSlider-bg.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 75px 10px;
+}
+
+.HomePageBannerFourHeading svg {
+    font-size: 6.1rem;
+    height: 87px;
+    opacity: 0.5;
+}
+
+.HomePageBannerFourHeading h1 {
+    color: #fff;
+    font-size: 3rem;
+    line-height: 0;
+    z-index: 99999;
+}
+
+.HomePageBannerFourHeading p {
+    color: #fff;
+    margin-top: 30px;
+    font-size: 0.8rem;
+}
+
+@keyframes colorload {
+    0% {
+        opacity: 0;
+        transform: rotate(0deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotate(360deg);
+    }
+}
+
+.ourServicesCards.card {
+    background: rgb(0, 0, 0, 0.5);
+    padding: 50px 10px;
+    transition: 1s;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+
+.ourServicesCards:hover {
+    background-image: linear-gradient(to right, #08678a, #0b96c8);
+    transition: 1s;
+}
+
+.cardContent {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cardContent h6 {
+    font-size: 1.2rem;
+}
+
+.cardContent p {
+    font-size: 0.8rem;
+}
+
+.iconBg img {
+    width: 100%;
+    max-width: 70px;
+    margin: auto;
+    display: block;
+    height: 100%;
+    max-height: 70px;
+    transition: 1s;
+    transition-timing-function: ease;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.ourServicesCards:hover .iconBg img {
+    filter: brightness(0) invert(1);
+    transition: 1s;
+}
+
+a.readToLearn {
+    background: rgb(0, 0, 0, 0.1);
+    border: 1px solid #0ca2d9;
+    color: #0ca2d9;
+    text-decoration: none;
+    padding: 20px 15px;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    border-radius: 50px;
+    width: 100%;
+    transition: 1s;
+}
+
+a.readToLearn:hover {
+    background-image: linear-gradient(to right, #0ca2d9, #1389b4);
+    color: #fff;
+    border: 1px solid transparent;
+    transition: 1s;
+}
+
+a.getStarted {
+    background-image: linear-gradient(to right, #0ca2d9, #1389b4);
+    border: 1px solid transparent;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 15px;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    border-radius: 50px;
+    width: 100%;
+    transition: 1s;
+}
+
+a.getStarted:hover {
+    background: rgb(0, 0, 0, 0.1);
+    color: #0ca2d9;
+    border: 1px solid #0ca2d9;
+    transition: 1s;
+}
+
+.watch svg {
+    font-size: 9rem;
+    font-weight: 700;
+    height: 102px;
+    margin: 60px auto 0;
+    opacity: 0.8;
+}
+
+.laptop-wrapper {
+    position: absolute;
+    height: 0;
+}
+
+.laptop-wrapper video {
+    box-sizing: border-box;
+    background: url('../../Assets/HomeAssets/laptop.png');
+    background-repeat: no-repeat;
+    background-size: 100% 83% !important;
+    background-size: contain;
+    padding: 2.5% 11.5% 15.8%;
+    width: 100%;
+    height: 100%;
+}
+
+.watchContent h4 {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.watchContent h2 {
+    color: #fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.watchContent span {
+    color: #0ca3da;
+    font-weight: 800;
+    line-height: 2;
+}
+
+.watchContent p {
+    color: #fff;
+    margin: 20px auto;
+    font-style: italic;
+}
+
+.videoSection {
+    margin-top: -70px;
+}
+
 
 @media screen and (max-width: 480px) {
     .circleImg img {
@@ -266,11 +505,47 @@
     .circleImg .text h1 span {
         font-size: 2rem;
     }
+
+    .HomePageBannerFourHeading svg {
+        font-size: 4.4rem;
+    }
+
+    .watch svg {
+        font-size: 5.5rem;
+        height: 130px;
+    }
 }
 
 @media screen and (min-device-width: 481px) and (max-device-width: 768px) {
     .circleImg img {
         max-width: 320px;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    .laptop-wrapper {
+        position: relative !important;
+        height: 380px;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    .videoSection {
+        margin-top: 0px !important;
+    }
+}
+
+@media screen and (min-device-width: 480px) and (max-device-width: 767px) {
+    .laptop-wrapper {
+        position: relative !important;
+        height: 280px;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 479px) {
+    .laptop-wrapper {
+        position: relative !important;
+        height: 210px;
     }
 }
 

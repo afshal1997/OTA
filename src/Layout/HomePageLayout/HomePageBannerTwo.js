@@ -13,7 +13,7 @@ const HomePageBannerTwo = () => {
                                 <h1>Why Choose</h1>
                                 <h2>Outsource to Asia</h2>
                                 <Row>
-                                    <Col className="col-1 p-0"><i class="fas fa-long-arrow-alt-right text-primary"></i></Col>
+                                    <Col className="col-1 p-0"><i className="fas fa-long-arrow-alt-right text-primary"></i></Col>
                                     <Col className="col-11 p-0">
                                         <h3>WE ARE GOOD LISTENERS</h3>
                                     </Col>
@@ -21,7 +21,7 @@ const HomePageBannerTwo = () => {
                             </div>
                             <div className="whyChoose">
                                 <Row>
-                                    <Col className="col-1 p-0"><i class="fas fa-long-arrow-alt-right text-primary"></i></Col>
+                                    <Col className="col-1 p-0"><i className="fas fa-long-arrow-alt-right text-primary"></i></Col>
                                     <Col className="col-11 p-0">
                                         <h3>WE ARE ASKING TO YOU TO CHOOSE GOOD</h3>
                                     </Col>
@@ -36,7 +36,7 @@ const HomePageBannerTwo = () => {
                         <Col lg={6} className="m-auto">
                             <div className="whyChooseOta">
                                 <Row>
-                                    <Col className="col-1 p-0"><i class="fas fa-long-arrow-alt-right text-primary"></i></Col>
+                                    <Col className="col-1 p-0"><i className="fas fa-long-arrow-alt-right text-primary"></i></Col>
                                     <Col className="col-11 p-0">
                                         <h3>ONLY SMART WORK; BECAUSE IT'S BETTER THAN HARD WORK</h3>
                                     </Col>

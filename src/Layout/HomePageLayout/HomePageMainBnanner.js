@@ -34,7 +34,7 @@ function HomePageMainBnanner() {
                         </Row>
                         <Row className="mt-5">
                             <Col lg={3} className="m-auto scrollDown">
-                                <Link href="/"><i class="fas fa-mouse text-white opaCity-md"></i><br></br><i class="fas fa-arrow-down"></i></Link>
+                                <Link href="/"><i className="fas fa-mouse text-white opaCity-md"></i><br></br><i className="fas fa-arrow-down"></i></Link>
                             </Col>
                         </Row>
                     </Container>
