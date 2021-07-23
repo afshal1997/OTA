@@ -311,7 +311,8 @@
 }
 
 .HomePageBannerFourHeading svg {
-    font-size: 6.1rem;
+    font-size: 6rem;
+    font-weight: 800;
     height: 87px;
     opacity: 0.5;
 }

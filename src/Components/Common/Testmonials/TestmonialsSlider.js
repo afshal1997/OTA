@@ -1,8 +1,11 @@
 import React from 'react'
 import Slider from "react-slick";
 import { Card, Col, Container, Row } from 'react-bootstrap'
+import client_1 from '../../../Assets/Icons/client-img-1.png'
+import client_2 from '../../../Assets/Icons/client-img-2.png'
+import client_3 from '../../../Assets/Icons/client-img-3.png'
 
-const TestmonialsSlider = () => {
+const TestmonialsSlider = (props) => {
     const TestmonialsSliderSettings = {
         className: "center",
         centerMode: true,
@@ -11,35 +14,35 @@ const TestmonialsSlider = () => {
         slidesToShow: 3,
         responsive: [
             {
-              breakpoint: 1024,
-              settings: {
-                slidesToShow: 3,
-                infinite: true,
-                dots: true
-              }
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    infinite: true,
+                    dots: true
+                }
             },
             {
-              breakpoint: 600,
-              settings: {
-                slidesToShow: 2,
-                initialSlide: 2
-              }
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    initialSlide: 1
+                }
             },
             {
-              breakpoint: 480,
-              settings: {
-                slidesToShow: 1,
-              }
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                }
             }
-          ]
-        };
+        ]
+    };
     return (
         <div>
             <div className="testmonialsSlider">
                 <Container>
                     <Row>
                         <Col></Col>
-                        <Col lg={2} className="m-auto text-center">
+                        <Col lg={3} className="m-auto text-center">
                             <svg width="100%">
                                 <defs>
                                     <linearGradient id="gradient" y1="0" y2="1">
@@ -67,44 +70,66 @@ const TestmonialsSlider = () => {
                             <Slider className="TestmonialsSlider" {...TestmonialsSliderSettings}>
                                 <div>
                                     <Card className="TestmonialsSliderCards">
-                                        <p>
-                                            Beyondant has been pleased to have entered into a joint venture with Outsource To Asia. The JV provides offshore resources as an augmentation to our U.S back office departments....
-                                        </p>
+                                        <p>{props.testmonialTitle.Paragraph1}</p>
+                                        <div className="TestmonialsSliderCardsContent">
+                                            <Row>
+                                                <Col lg={3} className="m-auto col-3">
+                                                    <img className="w-100" src={client_1} alt=""></img>
+                                                </Col>
+                                                <Col lg={9} className="col-9">
+                                                    <h3>{props.testmonialTitle.Client1}</h3>
+                                                    <h5>{props.testmonialTitle.ClientDesignation1}</h5>
+                                                </Col>
+                                            </Row>
+                                        </div>
                                     </Card>
                                 </div>
                                 <div>
                                     <Card className="TestmonialsSliderCards">
-                                        <p>
-                                            Beyondant has been pleased to have entered into a joint venture with Outsource To Asia. The JV provides offshore resources as an augmentation to our U.S back office departments....
-                                        </p>
+                                        <p>{props.testmonialTitle.Paragraph2}</p>
+                                        <div className="TestmonialsSliderCardsContent">
+                                            <Row>
+                                                <Col lg={3} className="m-auto col-2">
+                                                    <img className="w-100" src={client_2} alt=""></img>
+                                                </Col>
+                                                <Col lg={9} className="col-10">
+                                                    <h3>{props.testmonialTitle.Client2}</h3>
+                                                    <h5>{props.testmonialTitle.ClientDesignation2}</h5>
+                                                </Col>
+                                            </Row>
+                                        </div>
                                     </Card>
                                 </div>
                                 <div>
                                     <Card className="TestmonialsSliderCards">
-                                        <p>
-                                            Beyondant has been pleased to have entered into a joint venture with Outsource To Asia. The JV provides offshore resources as an augmentation to our U.S back office departments....
-                                        </p>
+                                        <p>{props.testmonialTitle.Paragraph3}</p>
+                                        <div className="TestmonialsSliderCardsContent">
+                                            <Row>
+                                                <Col lg={3} className="m-auto col-2">
+                                                    <img className="w-100" src={client_3} alt=""></img>
+                                                </Col>
+                                                <Col lg={9} className="col-10">
+                                                    <h3>{props.testmonialTitle.Client3}</h3>
+                                                    <h5>{props.testmonialTitle.ClientDesignation3}</h5>
+                                                </Col>
+                                            </Row>
+                                        </div>
                                     </Card>
                                 </div>
                                 <div>
                                     <Card className="TestmonialsSliderCards">
-                                        <p>
-                                            Beyondant has been pleased to have entered into a joint venture with Outsource To Asia. The JV provides offshore resources as an augmentation to our U.S back office departments....
-                                        </p>
-                                    </Card>
-                                </div>
-                                <div>
-                                    <Card className="TestmonialsSliderCards">
-                                        <p>
-                                            Beyondant has been pleased to have entered into a joint venture with Outsource To Asia. The JV provides offshore resources as an augmentation to our U.S back office departments....
-                                        </p>
-                                    </Card>
-                                </div>
-                                <div>
-                                    <Card className="TestmonialsSliderCards">
-                                        <p>
-                                            Beyondant has been pleased to have entered into a joint venture with Outsource To Asia. The JV provides offshore resources as an augmentation to our U.S back office departments....
-                                        </p>
+                                        <p>{props.testmonialTitle.Paragraph2}</p>
+                                        <div className="TestmonialsSliderCardsContent">
+                                            <Row>
+                                                <Col lg={3} className="m-auto col-2">
+                                                    <img className="w-100" src={client_2} alt=""></img>
+                                                </Col>
+                                                <Col lg={9} className="col-10">
+                                                    <h3>{props.testmonialTitle.Client2}</h3>
+                                                    <h5>{props.testmonialTitle.ClientDesignation2}</h5>
+                                                </Col>
+                                            </Row>
+                                        </div>
                                     </Card>
                                 </div>
                             </Slider>

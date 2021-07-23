@@ -1,7 +1,7 @@
 $primary:#d34e81;
 
 @import "~bootstrap/scss/bootstrap.scss";
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -44,7 +44,7 @@ body {
 }
 
 .testmonialsSlider svg {
-    font-size: 5.5rem;
+    font-size: 5.6rem;
     height: 88px;
     opacity: 0.2;
     font-weight: 700;
@@ -58,7 +58,9 @@ body {
 
 .testmonialsSlider .slick-slide .card{
     background-image: url('./Assets/HomeAssets/testmonialsWhite_bg.png');
-    padding: 40px;
+    background-repeat: no-repeat;
+    padding: 60px 50px;
+    min-height: 380px;
     border: none;
     margin: 20px 20px;
     background-position: bottom;
@@ -77,6 +79,33 @@ body {
 
 .testmonialsSlider .card{
     font-size: 15px;
+}
+
+.testmonialsSlider .slick-center.slick-current .card h3 {
+    font-size: 1.5rem;
+    color: #d54e80;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.TestmonialsSliderCardsContent h3 {
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.TestmonialsSliderCardsContent h5 {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.testmonialsSlider .slick-dots li.slick-active button:before{
+    color: #d54e80 !important;
+}
+
+.testmonialsSlider .slick-dots li button:before{
+    font-size: 16px;
 }
 
 
