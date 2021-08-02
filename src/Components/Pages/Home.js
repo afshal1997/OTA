@@ -4,11 +4,12 @@ import HomePageMainBnanner from '../../Layout/HomePageLayout/HomePageMainBnanner
 import MainSliderConatiner from "../Common/VerticalSlider";
 import solutionSliderimg01 from '../../Assets/HomeAssets/solutionSliderimg01.png'
 import solutionSliderbg from '../../Assets/HomeAssets/solution_bg.jpg'
-import './home.scss'
+import './home.scss';
 import HomePageBannerThree from "../../Layout/HomePageLayout/HomePageBannerThree";
 import HomePageBannerFour from "../../Layout/HomePageLayout/HomePageBannerFour";
 import ClientSlider from "../Common/ClientSlider/ClientSlider";
 import TestmonialsSlider from "../Common/Testmonials/TestmonialsSlider";
+import Consultation from "../../Layout/HomePageLayout/Consultation";
 
 const testmonialsSliderData = {
     Paragraph1:
@@ -66,6 +67,7 @@ export default function Home() {
             <HomePageBannerFour />
             <ClientSlider />
             <TestmonialsSlider testmonialTitle={testmonialsSliderData} />
+            <Consultation/>
         </div>
     )
 }

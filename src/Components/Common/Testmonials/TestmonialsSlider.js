@@ -32,6 +32,7 @@ const TestmonialsSlider = (props) => {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
+                    centerPadding: '0px'
                 }
             }
         ]
