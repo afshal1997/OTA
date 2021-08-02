@@ -1,8 +1,8 @@
 import React from 'react'
 import BannerImg01 from '../../Assets/HomeAssets/bannerImg01.png'
 import { Col, Container, Row } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
-import servicesLine from '../../Assets/HomeAssets/servicesLine.png'
+// import { Link } from 'react-router-dom'
+// import servicesLine from '../../Assets/HomeAssets/servicesLine.png'
 
 function HomePageMainBnanner() {
     return (
@@ -15,6 +15,11 @@ function HomePageMainBnanner() {
                                 <Col lg={3}></Col>
                                 <Col lg={3}>
                                     <div className="servicesBox text-light position-relative">
+                                        <h5>Web Development</h5>
+                                    </div>
+                                </Col>
+                                <Col lg={3}>
+                                    <div className="servicesBox1 text-light position-relative">
                                         <h5>Web Development</h5>
                                     </div>
                                 </Col>
