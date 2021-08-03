@@ -4,6 +4,8 @@ import { Card, Col, Container, Row } from 'react-bootstrap'
 import client_1 from '../../../Assets/Icons/client-img-1.png'
 import client_2 from '../../../Assets/Icons/client-img-2.png'
 import client_3 from '../../../Assets/Icons/client-img-3.png'
+import Zoom from 'react-reveal/Zoom';
+import Bounce from 'react-reveal/Bounce';
 
 const TestmonialsSlider = (props) => {
     const TestmonialsSliderSettings = {
@@ -55,15 +57,17 @@ const TestmonialsSlider = (props) => {
                                     <text id="text" y="85" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Clients</text>
                                 </g>
                             </svg>
-                            <h2><strong>Testmonials</strong></h2>
+                            <Zoom right><h2><strong>Testmonials</strong></h2></Zoom>
                         </Col>
                         <Col></Col>
                     </Row>
                     <Row>
                         <Col lg={7} className="mt-5 text-center m-auto">
-                            <p>
-                                Outsource Any Of Your Project To Us. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                            </p>
+                            <Bounce right>
+                                <p>
+                                    Outsource Any Of Your Project To Us. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                </p>
+                            </Bounce>
                         </Col>
                     </Row>
                     <Row>

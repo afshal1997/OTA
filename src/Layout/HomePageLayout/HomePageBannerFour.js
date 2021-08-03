@@ -11,6 +11,9 @@ import Icon7 from '../../Assets/HomeAssets/icon7.png'
 import Icon8 from '../../Assets/HomeAssets/icon8.png'
 import { Link } from 'react-router-dom'
 import Video from '../../Components/Common/Videos/Video'
+import Zoom from 'react-reveal/Zoom';
+import Bounce from 'react-reveal/Bounce';
+import Flip from 'react-reveal/Flip';
 
 
 const HomePageBannerFour = () => {
@@ -32,29 +35,35 @@ const HomePageBannerFour = () => {
                 <Container>
                     <Col lg={4} className="text-center m-auto">
                         <div className="HomePageBannerFourHeading">
-                            <svg width="100%">
-                                <defs>
-                                    <linearGradient id="gradient" y1="0" y2="1">
-                                        <stop stopColor="#696368" offset="0" />
-                                        <stop stopColor="#76485f" offset="1" />
-                                    </linearGradient>
-                                </defs>
-                                <g>
-                                    <text id="text" y="85" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Expertise</text>
-                                </g>
-                            </svg>
-                            <h1>Our Services</h1>
-                            <p>
-                                Outsource Any Of Your Project To Us. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's
-                            </p>
+                            <Zoom right>
+                                <svg width="100%">
+                                    <defs>
+                                        <linearGradient id="gradient" y1="0" y2="1">
+                                            <stop stopColor="#696368" offset="0" />
+                                            <stop stopColor="#76485f" offset="1" />
+                                        </linearGradient>
+                                    </defs>
+                                    <g>
+                                        <text id="text" y="85" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Expertise</text>
+                                    </g>
+                                </svg>
+                                <h1>Our Services</h1>
+                            </Zoom>
+                            <Bounce left>
+                                <p>
+                                    Outsource Any Of Your Project To Us. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's
+                                </p>
+                            </Bounce>
                         </div>
                     </Col>
                     <Row className="mt-5">
                         {React.Children.toArray(
                             servicesCards.map(({ icon, title, details }) => (
                                 <Col lg={3}>
-                                    <ServicesCards image={icon} title={title} details={details} />
+                                    <Zoom>
+                                        <ServicesCards image={icon} title={title} details={details} />
+                                    </Zoom>
                                 </Col>
                             ))
                         )}
@@ -62,10 +71,10 @@ const HomePageBannerFour = () => {
                     <Row>
                         <Col></Col>
                         <Col lg={2}>
-                            <Link href="/" className="readToLearn">Read to Learn</Link>
+                            <Bounce><Link href="/" className="readToLearn">Read to Learn</Link></Bounce>
                         </Col>
                         <Col lg={2}>
-                            <Link href="/" className="getStarted">Get Started</Link>
+                            <Bounce><Link href="/" className="getStarted">Get Started</Link></Bounce>
                         </Col>
                         <Col></Col>
                     </Row>
@@ -87,10 +96,10 @@ const HomePageBannerFour = () => {
                             </div>
                         </Col>
                     </Row>
-                    <Row className="videoSection">  
+                    <Row className="videoSection">
                         <Col lg={6} className="p-0 position-relative">
                             <div className="laptop-wrapper">
-                                <Video />
+                                <Flip left><Video /></Flip>
                             </div>
                         </Col>
                         <Col lg={5} className="p-0">

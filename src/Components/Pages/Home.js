@@ -64,6 +64,7 @@ export default function Home() {
             <HomePageMainBnanner />
             <HomePageBannerTwo />
             <MainSliderConatiner />
+            <HomePageBannerThree/>
             <HomePageBannerFour />
             <ClientSlider />
             <TestmonialsSlider testmonialTitle={testmonialsSliderData} />

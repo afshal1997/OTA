@@ -5,12 +5,17 @@
     margin: auto;
     display: block;
     transition: 1s;
+    z-index: 9;
 }
 
 .mainNav .nav-link {
     color: #fff !important;
     font-size: 15px;
     margin: auto 8px;
+}
+
+.navbar-light .navbar-toggler{
+    background: #d34e81;
 }
 
 .adminLink {
