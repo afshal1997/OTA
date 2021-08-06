@@ -297,14 +297,19 @@ a.learn-btn {
     display: block;
     width: 100%;
     text-align: center;
+    animation: avatar-pulse 0.5s;
+    transition: background-color 0.5s;
 }
 
 
 a.learn-btn:hover {
     background: linear-gradient(to right, #b5406a, #6f203d);
     border: 1px solid transparent;
-    transition: 1s;
     color: #fff;
+    transition: 1s;
+    transition: 0.5s ease all;
+    animation: in-pulse 1s;
+    transition: background-color 0.5s;
 }
 
 .getStarted-btn {
@@ -320,15 +325,39 @@ a.learn-btn:hover {
     display: block;
     width: 100%;
     text-align: center;
+    animation: in-pulse 0.5s;
+    transition: background-color 0.5s;
 }
 
 
-.getStarted-btn:hover {
+a.getStarted-btn:hover {
     background: transparent !important;
     border: 1px solid #d34e81;
-    transition: 1s;
     color: #d34e81;
+    transition: 0.5s ease all;
+    animation: avatar-pulse 1s;
+    transition: background-color 0.5s;
 
+}
+
+@keyframes avatar-pulse {
+    0% {
+        box-shadow: 0 0 0 0 #b5406a;
+    }
+
+    100% {
+        box-shadow: 0 0 0 25px rgba(255, 255, 255, 0);
+    }
+}
+
+@keyframes in-pulse {
+    0% {
+        box-shadow: 0 0 0 25px rgba(255, 255, 255, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 #b5406a;
+    }
 }
 
 .howWeWork {
@@ -598,41 +627,94 @@ a.readToLearn {
     border: 1px solid #0ca2d9;
     color: #0ca2d9;
     text-decoration: none;
-    padding: 20px 15px;
+    padding: 15px 15px;
     margin: 20px auto;
     display: block;
     text-align: center;
     border-radius: 50px;
     width: 100%;
-    transition: 1s;
+    transition: 0.5s ease all;
+    transition: background-color 0.5s;
+    animation: out-pulse 0.9s;
 }
 
 a.readToLearn:hover {
     background-image: linear-gradient(to right, #0ca2d9, #1389b4);
     color: #fff;
     border: 1px solid transparent;
-    transition: 1s;
+    transition: 0.5s ease all;
+    transition: background-color 0.5s;
+    animation: in-pulse 0.9s;
 }
 
-a.getStarted {
+a.schedulecall {
     background-image: linear-gradient(to right, #0ca2d9, #1389b4);
     border: 1px solid transparent;
     color: #fff;
     text-decoration: none;
-    padding: 20px 15px;
+    padding: 15px 15px;
     margin: 20px auto;
     display: block;
     text-align: center;
     border-radius: 50px;
     width: 100%;
-    transition: 1s;
+    transition: 0.5s ease all;
+    transition: background-color 0.5s;
+    animation: in-pulse 0.9s;
 }
 
-a.getStarted:hover {
+a.schedulecall:hover {
     background: rgb(0, 0, 0, 0.1);
     color: #0ca2d9;
     border: 1px solid #0ca2d9;
-    transition: 1s;
+    transition: 0.5s ease all;
+    animation: out-pulse 1s;
+    transition: background-color 0.5s;
+}
+
+.HomePageBannerFour a.getStarted {
+    background-image: linear-gradient(to right, #0ca2d9, #1389b4);
+    border: 1px solid transparent;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 15px;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    border-radius: 50px;
+    width: 100%;
+    transition: 0.5s ease all;
+    transition: background-color 0.5s;
+    animation: in-pulse 0.9s;
+}
+
+.HomePageBannerFour a.getStarted:hover {
+    background: rgb(0, 0, 0, 0.1);
+    color: #0ca2d9;
+    border: 1px solid #0ca2d9;
+    transition: 0.5s ease all;
+    animation: out-pulse 1s;
+    transition: background-color 0.5s;
+}
+
+@keyframes out-pulse {
+    0% {
+        box-shadow: 0 0 0 0 #fff;
+    }
+
+    100% {
+        box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
+    }
+}
+
+@keyframes in-pulse {
+    0% {
+        box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 #fff;
+    }
 }
 
 .watch svg {
@@ -747,10 +829,11 @@ a.getStarted:hover {
 
 .mainBannerSocialMediaIcons ul li a {
     color: #3d6284;
+    transition: 1s;
 }
 
-.mainBannerSocialMediaIcons ul li:hover {
-    opacity: 0.7;
+.mainBannerSocialMediaIcons ul li a:hover {
+    color: #fff;
     transition: 1s;
 }
 
@@ -778,6 +861,12 @@ a.getStarted:hover {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
+    transition: 1s;
+}
+
+.mainBannerContact ul li a:hover {
+    color: #d34e81;
+    transition: 1s;
 }
 
 .mainBannerContact i {
@@ -1005,12 +1094,16 @@ a.getStarted:hover {
     }
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 280px) and (max-device-width: 768px) {
 
-    .navbar-collapse.collapse.show {
-        height: 100vh;
-        text-align: center;
-        margin: 70px auto 0;
+    .navbar-collapse.collapse {
+        /* position: absolute !important; */
+        right: -250px !important;
+    }
+
+    .show {
+        right: 0px !important;
+
     }
 
     .adminLink {
@@ -1105,6 +1198,10 @@ a.getStarted:hover {
     .whyChooseOta h2 {
         font-size: 2.5rem;
     }
+
+    .consultationContent svg {
+        font-size: 3.3rem;
+    }
 }
 
 @media screen and (min-device-width: 480px) and (max-device-width: 767px) {
@@ -1114,7 +1211,7 @@ a.getStarted:hover {
     }
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 479px) {
+@media screen and (min-device-width: 280px) and (max-device-width: 479px) {
     .laptop-wrapper {
         position: relative !important;
         height: 210px;
@@ -1123,7 +1220,7 @@ a.getStarted:hover {
 
 @media screen and (min-device-width: 481px) and (max-device-width: 768px) {
 
-    .mainBannerSocialMediaIcons{
+    .mainBannerSocialMediaIcons {
         right: 50px;
     }
 
@@ -1201,4 +1298,93 @@ a.getStarted:hover {
         max-width: 400px;
         right: 0px;
     }
+}
+
+@media screen and (max-height: 850px) {
+    .circleImg img {
+        width: 100%;
+        max-width: 220px;
+    }
+}
+
+@media screen and (min-device-width: 2335px) and (max-device-width: 2560px) {
+    .Mobile {
+        max-width: 940px;
+    }
+}
+
+@media screen and (min-device-width: 2224px) and (max-device-width: 2334px) {
+    .Mobile {
+        max-width: 860px;
+    }
+}
+
+@media screen and (min-device-width: 1998px) and (max-device-width: 2223px) {
+    .Mobile {
+        max-width: 780px;
+    }
+}
+
+@media screen and (min-device-width: 1850px) and (max-device-width: 1994px) {
+    .Mobile {
+        max-width: 800px;
+    }
+}
+
+@media screen and (min-device-width: 1750px) and (max-device-width: 1840px) {
+    .Mobile {
+        max-width: 660px;
+    }
+}
+
+@media screen and (min-device-width: 1650px) and (max-device-width: 1740px) {
+    .Mobile {
+        max-width: 630px;
+    }
+}
+
+@media screen and (min-device-width: 1550px) and (max-device-width: 1640px) {
+    .Mobile {
+        max-width: 590px;
+    }
+}
+
+@media screen and (max-device-width: 1640px) and (min-device-width: 1025px) {
+    .Mobile {
+        max-width: 540px;
+    }
+}
+
+@media screen and (max-device-width: 319px) and (min-device-width: 280px)  {
+    .mainBanner svg {
+        max-height: 108px;
+        font-size: 2.3rem;
+    }
+
+    .circleImg img {
+        width: 100%;
+        max-width: 180px;
+    }
+
+    .circleImg .text h1 span {
+        font-size: 1.2rem;
+    }
+
+    .circleImg .text p {
+        top: 61%;
+    }
+
+    .verticalSettings svg {
+        font-size: 3.4rem;
+        height: 87px;
+    }
+
+    .process .spanProcess {
+        font-size: 4rem;
+    }
+
+    .process h1 {
+        font-size: 1.7rem;
+    }
+
 }

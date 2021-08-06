@@ -40,7 +40,7 @@ const Consultation = () => {
                         </Col>
                         <Col lg={4} className="m-auto">
                             <Bounce>
-                                <Link href="/" className="getStarted w-75">Schedule a Call</Link>
+                                <Link href="/" className="schedulecall w-75">Schedule a Call</Link>
                             </Bounce>
                         </Col>
                     </Row>

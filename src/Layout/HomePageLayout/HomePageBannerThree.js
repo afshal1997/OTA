@@ -35,7 +35,7 @@ const HomePageBannerThree = () => {
                             </Col>
                         </Row>
                         <Col lg={8}>
-                            <Fade right>
+                            <Fade left>
                                 <div className="line02">
                                     <img className="w-100" src={line2} alt=""></img>
                                 </div>
@@ -43,19 +43,21 @@ const HomePageBannerThree = () => {
                         </Col>
                         <Row>
                             <Col lg={5}>
-                                <div className="process">
-                                    <span className="spanProcess">Process</span>
-                                    <h1><span><i class="fas fa-long-arrow-alt-right text-primary"></i></span> How We Works<span>?</span></h1>
-                                    <h6>Our Process the structure</h6>
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum has been the industry's
-                                    </p>
-                                </div>
+                                <Bounce>
+                                    <div className="process">
+                                        <span className="spanProcess">Process</span>
+                                        <h1><span><i class="fas fa-long-arrow-alt-right text-primary"></i></span> How We Works<span>?</span></h1>
+                                        <h6>Our Process the structure</h6>
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum has been the industry's
+                                        </p>
+                                    </div>
+                                </Bounce>
                             </Col>
                         </Row>
                         <Row>
                             <Col lg={2}>
-                                <Fade right>
+                                <Fade left>
                                     <div className="line03">
                                         <img className="w-100" src={line3}></img>
                                     </div>

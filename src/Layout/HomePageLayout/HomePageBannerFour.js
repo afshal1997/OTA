@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom'
 import Video from '../../Components/Common/Videos/Video'
 import Zoom from 'react-reveal/Zoom';
 import Bounce from 'react-reveal/Bounce';
-import Flip from 'react-reveal/Flip';
+import Fade from 'react-reveal/Fade';
 
 
 const HomePageBannerFour = () => {
@@ -99,20 +99,22 @@ const HomePageBannerFour = () => {
                     <Row className="videoSection">
                         <Col lg={6} className="p-0 position-relative">
                             <div className="laptop-wrapper">
-                                <Flip left><Video /></Flip>
+                                <Fade left><Video /></Fade>
                             </div>
                         </Col>
                         <Col lg={5} className="p-0">
-                            <div className="watchContent position-relative mt-4">
-                                <h4>
-                                    What Our
-                                </h4>
-                                <h2>
-                                    Clients Say
-                                </h2>
-                                <span>Happy clients generate healthy business</span>
-                                <p>Watch how we help our clients walk through the world wide web directly from their perspective.</p>
-                            </div>
+                            <Fade right>
+                                <div className="watchContent position-relative mt-4">
+                                    <h4>
+                                        What Our
+                                    </h4>
+                                    <h2>
+                                        Clients Say
+                                    </h2>
+                                    <span>Happy clients generate healthy business</span>
+                                    <p>Watch how we help our clients walk through the world wide web directly from their perspective.</p>
+                                </div>
+                            </Fade>
                         </Col>
                     </Row>
                 </Container>

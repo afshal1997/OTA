@@ -11,6 +11,7 @@ const TestmonialsSlider = (props) => {
     const TestmonialsSliderSettings = {
         className: "center",
         centerMode: true,
+        arrows: false,
         dots: true,
         infinite: true,
         slidesToShow: 3,

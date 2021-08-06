@@ -1,8 +1,10 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap';
 import Slider from "react-slick";
-import Slide_1 from "../../../Assets/HomeAssets/solutionSliderimg01.png"
+import Slide_1 from "../../../Assets/HomeAssets/BetterSolutionImg1.png"
 import "./VerticalSlider.css"
+import Zoom from 'react-reveal/Zoom';
+import Bounce from 'react-reveal/Bounce';
 
 const index = () => {
     const verticalSettings = {
@@ -10,7 +12,7 @@ const index = () => {
         infinite: true,
         slidesToShow: 1,
         vertical: true,
-        verticalSwiping: true,autoplay: true,
+        verticalSwiping: true, autoplay: true,
         autoplaySpeed: 3500,
         pauseOnHover: true,
         responsive: [
@@ -26,13 +28,15 @@ const index = () => {
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 1,
-                    initialSlide: 1
+                    initialSlide: 1,
+                    autoplay: false,
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
+                    autoplay: false,
                 }
             }
         ]
@@ -42,10 +46,12 @@ const index = () => {
         <div>
             <div>
                 <Slider className="verticalSettings" {...verticalSettings}>
-                    <div>
+                    <div className="sliderbg1">
                         <Row>
-                            <Col lg={6} className="p-0">
-                                <img className="w-100" src={Slide_1} alt=""></img>
+                            <Col lg={6} className="p-0 slideImgBg">
+                                <Zoom>
+                                    <img className="w-100" src={Slide_1} alt=""></img>
+                                </Zoom>
                             </Col>
                             <Col lg={6} className="m-auto">
                                 <svg width="100%">
@@ -60,19 +66,23 @@ const index = () => {
                                     </g>
                                 </svg>
                                 <div className="verticalSettingsContent">
-                                    <h2 className="mb-0">Looking for a</h2>
-                                    <h1><strong>better solution</strong></h1>
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text
-                                    </p>
+                                    <Bounce>
+                                        <h2 className="mb-0">Looking for a</h2>
+                                        <h1><strong>better solution</strong></h1>
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text
+                                        </p>
+                                    </Bounce>
                                 </div>
                             </Col>
                         </Row>
                     </div>
-                    <div>
+                    <div className="sliderbg1">
                         <Row>
-                            <Col lg={6} className="p-0">
-                                <img className="w-100" src={Slide_1} alt=""></img>
+                            <Col lg={6} className="p-0 slideImgBg">
+                                <Zoom>
+                                    <img className="w-100" src={Slide_1} alt=""></img>
+                                </Zoom>
                             </Col>
                             <Col lg={6} className="m-auto">
                                 <svg width="100%">

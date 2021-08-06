@@ -1,8 +1,8 @@
 import React from 'react'
 import BannerImg01 from '../../Assets/HomeAssets/bannerImg01.png'
 import { Col, Container, Row } from 'react-bootstrap'
-// import { Link } from 'react-router-dom'
-// import servicesLine from '../../Assets/HomeAssets/servicesLine.png'
+import Zoom from 'react-reveal/Zoom';
+import Bounce from 'react-reveal/Bounce';
 
 function HomePageMainBnanner() {
     return (
@@ -57,8 +57,12 @@ function HomePageMainBnanner() {
                                         </svg>
                                     </div>
                                     <div className="text">
-                                        <h1>Lets Have a <span>Digital Startup</span></h1>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum <br></br> has been the industry's standard dummy text ever since the 1500s,</p>
+                                        <h1>Lets Have a <Zoom right cascade><span>Digital Startup</span></Zoom></h1>
+                                        <Bounce>
+                                            <p>
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum <br></br> has been the industry's standard dummy text ever since the 1500s,
+                                            </p>
+                                        </Bounce>
                                     </div>
 
                                     <div className="mainBannerServices">
@@ -106,7 +110,7 @@ function HomePageMainBnanner() {
                             </ul>
                         </div>
                     </Container>
-                <div className="homeMainBannerOverlay"></div>
+                    <div className="homeMainBannerOverlay"></div>
                 </div>
             </div>
         </div>

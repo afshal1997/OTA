@@ -1,8 +1,7 @@
-.verticalSettings{
+.sliderbg1 {
     background: url('../../../Assets/HomeAssets/solution_bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     color: #fff;
 }
 
@@ -10,7 +9,7 @@
     height: 100%;
     max-height: 610px;
     min-height: 610px;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
     padding: 0;
     margin: auto;
@@ -49,22 +48,50 @@
     width: 0 !important;
 }
 
-.verticalSettings .slick-dots li button:before{
+.verticalSettings .slick-dots li button:before {
     width: 4px !important;
     height: 13px !important;
     border-radius: 30px !important;
     content: '' !important;
     background: #fff !important;
     font-size: 11px !important;
-    color: rgb(255,255,255) !important;
+    color: rgb(255, 255, 255) !important;
 }
-.verticalSettings .slick-prev,.verticalSettings .slick-next{
+
+.verticalSettings .slick-prev,
+.verticalSettings .slick-next {
     display: none !important;
 }
 
-@media screen and (max-device-width: 1024px){
-    .verticalSettingsContent{
+.slideImgBg {
+    background: url('../../../Assets/HomeAssets/solutionSliderimg01.png');
+    background-position: left;
+    background-size: 70% 150%;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-device-width: 1024px) {
+    .verticalSettingsContent {
         max-width: 80% !important;
         margin: 20px auto;
+    }
+}
+
+@media screen and (max-device-width: 480px) {
+
+    .slideImgBg{
+        background-position: top left;
+        background-size: cover;
+    }
+
+    .verticalSettings .slick-slide img {
+        max-height: 510px;
+        min-height: 510px;
+        object-fit: cover;
+        object-position: left;
+    }
+
+    .verticalSettingsContent{
+        min-height: 324px;
     }
 }

@@ -1,6 +1,8 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import "./footer.css"
+import loGo from '../../../Assets/logo/logo.png'
 
 function Footer() {
     return (
@@ -8,13 +10,16 @@ function Footer() {
             <div className="footer">
                 <Container>
                     <Row>
-                        <Col lg={3} className="p-4 m-auto">
+                        <Col lg={3} className="pr-4 pl-4">
+                            <div className="logo">
+                                <img className="w-100" src={loGo}></img>
+                            </div>
                             <p>
                                 There are many variations of passages of lorem ipsum available, but the majority suffered.
                             </p>
                         </Col>
-                        <Col lg={2}>
-                            <h5 className="mb-5">Quick Links</h5>
+                        <Col lg={2} className="ps-5">
+                            <h6 className="mb-4">Quick Links</h6>
                             <div className="footerUl">
                                 <ul>
                                     <li>
@@ -35,8 +40,8 @@ function Footer() {
                                 </ul>
                             </div>
                         </Col>
-                        <Col lg={2}>
-                            <h5 className="mb-5">Outsourcing Plans </h5>
+                        <Col lg={2} className="ps-5">
+                            <h6 className="mb-4">Outsourcing Plans </h6>
                             <div className="footerUl">
                                 <ul>
                                     <li>
@@ -60,8 +65,8 @@ function Footer() {
                                 </ul>
                             </div>
                         </Col>
-                        <Col lg={2}>
-                            <h5 className="mb-5">Services </h5>
+                        <Col lg={2} className="ps-5">
+                            <h6 className="mb-4">Services </h6>
                             <div className="footerUl">
                                 <ul>
                                     <li>
@@ -85,8 +90,8 @@ function Footer() {
                                 </ul>
                             </div>
                         </Col>
-                        <Col lg={2}>
-                            <h5 className="mb-5">Contact </h5>
+                        <Col lg={3} className="ps-5">
+                            <h6 className="mb-4">Contact </h6>
                             <div className="footerUl footerContact position-relative">
                                 <ul>
                                     <li>

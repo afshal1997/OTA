@@ -8,14 +8,26 @@
     z-index: 9;
 }
 
+.mobileMenu.navbar-nav {
+    width: 85%;
+}
+
 .mainNav .nav-link {
     color: #fff !important;
     font-size: 15px;
     margin: auto 8px;
 }
 
-.navbar-light .navbar-toggler{
-    background: #d34e81;
+
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
+
+.show {
+    text-align: center !important;
+    height: 100vh;
 }
 
 .adminLink {
@@ -25,6 +37,9 @@
     display: block;
     width: 100%;
     min-width: 120px;
+    max-width: 120px;
+    margin: auto;
+    margin-right: 0;
     text-align: center;
     font-size: 0.9rem;
     font-weight: 600;
@@ -55,11 +70,163 @@
     transition: 1s;
 }
 
+.navbar-light .navbar-toggler-icon {
+    background-image: none !important;
+    margin-top: 20px;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.0) !important;
+    border-color: rgba(0, 0, 0, 0.0) !important;
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+
+.navbar-light .navbar-toggler-icon::after {
+    background: transparent !important;
+    color: #fff;
+    content: '';
+    color: #fff;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    font-size: 1.5rem;
+    height: 3px;
+    width: 17px;
+    background: #fff !important;
+    position: absolute;
+    border-radius: 20px;
+    top: 38px;
+    left: 12px;
+}
+
+.navbar-light .navbar-toggler-icon::before {
+    background: transparent !important;
+    color: #fff;
+    content: '';
+    color: #fff;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    font-size: 1.5rem;
+    height: 3px;
+    width: 25px;
+    background: #fff !important;
+    position: absolute;
+    top: 30px;
+    border-radius: 20px;
+    left: 12px;
+}
+
+/* 
+.navbar-light .navbar-toggler-icon::before {
+    background: transparent !important;
+    color: #fff;
+    content: '\f0c9';
+    color: #fff;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    font-size: 1.5rem;
+} */
+
 @media screen and (max-width: 768px) {
     .mainNav {
         background: rgb(34, 28, 73, 0.3);
         backdrop-filter: blur(8px);
         -webkit-backdrop-filter: blur(10px);
         z-index: 9999;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    span.navbar-brand img {
+        max-width: 120px;
+        margin: auto;
+        display: block;
+        position: relative;
+        left: 30px;
+        z-index: 1;
+    }
+
+    .mobileMenu {
+        width: 100%;
+        max-width: 60%;
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        padding: 20px;
+        height: 100vh;
+        text-align: left;
+        font-weight: 800;
+        transition: 1s !important;
+        animation: run ease 0.8s;
+        -webkit-animation: run ease 0.8s !important;
+        -moz-animation: run ease 0.8s !important;
+        -o-animation: run ease 0.8s !important;
+        -ms-animation: run ease 0.8s !important;
+        padding-top: 70px !important;
+        overflow-y: scroll;
+    }
+
+    .active::after {
+        content: '';
+        background: #d34e81;
+        width: 100%;
+        height: 100%;
+        max-width: 5%;
+        position: absolute;
+        max-height: 4px;
+        left: 0;
+        bottom: 0;
+        margin: 0;
+        border-radius: 20px;
+        transition: 2s;
+    }
+
+    .mobileMenu .navbar-nav {
+        margin-top: 60px !important;
+    }
+
+    .adminLink {
+        min-width: 100%;
+        max-width: 100%;
+        margin: auto;
+        margin-left: 0;
+    }
+
+    .mainNav .nav-link {
+        color: #fff !important;
+        font-size: 15px;
+        margin: 20px 8px 0;
+    }
+
+    .show {
+        z-index: 0;
+    }
+
+    .navbar-light .navbar-toggler {
+        z-index: 1;
+    }
+
+}
+
+@keyframes run {
+    0% {
+        margin-right: -98%;
+    }
+
+    100% {
+        margin-right: 0%;
+    }
+}
+
+@keyframes out {
+    0% {
+        margin-right: 0%;
+    }
+
+    100% {
+        margin-right: -98%;
     }
 }
