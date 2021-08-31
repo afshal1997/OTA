@@ -1,0 +1,36 @@
+.HomePageBannerFourHeading svg {
+    font-size: 9rem;
+    font-weight: 800;
+    height: 100px;
+    opacity: 0.5;
+    text-shadow: 0px 2px 3px rgb(0 0 0 / 40%),
+        0px 4px 7px rgb(0 0 0 / 10%),
+        0px 9px 12px rgb(0 0 0 / 10%);
+}
+
+.HomePageBannerFourHeading h1 {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 700;
+    z-index: 99999;
+    margin-top: -40px;
+    text-shadow: 0px 2px 3px rgb(0 0 0 / 40%),
+        0px 4px 7px rgb(0 0 0 / 10%),
+        0px 9px 12px rgb(0 0 0 / 10%);
+}
+
+.HomePageBannerFourHeading p {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 1rem;
+    text-shadow: 0px 2px 3px rgb(0 0 0 / 40%),
+        0px 4px 7px rgb(0 0 0 / 10%),
+        0px 9px 12px rgb(0 0 0 / 10%);
+}
+
+@media screen and (max-width: 480px) {
+
+    .HomePageBannerFourHeading svg {
+        font-size: 4.4rem;
+    }
+}

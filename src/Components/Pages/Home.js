@@ -28,6 +28,7 @@ const testmonialsSliderData = {
 }
 
 export default function Home() {
+
     const data = [{
         id: 0,
         header: 'Looking for a ',
@@ -64,11 +65,11 @@ export default function Home() {
             <HomePageMainBnanner />
             <HomePageBannerTwo />
             <MainSliderConatiner />
-            <HomePageBannerThree/>
+            <HomePageBannerThree />
             <HomePageBannerFour />
             <ClientSlider />
             <TestmonialsSlider testmonialTitle={testmonialsSliderData} />
-            <Consultation/>
+            <Consultation />
         </div>
     )
 }

@@ -6,40 +6,10 @@ import client_2 from '../../../Assets/Icons/client-img-2.png'
 import client_3 from '../../../Assets/Icons/client-img-3.png'
 import Zoom from 'react-reveal/Zoom';
 import Bounce from 'react-reveal/Bounce';
-
+import { TestmonialsSliderSettings } from '../Settings/Settings'
 const TestmonialsSlider = (props) => {
-    const TestmonialsSliderSettings = {
-        className: "center",
-        centerMode: true,
-        arrows: false,
-        dots: true,
-        infinite: true,
-        slidesToShow: 3,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    infinite: true,
-                    dots: true
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    initialSlide: 1
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    centerPadding: '0px'
-                }
-            }
-        ]
-    };
+
+
     return (
         <div>
             <div className="testmonialsSlider">

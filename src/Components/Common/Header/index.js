@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState, } from "react";
-import { Container, Nav, Navbar, NavDropdown, } from "react-bootstrap";
+import { Container, Dropdown, Nav, Navbar, NavDropdown, } from "react-bootstrap";
 import "./header.css"
 import LogIn from '../../../Assets/Icons/login.png'
 import loGo from '../../../Assets/logo/logo.png'
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Header() {
   const [toggleButtonForHamburger, setToggleButtonForHamburger] = useState(false)
@@ -40,7 +40,17 @@ function Header() {
             <Nav className="m-auto mobileMenu">
               <NavLink className='nav-link' to="/home"> HOME</NavLink>
               <NavLink className='nav-link' to="/about-us" > ABOUT US </NavLink>
-              <NavLink className='nav-link' to="/plans" > PLANS </NavLink>
+              <Dropdown className='nav-link'>
+                <Dropdown.Toggle id="dropdown-basic" className="plansDropdown">
+                  Plans
+                </Dropdown.Toggle>
+                <Dropdown.Menu className="shadow-lg">
+                  <Dropdown.Item><Link to="/about-us"> White Labelling </Link></Dropdown.Item>
+                  <Dropdown.Item><Link to="/digital-startup">Digital Startup</Link></Dropdown.Item>
+                  <Dropdown.Item><Link to="/resource-outsourcing">Resource Outsourcing</Link></Dropdown.Item>
+                  <Dropdown.Item><Link to="/call-center">Call Center</Link></Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
               <NavLink className='nav-link' to="/services" > SERVICES  </NavLink>
               <NavLink className='nav-link' to="/pricing" > PRICING </NavLink>
               <NavLink className='nav-link' to="/portfolio" > PORTFOLIO </NavLink>

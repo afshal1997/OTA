@@ -1,0 +1,66 @@
+.laptop-wrapper {
+    position: absolute;
+    height: 0;
+}
+
+.laptop-wrapper video {
+    box-sizing: border-box;
+    background: url('../../../Assets/HomeAssets/laptop.png');
+    background-repeat: no-repeat;
+    background-size: 100% 83% !important;
+    background-size: contain;
+    padding: 2.5% 11.5% 15.8%;
+    width: 100%;
+    height: 100%;
+}
+
+.watchContent h4 {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.watchContent h2 {
+    color: #fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.watchContent span {
+    color: #0ca3da;
+    font-weight: 800;
+    line-height: 2;
+}
+
+.watchContent p {
+    color: #fff;
+    margin: 20px auto;
+    font-style: italic;
+}
+
+.videoSection {
+    margin-top: -70px;
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    .laptop-wrapper {
+        position: relative !important;
+        height: 380px;
+    }
+}
+
+@media screen and (min-device-width: 480px) and (max-device-width: 767px) {
+    .laptop-wrapper {
+        position: relative !important;
+        height: 280px;
+    }
+}
+
+@media screen and (min-device-width: 280px) and (max-device-width: 479px) {
+    .laptop-wrapper {
+        position: relative !important;
+        height: 210px;
+    }
+}

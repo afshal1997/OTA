@@ -1,13 +1,16 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import AboutUsForm from '../../Components/Common/AboutUsForm/AboutUsFrom'
-import SocialMediaContact from '../../Components/Common/SocialMediaContact'
+import AboutUsFrom from '../../../Components/Common/AboutUsForm/AboutUsFrom'
+import SocialMediaContact from '../../../Components/Common/SocialMediaContact'
+import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
 
-const AboutUsMainBanner = () => {
+
+const CallCenterMainBanner = () => {
     return (
         <div>
-            <div className="aboutUsPageBanner">
-                <div className="aboutUsMainBanner">
+            <div className="plansPageMainBanner">
+                <div className="PlansMainBanner">
                     <Container>
                         <Row>
                             <Col lg={6} className="m-auto">
@@ -20,13 +23,15 @@ const AboutUsMainBanner = () => {
                                             </linearGradient>
                                         </defs>
                                         <g>
-                                            <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">About Us</text>
+                                            <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Customer</text>
                                         </g>
                                     </svg>
-                                    <h1>Only Smart Work; </h1>
-                                    <h3>Because It's Better Than Hard Work</h3>
+                                    <h1><Fade top cascade>Customer Services!</Fade></h1>
+                                    <h3><Bounce right cascade>We Offer instant and quality</Bounce></h3>
                                     <p>
-                                        We make sure you wake up with the meaningful insights, a greater reach and greater brand awareness every day.
+                                        <Bounce left cascade>
+                                            We offer instant and quality customer service to our clients helping them cater their customers needs and wants to ensure a reliable and helpful user experience !
+                                        </Bounce>
                                     </p>
                                     <Row>
                                         <Col lg={4}>
@@ -36,7 +41,7 @@ const AboutUsMainBanner = () => {
                                 </div>
                             </Col>
                             <Col lg={6} className="pt-5">
-                                <AboutUsForm />
+                                <AboutUsFrom />
                             </Col>
                         </Row>
                     </Container>
@@ -47,4 +52,4 @@ const AboutUsMainBanner = () => {
     )
 }
 
-export default AboutUsMainBanner
+export default CallCenterMainBanner

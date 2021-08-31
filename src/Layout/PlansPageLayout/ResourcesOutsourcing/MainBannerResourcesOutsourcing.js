@@ -1,17 +1,19 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import AboutUsForm from '../../Components/Common/AboutUsForm/AboutUsFrom'
-import SocialMediaContact from '../../Components/Common/SocialMediaContact'
+import AboutUsFrom from '../../../Components/Common/AboutUsForm/AboutUsFrom'
+import SocialMediaContact from '../../../Components/Common/SocialMediaContact'
+import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
 
-const AboutUsMainBanner = () => {
+const MainBannerResourcesOutsourcing = () => {
     return (
         <div>
-            <div className="aboutUsPageBanner">
-                <div className="aboutUsMainBanner">
+            <div className="plansPageResourcesOutsourcingMainBanner">
+                <div className="ResourcesOutsourcingMainBanner">
                     <Container>
                         <Row>
                             <Col lg={6} className="m-auto">
-                                <div className="smartWork mt-5 mb-5">
+                                <div className="Outsource mt-5 mb-5">
                                     <svg width="100%">
                                         <defs>
                                             <linearGradient id="gradient" y1="0" y2="1">
@@ -20,13 +22,15 @@ const AboutUsMainBanner = () => {
                                             </linearGradient>
                                         </defs>
                                         <g>
-                                            <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">About Us</text>
+                                            <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Outsource</text>
                                         </g>
                                     </svg>
-                                    <h1>Only Smart Work; </h1>
-                                    <h3>Because It's Better Than Hard Work</h3>
+                                    <h1><Fade top cascade>Your Essentials</Fade></h1>
+                                    <h3><Bounce right cascade>To lift the burden off your shoulders!</Bounce></h3>
                                     <p>
-                                        We make sure you wake up with the meaningful insights, a greater reach and greater brand awareness every day.
+                                        <Bounce left cascade>
+                                            We treat resources like an asset helping your organization achieve goals in a minimum capacity - both time and infrastructure cost.
+                                        </Bounce>
                                     </p>
                                     <Row>
                                         <Col lg={4}>
@@ -36,7 +40,7 @@ const AboutUsMainBanner = () => {
                                 </div>
                             </Col>
                             <Col lg={6} className="pt-5">
-                                <AboutUsForm />
+                                <AboutUsFrom />
                             </Col>
                         </Row>
                     </Container>
@@ -47,4 +51,4 @@ const AboutUsMainBanner = () => {
     )
 }
 
-export default AboutUsMainBanner
+export default MainBannerResourcesOutsourcing

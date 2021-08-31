@@ -316,6 +316,7 @@ a.learn-btn:hover {
     border: 1px solid transparent;
     font-weight: 700;
     background: linear-gradient(to right, #b5406a, #6f203d);
+    background-repeat: repeat;
     padding: 10px 25px;
     text-decoration: none;
     color: #fff;
@@ -546,26 +547,6 @@ a.getStarted-btn:hover {
     padding: 75px 10px;
 }
 
-.HomePageBannerFourHeading svg {
-    font-size: 6rem;
-    font-weight: 800;
-    height: 87px;
-    opacity: 0.5;
-}
-
-.HomePageBannerFourHeading h1 {
-    color: #fff;
-    font-size: 3rem;
-    line-height: 0;
-    z-index: 99999;
-}
-
-.HomePageBannerFourHeading p {
-    color: #fff;
-    margin-top: 30px;
-    font-size: 0.8rem;
-}
-
 @keyframes colorload {
     0% {
         opacity: 0;
@@ -725,52 +706,6 @@ a.schedulecall:hover {
     opacity: 0.8;
 }
 
-.laptop-wrapper {
-    position: absolute;
-    height: 0;
-}
-
-.laptop-wrapper video {
-    box-sizing: border-box;
-    background: url('../../Assets/HomeAssets/laptop.png');
-    background-repeat: no-repeat;
-    background-size: 100% 83% !important;
-    background-size: contain;
-    padding: 2.5% 11.5% 15.8%;
-    width: 100%;
-    height: 100%;
-}
-
-.watchContent h4 {
-    color: #fff;
-    font-size: 2rem;
-    margin: 0;
-}
-
-.watchContent h2 {
-    color: #fff;
-    font-size: 3rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-top: 0;
-}
-
-.watchContent span {
-    color: #0ca3da;
-    font-weight: 800;
-    line-height: 2;
-}
-
-.watchContent p {
-    color: #fff;
-    margin: 20px auto;
-    font-style: italic;
-}
-
-.videoSection {
-    margin-top: -70px;
-}
-
 .consultation {
     color: #08678a !important;
     background: url('../../Assets/HomeAssets/consultation.png');
@@ -808,70 +743,6 @@ a.schedulecall:hover {
     color: #0e81b8;
     font-weight: 600;
     line-height: 1.5;
-}
-
-.mainBannerSocialMediaIcons {
-    position: absolute;
-    bottom: 0;
-    right: 100px;
-    z-index: 9999;
-}
-
-.mainBannerSocialMediaIcons ul {
-    list-style: none;
-}
-
-.mainBannerSocialMediaIcons ul li {
-    margin: 20px auto;
-    font-size: 1.3rem;
-    transition: 1s;
-}
-
-.mainBannerSocialMediaIcons ul li a {
-    color: #3d6284;
-    transition: 1s;
-}
-
-.mainBannerSocialMediaIcons ul li a:hover {
-    color: #fff;
-    transition: 1s;
-}
-
-.mainBannerContact {
-    position: absolute;
-    transform: rotate(-90deg);
-    bottom: 80px;
-    left: 0;
-    height: 100%;
-    max-height: 290px;
-    width: 100%;
-    max-width: 500px;
-}
-
-.mainBannerContact ul {
-    display: flex;
-    list-style: none;
-}
-
-.mainBannerContact ul li {
-    margin: auto 20px;
-}
-
-.mainBannerContact ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    transition: 1s;
-}
-
-.mainBannerContact ul li a:hover {
-    color: #d34e81;
-    transition: 1s;
-}
-
-.mainBannerContact i {
-    color: #d34e81;
-    margin-right: 10px;
 }
 
 .servicesBox,
@@ -1087,31 +958,19 @@ a.schedulecall:hover {
     }
 }
 
-@media screen and (min-device-width: 768px) and (max-device-width: 991px) {
-    .laptop-wrapper {
-        position: relative !important;
-        height: 380px;
-    }
-}
-
 @media screen and (min-device-width: 280px) and (max-device-width: 768px) {
 
     .navbar-collapse.collapse {
-        /* position: absolute !important; */
         right: -250px !important;
     }
 
-    .show {
+    .navbar-collapse.collapse.show {
         right: 0px !important;
 
     }
 
     .adminLink {
         margin-top: 30%;
-    }
-
-    .videoSection {
-        margin-top: 0px !important;
     }
 
     .whyChooseOta {
@@ -1204,34 +1063,12 @@ a.schedulecall:hover {
     }
 }
 
-@media screen and (min-device-width: 480px) and (max-device-width: 767px) {
-    .laptop-wrapper {
-        position: relative !important;
-        height: 280px;
-    }
-}
-
-@media screen and (min-device-width: 280px) and (max-device-width: 479px) {
-    .laptop-wrapper {
-        position: relative !important;
-        height: 210px;
-    }
-}
-
 @media screen and (min-device-width: 481px) and (max-device-width: 768px) {
 
+    .mainBannerContact,
+    .mainBannerSocialMediaIcons ul li,
     .mainBannerSocialMediaIcons {
-        right: 50px;
-    }
-
-    .mainBannerSocialMediaIcons ul li {
-        display: inline-flex;
-        margin: 9px 10px;
-    }
-
-    .mainBannerContact {
-        transform: rotate(0deg);
-        top: 95%;
+        display: none;
     }
 
 }
@@ -1355,7 +1192,7 @@ a.schedulecall:hover {
     }
 }
 
-@media screen and (max-device-width: 319px) and (min-device-width: 280px)  {
+@media screen and (max-device-width: 319px) and (min-device-width: 280px) {
     .mainBanner svg {
         max-height: 108px;
         font-size: 2.3rem;

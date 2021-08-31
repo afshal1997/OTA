@@ -10,12 +10,11 @@ import Icon6 from '../../Assets/HomeAssets/icon6.png'
 import Icon7 from '../../Assets/HomeAssets/icon7.png'
 import Icon8 from '../../Assets/HomeAssets/icon8.png'
 import { Link } from 'react-router-dom'
-import Video from '../../Components/Common/Videos/Video'
 import Zoom from 'react-reveal/Zoom';
 import Bounce from 'react-reveal/Bounce';
-import Fade from 'react-reveal/Fade';
-
-
+import OurService from '../../Components/Common/OurService/OurService'
+import Heading from '../../Components/Common/PagesHeadings/Heading'
+import VideoTestimonal from '../../Components/Common/VideoTestimonal/VideoTestimonal'
 const HomePageBannerFour = () => {
     const servicesCards = [
         { icon: Icon1, title: 'Creative & Design', details: "Lorem Ipsum is simply dummy text of the printing and typesetting" },
@@ -30,33 +29,10 @@ const HomePageBannerFour = () => {
     ]
     const [image, setImage] = useState(0)
     return (
-        <div>
-            <div className="HomePageBannerFour">
+        <OurService>
+            <div>
                 <Container>
-                    <Col lg={4} className="text-center m-auto">
-                        <div className="HomePageBannerFourHeading">
-                            <Zoom right>
-                                <svg width="100%">
-                                    <defs>
-                                        <linearGradient id="gradient" y1="0" y2="1">
-                                            <stop stopColor="#696368" offset="0" />
-                                            <stop stopColor="#76485f" offset="1" />
-                                        </linearGradient>
-                                    </defs>
-                                    <g>
-                                        <text id="text" y="85" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Expertise</text>
-                                    </g>
-                                </svg>
-                                <h1>Our Services</h1>
-                            </Zoom>
-                            <Bounce left>
-                                <p>
-                                    Outsource Any Of Your Project To Us. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's
-                                </p>
-                            </Bounce>
-                        </div>
-                    </Col>
+                    <Heading Heading="Our Services" Tagline="Outsource Any Of Your Project To Us. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry" MainHeading="Expertise" />
                     <Row className="mt-5">
                         {React.Children.toArray(
                             servicesCards.map(({ icon, title, details }) => (
@@ -96,30 +72,10 @@ const HomePageBannerFour = () => {
                             </div>
                         </Col>
                     </Row>
-                    <Row className="videoSection">
-                        <Col lg={6} className="p-0 position-relative">
-                            <div className="laptop-wrapper">
-                                <Fade left><Video /></Fade>
-                            </div>
-                        </Col>
-                        <Col lg={5} className="p-0">
-                            <Fade right>
-                                <div className="watchContent position-relative mt-4">
-                                    <h4>
-                                        What Our
-                                    </h4>
-                                    <h2>
-                                        Clients Say
-                                    </h2>
-                                    <span>Happy clients generate healthy business</span>
-                                    <p>Watch how we help our clients walk through the world wide web directly from their perspective.</p>
-                                </div>
-                            </Fade>
-                        </Col>
-                    </Row>
+                    <VideoTestimonal />
                 </Container>
             </div>
-        </div >
+        </OurService>
     )
 }
 
