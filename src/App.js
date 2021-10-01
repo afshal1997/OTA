@@ -19,7 +19,6 @@ function App(props) {
         <Header />
         <Switch>
           {routes.map((route, index) => {
-            console.log(route)
             return (route.component) ? (
               <Route
                 key={index}

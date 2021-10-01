@@ -3,6 +3,7 @@ import AboutUS from './Components/Pages/AboutUS'
 import CallCenter from './Components/Pages/CallCenter'
 import ResourcesOutsourcing from './Components/Pages/ResourceOutsourcing'
 import Home from './Components/Pages/Home'
+import DigitalStartup from './Components/Pages/DigitalStartup'
 const routes = [
     {
         path: '/', exact: true, component: () => <Redirect to='/home' />
@@ -21,6 +22,10 @@ const routes = [
     },
     {
         path: "/resource-outsourcing", exact: true, component: ResourcesOutsourcing,
+
+    },
+    {
+        path: "/digital-startup", exact: true, component: DigitalStartup,
 
     }
 

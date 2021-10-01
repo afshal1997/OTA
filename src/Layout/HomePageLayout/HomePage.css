@@ -450,7 +450,7 @@ a.getStarted-btn:hover {
     -webkit-text-fill-color: transparent;
     font-size: 6rem;
     font-weight: 800;
-    opacity: 0.1;
+    opacity: 0.4;
     line-height: 0;
     z-index: 9999;
 }
@@ -1063,11 +1063,19 @@ a.schedulecall:hover {
     }
 }
 
-@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 991px) {
 
     .mainBannerContact,
     .mainBannerSocialMediaIcons ul li,
     .mainBannerSocialMediaIcons {
+        display: none;
+    }
+
+    .servicesBox h5,
+    .servicesBox1 h5,
+    .servicesBox2 h5,
+    .servicesBox3 h5,
+    .servicesBox4 h5 {
         display: none;
     }
 
@@ -1140,7 +1148,7 @@ a.schedulecall:hover {
 @media screen and (max-height: 850px) {
     .circleImg img {
         width: 100%;
-        max-width: 220px;
+        max-width: 400px;
     }
 }
 

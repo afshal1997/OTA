@@ -1,5 +1,5 @@
 .plansPageMainBanner {
-    background: url('../../Assets/PlansAssets/CallCenter/CallCenterMainBannerBg.jpg');
+    background: url("../../Assets/PlansAssets/CallCenter/CallCenterMainBannerBg.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -51,12 +51,12 @@
 
 .OutsourcingBusiness,
 .CallCentreOutsourcingbg {
-    background: url('../../Assets/PlansAssets/CallCenter/CallCenterBg02.jpg');
+    background: url("../../Assets/PlansAssets/CallCenter/CallCenterBg02.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 30px;
+    padding: 80px 10px;
 }
 
 .Business svg,
@@ -70,7 +70,7 @@
 .Business svg text,
 .Operating svg text {
     fill: #000 !important;
-    opacity: 0.07;
+    opacity: 0.2;
     stroke: darkgray;
 }
 
@@ -80,9 +80,7 @@
     font-weight: 700;
     font-size: 3rem;
     margin-top: -40px;
-    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4),
-        0px 4px 7px rgba(0, 0, 0, 0.1),
-        0px 9px 12px rgba(0, 0, 0, 0.1);
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4), 0px 4px 7px rgba(0, 0, 0, 0.1), 0px 9px 12px rgba(0, 0, 0, 0.1);
 }
 
 .Business p,
@@ -90,12 +88,11 @@
 .Operating p,
 .Operating h5 {
     color: #fff;
-    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4),
-        0px 4px 7px rgba(0, 0, 0, 0.1),
-        0px 9px 12px rgba(0, 0, 0, 0.1);
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4), 0px 4px 7px rgba(0, 0, 0, 0.1), 0px 9px 12px rgba(0, 0, 0, 0.1);
     line-height: 1.8;
 }
 
+.planServicesprovidingSvg svg,
 .planServicesSvg svg {
     font-size: 6rem;
     font-weight: 700;
@@ -118,14 +115,12 @@
 .planServicesSvg h5,
 .planServicesSvg p {
     color: #000;
-    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4),
-        0px 4px 7px rgba(0, 0, 0, 0.1),
-        0px 9px 12px rgba(0, 0, 0, 0.1);
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4), 0px 4px 7px rgba(0, 0, 0, 0.1), 0px 9px 12px rgba(0, 0, 0, 0.1);
     line-height: 1.8;
 }
 
 .PlanOccBg {
-    background-image: url('../../Assets/PlansAssets/CallCenter/PlanOccBg.png');
+    background-image: url("../../Assets/PlansAssets/CallCenter/PlanOccBg.png");
     background-position: center top;
     background-repeat: no-repeat;
     padding: 50px 10px;
@@ -159,13 +154,35 @@
 }
 
 .plansPageResourcesOutsourcingMainBanner {
-    background: url('../../Assets/PlansAssets/CallCenter/CallCenterMainBannerBg.jpg');
+    background: url("../../Assets/PlansAssets/CallCenter/CallCenterMainBannerBg.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 15px 10px;
     height: 100vh;
+}
+
+.plansPageDigitalStartupMainBanner {
+    background: url("../../Assets/PlansAssets/DigitalStartup/DigitalStartupMainBannerImg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px 10px;
+    height: 100vh;
+}
+
+.DigitalStartupMainBanner {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+    width: 100%;
+    margin: auto;
+    display: block;
+    width: 100%;
 }
 
 .ResourcesOutsourcingMainBanner {
@@ -184,7 +201,7 @@
     font-size: 6rem;
     font-weight: 700;
     height: 100%;
-    max-height: 100px;
+    max-height: 120px;
 }
 
 .Outsource svg text {
@@ -197,7 +214,8 @@
     color: #fff;
     font-weight: 700;
     font-size: 3rem;
-    line-height: 0.9;
+    line-height: 0;
+    margin-bottom: 30px;
 }
 
 .Outsource h3 {
@@ -207,4 +225,173 @@
 
 .Outsource p {
     color: #fff;
+}
+
+.RocketUlOne ul,
+.RocketUlTwo ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.RocketUlOne ul li {
+    position: relative;
+    text-align: end;
+    margin: 10px auto;
+}
+
+.RocketUlTwo ul li {
+    position: relative;
+    margin: 10px auto;
+}
+
+.RocketUlOne ul li::after {
+    content: "";
+    background: url("../../Assets/Icons/icon01.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -30px;
+    top: 2px;
+}
+
+.RocketUlTwo ul li::before {
+    content: "";
+    background: url("../../Assets/Icons/icon01.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -30px;
+    top: 2px;
+}
+
+.BgText {
+    background: -webkit-linear-gradient(#dbdbdd 20%, #eee 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 6rem;
+    font-weight: 800;
+    opacity: 0.7 !important;
+    line-height: 0;
+    z-index: 9999;
+}
+
+.OurServicesHeading {
+    margin-top: -12px;
+}
+
+.StartupServicesSection {
+    margin-bottom: 50px;
+}
+
+.OurServicesHeadingUl {
+    position: relative;
+}
+
+.OurServicesHeadingUl h1::before {
+    content: "\f30b";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1.6rem;
+    color: #d34e81;
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+
+.OurServicesHeadingUl ul {
+    list-style: none;
+}
+
+.OurServicesHeadingUl ul li {
+    position: relative;
+    margin: 20px auto;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.OurServicesHeadingUl ul li::before {
+    content: "";
+    background: url("../../Assets/Icons/icon01.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -20px;
+    top: 2px;
+}
+
+.PricingCard {
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+}
+
+.PricingCard h1 {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.PricingCard span {
+    color: #0b89be;
+    font-weight: 600;
+}
+
+.PricingCard h3 {
+    font-weight: 600;
+    margin: 20px auto;
+}
+
+.textBox {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+}
+
+.textBox {
+    margin-bottom: 40px;
+}
+
+.textBox p {
+    padding: 20px 10px;
+    padding-bottom: 0;
+}
+
+.card.PricingCard ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.card.PricingCard ul li {
+    font-size: 1.3rem;
+    margin: 20px;
+}
+
+.ActivePricingCard {
+    background-image: linear-gradient(125deg, #109dd5, #71547c);
+}
+
+.ActivePricingCard span {
+    color: #000;
+}
+
+a.PricingApplyNowBtn {
+    background-image: linear-gradient(45deg, #109dd5, #8d4062);
+    display: block;
+    padding: 15px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    max-width: 50%;
+    margin: auto;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    left: 0;
 }

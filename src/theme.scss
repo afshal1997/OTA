@@ -1,10 +1,10 @@
-$primary:#d34e81;
+$primary: #d34e81;
 
 @import "~bootstrap/scss/bootstrap.scss";
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     padding: 0;
     margin: 0;
     overflow-x: hidden !important;
@@ -15,7 +15,7 @@ body {
 }
 
 .ClientSlider {
-    background: url('./Assets/HomeAssets/slider-bg.jpg');
+    background: url("./Assets/HomeAssets/slider-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 34% 100%;
@@ -57,7 +57,7 @@ body {
 }
 
 .testmonialsSlider .slick-slide .card {
-    background-image: url('./Assets/HomeAssets/testmonialsWhite_bg.png');
+    background-image: url("./Assets/HomeAssets/testmonialsWhite_bg.png");
     background-repeat: no-repeat;
     padding: 60px 50px;
     min-height: 380px;
@@ -68,7 +68,7 @@ body {
 }
 
 .testmonialsSlider .slick-center.slick-current .card {
-    background-image: url('./Assets/HomeAssets/TestmonialsSliderCard_Bg.png');
+    background-image: url("./Assets/HomeAssets/TestmonialsSliderCard_Bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -109,7 +109,7 @@ body {
 }
 
 .footer {
-    background: url('./Assets/HomeAssets/footer.jpg');
+    background: url("./Assets/HomeAssets/footer.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -138,7 +138,7 @@ body {
 }
 
 .footerContact li::before {
-    content: '\f3c5';
+    content: "\f3c5";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     position: absolute;
@@ -167,7 +167,7 @@ body {
 }
 
 .active::after {
-    content: '';
+    content: "";
     background: #d34e81;
     width: 50%;
     height: 100%;
@@ -189,7 +189,7 @@ a.nav-link {
 .plansDropdown:focus::before,
 .plansDropdown:hover::before,
 a.nav-link:hover::after {
-    content: '';
+    content: "";
     background: #d34e81;
     width: 50%;
     height: 100%;
@@ -200,14 +200,14 @@ a.nav-link:hover::after {
     bottom: 0;
     margin: auto;
     border-radius: 20px;
-    transition: ease-in-out 2s
+    transition: ease-in-out 2s;
 }
 
 .plansDropdown,
 a.nav-link,
 .plansDropdown:hover,
 a.nav-link:hover {
-    transition: ease-in-out 2s
+    transition: ease-in-out 2s;
 }
 
 .plansDropdown::after {
@@ -267,7 +267,6 @@ a.nav-link:hover {
     transition: 1s;
 }
 
-
 .applyNow .card {
     background-image: linear-gradient(to bottom right, #1599d1, #6a5982);
     background-repeat: no-repeat;
@@ -279,7 +278,7 @@ a.nav-link:hover {
     border: none;
     padding: 30px 15px;
     border-radius: 15px;
-    border: 1px solid #6a5982
+    border: 1px solid #6a5982;
 }
 
 .applyNow .card h3 {
@@ -348,8 +347,8 @@ a.apply-btn:hover {
 
 .mainBannerSocialMediaIcons {
     position: absolute;
-    bottom: 0;
-    right: 100px;
+    bottom: 30%;
+    right: 40px;
     z-index: 9999;
 }
 
@@ -376,8 +375,8 @@ a.apply-btn:hover {
 .mainBannerContact {
     position: absolute;
     transform: rotate(-90deg);
-    bottom: 80px;
-    left: 0;
+    bottom: 30%;
+    left: -70px;
     height: 100%;
     max-height: 290px;
     width: 100%;
