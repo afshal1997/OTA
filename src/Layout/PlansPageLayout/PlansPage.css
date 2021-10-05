@@ -173,6 +173,27 @@
     height: 100vh;
 }
 
+.CyberSecurityMainBanner {
+    background: url("../../Assets/Services/CyberSecurity/CyberSecurityMainBanner.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px 10px;
+    height: 100vh;
+}
+
+
+.CreativeAndDesignMainBanner {
+    background: url("../../Assets/Services/CreativeDesign/CreativeDesigningMainBanner.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px 10px;
+    height: 100vh;
+}
+
 .DigitalStartupMainBanner {
     position: absolute;
     top: 50%;
@@ -330,9 +351,11 @@
     color: #fff;
     padding: 20px 0;
     position: relative;
+    height: 100%;
+    min-height: 900px;
 }
 
-.PricingCard h1 {
+.PricingCard h2 {
     font-weight: 600;
     margin-bottom: 0;
 }
@@ -394,4 +417,15 @@ a.PricingApplyNowBtn {
     bottom: -30px;
     right: 0;
     left: 0;
+}
+
+.WhiteLabellingMainBanner
+{
+    background-image: url('../../Assets/PlansAssets/WhiteLabelling/WhiteLabellingMainBanner01.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px 10px;
+    height: 100vh;
 }

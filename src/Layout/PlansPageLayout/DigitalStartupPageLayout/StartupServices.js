@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';
-import Image2 from '../../../Assets/PlansAssets/DigitalStartup/DigitalStartupImg02.png'
+import { DevelopBrandPersonal, Startup } from '../../../Constants/DigitalStartupServicesDiscription';
 
 const StartupServices = () => {
     return (
@@ -13,7 +13,7 @@ const StartupServices = () => {
                     <Col lg={4} className="m-auto">
                         <Bounce right cascade>
                             <div className="StartUp">
-                                <span class="BgText">Startup</span>
+                                <span class="BgText">{Startup.heading}</span>
                                 <Row className="OurServicesHeading">
                                     <Col className="col-1"></Col>
                                     <Col className="col-1 m-auto">
@@ -21,7 +21,7 @@ const StartupServices = () => {
                                     </Col>
                                     <Col className="col-10">
                                         <Zoom right cascade>
-                                            <h1>Our Services</h1>
+                                            <h1>{Startup.title}</h1>
                                         </Zoom>
                                     </Col>
                                 </Row>
@@ -32,7 +32,7 @@ const StartupServices = () => {
                         <Bounce right>
                             <h6>
                                 <b>
-                                    We hope to bring a transformation in the world of business through our cutting-edge services designed for digital startups. The services are comeptitively priced to give newer businesses a chance to revolutionize the world. The services have different categories that are designed to boost your business and make it a source of joy for you. We have a team of experts with well-versed knowledge and experience in the field of digital services.
+                                    {Startup.description}
                                 </b>
                             </h6>
                         </Bounce>
@@ -41,36 +41,35 @@ const StartupServices = () => {
                 <Row>
                     <Col lg={5} className="m-auto">
                         <Bounce left cascade>
-                            <img className="w-100" src={Image2} alt=""></img>
+                            <img className="w-100" src={DevelopBrandPersonal.DevelopBrandPersonaImagePath} alt=""></img>
                         </Bounce>
                     </Col>
                     <Col lg={7} className="m-auto">
                         <Bounce right cascade>
                             <div className="StartUp pt-5 mt-5">
-                                <span class="BgText">DBP</span>
+                                <span class="BgText">{DevelopBrandPersonal.heading}</span>
                                 <div className="OurServicesHeadingUl">
                                     <ul>
                                         <Zoom right cascade>
-                                            <h1>Develop Brand Persona</h1>
+                                            <h1>{DevelopBrandPersonal.title}</h1>
                                         </Zoom>
                                         <Fade>
                                             <h6>
                                                 <b>
-                                                    We focus on deeply analyzing your brand preferences and personality to come up with the right strategies. The services include the following features:
+                                                    {DevelopBrandPersonal.description}
                                                 </b>
                                             </h6>
-                                            <li>
-                                                <b>Creativity</b>
-                                            </li>
-                                            <li>
-                                                <b>Detailing</b>
-                                            </li>
-                                            <li>
-                                                <b>High quality</b>
-                                            </li>
+                                            {DevelopBrandPersonal.list.map((li) => {
+                                                return (
+                                                    <li>
+                                                        <b>{li}</b>
+                                                    </li>
+
+                                                )
+                                            })}
                                         </Fade>
                                         <Col lg="3">
-                                            <a href="" class="getStarted-btn">Get Started</a>
+                                            <a href="" class={`${DevelopBrandPersonal.button[1]}`}>{DevelopBrandPersonal.button[0]}</a>
                                         </Col>
                                     </ul>
                                 </div>

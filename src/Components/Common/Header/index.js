@@ -42,16 +42,29 @@ function Header() {
               <NavLink className='nav-link' to="/about-us" > ABOUT US </NavLink>
               <Dropdown className='nav-link'>
                 <Dropdown.Toggle id="dropdown-basic" className="plansDropdown">
-                  Plans
+                  PLANS
                 </Dropdown.Toggle>
                 <Dropdown.Menu className="shadow-lg">
-                  <Dropdown.Item><Link to="/about-us"> White Labelling </Link></Dropdown.Item>
+                  <Dropdown.Item><Link to="/white-labelling"> White Labelling </Link></Dropdown.Item>
                   <Dropdown.Item><Link to="/digital-startup">Digital Startup</Link></Dropdown.Item>
                   <Dropdown.Item><Link to="/resource-outsourcing">Resource Outsourcing</Link></Dropdown.Item>
                   <Dropdown.Item><Link to="/call-center">Call Center</Link></Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
-              <NavLink className='nav-link' to="/services" > SERVICES  </NavLink>
+              <Dropdown className='nav-link'>
+                <Dropdown.Toggle id="dropdown-basic" className="plansDropdown">
+                SERVICES
+                </Dropdown.Toggle>
+                <Dropdown.Menu className="shadow-lg">
+                  <Dropdown.Item><Link to="/creative-design"> Creative & Design </Link></Dropdown.Item>
+                  <Dropdown.Item><Link to="/">Web Development</Link></Dropdown.Item>
+                  <Dropdown.Item><Link to="/">Digital Marketing</Link></Dropdown.Item>
+                  <Dropdown.Item><Link to="/">App Development</Link></Dropdown.Item>
+                  <Dropdown.Item><Link to="/">Video Animation</Link></Dropdown.Item>
+                  <Dropdown.Item><Link to="/">Content Writing</Link></Dropdown.Item>
+                  <Dropdown.Item><Link to="/cyber-security">Cyber Security</Link></Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
               <NavLink className='nav-link' to="/pricing" > PRICING </NavLink>
               <NavLink className='nav-link' to="/portfolio" > PORTFOLIO </NavLink>
               <NavLink className='nav-link' to="/blog" > BLOG </NavLink>

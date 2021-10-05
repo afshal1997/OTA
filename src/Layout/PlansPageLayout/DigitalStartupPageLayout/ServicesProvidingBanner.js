@@ -27,7 +27,7 @@ const ServicesProvidingBanner = () => {
                             </div>
                         </Bounce>
                     </Col>
-                    <Col lg={6} className="m-auto">
+                    <Col lg={6} className="m-auto text-white">
                         <Bounce left cascade>
                             <div className="Business">
                                 <h5><i><b>For Digital Startups</b></i></h5>

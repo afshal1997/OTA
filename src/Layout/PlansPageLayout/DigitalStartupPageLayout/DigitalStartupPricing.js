@@ -3,8 +3,9 @@ import { Col, Container, Row } from 'react-bootstrap'
 import OurService from '../../../Components/Common/OurService/OurService'
 import Heading from '../../../Components/Common/PagesHeadings/Heading'
 import VideoTestimonal from '../../../Components/Common/VideoTestimonal/VideoTestimonal'
-
+import { StartupPricing } from '../../../Constants/DigitalStartupPricing'
 const DigitalStartupPricing = () => {
+
     return (
         <div className="DigitalStartupPricing">
             <OurService>
@@ -15,82 +16,31 @@ const DigitalStartupPricing = () => {
                         </Col>
                     </Row>
                     <Row className="mt-5">
-                        <Col lg={4} className="text-center">
-                            <div className="card PricingCard">
-                                <h1>BASIC</h1>
-                                <h3><span>USD -</span> $399</h3>
-                                <div className="textBox">
-                                    <p>
-                                        In this plan we are offering you basic services so you can start up your new home based business in very low amount.
-                                    </p>
-                                </div>
-                                <ul>
-                                    <li>Logo Design</li>
-                                    <li>Brand Website</li>
-                                    <li>Social Media Presence</li>
-                                    <li>Marketing Material</li>
-                                    <li>Operational Support</li>
-                                    <li>Dialpad & Zendesk</li>
-                                    <li>xxx</li>
-                                    <li>xxx</li>
-                                    <li>xxx</li>
-                                    <li>xxx</li>
-                                    <li></li>
-                                </ul>
-                                <a className="PricingApplyNowBtn w-100" href="javascript:void(0)">Apply Now</a>
-                            </div>
-                    </Col>
-                    <Col lg={4} className="text-center">
-                        <div className="card PricingCard ActivePricingCard">
-                            <h1>BASIC</h1>
-                            <h3><span>USD -</span> $399</h3>
-                            <div className="textBox">
-                                <p>
-                                    In this plan we are offering you basic services so you can start up your new home based business in very low amount.
-                                </p>
-                                </div>
-                                <ul>
-                                    <li>Logo Design</li>
-                                    <li>Brand Website</li>
-                                    <li>Social Media Presence</li>
-                                    <li>Marketing Material</li>
-                                    <li>Operational Support</li>
-                                    <li>Dialpad & Zendesk</li>
-                                    <li>xxx</li>
-                                    <li>xxx</li>
-                                    <li>xxx</li>
-                                    <li>xxx</li>
-                                    <li></li>
-                                </ul>
-                                <a className="PricingApplyNowBtn w-100" href="javascript:void(0)">Apply Now</a>
-                            </div>
-                    </Col>
-                    <Col lg={4} className="text-center">
-                        <div className="card PricingCard">
-                            <h1>BASIC</h1>
-                            <h3><span>USD -</span> $399</h3>
-                            <div className="textBox">
-                                <p>
-                                    In this plan we are offering you basic services so you can start up your new home based business in very low amount.
-                                </p>
-                                </div>
-                                <ul>
-                                    <li>Logo Design</li>
-                                    <li>Brand Website</li>
-                                    <li>Social Media Presence</li>
-                                    <li>Marketing Material</li>
-                                    <li>Operational Support</li>
-                                    <li>Dialpad & Zendesk</li>
-                                    <li>xxx</li>
-                                    <li>xxx</li>
-                                    <li>xxx</li>
-                                    <li>xxx</li>
-                                    <li></li>
-                                </ul>
-                                <a className="PricingApplyNowBtn w-100" href="javascript:void(0)">Apply Now</a>
-                            </div>
-                    </Col>
-                </Row>
+                        {StartupPricing.map(({ type, pricing, description, services, classes, applyNowButton }) => {
+                            return (
+                                <Col lg={4} className="text-center">
+                                    <div className={`card PricingCard ${classes}`}>
+                                        <h2>{type}</h2>
+                                        <h3><span>USD -</span>{pricing} </h3>
+                                        <div className="textBox">
+                                            <p>
+                                                {description}
+                                            </p>
+                                        </div>
+                                        <ul>
+                                            {services.map((service) => {
+                                                return (
+                                                    <li>{service}</li>
+                                                )
+                                            })}
+                                        </ul>
+                                        <a className={applyNowButton.buttonStyling} href={applyNowButton.linkText}>{applyNowButton.buttonText}</a>
+                                    </div>
+                                </Col>
+                            )
+                        })}
+
+                    </Row>
                     <Row className="mt-5">
                         <Col lg={4}></Col>
                         <Col lg={6} className="m-auto">
@@ -111,8 +61,8 @@ const DigitalStartupPricing = () => {
                     </Row>
                     <VideoTestimonal />
 
-            </Container>
-        </OurService>
+                </Container>
+            </OurService>
         </div >
     )
 }
