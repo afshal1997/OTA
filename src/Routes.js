@@ -7,6 +7,7 @@ import DigitalStartup from './Components/Pages/DigitalStartup'
 import WhiteLabelling from './Components/Pages/WhiteLabelling'
 import CreativeDesign from './Components/Pages/CreativeDesign'
 import CyberSecurity from './Components/Pages/CyberSecurity'
+import ContentWritting from './Components/Pages/ContentWritting'
 const routes = [
     {
         path: '/', exact: true, component: () => <Redirect to='/home' />
@@ -41,6 +42,10 @@ const routes = [
     },
     {
         path: "/cyber-security", exact: true, component: CyberSecurity,
+
+    },
+    {
+        path: "/content-writting", exact: true, component: ContentWritting,
 
     }
 

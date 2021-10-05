@@ -1,14 +1,15 @@
 import React from 'react'
 import { Card, Col, Container, Row } from 'react-bootstrap'
-import WhyChooseUs from '../../../Assets/Services/CreativeDesign/CreativeDesigningImg02.png'
-import CallCenterIcon01 from '../../../Assets/Services/Icons/Icon01.png'
-import CallCenterIcon02 from '../../../Assets/Services/Icons/Icon02.png'
-import CallCenterIcon03 from '../../../Assets/Services/Icons/Icon03.png'
-import CallCenterIcon04 from '../../../Assets/Services/Icons/Icon04.png'
-import CallCenterIcon05 from '../../../Assets/Services/Icons/Icon05.png'
+import ContentWrittingProcessImg from '../../../Assets/Services/ContentWritting/ContentWrittingProcessImg.png'
+import ContentWrittingIcon01 from '../../../Assets/Services/Icons/Icon01.png'
+import ContentWrittingIcon03 from '../../../Assets/Services/Icons/Icon03.png'
+import ContentWrittingIcon06 from '../../../Assets/Services/Icons/Icon06.png'
+import ContentWrittingIcon07 from '../../../Assets/Services/Icons/Icon07.png'
+import ContentWrittingIcon08 from '../../../Assets/Services/Icons/Icon08.png'
+import ContentWrittingIcon09 from '../../../Assets/Services/Icons/Icon09.png'
 import Zoom from 'react-reveal/Zoom';
 
-const CreativeDesigningProcess = () => {
+const ContentWrittingProcess = () => {
     return (
         <div>
             <Container>
@@ -17,7 +18,7 @@ const CreativeDesigningProcess = () => {
                         <span class="BgText">Process</span>
                         <div className="OurServicesHeading">
                             <Zoom right cascade>
-                                <h1>Creative Designing</h1>
+                                <h1>Content Writing</h1>
                             </Zoom>
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum has been the industry's
@@ -26,12 +27,12 @@ const CreativeDesigningProcess = () => {
                     </div>
                 </Col>
                 <div className="WhyChooseUs">
-                    <img className="w-100" src={WhyChooseUs} alt=""></img>
+                    <img className="w-100" src={ContentWrittingProcessImg} alt=""></img>
                     <Row>
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <img className="w-50 position-relative mb-4" src={CallCenterIcon01} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={ContentWrittingIcon01} alt=""></img>
                                     <p><b>Brief</b></p>
                                 </Col>
                             </Card>
@@ -39,8 +40,8 @@ const CreativeDesigningProcess = () => {
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <p><b>Mock-Up</b></p>
-                                    <img className="w-50 position-relative mb-4" src={CallCenterIcon02} alt=""></img>
+                                    <p><b>Brain Storming</b></p>
+                                    <img className="w-50 position-relative mb-4" src={ContentWrittingIcon03} alt=""></img>
                                 </Col>
                             </Card>
                         </Col>
@@ -48,24 +49,32 @@ const CreativeDesigningProcess = () => {
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <img className="w-50 position-relative mb-4" src={CallCenterIcon03} alt=""></img>
-                                    <p><b>Design Approval</b></p>
+                                    <img className="w-50 position-relative mb-4" src={ContentWrittingIcon06} alt=""></img>
+                                    <p><b>Wireframe</b></p>
                                 </Col>
                             </Card>
                         </Col>
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <p><b>Finalize</b></p>
-                                    <img className="w-50 position-relative mb-4" src={CallCenterIcon04} alt=""></img>
+                                    <p><b>Keyword Research</b></p>
+                                    <img className="w-50 position-relative mb-4" src={ContentWrittingIcon07} alt=""></img>
                                 </Col>
                             </Card>
                         </Col>
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <img className="w-50 position-relative mb-4" src={CallCenterIcon05} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={ContentWrittingIcon08} alt=""></img>
+                                    <p><b>Writing</b></p>
+                                </Col>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card className="WhyChooseUSCards text-dark">
+                                <Col lg={8} className="m-auto text-center p-0">
                                     <p><b>Delivery</b></p>
+                                    <img className="w-50 position-relative mb-4" src={ContentWrittingIcon09} alt=""></img>
                                 </Col>
                             </Card>
                         </Col>
@@ -76,4 +85,4 @@ const CreativeDesigningProcess = () => {
     )
 }
 
-export default CreativeDesigningProcess
+export default ContentWrittingProcess

@@ -194,6 +194,16 @@
     height: 100vh;
 }
 
+.ContentWrittingMainBanner {
+    background: url("../../Assets/Services/ContentWritting/ContentWritingMainBanner.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px 10px;
+    height: 100vh;
+}
+
 .DigitalStartupMainBanner {
     position: absolute;
     top: 50%;
