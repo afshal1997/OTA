@@ -57,7 +57,7 @@ function Header() {
                 </Dropdown.Toggle>
                 <Dropdown.Menu className="shadow-lg">
                   <Dropdown.Item><Link to="/creative-design"> Creative & Design </Link></Dropdown.Item>
-                  <Dropdown.Item><Link to="/">Web Development</Link></Dropdown.Item>
+                  <Dropdown.Item><Link to="/web-development">Web Development</Link></Dropdown.Item>
                   <Dropdown.Item><Link to="/">Digital Marketing</Link></Dropdown.Item>
                   <Dropdown.Item><Link to="/">App Development</Link></Dropdown.Item>
                   <Dropdown.Item><Link to="/">Video Animation</Link></Dropdown.Item>

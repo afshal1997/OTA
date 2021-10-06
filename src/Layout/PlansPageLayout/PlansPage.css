@@ -183,6 +183,16 @@
     height: 100vh;
 }
 
+.WebDevelopmentMainBanner {
+    background: url("../../Assets/Services/WebDevelopment/WebDevelopmentMainBanner.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px 10px;
+    height: 100vh;
+}
+
 
 .CreativeAndDesignMainBanner {
     background: url("../../Assets/Services/CreativeDesign/CreativeDesigningMainBanner.jpg");
