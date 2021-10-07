@@ -9,6 +9,8 @@ import CreativeDesign from './Components/Pages/CreativeDesign'
 import CyberSecurity from './Components/Pages/CyberSecurity'
 import ContentWritting from './Components/Pages/ContentWritting'
 import WebDevelopment from './Components/Pages/WebDevelopment'
+import DigitalMarketing from './Components/Pages/DigitalMarketing'
+import AppDevelopment from './Components/Pages/AppDevelopment'
 const routes = [
     {
         path: '/', exact: true, component: () => <Redirect to='/home' />
@@ -51,6 +53,14 @@ const routes = [
     },
     {
         path: "/web-development", exact: true, component: WebDevelopment,
+
+    },
+    {
+        path: "/digital-marketing", exact: true, component: DigitalMarketing,
+
+    },
+    {
+        path: "/app-development", exact: true, component: AppDevelopment,
 
     }
 

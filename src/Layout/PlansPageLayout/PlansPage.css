@@ -173,6 +173,16 @@
     height: 100vh;
 }
 
+.DigitalMarketingMainBanner {
+    background: url("../../Assets/Services/DigitalMarketing/DigitalMarketingMainBanner.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px 10px;
+    height: 100vh;
+}
+
 .CyberSecurityMainBanner {
     background: url("../../Assets/Services/CyberSecurity/CyberSecurityMainBanner.jpg");
     background-attachment: fixed;
@@ -206,6 +216,16 @@
 
 .ContentWrittingMainBanner {
     background: url("../../Assets/Services/ContentWritting/ContentWritingMainBanner.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px 10px;
+    height: 100vh;
+}
+
+.AppDevelopmentMainBanner {
+    background: url("../../Assets/Services/AppDevelopment/AppDevelopmentMainBanner.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -310,7 +330,7 @@
 }
 
 .BgText {
-    background: -webkit-linear-gradient(#dbdbdd 20%, #eee 70%);
+    background: -webkit-linear-gradient(#9b9b9b 20%, #ebebeb 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 6rem;
@@ -372,7 +392,7 @@
     padding: 20px 0;
     position: relative;
     height: 100%;
-    min-height: 900px;
+    border-radius: 20px;
 }
 
 .PricingCard h2 {

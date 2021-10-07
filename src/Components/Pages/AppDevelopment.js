@@ -1,15 +1,14 @@
 import React from 'react'
-import WebDevelopmentMainBanner from '../../Layout/ServicesPageLayout/WebDevelopment/WebDevelopmentMainBanner'
-import WebDevelopmentBranding from '../../Layout/ServicesPageLayout/WebDevelopment/WebDevelopmentBranding'
-import WebDevelopmentProcess from '../../Layout/ServicesPageLayout/WebDevelopment/WebDevelopmentProcess'
-import WebDevelopmentRenownedOutsourceWeb from '../../Layout/ServicesPageLayout/WebDevelopment/WebDevelopmentRenownedOutsourceWeb'
-import WebDevelopmentDesignCustomWebsite from '../../Layout/ServicesPageLayout/WebDevelopment/WebDevelopmentDesignCustomWebsite'
-import WebDevelopmentOptimizeEcommerceWebsite from '../../Layout/ServicesPageLayout/WebDevelopment/WebDevelopmentOptimizeEcommerceWebsite'
-import WebDevelopmentPlans from '../../Layout/ServicesPageLayout/WebDevelopment/WebDevelopmentPlans'
-import ClientSlider from '../Common/ClientSlider/ClientSlider'
+import AppDevelopmentApps from '../../Layout/ServicesPageLayout/AppDevelopment/AppDevelopmentApps'
+import AppDevelopmentFacebook from '../../Layout/ServicesPageLayout/AppDevelopment/AppDevelopmentFacebook'
+import AppDevelopmentIOSApp from '../../Layout/ServicesPageLayout/AppDevelopment/AppDevelopmentIOSApp'
+import AppDevelopmentMainBanner from '../../Layout/ServicesPageLayout/AppDevelopment/AppDevelopmentMainBanner'
+import AppDevelopmentOtaExclusive from '../../Layout/ServicesPageLayout/AppDevelopment/AppDevelopmentOtaExclusive'
+import AppDevelopmentPlansPricing from '../../Layout/ServicesPageLayout/AppDevelopment/AppDevelopmentPlansPricing'
+import AppDevelopmentProcess from '../../Layout/ServicesPageLayout/AppDevelopment/AppDevelopmentProcess'
+import ClientSlider from "../Common/ClientSlider/ClientSlider";
 import TestmonialsSlider from '../Common/Testmonials/TestmonialsSlider'
 import Consultation from '../../Layout/HomePageLayout/Consultation'
-
 
 const testmonialsSliderData = {
     Paragraph1:
@@ -27,17 +26,16 @@ const testmonialsSliderData = {
 
 }
 
-
-const WebDevelopment = () => {
+const AppDevelopment = () => {
     return (
         <div>
-            <WebDevelopmentMainBanner />
-            <WebDevelopmentBranding />
-            <WebDevelopmentProcess />
-            <WebDevelopmentRenownedOutsourceWeb />
-            <WebDevelopmentDesignCustomWebsite />
-            <WebDevelopmentOptimizeEcommerceWebsite />
-            <WebDevelopmentPlans />
+            <AppDevelopmentMainBanner/>
+            <AppDevelopmentApps/>
+            <AppDevelopmentProcess/>
+            <AppDevelopmentOtaExclusive/>
+            <AppDevelopmentIOSApp/>
+            <AppDevelopmentFacebook/>
+            <AppDevelopmentPlansPricing/>
             <ClientSlider />
             <TestmonialsSlider testmonialTitle={testmonialsSliderData} />
             <Consultation />
@@ -45,4 +43,4 @@ const WebDevelopment = () => {
     )
 }
 
-export default WebDevelopment
+export default AppDevelopment
