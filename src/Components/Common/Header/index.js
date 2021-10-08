@@ -60,7 +60,7 @@ function Header() {
                   <Dropdown.Item><Link to="/web-development">Web Development</Link></Dropdown.Item>
                   <Dropdown.Item><Link to="/digital-marketing">Digital Marketing</Link></Dropdown.Item>
                   <Dropdown.Item><Link to="/app-development">App Development</Link></Dropdown.Item>
-                  <Dropdown.Item><Link to="/">Video Animation</Link></Dropdown.Item>
+                  <Dropdown.Item><Link to="/video-development">Video Animation</Link></Dropdown.Item>
                   <Dropdown.Item><Link to="/content-writting">Content Writing</Link></Dropdown.Item>
                   <Dropdown.Item><Link to="/cyber-security">Cyber Security</Link></Dropdown.Item>
                 </Dropdown.Menu>
