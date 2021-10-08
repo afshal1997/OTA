@@ -234,6 +234,16 @@
     height: 100vh;
 }
 
+.VideoDevelopmentMainBanner {
+    background: url("../../Assets/Services/VideoDevelopment/VideoAnimationMainBanner.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px 10px;
+    height: 100vh;
+}
+
 .DigitalStartupMainBanner {
     position: absolute;
     top: 50%;
