@@ -52,20 +52,14 @@ function Header() {
               <NavLink
                 className="nav-link"
                 to="/home"
-                onClick={() => {
-                  document.getElementById("toggler").click();
-                  setToggleButtonForHamburger(false);
-                }}
+                
               >
                 HOME
               </NavLink>
               <NavLink
                 className="nav-link"
                 to="/about-us"
-                onClick={() => {
-                  document.getElementById("toggler").click();
-                  setToggleButtonForHamburger(false);
-                }}
+                
               >
                 
                 ABOUT US
@@ -77,10 +71,7 @@ function Header() {
                 <Dropdown.Menu className="shadow-lg">
                   <Dropdown.Item>
                     <Link
-                      onClick={() => {
-                        document.getElementById("toggler").click();
-                        setToggleButtonForHamburger(false);
-                      }}
+                      
                       to="/white-labelling"
                     >
                       
@@ -89,10 +80,7 @@ function Header() {
                   </Dropdown.Item>
                   <Dropdown.Item>
                     <Link
-                      onClick={() => {
-                        document.getElementById("toggler").click();
-                        setToggleButtonForHamburger(false);
-                      }}
+                      
                       to="/digital-startup"
                     >
                       Digital Startup
@@ -100,10 +88,7 @@ function Header() {
                   </Dropdown.Item>
                   <Dropdown.Item>
                     <Link
-                      onClick={() => {
-                        document.getElementById("toggler").click();
-                        setToggleButtonForHamburger(false);
-                      }}
+                      
                       to="/resource-outsourcing"
                     >
                       Resource Outsourcing
@@ -111,10 +96,7 @@ function Header() {
                   </Dropdown.Item>
                   <Dropdown.Item>
                     <Link
-                      onClick={() => {
-                        document.getElementById("toggler").click();
-                        setToggleButtonForHamburger(false);
-                      }}
+                      
                       to="/call-center"
                     >
                       Call Center
@@ -129,10 +111,7 @@ function Header() {
                 <Dropdown.Menu className="shadow-lg">
                   <Dropdown.Item>
                     <Link
-                      onClick={() => {
-                        document.getElementById("toggler").click();
-                        setToggleButtonForHamburger(false);
-                      }}
+                      
                       to="/creative-design"
                     >
                       
@@ -141,10 +120,7 @@ function Header() {
                   </Dropdown.Item>
                   <Dropdown.Item>
                     <Link
-                      onClick={() => {
-                        document.getElementById("toggler").click();
-                        setToggleButtonForHamburger(false);
-                      }}
+                      
                       to="/web-development"
                     >
                       Web Development
@@ -152,10 +128,7 @@ function Header() {
                   </Dropdown.Item>
                   <Dropdown.Item>
                     <Link
-                      onClick={() => {
-                        document.getElementById("toggler").click();
-                        setToggleButtonForHamburger(false);
-                      }}
+                      
                       to="/digital-marketing"
                     >
                       Digital Marketing
@@ -163,10 +136,7 @@ function Header() {
                   </Dropdown.Item>
                   <Dropdown.Item>
                     <Link
-                      onClick={() => {
-                        document.getElementById("toggler").click();
-                        setToggleButtonForHamburger(false);
-                      }}
+                      
                       to="/app-development"
                     >
                       App Development
@@ -174,10 +144,7 @@ function Header() {
                   </Dropdown.Item>
                   <Dropdown.Item>
                     <Link
-                      onClick={() => {
-                        document.getElementById("toggler").click();
-                        setToggleButtonForHamburger(false);
-                      }}
+                      
                       to="/video-development"
                     >
                       Video Animation
@@ -185,10 +152,7 @@ function Header() {
                   </Dropdown.Item>
                   <Dropdown.Item>
                     <Link
-                      onClick={() => {
-                        document.getElementById("toggler").click();
-                        setToggleButtonForHamburger(false);
-                      }}
+                      
                       to="/content-writting"
                     >
                       Content Writing
@@ -196,10 +160,7 @@ function Header() {
                   </Dropdown.Item>
                   <Dropdown.Item>
                     <Link
-                      onClick={() => {
-                        document.getElementById("toggler").click();
-                        setToggleButtonForHamburger(false);
-                      }}
+                      
                       to="/cyber-security"
                     >
                       Cyber Security
@@ -209,10 +170,7 @@ function Header() {
               </Dropdown>
               <NavLink
                 className="nav-link"
-                onClick={() => {
-                  document.getElementById("toggler").click();
-                  setToggleButtonForHamburger(false);
-                }}
+                
                 to="/pricing"
               >
                 
@@ -220,10 +178,7 @@ function Header() {
               </NavLink>
               <NavLink
                 className="nav-link"
-                onClick={() => {
-                  document.getElementById("toggler").click();
-                  setToggleButtonForHamburger(false);
-                }}
+                
                 to="/portfolio"
               >
                 
@@ -231,10 +186,7 @@ function Header() {
               </NavLink>
               <NavLink
                 className="nav-link"
-                onClick={() => {
-                  document.getElementById("toggler").click();
-                  setToggleButtonForHamburger(false);
-                }}
+                
                 to="/blog"
               >
                 
@@ -242,20 +194,14 @@ function Header() {
               </NavLink>
               <NavLink
                 className="nav-link"
-                onClick={() => {
-                  document.getElementById("toggler").click();
-                  setToggleButtonForHamburger(false);
-                }}
+                
                 to="/contact"
               >
                 
                 CONTACT
               </NavLink>
               <NavLink
-                onClick={() => {
-                  document.getElementById("toggler").click();
-                  setToggleButtonForHamburger(false);
-                }}
+                
                 to="/login"
                 className="adminLink"
               >

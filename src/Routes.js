@@ -12,6 +12,7 @@ import WebDevelopment from './Components/Pages/WebDevelopment'
 import DigitalMarketing from './Components/Pages/DigitalMarketing'
 import AppDevelopment from './Components/Pages/AppDevelopment'
 import VideoDevelopment from './Components/Pages/VideoDevelopment'
+import Pricing from './Components/Pages/Pricing'
 const routes = [
     {
         path: '/', exact: true, component: () => <Redirect to='/home' />
@@ -66,6 +67,10 @@ const routes = [
     },
     {
         path: "/video-development", exact: true, component: VideoDevelopment,
+
+    },
+    {
+        path: "/pricing", exact: true, component: Pricing,
 
     }
 
