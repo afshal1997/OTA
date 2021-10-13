@@ -487,3 +487,18 @@ a.PricingApplyNowBtn {
     padding: 15px 10px;
     height: 100vh;
 }
+
+.BrandFont li {
+    font-size: 0.9rem !important;
+    line-height: 1.2;
+    margin: 10px auto !important;
+}
+
+.BrandFont h4 {
+    font-size: 1.3rem;
+}
+
+.BrandFont h3
+{
+    margin: 10px auto;
+}
