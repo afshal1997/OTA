@@ -3,10 +3,11 @@ import { Col, Container, Row } from 'react-bootstrap'
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';
 import CreativeDesigningImg01 from '../../Assets/Services/CreativeDesign/CreativeDesigningImg01.png'
+import VerticalTabs from '../../Components/Common/Tabs/VerticalTabs';
 
 const PricingPlansTabs = () => {
     return (
-        <div className="OutsourcingBusiness">
+        <div className="OutsourcingBusiness pb-0">
             <Container>
                 <Row>
                     <Col lg={6}>
@@ -41,50 +42,14 @@ const PricingPlansTabs = () => {
                         </Bounce>
                     </Col>
                 </Row>
-
-                <Row className="mt-5 pt-2">
-                    <Col lg={4} className="m-auto text-white">
-                        <div className="RocketUlOne">
-                            <Fade left>
-                                <ul>
-                                    <li>
-                                        Logo Design
-                                    </li>
-                                    <li>
-                                        UI Designs
-                                    </li>
-                                    <li>
-                                        Social Media Design
-                                    </li>
-                                </ul>
-                            </Fade>
-                        </div>
-                    </Col>
-                    <Col lg={3} className="m-auto">
-                        <Bounce bottom>
-                            <img className="w-100" src={CreativeDesigningImg01} alt=""></img>
-                        </Bounce>
-                    </Col>
-                    <Col lg={4} className="m-auto text-white">
-                        <div className="RocketUlTwo">
-                            <Fade right>
-                                <ul>
-                                    <li>
-                                        Promotional Design
-                                    </li>
-                                    <li>
-                                        Video Design
-                                    </li>
-                                    <li>
-                                        Web Design
-                                    </li>
-                                </ul>
-                            </Fade>
-                        </div>
+            </Container>
+            <Container fluid className="p-0">
+                <Row>
+                    <Col lg={9} className="me-0 m-auto">
+                        <VerticalTabs />
                     </Col>
                 </Row>
-
-            </Container>
+            </Container >
         </div>
     )
 }

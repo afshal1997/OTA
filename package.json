@@ -23,6 +23,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-slick": "^0.28.1",
+    "react-tabs": "^3.2.2",
     "react-video-scroll": "^1.0.1",
     "reactjs-media": "^1.5.1",
     "redux": "^4.1.0",

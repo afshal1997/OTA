@@ -203,7 +203,6 @@
     height: 100vh;
 }
 
-
 .CreativeAndDesignMainBanner {
     background: url("../../Assets/Services/CreativeDesign/CreativeDesigningMainBanner.jpg");
     background-attachment: fixed;
@@ -464,24 +463,23 @@
 
 a.PricingApplyNowBtn {
     background-image: linear-gradient(45deg, #109dd5, #8d4062);
-    display: block;
+    display: inline-block;
     padding: 15px 10px;
     color: #fff;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 600;
     max-width: 50%;
     margin: auto;
     border-radius: 50px;
     position: absolute;
-    bottom: -30px;
+    bottom: -25px;
     right: 0;
     left: 0;
 }
 
-.WhiteLabellingMainBanner
-{
-    background-image: url('../../Assets/PlansAssets/WhiteLabelling/WhiteLabellingMainBanner01.jpg');
+.WhiteLabellingMainBanner {
+    background-image: url("../../Assets/PlansAssets/WhiteLabelling/WhiteLabellingMainBanner01.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
