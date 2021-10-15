@@ -19,28 +19,30 @@ const HomePageBannerThree = () => {
                     <div className="howWeWorkBanner">
                         <Row>
                             <Col></Col>
-                            <Col lg={2}>
-                                <Fade right>
-                                    <div className="line01">
-                                        <img className="w-100" src={line1} alt=""></img>
+                        </Row>
+                        <Row>
+                            <Col lg={6} className="m-auto">
+                                <Fade left>
+                                    <div className="line02">
+                                        <img className="w-100" src={line2} alt=""></img>
                                     </div>
                                 </Fade>
                             </Col>
-                            <Col>
+                            <Col lg={3} className="position-relative m-auto">
                                 <Zoom>
                                     <div className="Mobile">
                                         <img className="w-100" src={Mobile} alt=""></img>
                                     </div>
                                 </Zoom>
                             </Col>
+                            <Col lg={2} className="m-auto mt-0">
+                                <Fade right>
+                                    <div className="line01">
+                                        <img className="w-100" src={line1} alt=""></img>
+                                    </div>
+                                </Fade>
+                            </Col>
                         </Row>
-                        <Col lg={8}>
-                            <Fade left>
-                                <div className="line02">
-                                    <img className="w-100" src={line2} alt=""></img>
-                                </div>
-                            </Fade>
-                        </Col>
                         <Row>
                             <Col lg={5}>
                                 <Bounce>
@@ -56,15 +58,15 @@ const HomePageBannerThree = () => {
                             </Col>
                         </Row>
                         <Row>
-                            <Col lg={2}>
+                            <Col lg={3}>
                                 <Fade left>
                                     <div className="line03">
-                                        <img className="w-100" src={line3}></img>
+                                        <img className="w-100 m-auto ms-4" src={line3}></img>
                                     </div>
                                 </Fade>
                             </Col>
                             <Col lg={3} className="m-auto">
-                                <div className="process01">
+                                <div className="process01 mt-5 pt-4">
                                     <Bounce>
                                         <Row>
                                             <Col lg={6} className="m-auto col-8">
@@ -80,7 +82,7 @@ const HomePageBannerThree = () => {
                                 </div>
                             </Col>
                             <Col lg={3} className="m-auto">
-                                <div className="process02">
+                                <div className="process02 mt-5 pt-4">
                                     <Bounce>
                                         <Row>
                                             <Col lg={6} className="m-auto col-8">
@@ -96,7 +98,7 @@ const HomePageBannerThree = () => {
                                 </div>
                             </Col>
                             <Col lg={3} className="m-auto">
-                                <div className="process01">
+                                <div className="process01 mt-5 pt-4">
                                     <Bounce>
                                         <Row>
                                             <Col lg={6} className="m-auto col-8">
