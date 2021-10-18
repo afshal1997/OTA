@@ -20,6 +20,28 @@
     width: 100%;
 }
 
+.BlogPageMainBanner {
+    background: url('../../Assets/Blog/BlogMainBanner.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px 10px;
+    height: 100vh;
+}
+
+.BlogMainBanner {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+    width: 100%;
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
 .smartWork svg {
     font-size: 6rem;
     font-weight: 700;
