@@ -491,6 +491,13 @@ span.read-more-less--more {
     font-weight: 700;
 }
 
+.BlogPageImge01 {
+    margin: 40px auto;
+    max-width: 500px;
+    display: block;
+    width: 100%;
+}
+
 @media screen and (min-device-width: 320px) and (max-device-width: 991px) {
     .plansDropdown:focus::before,
     .plansDropdown:hover::before,

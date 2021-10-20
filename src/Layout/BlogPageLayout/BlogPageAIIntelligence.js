@@ -12,7 +12,7 @@ const BlogPageAIIntelligence = () => {
         <Container>
             <div className="row">
                 <div className="col-lg-6">
-                    <img className="w-100" src={blogImg01} alt=""></img>
+                    <img className="w-100 BlogPageImge01" src={blogImg01} alt=""></img>
                 </div>
                 <div className="col-lg-6 m-auto">
                     <h3><strong>AI Intelligence</strong></h3>
@@ -33,7 +33,7 @@ const BlogPageAIIntelligence = () => {
                     </p>
                     <div className="blogPageContent">
                         <ReactReadMoreReadLess
-                            charLimit={400}
+                            charLimit={100}
                             readMoreText={"Read more ▼"}
                             readLessText={"Read less ▲"}
                             readMoreClassName="read-more-less--more"
