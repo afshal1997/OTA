@@ -1,6 +1,7 @@
 import React from 'react'
 import BlogMainBanner from '../../Layout/BlogPageLayout/BlogMainBanner'
 import BlogPageAIIntelligence from '../../Layout/BlogPageLayout/BlogPageAIIntelligence'
+import BlogPageOutsourceImportance from '../../Layout/BlogPageLayout/BlogPageOutsourceImportance'
 import BlogPageSlider from '../../Layout/BlogPageLayout/BlogPageSlider'
 
 const Blog = () => {
@@ -9,6 +10,7 @@ const Blog = () => {
             <BlogMainBanner/>
             <BlogPageSlider/>
             <BlogPageAIIntelligence/>
+            <BlogPageOutsourceImportance/>
         </div>
     )
 }
