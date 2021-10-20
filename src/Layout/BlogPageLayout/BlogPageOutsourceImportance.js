@@ -8,7 +8,7 @@ const BlogPageOutsourceImportance = () => {
     return (
         <Container>
             <div className="row">
-                <div className="col-lg-6 m-auto">
+                <div className="col-lg-7 m-auto mt-5 pt-5">
                     <h3>
                         <strong>Outsource Importance</strong>
                     </h3>
@@ -29,7 +29,7 @@ const BlogPageOutsourceImportance = () => {
                     </p>
                     <ReadMoreButtonHOC longText={longText.forImportanceText} />
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-5">
                     <img className="w-100 BlogPageImge01" src={blogImg02} alt=""></img>
                 </div>
             </div>

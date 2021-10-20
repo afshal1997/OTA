@@ -8,10 +8,10 @@ const BlogPageAIIntelligence = () => {
   return (
     <Container>
       <div className="row">
-        <div className="col-lg-6">
+        <div className="col-lg-5">
           <img className="w-100 BlogPageImge01" src={blogImg01} alt=""></img>
         </div>
-        <div className="col-lg-6 m-auto">
+        <div className="col-lg-7 m-auto mt-5 pt-5">
           <h3>
             <strong>AI Intelligence</strong>
           </h3>
