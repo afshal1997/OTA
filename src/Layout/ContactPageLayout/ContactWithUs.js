@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import OurService from "../../Components/Common/OurService/OurService";
 import ContactUSDemo from "../../Assets/Contact-Us/contact-us-demo-template.png";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 import "./contact-use.css";
 import { ContactUsInformation } from "../../Constants/ContactUsInformation";
 const ContactWithUs = () => {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   const [error, setError] = useState({});
-  const [successMessage, setSuccessMessage] = useState("");
   const changeInputFields = ({ target: { name, value } }) => {
     if (value.trim().length < 3) {
       setError({
@@ -51,13 +53,27 @@ const ContactWithUs = () => {
   const submitContactForm = (e) => {
     e.preventDefault();
     if (Object.values(error).filter(Boolean).length === 0) {
-      setSuccessMessage("Contact Form Successfully submitted!");
+      toast.success(
+        "Thank you for getting in touch! We appreciate you contacting us! ",
+        {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+        }
+      );
+
       e.target.reset();
     }
   };
+
   return (
     <OurService>
       <Container>
+        <ToastContainer />
         <Row className="contact-with-us">
           <Col sm={12} lg={7}>
             <div className="smartWork">
@@ -178,9 +194,6 @@ const ContactWithUs = () => {
                     </Button>
                   </div>
                 </Row>
-                <div className="text-center text-success">
-                  {successMessage ?? successMessage}
-                </div>
               </Form>
             </div>
           </Col>
