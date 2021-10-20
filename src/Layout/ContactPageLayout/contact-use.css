@@ -1,0 +1,17 @@
+.contact-use-info img {
+  width: 100%;
+}
+.contact-use-info i {
+  font-size: 25px;
+}
+.contact-with-us input,
+.contact-with-us textarea {
+  box-shadow: none !important;
+  color: #fff;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

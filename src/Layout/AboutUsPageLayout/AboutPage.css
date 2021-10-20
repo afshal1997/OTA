@@ -1,72 +1,90 @@
 .aboutUsPageBanner {
-    background: url('../../Assets/AboutAssets/AboutPageMainBanner.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 15px 10px;
-    height: 100vh;
+  background: url("../../Assets/AboutAssets/AboutPageMainBanner.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px 10px;
+  height: 100vh;
+}
+.contactUsPageBanner {
+  background: url("../../Assets/Contact-Us/contact-us-banner.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 .aboutUsMainBanner {
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    transform: translate(0%, -50%);
-    -webkit-transform: translate(0%, -50%);
-    width: 100%;
-    margin: auto;
-    display: block;
-    width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, -50%);
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.contactUsMainBanner {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, -50%);
+  width: 100%;
+  margin: auto;
+  display: block;
+  width: 100%;
 }
 
 .BlogPageMainBanner {
-    background: url('../../Assets/Blog/BlogMainBanner.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 15px 10px;
-    height: 100vh;
+  background: url("../../Assets/Blog/BlogMainBanner.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px 10px;
+  height: 100vh;
 }
 
 .BlogMainBanner {
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    transform: translate(0%, -50%);
-    -webkit-transform: translate(0%, -50%);
-    width: 100%;
-    margin: auto;
-    display: block;
-    width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, -50%);
+  width: 100%;
+  margin: auto;
+  display: block;
+  width: 100%;
 }
 
 .smartWork svg {
-    font-size: 6rem;
-    font-weight: 700;
-    height: 100%;
-    max-height: 100px;
+  font-size: 6rem;
+  font-weight: 700;
+  height: 100%;
+  max-height: 100px;
 }
 
 .smartWork svg text {
-    fill: #000 !important;
-    opacity: 0.2;
-    stroke: darkgray;
+  fill: #000 !important;
+  opacity: 0.2;
+  stroke: darkgray;
 }
 
 .smartWork h1 {
-    color: #fff;
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 0.9;
+  color: #fff;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 0.9;
 }
 
 .smartWork h3 {
-    color: #fff;
-    font-weight: 700;
+  color: #fff;
+  font-weight: 700;
 }
 
 .smartWork p {
-    color: #fff;
+  color: #fff;
 }

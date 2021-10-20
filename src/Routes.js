@@ -14,6 +14,7 @@ import AppDevelopment from "./Components/Pages/AppDevelopment";
 import VideoDevelopment from "./Components/Pages/VideoDevelopment";
 import Pricing from "./Components/Pages/Pricing";
 import Blog from "./Components/Pages/Blog";
+import Contact from "./Components/Pages/Contact";
 const routes = [
   {
     path: "/",
@@ -29,6 +30,11 @@ const routes = [
     path: "/about-us",
     exact: true,
     component: AboutUS,
+  },
+  {
+    path: "/contact-us",
+    exact: true,
+    component: Contact,
   },
   {
     path: "/call-center",

@@ -49,19 +49,10 @@ function Header() {
             }}
           >
             <Nav className="m-auto mobileMenu">
-              <NavLink
-                className="nav-link"
-                to="/home"
-                
-              >
+              <NavLink className="nav-link" to="/home">
                 HOME
               </NavLink>
-              <NavLink
-                className="nav-link"
-                to="/about-us"
-                
-              >
-                
+              <NavLink className="nav-link" to="/about-us">
                 ABOUT US
               </NavLink>
               <Dropdown className="nav-link">
@@ -70,37 +61,16 @@ function Header() {
                 </Dropdown.Toggle>
                 <Dropdown.Menu className="shadow-lg">
                   <Dropdown.Item>
-                    <Link
-                      
-                      to="/white-labelling"
-                    >
-                      
-                      White Labelling
-                    </Link>
+                    <Link to="/white-labelling">White Labelling</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
-                    <Link
-                      
-                      to="/digital-startup"
-                    >
-                      Digital Startup
-                    </Link>
+                    <Link to="/digital-startup">Digital Startup</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
-                    <Link
-                      
-                      to="/resource-outsourcing"
-                    >
-                      Resource Outsourcing
-                    </Link>
+                    <Link to="/resource-outsourcing">Resource Outsourcing</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
-                    <Link
-                      
-                      to="/call-center"
-                    >
-                      Call Center
-                    </Link>
+                    <Link to="/call-center">Call Center</Link>
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
@@ -110,101 +80,41 @@ function Header() {
                 </Dropdown.Toggle>
                 <Dropdown.Menu className="shadow-lg">
                   <Dropdown.Item>
-                    <Link
-                      
-                      to="/creative-design"
-                    >
-                      
-                      Creative & Design
-                    </Link>
+                    <Link to="/creative-design">Creative & Design</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
-                    <Link
-                      
-                      to="/web-development"
-                    >
-                      Web Development
-                    </Link>
+                    <Link to="/web-development">Web Development</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
-                    <Link
-                      
-                      to="/digital-marketing"
-                    >
-                      Digital Marketing
-                    </Link>
+                    <Link to="/digital-marketing">Digital Marketing</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
-                    <Link
-                      
-                      to="/app-development"
-                    >
-                      App Development
-                    </Link>
+                    <Link to="/app-development">App Development</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
-                    <Link
-                      
-                      to="/video-development"
-                    >
-                      Video Animation
-                    </Link>
+                    <Link to="/video-development">Video Animation</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
-                    <Link
-                      
-                      to="/content-writting"
-                    >
-                      Content Writing
-                    </Link>
+                    <Link to="/content-writting">Content Writing</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
-                    <Link
-                      
-                      to="/cyber-security"
-                    >
-                      Cyber Security
-                    </Link>
+                    <Link to="/cyber-security">Cyber Security</Link>
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
-              <NavLink
-                className="nav-link"
-                
-                to="/pricing"
-              >
-                
+              <NavLink className="nav-link" to="/pricing">
                 PRICING
               </NavLink>
-              <NavLink
-                className="nav-link"
-                
-                to="/portfolio"
-              >
-                
+              <NavLink className="nav-link" to="/portfolio">
                 PORTFOLIO
               </NavLink>
-              <NavLink
-                className="nav-link"
-                
-                to="/blog"
-              >
-                
+              <NavLink className="nav-link" to="/blog">
                 BLOG
               </NavLink>
-              <NavLink
-                className="nav-link"
-                
-                to="/contact"
-              >
-                
+              <NavLink className="nav-link" to="/contact-us">
                 CONTACT
               </NavLink>
-              <NavLink
-                
-                to="/login"
-                className="adminLink"
-              >
+              <NavLink to="/login" className="adminLink">
                 LOGIN <img src={LogIn}></img>
               </NavLink>
             </Nav>
