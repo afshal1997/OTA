@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import ReadMoreButtonHOC from "../../Components/Common/ReadMoreButton/ReadMoreButtonHOC";
+import ShowMoreText from "../../Components/Common/ShowMoreText";
 import { longText } from "../../Constants";
 import blogImg01 from "./../../Assets/Blog/BlogPageImge01.png";
 
@@ -30,7 +31,9 @@ const BlogPageAIIntelligence = () => {
               new era which is today
             </strong>
           </p>
-          <ReadMoreButtonHOC longText={longText.forIntellegence} />
+          <ShowMoreText>
+            <strong>{longText.forIntellegence}</strong>
+          </ShowMoreText>
         </div>
       </div>
     </Container>

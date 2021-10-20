@@ -1,7 +1,7 @@
 import React from "react";
 import ReactReadMoreReadLess from "react-read-more-read-less";
 
-const ReadMoreButtonHOC = ({ longText }) => {
+const ReadMoreButtonHOC = ({ children  }) => {
   return (
     <div className="blogPageContent">
       <ReactReadMoreReadLess
@@ -11,7 +11,7 @@ const ReadMoreButtonHOC = ({ longText }) => {
         readMoreClassName="read-more-less--more"
         readLessClassName="read-more-less--less"
       >
-        {longText}
+        {children}
       </ReactReadMoreReadLess>
     </div>
   );
