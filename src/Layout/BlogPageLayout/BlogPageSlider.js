@@ -3,28 +3,66 @@ import OurService from "../../Components/Common/OurService/OurService";
 import Slider from "react-slick";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import { popularPostsSlides } from "./../../Constants/popularPostsSlides";
-import Heading from "../../Components/Common/PagesHeadings/Heading";
+import Bounce from 'react-reveal/Bounce';
 const BlogPageSlider = () => {
   const settings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3,
-    centerMode: true,
+    slidesToScroll: 2,
+    initialSlide: 0,
     arrows: false,
-    className: "popular-posts-slider ms-3 me-3 m-auto",
+    className: "popular-posts-slider",
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   return (
-    <OurService>
+    <div className="OutsourcingBusiness">
       <Container>
         <Row>
-          <Col lg={6}>
-            <Heading Heading="Popular Posts" MainHeading="OTA" />
-          </Col>
-          <Col lg={6} className="m-auto text-white text-end">
-            <input type="search" className="form-control bg-transparent" />
+          <Col lg={4} className="m-auto text-center">
+            <Bounce right cascade>
+              <div className="Business">
+                <svg width="100%">
+                  <defs>
+                    <linearGradient id="gradient" y1="0" y2="1">
+                      <stop stopColor="#054084" offset="0" />
+                      <stop stopColor="#054084" offset="1" />
+                    </linearGradient>
+                  </defs>
+                  <g>
+                    <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">OTA</text>
+                  </g>
+                </svg>
+                <h1>Popular Posts</h1>
+              </div>
+            </Bounce>
           </Col>
         </Row>
 
@@ -32,17 +70,17 @@ const BlogPageSlider = () => {
           {React.Children.toArray(
             popularPostsSlides.map(
               ({ slideImage, slideTitle, subText, details }) => (
-                <Card className="bg-transparent px-3 border ">
+                <Card className="itemSlider">
                   <Row className="align-items-center">
-                    <Col lg={3}>
-                      <img src={slideImage} />
+                    <Col lg={5} className="col-5">
+                      <img className="w-100" src={slideImage} />
                     </Col>
-                    <Col lg={9}>
+                    <Col lg={7} className="col-7 p-0">
                       <Card.Title className="text-light">
-                        <h5>{slideTitle}</h5>
-                        <p>{subText}</p>
+                        <h5 className="mb-0">{slideTitle}</h5>
+                        <h6>{subText}</h6>
                       </Card.Title>
-                      <Card.Body className="text-light">{details}</Card.Body>
+                      <div><span>{details}</span></div>
                     </Col>
                   </Row>
                 </Card>
@@ -51,7 +89,7 @@ const BlogPageSlider = () => {
           )}
         </Slider>
       </Container>
-    </OurService>
+    </div>
   );
 };
 
