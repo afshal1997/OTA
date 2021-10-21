@@ -508,4 +508,21 @@ span.read-more-less--more {
     right: 100%;
     bottom: 0;
   }
+
+  .plansPageResourcesOutsourcingMainBanner {
+    height: 100% !important;
+}
+
+  .ResourcesOutsourcingMainBanner{
+    position: relative !important;
+    top: 0% !important;
+    transform: translate(0%, 0%) !important;
+    -webkit-transform: translate(0%, 0%) !important;
+  }
+
+  .planServicesSvg h1{
+    font-size: 2rem !important;
+    margin-top: -125px !important;
+  }
+
 }

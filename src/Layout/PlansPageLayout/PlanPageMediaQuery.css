@@ -29,8 +29,8 @@
     }
     .Operating svg,
     .Outsource svg {
-        font-size: 5rem !important;
-        max-height: 96px !important;
+        font-size: 4rem !important;
+        max-height: 100px !important;
     }
     .Business svg {
         font-size: 4.5rem !important;
