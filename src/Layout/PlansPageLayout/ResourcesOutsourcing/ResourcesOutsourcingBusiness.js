@@ -42,7 +42,7 @@ const ResourcesOutsourcingBusiness = () => {
                                 <Row>
                                     <Col lg={6}>
                                         <Row>
-                                            <Col className="col-3">
+                                            <Col className="col-3 mb-3">
                                                 <img className="w-100" src={ResourcesOutsourcingBusinessIcon01} alt=""></img>
                                             </Col>
                                             <Col className="col-9 m-auto">
@@ -52,7 +52,7 @@ const ResourcesOutsourcingBusiness = () => {
                                     </Col>
                                     <Col lg={6}>
                                         <Row>
-                                            <Col className="col-3">
+                                            <Col className="col-3 mb-3">
                                                 <img className="w-100" src={ResourcesOutsourcingBusinessIcon02} alt=""></img>
                                             </Col>
                                             <Col lg={9} className="col-9 m-auto">

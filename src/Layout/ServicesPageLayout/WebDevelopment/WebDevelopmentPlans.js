@@ -19,7 +19,7 @@ website pacakges for you." MainHeading="" />
                     <Row className="mt-5">
                         {WebDevelopmentPricing.map(({ type, pricing, services, classes, applyNowButton }) => {
                             return (
-                                <Col lg={4} className="text-center">
+                                <Col lg={4} className="text-center mb-5">
                                     <div className={`card PricingCard pt-0 ${classes}`}>
                                         <div className="PackageAndPricing">
                                         <h4>{type}</h4>

@@ -18,7 +18,7 @@ const CyberSecurityAcknowledgements = () => {
                     {/* <Row className="mt-5">
                         {StartupPricing.map(({ type, pricing, description, services, classes, applyNowButton }) => {
                             return (
-                                <Col lg={4} className="text-center">
+                                <Col lg={4} className="text-center mb-5">
                                     <div className={`card PricingCard ${classes}`}>
                                         <h2>{type}</h2>
                                         <h3><span>USD -</span>{pricing} </h3>

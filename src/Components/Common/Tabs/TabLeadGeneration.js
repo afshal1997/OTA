@@ -4,7 +4,7 @@ const TabLeadGeneration = () => {
     return (
         <div className="pt-3 pb-3">
             <div class="mt-5 row">
-              <div class="text-center col-lg-4">
+              <div class="text-center col-lg-4 mb-5">
                 <div class="card PricingCard BrandFont pt-0 ">
                   <div class="PackageAndPricing mb-3">
                     <h4>BASIC</h4>
@@ -33,7 +33,7 @@ const TabLeadGeneration = () => {
                   </a>
                 </div>
               </div>
-              <div class="text-center col-lg-4">
+              <div class="text-center col-lg-4 mb-5">
                 <div class="card PricingCard BrandFont pt-0 ActivePricingCard">
                   <div class="PackageAndPricing mb-3">
                     <h4>STANDARD</h4>
@@ -70,7 +70,7 @@ const TabLeadGeneration = () => {
                   </a>
                 </div>
               </div>
-              <div class="text-center col-lg-4">
+              <div class="text-center col-lg-4 mb-5">
                 <div class="card PricingCard BrandFont pt-0 ">
                   <div class="PackageAndPricing mb-3">
                     <h4>ADVANCE</h4>

@@ -930,7 +930,7 @@ a.schedulecall:hover {
 
 @media screen and (max-width: 480px) {
     .circleImg img {
-        max-width: 220px;
+        max-width: 220px !important;
     }
 
     .mainBanner svg {
@@ -970,6 +970,7 @@ a.schedulecall:hover {
     .mainBannerSocialMediaIcons {
         display: none;
     }
+    
 }
 
 @media screen and (min-device-width: 481px) and (max-device-width: 768px) {
@@ -1097,6 +1098,11 @@ a.schedulecall:hover {
     .servicesBox3 h5,
     .servicesBox4 h5 {
         display: none;
+    }
+
+    .plansDropdown{
+        font-size: 15px;
+        font-weight: 600;
     }
 
 }

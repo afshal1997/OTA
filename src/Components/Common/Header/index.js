@@ -3,12 +3,12 @@ import { Container, Dropdown, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import "./header.css";
 import LogIn from "../../../Assets/Icons/login.png";
 import loGo from "../../../Assets/logo/logo.png";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 function Header() {
-  const [toggleButtonForHamburger, setToggleButtonForHamburger] =
-    useState(false);
-  window.onscroll = function () {
+  const { pathname } = useLocation()
+  const [toggleButtonForHamburger, setToggleButtonForHamburger] = useState(false);
+  function scrollWindow() {
     var navbar = document.querySelector(".mainNav");
     if (window.pageYOffset > 0) {
       navbar.classList.add("scrolled");
@@ -16,6 +16,16 @@ function Header() {
       navbar.classList.remove("scrolled");
     }
   };
+  useEffect(() => {
+    scrollWindow()
+  }, [])
+  useEffect(() => {
+    if (toggleButtonForHamburger) {
+      setToggleButtonForHamburger(false)
+                    ref.current.classList.remove("collapse");
+
+    }
+  }, [pathname])
   const ref = useRef();
   return (
     <div>

@@ -155,7 +155,6 @@
     .mobileMenu {
         width: 100%;
         max-width: 60%;
-        background: rgba(0, 0, 0, 0.5);
         position: absolute;
         left: 0;
         top: 0;
@@ -211,7 +210,10 @@
         display: none;
     }
     .mobileMenu {
-        max-width: 50% !important;
+        max-width: 100% !important;
+    }
+    .mobileMenu.navbar-nav {
+        width: 100%;
     }
 }
 
@@ -282,4 +284,61 @@
     font-weight: 900;
     font-size: 2rem;
     color: #fff;
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1399px){
+    .mainNav .nav-link {
+        font-size: 12px;
+        margin: auto 0px;
+        font-weight: 500;
+        padding: 6px !important;
+    }
+    .plansDropdown{
+        font-size: 12px;
+    }
+    
+    .servicesBox2 h5{ 
+        left: 60px;
+        top: 100px;
+    }
+    .servicesBox h5{
+        top: 40px;
+    }
+    .servicesBox3 h5,
+    .servicesBox4 h5,
+    .servicesBox2 h5,
+    .servicesBox1 h5,
+    .servicesBox h5{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .servicesBox1 h5::after,
+    .servicesBox h5::after{
+        max-height: 70px;
+        top: 60px;
+    }
+    .servicesBox4 h5::after,
+    .servicesBox3 h5::after{
+        max-height: 70px;
+    }
+    .servicesBox4 h5::after{
+        right: 50%;
+    }
+    .servicesBox2 h5::after{
+        left: 70%;
+        top: 0px;
+        min-height: 70px;
+        max-width: 100px;
+    }
+    .servicesBox4 h5::after,
+    .servicesBox3 h5::after{
+        max-height: 65px;
+        min-height: 65px;
+    }
+    .circleImg img{
+        max-width: 350px !important;
+    }
+    .text h1 {
+        line-height: 0.5 !important;
+    }
 }
