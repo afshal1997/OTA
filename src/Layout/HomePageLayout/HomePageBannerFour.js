@@ -20,7 +20,7 @@ const HomePageBannerFour = () => {
         { icon: Icon1, title: 'Creative & Design', details: "Lorem Ipsum is simply dummy text of the printing and typesetting", href: "/creative-design" },
         { icon: Icon2, title: 'Web Development', details: "Lorem Ipsum is simply dummy text of the printing and typesetting", href: '/web-development' },
         { icon: Icon3, title: 'Digital Marketing', details: "Lorem Ipsum is simply dummy text of the printing and typesetting", href: '/digital-marketing' },
-        { icon: Icon4, title: 'Content Writing', details: "Lorem Ipsum is simply dummy text of the printing and typesetting", href: '/content-writting' },
+        { icon: Icon4, title: 'Content Writing', details: "Lorem Ipsum is simply dummy text of the printing and typesetting", href: '/content-writing' },
         { icon: Icon5, title: 'App Development', details: "Lorem Ipsum is simply dummy text of the printing and typesetting", href: '/app-development' },
         { icon: Icon6, title: 'Video Animation', details: "Lorem Ipsum is simply dummy text of the printing and typesetting", href: '/video-development' },
         { icon: Icon7, title: 'Business Solutions', details: "Lorem Ipsum is simply dummy text of the printing and typesetting" },

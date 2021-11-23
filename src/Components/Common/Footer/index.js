@@ -82,7 +82,7 @@ function Footer() {
                                         <Link to="/video-development">Video Animation</Link>
                                     </li>
                                     <li>
-                                        <Link to="/content-writting">Content Writing</Link>
+                                        <Link to="/content-writing">Content Writing</Link>
                                     </li>
                                     <li>
                                         <Link to="/cyber-security">Cyber Security</Link>
