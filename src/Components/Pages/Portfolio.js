@@ -1,4 +1,5 @@
 import React from 'react'
+import DevelopYourBrand from '../../Layout/PortfolioPageLayout/DevelopYourBrand'
 import PortfolioBrand from '../../Layout/PortfolioPageLayout/PortfolioBrand'
 import PortfolioMainBanner from '../../Layout/PortfolioPageLayout/PortfolioMainBanner'
 
@@ -7,6 +8,7 @@ const Portfolio = () => {
         <div>
             <PortfolioMainBanner />
             <PortfolioBrand />
+            <DevelopYourBrand/>
         </div>
     )
 }
