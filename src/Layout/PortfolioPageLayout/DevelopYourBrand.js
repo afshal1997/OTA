@@ -51,63 +51,13 @@ const DevelopYourBrand = () => {
             </div>
           </Col>
         </Row>
-        <Row className="position-absolute">
-          <Col className="col-1">
-            <div className="portfolio-content">
-              <div
-                className="image-shape-1"
-                data-parallax='{"y" : 100, "rotateY":800}'
-              >
-                <img src={Shape2} data-aos="fade-up" data-aos-delay="300" />
-              </div>
-            </div>
-          </Col>
-
-          <Col className="col-1 m-auto me-0">
-            <div className="portfolio-content">
-              <div
-                className="image-shape-2 aos-init aos-animate"
-                data-parallax='{"y" : 100, "rotateY":800}'
-              >
-                <img
-                  src={Shape1}
-                  data-aos="flip-right"
-                  data-aos-delay="300"
-                  data-aos-once={false}
-                />
-              </div>
-            </div>
-          </Col>
-        </Row>
-
-        <Row className="position-absolute">
-          <Col className="col-1 m-5">
-            <div className="portfolio-content">
-              <div className="image-shape-3 aos-init aos-animate">
-                <img
-                  data-aos-easing="ease-in-out"
-                  data-parallax='{"y" : 100, "rotateY":700}'
-                  src={Shape3}
-                  data-aos="zoom-out-left"
-                  data-aos-delay="150"
-                  data-aos-once={false}
-                />
-              </div>
-            </div>
-          </Col>
-          <Col className="col-1 p-5 m-auto me-0">
-            <div className="portfolio-content">
-              <div className="image-shape-4 aos-init aos-animate">
-                <img
-                  data-aos-easing="ease-in-out"
-                  src={Shape1}
-                  data-aos="fade-up"
-                  data-aos-easing="linear"
-                  data-aos-duration="1500"
-                  data-aos-once={false}
-                />
-              </div>
-            </div>
+        <Row>
+          <Col lg={5} className="m-auto ">
+            <p className="font-size-12 text-center text-light">
+              Our team consists of experienced experts in all sectors of digital
+              marketing. This allows us to develop projects on a large scale,
+              guaranteeing a supreme quality and an optimal experience.
+            </p>
           </Col>
         </Row>
       </Container>
@@ -156,7 +106,11 @@ const DevelopYourBrand = () => {
                 </Col>
                 <Col lg={4}>
                   <div className="portfolioTabsCards">
-                    <img className="w-100" src={FamilyGovernmentAgency} alt=""></img>
+                    <img
+                      className="w-100"
+                      src={FamilyGovernmentAgency}
+                      alt=""
+                    ></img>
                   </div>
                 </Col>
               </Row>
