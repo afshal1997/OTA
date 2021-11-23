@@ -16,6 +16,7 @@ import FamilyGovernmentAgency from "../../Assets/Portfolio/WebDevelopment/Family
 import knitTech from "../../Assets/Portfolio/WebDevelopment/knitTech-Inc.jpg";
 import MarvelMarketing from "../../Assets/Portfolio/WebDevelopment/MarvelMarketing.jpg";
 import RolixAutomotive from "../../Assets/Portfolio/WebDevelopment/RolixAutomotive.jpg";
+import VideoDevelopmentCarousal from "../../Components/Common/VideoDevelopmentCarousal/VideoDevelopmentCarousal";
 const DevelopYourBrand = () => {
   useEffect(() => {
     AOS.init({
@@ -143,7 +144,7 @@ const DevelopYourBrand = () => {
               <h2>Any content 2</h2>
             </TabPanel>
             <TabPanel>
-              <h2>Any content 2</h2>
+              <VideoDevelopmentCarousal />
             </TabPanel>
           </Tabs>
         </div>
