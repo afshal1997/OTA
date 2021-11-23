@@ -1,111 +1,120 @@
 .PortfolioMainBanner {
-  background: url("../../Assets/Portfolio/portfolioMainBanner.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 15px 10px;
-  height: 100vh;
+    background: url("../../Assets/Portfolio/portfolioMainBanner.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px 10px;
+    height: 100vh;
 }
 
 .PortfolioBanner {
-  position: absolute;
-  top: 50%;
-  left: 0%;
-  transform: translate(0%, -50%);
-  -webkit-transform: translate(0%, -50%);
-  margin: auto;
-  display: block;
-  width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+    margin: auto;
+    display: block;
+    width: 100%;
 }
 
 .PortfolioBrand {
-  background: url("../../Assets/Portfolio/portfolioBrandBanner.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 15px 10px;
+    background: url("../../Assets/Portfolio/portfolioBrandBanner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px 10px;
 }
 
 .DevelopYourBrand {
-  background: url("../../Assets/Portfolio/DevelopYourBrand.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 15px 10px;
-  position: relative;
+    background: url("../../Assets/Portfolio/DevelopYourBrand.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px 10px;
+    position: relative;
 }
 .image-shape-1 > img {
-  width: 100%;
-  max-width: 50px;
-  opacity: 0.4 !important;
-  -webkit-animation: rotation 15s infinite linear;
-  animation: rotation 15s infinite linear;
+    width: 100%;
+    max-width: 50px;
+    opacity: 0.4 !important;
+    -webkit-animation: rotation 15s infinite linear;
+    animation: rotation 15s infinite linear;
+    position: absolute;
+    left: 20px;
 }
 .image-shape-2 > img {
-  width: 100%;
-  max-width: 80px;
-  opacity: 0.7 !important;
+    width: 100%;
+    max-width: 80px;
+    opacity: 0.7 !important;
 }
 .image-shape-4 {
-  transform: rotateY(210deg);
+    transform: rotateY(210deg);
 }
 @keyframes rotation {
-  from {
-    -webkit-transform: rotate(0deg);
-  }
+    from {
+        -webkit-transform: rotate(0deg);
+    }
 
-  to {
-    -webkit-transform: rotate(359deg);
-  }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
 }
 .portfolioTabs .react-tabs {
-  display: block;
+    display: block;
 }
 
 .portfolioTabs .react-tabs .react-tabs__tab-list {
-  flex-direction: row !important;
-  background: transparent;
-  max-width: 100%;
+    flex-direction: row !important;
+    background: transparent;
+    max-width: 100%;
 }
 
 .portfolioTabs .react-tabs__tab--selected::after {
-  background: none !important;
+    background: none !important;
 }
 
 .portfolioTabs .react-tabs .react-tabs__tab-list .react-tabs__tab {
-  background: transparent;
-  border: 1px solid #2d3eb2;
-  margin: 30px 10px;
-  width: 100%;
-  text-align: center;
-  padding: 15px !important;
-  border-radius: 20px;
-  color: #519fd4;
-  font-weight: 600;
+    background: transparent;
+    border: 1px solid #2d3eb2;
+    margin: 30px 10px;
+    width: 100%;
+    text-align: center;
+    padding: 15px !important;
+    border-radius: 20px;
+    color: #519fd4;
+    font-weight: 600;
 }
 
 .portfolioTabs .react-tabs__tab--selected {
-  background-image: linear-gradient(45deg, #752340, #d14f82) !important;
-  color: #fff !important;
+    background-image: linear-gradient(45deg, #752340, #d14f82) !important;
+    color: #fff !important;
 }
 .portfolio-heading svg {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 @media screen and (max-width: 991px) {
-  .portfolio-heading svg {
-    font-size: 2.5rem !important;
-  }
-  .PortfolioMainBanner {
-    height: 100%;
-  }
+    .portfolio-heading svg {
+        font-size: 2.5rem !important;
+    }
+    .PortfolioMainBanner {
+        height: 100%;
+    }
 
-  .PortfolioBanner {
-    position: relative;
-    top: 0%;
-    left: 0%;
-    transform: translate(0%, 0%);
-    -webkit-transform: translate(0%, 0%);
-    width: 100%;
-  }
+    .PortfolioBanner {
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: translate(0%, 0%);
+        -webkit-transform: translate(0%, 0%);
+        width: 100%;
+    }
+
+    .portfolioTabs .react-tabs .react-tabs__tab-list {
+        flex-direction: column !important;
+    }
+    .portfolioTabs .react-tabs .react-tabs__tab-list .react-tabs__tab {
+        margin: 10px 10px;
+    }
 }
