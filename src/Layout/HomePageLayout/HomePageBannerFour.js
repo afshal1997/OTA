@@ -17,12 +17,12 @@ import Heading from '../../Components/Common/PagesHeadings/Heading'
 import VideoTestimonal from '../../Components/Common/VideoTestimonal/VideoTestimonal'
 const HomePageBannerFour = () => {
     const servicesCards = [
-        { icon: Icon1, title: 'Creative & Design', details: "Lorem Ipsum is simply dummy text of the printing and typesetting" },
-        { icon: Icon2, title: 'Web Development', details: "Lorem Ipsum is simply dummy text of the printing and typesetting" },
-        { icon: Icon3, title: 'Digital Marketing', details: "Lorem Ipsum is simply dummy text of the printing and typesetting" },
-        { icon: Icon4, title: 'Content Writing', details: "Lorem Ipsum is simply dummy text of the printing and typesetting" },
-        { icon: Icon5, title: 'App Development', details: "Lorem Ipsum is simply dummy text of the printing and typesetting" },
-        { icon: Icon6, title: 'Video Animation', details: "Lorem Ipsum is simply dummy text of the printing and typesetting" },
+        { icon: Icon1, title: 'Creative & Design', details: "Lorem Ipsum is simply dummy text of the printing and typesetting", href: "/creative-design" },
+        { icon: Icon2, title: 'Web Development', details: "Lorem Ipsum is simply dummy text of the printing and typesetting", href: '/web-development' },
+        { icon: Icon3, title: 'Digital Marketing', details: "Lorem Ipsum is simply dummy text of the printing and typesetting", href: '/digital-marketing' },
+        { icon: Icon4, title: 'Content Writing', details: "Lorem Ipsum is simply dummy text of the printing and typesetting", href: '/content-writting' },
+        { icon: Icon5, title: 'App Development', details: "Lorem Ipsum is simply dummy text of the printing and typesetting", href: '/app-development' },
+        { icon: Icon6, title: 'Video Animation', details: "Lorem Ipsum is simply dummy text of the printing and typesetting", href: '/video-development' },
         { icon: Icon7, title: 'Business Solutions', details: "Lorem Ipsum is simply dummy text of the printing and typesetting" },
         { icon: Icon8, title: 'Ecommerce', details: "Lorem Ipsum is simply dummy text of the printing and typesetting" },
 
@@ -35,10 +35,10 @@ const HomePageBannerFour = () => {
                     <Heading Heading="Our Services" Tagline="Outsource Any Of Your Project To Us. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry" MainHeading="Expertise" />
                     <Row className="mt-5">
                         {React.Children.toArray(
-                            servicesCards.map(({ icon, title, details }) => (
+                            servicesCards.map(({ icon, title, details, href }) => (
                                 <Col lg={3}>
                                     <Zoom>
-                                        <ServicesCards image={icon} title={title} details={details} />
+                                        <ServicesCards image={icon} title={title} details={details} href={href} />
                                     </Zoom>
                                 </Col>
                             ))
