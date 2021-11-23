@@ -31,6 +31,7 @@ import BrandingAndCreativeImg06 from '../../Assets/Portfolio/BrandingAndCreative
 
 
 
+import VideoDevelopmentCarousal from "../../Components/Common/VideoDevelopmentCarousal/VideoDevelopmentCarousal";
 const DevelopYourBrand = () => {
     useEffect(() => {
         AOS.init({
@@ -250,12 +251,12 @@ const DevelopYourBrand = () => {
                             </Row>
                         </TabPanel>
                         <TabPanel>
-                            <h2>Any content 2</h2>
+                            <VideoDevelopmentCarousal />
                         </TabPanel>
                     </Tabs>
                 </div>
             </Container>
-        </div>
+        </div >
     );
 };
 export default DevelopYourBrand;
