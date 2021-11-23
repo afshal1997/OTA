@@ -20,7 +20,7 @@ const PortfolioBrand = () => {
                                     <text id="text" y="90" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Portfolio</text>
                                 </g>
                             </svg>
-                            <h3>Brand & Acquiring New Technologies.</h3>
+                            <h6>Brand & Acquiring New Technologies.</h6>
                             <p>
                                 Helping You Focus On Bringing In New Business, Developing Your Own Brand And Acquiring New Technologies.
                             </p>

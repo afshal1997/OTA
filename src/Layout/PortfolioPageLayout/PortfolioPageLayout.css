@@ -27,6 +27,14 @@
     padding: 15px 10px;
 }
 
+.DevelopYourBrand{
+    background: url('../../Assets/Portfolio/DevelopYourBrand.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px 10px;
+}
+
 @media screen and (max-width: 991px) {
     .PortfolioMainBanner {
         height: 100%;

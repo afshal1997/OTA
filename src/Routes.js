@@ -112,10 +112,10 @@ const routes = [
     exact: true,
     component: Blog,
   },
-  // {
-  //   path: "/portfolio",
-  //   exact: true,
-  //   component: Portfolio,
-  // },
+  {
+    path: "/portfolio",
+    exact: true,
+    component: Portfolio,
+  },
 ];
 export default routes;
