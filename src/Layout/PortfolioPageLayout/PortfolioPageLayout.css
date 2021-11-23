@@ -35,6 +35,37 @@
     padding: 15px 10px;
 }
 
+.portfolioTabs .react-tabs {
+    display: block;
+}
+
+.portfolioTabs .react-tabs .react-tabs__tab-list{
+    flex-direction: row !important;
+    background: transparent ;
+    max-width: 100%;
+}
+
+.portfolioTabs .react-tabs__tab--selected::after{
+    background: none !important;
+}
+
+.portfolioTabs .react-tabs .react-tabs__tab-list .react-tabs__tab{
+    background: transparent;
+    border: 1px solid #2d3eb2;
+    margin: 30px 10px;
+    width: 100%;
+    text-align: center;
+    padding: 15px !important;
+    border-radius: 20px;
+    color: #519fd4;
+    font-weight: 600;
+}
+
+.portfolioTabs .react-tabs__tab--selected{
+    background-image: linear-gradient(45deg, #752340, #d14f82) !important;
+    color: #fff !important;
+}
+
 @media screen and (max-width: 991px) {
     .PortfolioMainBanner {
         height: 100%;
