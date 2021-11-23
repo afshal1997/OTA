@@ -13,7 +13,6 @@ body {
   opacity: 0.4;
 }
 
-
 .ClientSlider {
   background: url("./Assets/HomeAssets/slider-bg.jpg");
   background-size: cover;
@@ -269,14 +268,15 @@ a.nav-link:hover {
 
 .applyNow .card {
   background-image: linear-gradient(to bottom right, #1599d1, #6a5982);
+  position: relative;
   background-repeat: no-repeat;
   width: 100%;
-  max-width: 400px;
+  max-width: 450px;
   margin: auto;
   text-align: center;
   color: #fff;
   border: none;
-  padding: 30px 15px;
+  padding: 50px 30px;
   border-radius: 15px;
   border: 1px solid #6a5982;
 }
@@ -290,25 +290,29 @@ a.nav-link:hover {
 }
 
 .applyNow input {
-  border-radius: 20px;
+  border-radius: 50px;
   background: #30709b;
   color: #fff;
   border: 1px solid #0b96c9;
-  padding: 7px;
+  padding: 15px;
   border-left: none;
 }
-
+.applyNow input::placeholder {
+  font-weight: bolder;
+}
 .applyNow .input-group span {
   border: 1px solid #0b96c9;
   border-right: none;
-  border-radius: 20px;
+  border-radius: 50px;
   position: relative;
   z-index: 1;
   top: 0;
   color: #0c4663;
   background: #30709b;
-  padding: 11px 15px;
+  padding: 20px 15px;
+  padding-left: 25px;
   height: 100%;
+  font-size: 25px;
   margin: auto;
 }
 
@@ -344,7 +348,21 @@ a.apply-btn:hover {
   border: 1px solid #fff;
   transition: 1s;
 }
-
+.get-started-form {
+  padding: 20px;
+  border-radius: 50px;
+  width: 100%;
+  background-image: linear-gradient(to right, #b5406a, #6f203d);
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 1s;
+  border: 1px solid transparent;
+  display: block;
+  text-transform: uppercase;
+}
 .mainBannerSocialMediaIcons {
   position: absolute;
   bottom: 40%;
@@ -498,10 +516,22 @@ span.read-more-less--more {
   display: block;
   width: 100%;
 }
+.font-size-10 {
+  font-size: 10px !important;
+}
+.font-size-11 {
+  font-size: 11px !important;
+}
+.font-size-12 {
+  font-size: 12px !important;
+}
+.font-size-14 {
+  font-size: 14px !important;
+}
 
-@media screen and (max-device-width: 991px){
+@media screen and (max-device-width: 991px) {
   body,
-  html{
+  html {
     overflow-x: hidden;
   }
 }
@@ -519,25 +549,25 @@ span.read-more-less--more {
   .plansPageDigitalStartupMainBanner,
   .plansPageResourcesOutsourcingMainBanner {
     height: 100% !important;
-}
+  }
 
-  .ResourcesOutsourcingMainBanner{
+  .ResourcesOutsourcingMainBanner {
     position: relative !important;
     top: 0% !important;
     transform: translate(0%, 0%) !important;
     -webkit-transform: translate(0%, 0%) !important;
   }
 
-  .planServicesSvg h1{
+  .planServicesSvg h1 {
     font-size: 2rem !important;
     margin-top: -125px !important;
   }
 
-  .processImg{
+  .processImg {
     display: none !important;
   }
 
-  .CreativeAndDesignMainBanner{
+  .CreativeAndDesignMainBanner {
     height: 100% !important;
   }
 
@@ -546,12 +576,11 @@ span.read-more-less--more {
   .VideoDevelopmentMainBanner,
   .AppDevelopmentMainBanner,
   .DigitalMarketingMainBanner,
-  .WebDevelopmentMainBanner{
+  .WebDevelopmentMainBanner {
     height: 100% !important;
   }
 
-  .react-tabs{
+  .react-tabs {
     width: 100% !important;
   }
-
 }

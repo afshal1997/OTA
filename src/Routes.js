@@ -22,16 +22,10 @@ const routes = [
     path: "/",
     exact: true,
     component: () => {
-      return <Redirect to="/home" />
+      return <Redirect to="/home" />;
     },
   },
-  {
-    path: "/react/ota",
-    exact: true,
-    component: () => {
-      return <Redirect to="/home" />
-    },
-  },
+
   {
     path: "/home",
     exact: true,
@@ -78,7 +72,7 @@ const routes = [
     component: CyberSecurity,
   },
   {
-    path: "/content-writting",
+    path: "/content-writing",
     exact: true,
     component: ContentWritting,
   },
@@ -112,10 +106,10 @@ const routes = [
     exact: true,
     component: Blog,
   },
-  // {
-  //   path: "/portfolio",
-  //   exact: true,
-  //   component: Portfolio,
-  // },
+  {
+    path: "/portfolio",
+    exact: true,
+    component: Portfolio,
+  },
 ];
 export default routes;

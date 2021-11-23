@@ -99,7 +99,7 @@ function Header() {
                     <Link to="/video-development">Video Animation</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
-                    <Link to="/content-writting">Content Writing</Link>
+                    <Link to="/content-writing">Content Writing</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
                     <Link to="/cyber-security">Cyber Security</Link>
