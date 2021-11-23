@@ -1,51 +1,78 @@
 .PortfolioMainBanner {
-    background: url("../../Assets/Portfolio/portfolioMainBanner.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 15px 10px;
-    height: 100vh;
+  background: url("../../Assets/Portfolio/portfolioMainBanner.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px 10px;
+  height: 100vh;
 }
 
 .PortfolioBanner {
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    transform: translate(0%, -50%);
-    -webkit-transform: translate(0%, -50%);
-    margin: auto;
-    display: block;
-    width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, -50%);
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+
+.PortfolioBrand {
+  background: url("../../Assets/Portfolio/portfolioBrandBanner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px 10px;
+}
+
+.DevelopYourBrand {
+  background: url("../../Assets/Portfolio/DevelopYourBrand.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px 10px;
+  position: relative;
+}
+.image-shape-1 > img {
+  width: 100%;
+  max-width: 50px;
+  opacity: 0.4 !important;
+  -webkit-animation: rotation 15s infinite linear;
+  animation: rotation 15s infinite linear;
+}
+.image-shape-2 > img {
+  width: 100%;
+  max-width: 80px;
+  opacity: 0.7 !important;
+}
+.image-shape-4 {
+  transform: rotateY(210deg);
+}
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
   }
 
-.PortfolioBrand{
-    background: url('../../Assets/Portfolio/portfolioBrandBanner.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 15px 10px;
+  to {
+    -webkit-transform: rotate(359deg);
+  }
 }
-
-.DevelopYourBrand{
-    background: url('../../Assets/Portfolio/DevelopYourBrand.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 15px 10px;
-}
-
 @media screen and (max-width: 991px) {
-    .PortfolioMainBanner {
-        height: 100%;
-    }
-    
-    .PortfolioBanner {
-        position: relative;
-        top: 0%;
-        left: 0%;
-        transform: translate(0%, 0%);
-        -webkit-transform: translate(0%, 0%);
-        width: 100%;
-    }
+  .portfolio-heading svg {
+    font-size: 2.5rem !important;
+  }
+  .PortfolioMainBanner {
+    height: 100%;
+  }
+
+  .PortfolioBanner {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, 0%);
+    -webkit-transform: translate(0%, 0%);
+    width: 100%;
+  }
 }
