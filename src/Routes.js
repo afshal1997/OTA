@@ -15,11 +15,22 @@ import VideoDevelopment from "./Components/Pages/VideoDevelopment";
 import Pricing from "./Components/Pages/Pricing";
 import Blog from "./Components/Pages/Blog";
 import Contact from "./Components/Pages/Contact";
+import Portfolio from "./Components/Pages/Portfolio";
+
 const routes = [
   {
     path: "/",
     exact: true,
-    component: () => <Redirect to="/home" />,
+    component: () => {
+      return <Redirect to="/home" />
+    },
+  },
+  {
+    path: "/react/ota",
+    exact: true,
+    component: () => {
+      return <Redirect to="/home" />
+    },
   },
   {
     path: "/home",
@@ -96,11 +107,15 @@ const routes = [
     exact: true,
     component: Pricing,
   },
-
   {
     path: "/blog",
     exact: true,
     component: Blog,
   },
+  // {
+  //   path: "/portfolio",
+  //   exact: true,
+  //   component: Portfolio,
+  // },
 ];
 export default routes;

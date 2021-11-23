@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 import routes from "./Routes";
 import "./App.css";
 import { connect } from "react-redux";
@@ -13,6 +13,7 @@ function App() {
         <Header />
         <ScrollToTop />
         <Switch>
+          
           {routes.map((route, index) => {
             return route.component ? (
               <Route

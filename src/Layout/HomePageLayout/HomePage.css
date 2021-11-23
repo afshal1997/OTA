@@ -934,22 +934,24 @@ a.schedulecall:hover {
     }
 
     .mainBanner svg {
-        max-height: 115px;
-        font-size: 3.1rem;
+        max-height: 180px;
+        font-size: 3rem;
     }
 
     .circleImg .text p {
-        top: 70%;
+        top: 58%;
         bottom: 30%;
         font-size: 0.8rem;
     }
 
     .circleImg .text h1 {
-        font-size: 1rem;
+        font-size: 1.1rem !important;
+        top: 35%;
     }
 
     .circleImg .text h1 span {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        display: block;
     }
 
     .HomePageBannerFourHeading svg {

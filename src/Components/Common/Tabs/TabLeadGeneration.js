@@ -3,10 +3,10 @@ import React from 'react'
 const TabLeadGeneration = () => {
     return (
         <div className="pt-3 pb-3">
-            <div class="mt-5 row">
-              <div class="text-center col-lg-4 mb-5">
-                <div class="card PricingCard BrandFont pt-0 ">
-                  <div class="PackageAndPricing mb-3">
+            <div className="mt-5 row">
+              <div className="text-center col-lg-4 mb-5">
+                <div className="card PricingCard BrandFont pt-0 ">
+                  <div className="PackageAndPricing mb-3">
                     <h4>BASIC</h4>
                     <h3>
                       <span>USD -</span>$799
@@ -26,16 +26,16 @@ const TabLeadGeneration = () => {
                   </ul>
                   <h5 className="mb-4"><b>EST. LEADS: 25</b></h5>
                   <a
-                    class="PricingApplyNowBtn w-100 p-2"
+                    className="PricingApplyNowBtn w-100 p-2"
                     href="javascript:void(0)"
                   >
                     Outsource Now
                   </a>
                 </div>
               </div>
-              <div class="text-center col-lg-4 mb-5">
-                <div class="card PricingCard BrandFont pt-0 ActivePricingCard">
-                  <div class="PackageAndPricing mb-3">
+              <div className="text-center col-lg-4 mb-5">
+                <div className="card PricingCard BrandFont pt-0 ActivePricingCard">
+                  <div className="PackageAndPricing mb-3">
                     <h4>STANDARD</h4>
                     <h3>
                       <span>USD -</span>$2,199
@@ -63,16 +63,16 @@ const TabLeadGeneration = () => {
                   <h5 className="mb-4"><b>EST. LEADS: 75</b></h5>
 
                   <a
-                    class="PricingApplyNowBtn w-100 p-2"
+                    className="PricingApplyNowBtn w-100 p-2"
                     href="javascript:void(0)"
                   >
                     Outsource Now
                   </a>
                 </div>
               </div>
-              <div class="text-center col-lg-4 mb-5">
-                <div class="card PricingCard BrandFont pt-0 ">
-                  <div class="PackageAndPricing mb-3">
+              <div className="text-center col-lg-4 mb-5">
+                <div className="card PricingCard BrandFont pt-0 ">
+                  <div className="PackageAndPricing mb-3">
                     <h4>ADVANCE</h4>
                     <h3>
                       <span>USD -</span>$3,000
@@ -109,7 +109,7 @@ const TabLeadGeneration = () => {
                   </ul>
                   <h5 className="mb-4"><b>EST. LEADS: 100</b></h5>
                   <a
-                    class="PricingApplyNowBtn w-100 p-2"
+                    className="PricingApplyNowBtn w-100 p-2"
                     href="javascript:void(0)"
                   >
                     Outsource Now

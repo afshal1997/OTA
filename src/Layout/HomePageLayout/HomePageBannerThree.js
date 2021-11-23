@@ -48,7 +48,7 @@ const HomePageBannerThree = () => {
                                 <Bounce>
                                     <div className="process">
                                         <span className="spanProcess">Process</span>
-                                        <h1><span><i class="fas fa-long-arrow-alt-right text-primary"></i></span> How We Works<span>?</span></h1>
+                                        <h1><span><i className="fas fa-long-arrow-alt-right text-primary"></i></span> How We Works<span>?</span></h1>
                                         <h6>Our Process the structure</h6>
                                         <p>
                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum has been the industry's

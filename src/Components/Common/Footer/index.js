@@ -23,19 +23,16 @@ function Footer() {
                             <div className="footerUl">
                                 <ul>
                                     <li>
-                                        <Link href="/">Home</Link>
+                                        <Link to="/">Home</Link>
                                     </li>
                                     <li>
-                                        <Link href="/">About Us</Link>
+                                        <Link to="/about-us">About Us</Link>
                                     </li>
                                     <li>
-                                        <Link href="/">Portfolio</Link>
+                                        <Link to="/portfolio">Portfolio</Link>
                                     </li>
                                     <li>
-                                        <Link href="/">Contact Us</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/">FAQ</Link>
+                                        <Link to="/contact-us">Contact Us</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -45,22 +42,22 @@ function Footer() {
                             <div className="footerUl">
                                 <ul>
                                     <li>
-                                        <Link href="/">White Labelling</Link>
+                                        <Link to="/white-labelling">White Labelling</Link>
                                     </li>
                                     <li>
-                                        <Link href="/">Digital Startup Legal</Link>
+                                        <Link to="/digital-startup">Digital Startup</Link>
                                     </li>
                                     <li>
-                                        <Link href="/">Terms & Conditions</Link>
+                                        <Link to="/">Terms & Conditions</Link>
                                     </li>
                                     <li>
-                                        <Link href="/">Security Policy</Link>
+                                        <Link to="/">Security Policy</Link>
                                     </li>
                                     <li>
-                                        <Link href="/">Privacy Policy</Link>
+                                        <Link to="/">Privacy Policy</Link>
                                     </li>
                                     <li>
-                                        <Link href="/">Refund Policy</Link>
+                                        <Link to="/">Refund Policy</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -70,22 +67,25 @@ function Footer() {
                             <div className="footerUl">
                                 <ul>
                                     <li>
-                                        <Link href="/">Creative & Design</Link>
+                                        <Link to="/creative-design">Creative & Design</Link>
                                     </li>
                                     <li>
-                                        <Link href="/">Web Development</Link>
+                                        <Link to="/web-development">Web Development</Link>
                                     </li>
                                     <li>
-                                        <Link href="/">Digital Marketing</Link>
+                                        <Link to="/digital-marketing">Digital Marketing</Link>
                                     </li>
                                     <li>
-                                        <Link href="/">App Development</Link>
+                                        <Link to="/app-development">App Development</Link>
                                     </li>
                                     <li>
-                                        <Link href="/">Video Animation</Link>
+                                        <Link to="/video-development">Video Animation</Link>
                                     </li>
                                     <li>
-                                        <Link href="/">Content Writing</Link>
+                                        <Link to="/content-writting">Content Writing</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/cyber-security">Cyber Security</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -123,10 +123,10 @@ function Footer() {
                         </Col>
                         <Col lg={4}>
                             <div className="footerSocialLink text-center">
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i className="fab fa-facebook"></i></a>
+                                <a href="#"><i className="fab fa-twitter"></i></a>
+                                <a href="#"><i className="fab fa-youtube"></i></a>
+                                <a href="#"><i className="fab fa-instagram"></i></a>
                             </div>
                         </Col>
                     </Row>

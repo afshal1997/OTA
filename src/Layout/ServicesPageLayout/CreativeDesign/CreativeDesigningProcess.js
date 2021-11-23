@@ -26,7 +26,7 @@ const CreativeDesigningProcess = () => {
                     </div>
                 </Col>
                 <div className="WhyChooseUs">
-                    <img className="w-100" src={WhyChooseUs} alt=""></img>
+                    <img className="w-100 processImg" src={WhyChooseUs} alt=""></img>
                     <Row>
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">

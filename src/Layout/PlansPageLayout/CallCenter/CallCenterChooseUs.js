@@ -18,7 +18,7 @@ const CallCenterChooseUs = () => {
                     <Heading Heading="Why Choose Us?" tagline="With us you will get multiple benefits such as :" MainHeading="Choose" />
 
                     <div className="WhyChooseUs">
-                        <img className="w-100" src={WhyChooseUs} alt=""></img>
+                        <img className="w-100 processImg" src={WhyChooseUs} alt=""></img>
                         <Row>
                             <Col>
                                 <Card className="WhyChooseUSCards">

@@ -58,10 +58,10 @@ function HomePageMainBnanner() {
                                         </svg>
                                     </div>
                                     <div className="text">
-                                        <h1>Lets Have a <Zoom right cascade><span>Digital Startup</span></Zoom></h1>
+                                        <h1>Offshore Partners For <Zoom right cascade><span>Digital Supremacy</span></Zoom></h1>
                                         <Bounce>
                                             <p>
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum <br></br> has been the industry's standard dummy text ever since the 1500s,
+                                                Crafting ingenious digital experiences that power startups, scale-up corporations <br></br> and bring digital transformation to family businesses.
                                             </p>
                                         </Bounce>
                                     </div>
@@ -90,7 +90,7 @@ function HomePageMainBnanner() {
                             </Row>
                         </Container>
                     </div>
-                    <SocialMediaContact/>
+                    <SocialMediaContact />
                     <div className="homeMainBannerOverlay"></div>
                 </div>
             </div>

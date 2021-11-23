@@ -27,7 +27,7 @@ const ContentWrittingProcess = () => {
                     </div>
                 </Col>
                 <div className="WhyChooseUs">
-                    <img className="w-100" src={ContentWrittingProcessImg} alt=""></img>
+                    <img className="w-100 processImg" src={ContentWrittingProcessImg} alt=""></img>
                     <Row>
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">

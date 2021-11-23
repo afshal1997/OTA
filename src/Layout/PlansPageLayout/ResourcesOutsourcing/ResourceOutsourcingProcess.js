@@ -17,7 +17,7 @@ const ResourceOutsourcingProcess = () => {
                     <Heading Heading="How Does It Works?" tagline="It's as simple as we handle your resources!" MainHeading="Process" />
 
                     <div className="WhyChooseUs">
-                        <img className="w-100" src={WhyChooseUs} alt=""></img>
+                        <img className="w-100 processImg" src={WhyChooseUs} alt=""></img>
                         <Row>
                             <Col>
                                 <Card className="WhyChooseUSCards">

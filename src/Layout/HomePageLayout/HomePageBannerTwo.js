@@ -15,24 +15,25 @@ const HomePageBannerTwo = () => {
                                     <h1>Why Choose</h1>
                                     <h2>Outsource to Asia</h2>
                                     <Row>
-                                        <Col className="col-1 p-0"><i className="fas fa-long-arrow-alt-right text-primary"></i></Col>
-                                        <Col className="col-11 p-0">
-                                            <h3>WE ARE GOOD LISTENERS</h3>
+                                        <Col className="col-1"><i className="fas fa-long-arrow-alt-right text-primary"></i></Col>
+                                        <Col className="col-11">
+                                            <h3>A Wide Array of Services Provided Under One Roof</h3>
+                                            <p>
+                                                From the nascent stages of design & development to advertising it on the internet, we offer a slew of services to help you establish your brand in the digital world. SEO, SEM, SMO, web development, CMS development, e-commerce development, and mobile app development are just a few of the services our full-service digital marketing agency delivers.
+                                            </p>
                                         </Col>
                                     </Row>
                                 </div>
                                 <div className="whyChoose">
                                     <Row>
-                                        <Col className="col-1 p-0"><i className="fas fa-long-arrow-alt-right text-primary"></i></Col>
-                                        <Col className="col-11 p-0">
-                                            <h3>WE ARE ASKING TO YOU TO CHOOSE GOOD</h3>
+                                        <Col className="col-1"><i className="fas fa-long-arrow-alt-right text-primary"></i></Col>
+                                        <Col className="col-11">
+                                            <h3>High-Quality Services Paired With Seamless Customer Support</h3>
+                                            <p>
+                                                The quality we provide is exceptional and our projects always meet deadlines. We have a strict quality control mechanism in place to ensure that everything we offer exceeds our clients' expectations. Our customer support team works around the clock for flawless communication with proposed and/or existing clients.
+                                            </p>
                                         </Col>
                                     </Row>
-                                    <p>
-                                        We are a digital marketing firm; belief in working with brains and a full heart to make sure your brand stays on the top of the google charts,
-                                        taking daily feedback from our clients to build a long-lasting relationship while providing you with comfort while we focus on the increased
-                                        profits at your disposal.
-                                    </p>
                                 </div>
                             </Fade>
                         </Col>
@@ -40,27 +41,25 @@ const HomePageBannerTwo = () => {
                             <Fade right>
                                 <div className="whyChooseOta">
                                     <Row>
-                                        <Col className="col-1 p-0"><i className="fas fa-long-arrow-alt-right text-primary"></i></Col>
-                                        <Col className="col-11 p-0">
-                                            <h3>ONLY SMART WORK; BECAUSE IT'S BETTER THAN HARD WORK</h3>
+                                        <Col className="col-1"><i className="fas fa-long-arrow-alt-right text-primary"></i></Col>
+                                        <Col className="col-11">
+                                            <h3>An Awe-inspiring Digital Agency Experience</h3>
+                                            <p>
+                                                We're a bunch of young, energetic, and innovative folks that are willing to go above and beyond for your company. We develop eye-catching websites, engaging content, strategize distinctive campaigns, and help companies expand by turning followers into customers. We've established a number of success stories by assisting brands in growing their businesses. Working with us means collaborating with a group of articulate writers, tech geeks, and visionary minds who will assist you in increasing lead generation, sales prospects, and revenue.
+                                            </p>
+                                            <Row>
+                                                <Col lg={4} className="m-auto">
+                                                    <Link href="" className="learn-btn">Read to Learn</Link>
+                                                </Col>
+                                                <Col lg={4} className="m-auto">
+                                                    <Link href="" className="getStarted-btn">Get Started</Link>
+                                                </Col>
+                                                <Col></Col>
+                                            </Row>
                                         </Col>
                                     </Row>
-                                    <p>
-                                        We are one stop digital marketing solution; being at the disposal of pakistan’s rich culture and people working for us all round the world gives us the touch of every culture and mindset of different brands working around the globe - either in usa or asia. We thrive to become the #1, so our clients can stay on the top of, we provide a polished digital experience by providing high-quality and unique solutions to both entrepreneurs and businessmen out in the world.
-                                    </p>
-                                    <p>
-                                        We make sure you wake up with the meaningful insights, a greater reach and greater brand awareness every day.
-                                    </p>
 
-                                    <Row>
-                                        <Col lg={4} className="m-auto">
-                                            <Link href="" className="learn-btn">Read to Learn</Link>
-                                        </Col>
-                                        <Col lg={4} className="m-auto">
-                                            <Link href="" className="getStarted-btn">Get Started</Link>
-                                        </Col>
-                                        <Col></Col>
-                                    </Row>
+
                                 </div>
                             </Fade>
                         </Col>

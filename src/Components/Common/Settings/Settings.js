@@ -8,9 +8,8 @@ export const TestmonialsSliderSettings = {
         {
             breakpoint: 1024,
             settings: {
-                slidesToShow: 3,
-                infinite: true,
-                dots: true
+                slidesToShow: 2,
+                initialSlide: 2
             }
         },
         {

@@ -17,7 +17,7 @@ const LeadGeneration = () => {
                     <Col lg={7} className="m-auto">
                         <Bounce right cascade>
                             <div className="StartUp pt-5 mt-5">
-                                <span class="BgText">LG</span>
+                                <span className="BgText">LG</span>
                                 <div className="OurServicesHeadingUl">
                                     <ul>
                                         <Zoom right cascade>
@@ -39,7 +39,7 @@ const LeadGeneration = () => {
                                             })}
                                         </Fade>
                                         <Col lg="3">
-                                            <a href="" class={`${leadgenarationpagecontent.button[1]}`}>{leadgenarationpagecontent.button[0]}</a>
+                                            <a href="" className={`${leadgenarationpagecontent.button[1]}`}>{leadgenarationpagecontent.button[0]}</a>
                                         </Col>
                                     </ul>
                                 </div>

@@ -29,7 +29,7 @@ const VideoDevelopmentProcess = () => {
                     </div>
                 </Col>
                 <div className="WhyChooseUs">
-                    <img className="w-100" src={VideoDevelopmentImage02} alt=""></img>
+                    <img className="w-100 processImg" src={VideoDevelopmentImage02} alt=""></img>
                     <Row>
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">

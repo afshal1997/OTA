@@ -43,7 +43,7 @@ const ContactUsMainBanner = () => {
                   </p>
                   <Row>
                     <Col lg={4}>
-                      <a href="" class="getStarted-btn">
+                      <a href="" className="getStarted-btn">
                         Get Started
                       </a>
                     </Col>

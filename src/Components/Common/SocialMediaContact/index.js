@@ -16,11 +16,11 @@ const index = () => {
                 <div className="mainBannerContact">
                     <ul>
                         <li>
-                            <a href="tel:+16312506471"><i class="fas fa-phone-alt"></i> +1 631-250-6471</a>
+                            <a href="tel:+16312506471"><i className="fas fa-phone-alt"></i> +1 631-250-6471</a>
                         </li>
 
                         <li>
-                            <a href="mailto:info@outsourcetoasia.co"><i class="fas fa-envelope-open"></i>info@outsourcetoasia.co</a>
+                            <a href="mailto:info@outsourcetoasia.co"><i className="fas fa-envelope-open"></i>info@outsourcetoasia.co</a>
                         </li>
                     </ul>
                 </div>

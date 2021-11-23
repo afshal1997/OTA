@@ -28,7 +28,7 @@ const AppDevelopmentProcess = () => {
                     </div>
                 </Col>
                 <div className="WhyChooseUs">
-                    <img className="w-100" src={AppDevelopmenimg02} alt=""></img>
+                    <img className="w-100 processImg" src={AppDevelopmenimg02} alt=""></img>
                     <Row>
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">

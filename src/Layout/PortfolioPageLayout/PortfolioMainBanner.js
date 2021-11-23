@@ -1,13 +1,15 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import AboutUsForm from '../../Components/Common/AboutUsForm/AboutUsFrom'
+import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
 import SocialMediaContact from '../../Components/Common/SocialMediaContact'
+import AboutUsFrom from '../../Components/Common/AboutUsForm/AboutUsFrom';
+import './PortfolioPageLayout.css'
 
-const AboutUsMainBanner = () => {
+const PortfolioMainBanner = () => {
     return (
-        <div>
-            <div className="aboutUsPageBanner">
-                <div className="aboutUsMainBanner">
+        <div className="PortfolioMainBanner">
+            <div className="PortfolioBanner">
                     <Container>
                         <Row>
                             <Col lg={6} className="m-auto">
@@ -20,31 +22,27 @@ const AboutUsMainBanner = () => {
                                             </linearGradient>
                                         </defs>
                                         <g>
-                                            <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">About Us</text>
+                                            <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Portfolio</text>
                                         </g>
                                     </svg>
-                                    <h1>Only Smart Work; </h1>
-                                    <h3>Because It's Better Than Hard Work</h3>
-                                    <p>
-                                        We make sure you wake up with the meaningful insights, a greater reach and greater brand awareness every day.
-                                    </p>
+                                    <h1>Guaranteeing</h1>
+                                    <h3>Supreme Quality Services and an Optimal Experience Always and Forever</h3>
                                     <Row>
                                         <Col lg={4}>
-                                            <a href="" className="getStarted-btn">Get Started</a>
+                                            <a href="" class="getStarted-btn">Get Started</a>
                                         </Col>
                                     </Row>
                                 </div>
                             </Col>
                             <Col lg={6} className="pt-5">
-                                <AboutUsForm />
+                                <AboutUsFrom />
                             </Col>
                         </Row>
                     </Container>
                 </div>
-                <SocialMediaContact />
-            </div>
+            <SocialMediaContact />
         </div>
     )
 }
 
-export default AboutUsMainBanner
+export default PortfolioMainBanner

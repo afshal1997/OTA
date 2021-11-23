@@ -13,7 +13,7 @@ const ProvideSupportingtools = () => {
                     <Col lg={7} className="m-auto">
                         <Bounce right cascade>
                             <div className="StartUp pt-5 mt-5">
-                                <span class="BgText">{ProvideSupportingTools.heading}</span>
+                                <span className="BgText">{ProvideSupportingTools.heading}</span>
                                 <div className="OurServicesHeadingUl">
                                     <ul>
                                         <Zoom right cascade>
@@ -35,7 +35,7 @@ const ProvideSupportingtools = () => {
                                             })}
                                         </Fade>
                                         <Col lg="3">
-                                            <a href="" class="getStarted-btn">Get Started</a>
+                                            <a href="" className="getStarted-btn">Get Started</a>
                                         </Col>
                                     </ul>
                                 </div>

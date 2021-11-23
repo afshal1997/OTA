@@ -34,7 +34,7 @@ const BlogMainBanner = () => {
                                     </h3>
                                     <Row>
                                         <Col lg={4}>
-                                            <a href="" class="getStarted-btn">Get Started</a>
+                                            <a href="" className="getStarted-btn">Get Started</a>
                                         </Col>
                                     </Row>
                                 </div>

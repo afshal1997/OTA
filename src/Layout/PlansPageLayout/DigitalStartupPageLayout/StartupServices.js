@@ -47,7 +47,7 @@ const StartupServices = () => {
                     <Col lg={7} className="m-auto">
                         <Bounce right cascade>
                             <div className="StartUp pt-5 mt-5">
-                                <span class="BgText">{DevelopBrandPersonal.heading}</span>
+                                <span className="BgText">{DevelopBrandPersonal.heading}</span>
                                 <div className="OurServicesHeadingUl">
                                     <ul>
                                         <Zoom right cascade>

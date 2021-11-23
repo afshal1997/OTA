@@ -8,7 +8,7 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 function Header() {
   const { pathname } = useLocation()
   const [toggleButtonForHamburger, setToggleButtonForHamburger] = useState(false);
-  function scrollWindow() {
+  window.onscroll = function () {
     var navbar = document.querySelector(".mainNav");
     if (window.pageYOffset > 0) {
       navbar.classList.add("scrolled");
@@ -17,12 +17,9 @@ function Header() {
     }
   };
   useEffect(() => {
-    scrollWindow()
-  }, [])
-  useEffect(() => {
     if (toggleButtonForHamburger) {
       setToggleButtonForHamburger(false)
-                    ref.current.classList.remove("collapse");
+      ref.current.click()
 
     }
   }, [pathname])
@@ -36,6 +33,7 @@ function Header() {
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
+            ref={ref}
             onClick={() => {
               setToggleButtonForHamburger(!toggleButtonForHamburger);
             }}
@@ -53,10 +51,6 @@ function Header() {
           </Navbar.Toggle>
           <Navbar.Collapse
             id="responsive-navbar-nav"
-            ref={ref}
-            onClick={() => {
-              ref.current.classList.remove("collapse");
-            }}
           >
             <Nav className="m-auto mobileMenu">
               <NavLink className="nav-link" to="/home">

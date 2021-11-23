@@ -499,6 +499,13 @@ span.read-more-less--more {
   width: 100%;
 }
 
+@media screen and (max-device-width: 991px){
+  body,
+  html{
+    overflow-x: hidden;
+  }
+}
+
 @media screen and (min-device-width: 320px) and (max-device-width: 991px) {
   .plansDropdown:focus::before,
   .plansDropdown:hover::before,
@@ -524,6 +531,27 @@ span.read-more-less--more {
   .planServicesSvg h1{
     font-size: 2rem !important;
     margin-top: -125px !important;
+  }
+
+  .processImg{
+    display: none !important;
+  }
+
+  .CreativeAndDesignMainBanner{
+    height: 100% !important;
+  }
+
+  .CyberSecurityMainBanner,
+  .ContentWrittingMainBanner,
+  .VideoDevelopmentMainBanner,
+  .AppDevelopmentMainBanner,
+  .DigitalMarketingMainBanner,
+  .WebDevelopmentMainBanner{
+    height: 100% !important;
+  }
+
+  .react-tabs{
+    width: 100% !important;
   }
 
 }

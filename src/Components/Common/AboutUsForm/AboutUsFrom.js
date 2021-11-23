@@ -34,7 +34,7 @@ const AboutUsFrom = () => {
                                 aria-describedby="number"
                             />
                         </InputGroup>
-                        <a href="" class="apply-btn mt-5 mb-3">Get Started</a>
+                        <a href="" className="apply-btn mt-5 mb-3">Get Started</a>
                     </Form>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
