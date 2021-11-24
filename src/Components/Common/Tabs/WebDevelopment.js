@@ -1,6 +1,9 @@
 import React from "react";
+import { useDispatch } from "react-redux";
+import { CHANGE_MODAL } from "../../../Store/Action";
 
 const WebDevelopment = () => {
+  const dispatch = useDispatch();
   return (
     <div>
       <div className="pt-3 pb-3">
@@ -26,6 +29,7 @@ const WebDevelopment = () => {
               </ul>
               <a
                 className="PricingApplyNowBtn w-100 p-2"
+                onClick={() => dispatch(CHANGE_MODAL(true))}
                 href="javascript:void(0)"
               >
                 Outsource Now
@@ -53,6 +57,7 @@ const WebDevelopment = () => {
               </ul>
               <a
                 className="PricingApplyNowBtn w-100 p-2"
+                onClick={() => dispatch(CHANGE_MODAL(true))}
                 href="javascript:void(0)"
               >
                 Outsource Now
@@ -73,14 +78,14 @@ const WebDevelopment = () => {
                 <li>Sliding Banner</li>
                 <li>Custom Design</li>
                 <li>Unlimited Revisions</li>
-                <li>(Woo Commerce/Shopify/
-                  PrestaShop/SquareSpace)</li>
+                <li>(Woo Commerce/Shopify/ PrestaShop/SquareSpace)</li>
                 <li>Mobile Responsive</li>
                 <li>Free Logo Design</li>
                 <li>After Sales Support</li>
               </ul>
               <a
                 className="PricingApplyNowBtn w-100 p-2"
+                onClick={() => dispatch(CHANGE_MODAL(true))}
                 href="javascript:void(0)"
               >
                 Outsource Now

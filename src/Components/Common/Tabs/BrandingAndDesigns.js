@@ -1,6 +1,9 @@
-import React from 'react'
+import React from "react";
+import { useDispatch } from "react-redux";
+import { CHANGE_MODAL } from "../../../Store/Action";
 
 const BrandingAndDesigns = () => {
+  const dispatch = useDispatch();
   return (
     <div className="pt-3 pb-3">
       <div className="mt-5 row">
@@ -17,10 +20,11 @@ const BrandingAndDesigns = () => {
               <li>5 Revisions on the Selected one </li>
               <li>100% ownership Rights </li>
               <li>Final Files (JPEG and PSD)</li>
-              <li>24 to 48  Hours Turn around time</li>
+              <li>24 to 48 Hours Turn around time</li>
             </ul>
 
             <a
+              onClick={() => dispatch(CHANGE_MODAL(true))}
               className="PricingApplyNowBtn w-100 p-2"
               href="javascript:void(0)"
             >
@@ -45,6 +49,7 @@ const BrandingAndDesigns = () => {
               <li>Final Files (Ai,Eps,Png,Psd,Jpeg,Pdf)</li>
             </ul>
             <a
+              onClick={() => dispatch(CHANGE_MODAL(true))}
               className="PricingApplyNowBtn w-100 p-2"
               href="javascript:void(0)"
             >
@@ -69,6 +74,7 @@ const BrandingAndDesigns = () => {
             </ul>
 
             <a
+              onClick={() => dispatch(CHANGE_MODAL(true))}
               className="PricingApplyNowBtn w-100 p-2"
               href="javascript:void(0)"
             >
@@ -91,6 +97,7 @@ const BrandingAndDesigns = () => {
               <li>10 revisions on Locked Concept</li>
             </ul>
             <a
+              onClick={() => dispatch(CHANGE_MODAL(true))}
               className="PricingApplyNowBtn w-100 p-2"
               href="javascript:void(0)"
             >
@@ -113,6 +120,7 @@ const BrandingAndDesigns = () => {
               <li>10 revisions on Locked Concept</li>
             </ul>
             <a
+              onClick={() => dispatch(CHANGE_MODAL(true))}
               className="PricingApplyNowBtn w-100 p-2"
               href="javascript:void(0)"
             >
@@ -135,6 +143,7 @@ const BrandingAndDesigns = () => {
               <li>10 revisions on Locked Concept</li>
             </ul>
             <a
+              onClick={() => dispatch(CHANGE_MODAL(true))}
               className="PricingApplyNowBtn w-100 p-2"
               href="javascript:void(0)"
             >
@@ -157,6 +166,7 @@ const BrandingAndDesigns = () => {
               <li>10 revisions on Locked Concept</li>
             </ul>
             <a
+              onClick={() => dispatch(CHANGE_MODAL(true))}
               className="PricingApplyNowBtn w-100 p-2"
               href="javascript:void(0)"
             >
@@ -179,6 +189,7 @@ const BrandingAndDesigns = () => {
               <li>10 revisions on Locked Concept</li>
             </ul>
             <a
+              onClick={() => dispatch(CHANGE_MODAL(true))}
               className="PricingApplyNowBtn w-100 p-2"
               href="javascript:void(0)"
             >
@@ -201,6 +212,7 @@ const BrandingAndDesigns = () => {
               <li>HiRes Printable files</li>
             </ul>
             <a
+              onClick={() => dispatch(CHANGE_MODAL(true))}
               className="PricingApplyNowBtn w-100 p-2"
               href="javascript:void(0)"
             >
@@ -210,7 +222,7 @@ const BrandingAndDesigns = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default BrandingAndDesigns
+export default BrandingAndDesigns;

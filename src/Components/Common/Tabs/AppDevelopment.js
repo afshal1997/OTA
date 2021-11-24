@@ -1,9 +1,12 @@
 import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
+import { useDispatch } from "react-redux";
 import PricingCardImg01 from "../../../Assets/Pricing/PricingCardImg01.png";
 import PricingCardImg02 from "../../../Assets/Pricing/PricingCardImg02.png";
 import PricingCardImg03 from "../../../Assets/Pricing/PricingCardImg03.png";
+import { CHANGE_MODAL } from "../../../Store/Action";
 const AppDevelopment = () => {
+  const dispatch = useDispatch();
   return (
     <div className="pt-5 pb-5">
       <Row>
@@ -19,10 +22,14 @@ const AppDevelopment = () => {
               </div>
               <div className="cardText pt-5 pb-5">
                 <h4>
-                  USD <span className="dollar">$</span>10-15<span className="hour">/hour</span>
+                  USD <span className="dollar">$</span>10-15
+                  <span className="hour">/hour</span>
                 </h4>
-                <h5><b>Android Development</b></h5>
+                <h5>
+                  <b>Android Development</b>
+                </h5>
                 <a
+                  onClick={() => dispatch(CHANGE_MODAL(true))}
                   class="PricingApplyNowBtn w-100 p-2"
                   href="javascript:void(0)"
                 >
@@ -44,10 +51,14 @@ const AppDevelopment = () => {
               </div>
               <div className="centerCard cardText pt-5 pb-5">
                 <h4>
-                  USD <span className="dollar">$</span>10-15<span className="hour">/hour</span>
+                  USD <span className="dollar">$</span>10-15
+                  <span className="hour">/hour</span>
                 </h4>
-                <h5><b>IOS Development</b></h5>
+                <h5>
+                  <b>IOS Development</b>
+                </h5>
                 <a
+                  onClick={() => dispatch(CHANGE_MODAL(true))}
                   class="PricingApplyNowBtn w-100 p-2"
                   href="javascript:void(0)"
                 >
@@ -69,10 +80,14 @@ const AppDevelopment = () => {
               </div>
               <div className="cardText pt-5 pb-5">
                 <h4>
-                  USD <span className="dollar">$</span>20-25<span className="hour">/hour</span>
+                  USD <span className="dollar">$</span>20-25
+                  <span className="hour">/hour</span>
                 </h4>
-                <h5><b>Game Development</b></h5>
+                <h5>
+                  <b>Game Development</b>
+                </h5>
                 <a
+                  onClick={() => dispatch(CHANGE_MODAL(true))}
                   class="PricingApplyNowBtn w-100 p-2"
                   href="javascript:void(0)"
                 >
