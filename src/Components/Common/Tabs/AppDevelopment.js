@@ -19,9 +19,9 @@ const AppDevelopment = () => {
               </div>
               <div className="cardText pt-5 pb-5">
                 <h4>
-                  USD $8-12<span>/hour</span>
+                  USD <span className="dollar">$</span>8-12<span className="hour">/hour</span>
                 </h4>
-                <h5>Android Development</h5>
+                <h5><b>Android Development</b></h5>
                 <a
                   class="PricingApplyNowBtn w-100 p-2"
                   href="javascript:void(0)"
@@ -42,11 +42,11 @@ const AppDevelopment = () => {
                   </Card.Title>
                 </Col>
               </div>
-              <div className="cardText pt-5 pb-5">
+              <div className="centerCard cardText pt-5 pb-5">
                 <h4>
-                  USD $8-12<span>/hour</span>
+                  USD <span className="dollar">$</span>8-12<span className="hour">/hour</span>
                 </h4>
-                <h5>Android Development</h5>
+                <h5><b>IOS Development</b></h5>
                 <a
                   class="PricingApplyNowBtn w-100 p-2"
                   href="javascript:void(0)"
@@ -69,9 +69,9 @@ const AppDevelopment = () => {
               </div>
               <div className="cardText pt-5 pb-5">
                 <h4>
-                  USD $8-12<span>/hour</span>
+                  USD <span className="dollar">$</span>20-22<span className="hour">/hour</span>
                 </h4>
-                <h5>Android Development</h5>
+                <h5><b>Game Development</b></h5>
                 <a
                   class="PricingApplyNowBtn w-100 p-2"
                   href="javascript:void(0)"

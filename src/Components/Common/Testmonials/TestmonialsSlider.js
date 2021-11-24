@@ -36,7 +36,7 @@ const TestmonialsSlider = (props) => {
                         <Col lg={7} className="mt-5 text-center m-auto">
                             <Bounce right>
                                 <p>
-                                    Outsource Any Of Your Project To Us. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                We’ve been the buzz of the town lately. Find out what people are saying about us.
                                 </p>
                             </Bounce>
                         </Col>

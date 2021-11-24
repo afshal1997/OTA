@@ -27,6 +27,7 @@
 .react-tabs__tab p {
     margin-bottom: 0;
     text-align: right;
+    font-weight: 600;
 }
 
 .react-tabs__tab--selected {
@@ -84,8 +85,9 @@
 }
 
 .cardText {
-    background: #0000007a;
+    background: #00000045;
     border-radius: 0 0 20px 20px;
+    min-height: 250px;
 }
 
 .cardText h4 {
@@ -93,10 +95,18 @@
     font-weight: 700;
 }
 
-.cardText h4 span {
+.dollar{
+    font-size: 3rem;
+}
+
+.cardText h4 .hour {
     color: #fff;
     font-weight: 500;
     font-size: 1rem;
+}
+
+.centerCard h4{
+    color: #000;
 }
 
 .TabsCard.TabsCardCenter {
@@ -106,8 +116,9 @@
 
 .PricingCardImg img {
     height: 100%;
-    max-height: 180px;
+    max-height: 140px;
     object-fit: contain;
+    margin: 50px auto;
 }
 
 .TabsCard.TabsCardCenter {

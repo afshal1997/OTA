@@ -96,16 +96,15 @@ function Footer() {
                                 <ul>
                                     <li>
                                         <p>
-                                            Gradsy building, Plot E2, Block 7/8,
-                                            Shahrah-e-Faisal, Karachi Pakistan.
+                                            Suite # 603, 6th Floor, Business Avenue, Block 6, PECHS, Karachi, Pakistan
                                         </p>
                                         <p><a href="mailto:info@outsourcetoasia.co">info@outsourcetoasia.co</a></p>
                                         <p><a href="tel:+92 21-34804850">+92 21-34804850</a></p>
                                     </li>
                                     <li>
                                         <p>
-                                            63 Charles Street Dept. 5001
-                                            New York, NY 10014
+                                            3145 Silbury Hl. Downingtown
+                                            Pennsylvania, 19335
                                         </p>
                                         <p><a href="mailto:info@outsourcetoasia.co">info@outsourcetoasia.co</a></p>
                                         <p><a href="tel:+1 631-250-6471">+1 631-250-6471</a></p>

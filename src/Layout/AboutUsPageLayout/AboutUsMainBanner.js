@@ -23,10 +23,10 @@ const AboutUsMainBanner = () => {
                                             <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">About Us</text>
                                         </g>
                                     </svg>
-                                    <h1>Only Smart Work; </h1>
-                                    <h3>Because It's Better Than Hard Work</h3>
+                                    <h1>Based In Asia</h1>
+                                    <h3>Your Virtual Digital Production Facility</h3>
                                     <p>
-                                        We make sure you wake up with the meaningful insights, a greater reach and greater brand awareness every day.
+                                        We at Outsource to Asia provide our clients with out-of-the-box solutions in the realms of web design, web development, and digital marketing. Our solutions are precisely tuned to the demands of a business and its kind and implemented in a way that encourages business growth and maximizes ROI.
                                     </p>
                                     <Row>
                                         <Col lg={4}>

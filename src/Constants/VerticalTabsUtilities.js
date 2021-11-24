@@ -8,10 +8,10 @@ export const verticalTabsUtilities = [
     tab: "Branding & Design",
     panel: <BrandingAndDesigns />,
   },
-  {
-    tab: "Web Development",
-    panel: <WebDevelopment />,
-  },
+  // {
+  //   tab: "Web Development",
+  //   panel: <WebDevelopment />,
+  // },
   {
     tab: "App Development",
     panel: <AppDevelopment />,

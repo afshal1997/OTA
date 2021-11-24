@@ -294,6 +294,7 @@ a.learn-btn {
     border-radius: 20px;
     transition: 1s;
     margin: 10px auto;
+    font-size: 0.8rem;
     display: block;
     width: 100%;
     text-align: center;
@@ -328,6 +329,7 @@ a.learn-btn:hover {
     text-align: center;
     animation: in-pulse 0.5s;
     transition: background-color 0.5s;
+    font-size: 0.8rem;
 }
 
 
@@ -585,6 +587,8 @@ a.getStarted-btn:hover {
     transition: 1s;
     border-radius: 20px;
     margin: 20px auto;
+    height: 100%;
+    min-height: 340px;
 }
 
 .ourServicesCards:hover {
@@ -596,6 +600,7 @@ a.getStarted-btn:hover {
     color: #fff;
     text-align: center;
     margin-top: 20px;
+    margin: auto;
 }
 
 .cardContent h6 {
@@ -637,6 +642,7 @@ a.readToLearn {
     transition: 0.5s ease all;
     transition: background-color 0.5s;
     animation: out-pulse 0.9s;
+    font-size: 0.8rem;
 }
 
 a.readToLearn:hover {
@@ -687,6 +693,7 @@ a.schedulecall:hover {
     transition: 0.5s ease all;
     transition: background-color 0.5s;
     animation: in-pulse 0.9s;
+    font-size: 0.8rem;
 }
 
 .HomePageBannerFour a.getStarted:hover {
