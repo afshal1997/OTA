@@ -66,12 +66,14 @@ const HomePageBannerFour = () => {
       title: "Cyber Security",
       details:
         "Your virtual Chief Information Security Officer, delivering specialized cyber security expertise to your organization, designing a full-fledged cyber security program, and notably reducing risk.",
+      href: '/cyber-security'
     },
     {
       icon: Icon8,
       title: "Ecommerce",
       details:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting",
+        "An appealing E-Commerce web development is the essence of your business. An exceptional website is more than just a beautiful store. It takes the data and delivers you the information, provides user comfort and builds your brand stronger than ever.",
+      href: "/web-development"
     },
   ];
   const dispatch = useDispatch();
@@ -102,13 +104,7 @@ const HomePageBannerFour = () => {
           </Row>
           <Row>
             <Col></Col>
-            <Col lg={2}>
-              <Bounce>
-                <Link href="/" className="readToLearn">
-                  Read to Learn
-                </Link>
-              </Bounce>
-            </Col>
+
             <Col lg={2}>
               <Bounce>
                 <Link

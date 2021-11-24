@@ -18,8 +18,8 @@ function Footer() {
                 <img className="w-100" src={loGo}></img>
               </div>
               <p>
-                There are many variations of passages of lorem ipsum available,
-                but the majority suffered.
+                Outsource to Asia is a premier full-service digital agency, creating custom strategies for each of our clients based on their needs and goals. We focus on delivering data-driven and result-oriented services that bring revenue and strengthen brand identity.
+
               </p>
             </Col>
             <Col lg={2} className="ps-5">

@@ -14,7 +14,13 @@
     padding: 0;
     color: white;
     background-image: linear-gradient(100deg, #ffffff00, #00000075);
-    margin: auto;
+    margin-top: 60px;
+    height: 100%;
+}
+
+ul.react-tabs__tab-list{
+    position: sticky;
+    top: 130px;
 }
 
 .react-tabs__tab {

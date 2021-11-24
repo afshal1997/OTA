@@ -67,6 +67,7 @@
 
 .portfolioTabs .react-tabs .react-tabs__tab-list {
   flex-direction: row !important;
+  position: static !important;
   background: transparent;
   max-width: 100%;
 }
