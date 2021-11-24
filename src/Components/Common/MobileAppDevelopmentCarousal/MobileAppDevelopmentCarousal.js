@@ -35,6 +35,7 @@ const MobileAppDevelopmentCarousal = () => {
           slidesToScroll: 3,
           infinite: true,
           dots: true,
+          beforeChange: (p, n) => setActiveSlide(n),
         },
       },
       {
@@ -43,6 +44,7 @@ const MobileAppDevelopmentCarousal = () => {
           slidesToShow: 2,
           slidesToScroll: 2,
           initialSlide: 2,
+          beforeChange: (p, n) => setActiveSlide(n),
         },
       },
       {
@@ -50,6 +52,7 @@ const MobileAppDevelopmentCarousal = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          beforeChange: (p, n) => setActiveSlide(n),
         },
       },
     ],

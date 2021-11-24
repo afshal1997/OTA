@@ -167,6 +167,39 @@
   right: 0;
   left: 0;
 }
+.active-video-div::before {
+  content: "";
+  background: url("../../Assets/Portfolio/VideoDevelopment/VideoDevelopment.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 999;
+  background-position: center center;
+  opacity: 0.9;
+  background-size: contain;
+}
+@media screen and (max-width: 991px) {
+  .portfolio-heading svg {
+    font-size: 2.5rem !important;
+  }
+  .PortfolioMainBanner {
+    height: 100%;
+    display: block;
+    z-index: 999;
+    background-position: center center;
+    opacity: 0.9;
+    background-size: contain;
+  }
+
+  .video-development-category .slick-dots {
+    margin: -20px auto;
+  }
+
+  .non-active-video-div {
+    opacity: 0.4;
+  }
+}
 
 @media screen and (max-width: 991px) {
   .portfolio-heading svg {

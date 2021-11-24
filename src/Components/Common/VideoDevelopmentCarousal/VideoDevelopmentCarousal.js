@@ -1,11 +1,17 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Slider from "react-slick/lib/slider";
 import "slick-carousel/slick/slick.css";
-
-const videoMp4 = "https://www.w3schools.com/html/mov_bbb.mp4";
-const videoOgg = "https://www.w3schools.com/html/mov_bbb.ogg";
+import VideoModal from "../VideoModal/VideoModal";
+import LeftImage from '../../../Assets/Portfolio/VideoDevelopment/left-side.jpg'
+import RightSide from '../../../Assets/Portfolio/VideoDevelopment/right-side.jpg'
+import videodeveplaceholder from '../../../Assets/Portfolio/VideoDevelopment/videodeveplaceholder1.jpg'
 const VideoDevelopmentCarousal = () => {
-  const [activeSlide, setActiveSlide] = useState(3);
+  const [activeSlide, setActiveSlide] = useState(0);
+  const [showVideoModal, setVideoModal] = useState(false)
+  const [slideToShow, setSlideToShow] = useState(false)
+  useEffect(() => {
+    setActiveSlide(0)
+  }, [])
   const ref = useRef();
   const settings = {
     className: "center",
@@ -15,6 +21,35 @@ const VideoDevelopmentCarousal = () => {
     slidesToShow: 3,
     speed: 500,
     dots: true,
+    autoplaySpeed: 2000,
+    autoplay: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ],
+
     beforeChange: (p, n) => setActiveSlide(n),
 
     appendDots: (dots) => (
@@ -25,27 +60,32 @@ const VideoDevelopmentCarousal = () => {
     customPaging: (i) => <div className="video-pagination-dots">{""}</div>,
   };
   return (
-    <div className="video-development-category">
+    <div className="video-development-category p-5">
       <Slider {...settings}>
-        {[1, 2, 3, 4, 5].map((slide, idx) => (
+        {[LeftImage, videodeveplaceholder, RightSide, videodeveplaceholder].map((slide, idx) => (
           <div
             key={idx}
             className={
               idx === activeSlide ? "active-video-div" : "non-active-video-div"
             }
             style={{ width: "100%", objectFit: "contain" }}
+            onClick={() => {
+              if (idx === activeSlide) {
+                setVideoModal(true)
+                setSlideToShow(slide)
+              }
+            }}
           >
-            <video
+            <img
               width="400"
               ref={idx === activeSlide ? ref : null}
-              style={{ width: "100%" }}
-            >
-              <source src={videoMp4} type="video/mp4" />
-              <source src={videoOgg} type="video/ogg" />
-            </video>
+              style={{ width: "100%" }} src={slide}
+            />
+
           </div>
         ))}
       </Slider>
+      <VideoModal show={showVideoModal} handleClose={() => { setVideoModal(false) }} image={slideToShow} />
     </div>
   );
 };
