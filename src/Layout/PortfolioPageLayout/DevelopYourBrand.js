@@ -38,7 +38,7 @@ const DevelopYourBrand = () => {
     });
   }, []);
   return (
-    <div className="DevelopYourBrand">
+    <div className="DevelopYourBrand" id="OTAPortfolio">
       <Container>
         <Row>
           <Col lg={6} className="m-auto">

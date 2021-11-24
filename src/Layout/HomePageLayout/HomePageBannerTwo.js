@@ -83,7 +83,7 @@ const HomePageBannerTwo = () => {
                       </p>
                       <Row>
                         <Col lg={4} className="m-auto">
-                          <Link href="" className="learn-btn">
+                          <Link to="/about-us" className="learn-btn">
                             Read to Learn
                           </Link>
                         </Col>

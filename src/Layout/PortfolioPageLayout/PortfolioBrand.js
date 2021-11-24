@@ -49,7 +49,7 @@ const PortfolioBrand = () => {
               </Row>
               <Row>
                 <Col lg={3} className="m-auto mt-3 position-absolute w-75">
-                  <a href="#section2">
+                  <a href="#OTAPortfolio">
                     <i className="fas fa-mouse text-white opaCity-md"></i>
                     <br></br>
                     <i className="fas fa-arrow-down animatedArrow"></i>
