@@ -6,8 +6,9 @@ import loGo from "../../../Assets/logo/logo.png";
 import { Link, NavLink, useLocation } from "react-router-dom";
 
 function Header() {
-  const { pathname } = useLocation()
-  const [toggleButtonForHamburger, setToggleButtonForHamburger] = useState(false);
+  const { pathname } = useLocation();
+  const [toggleButtonForHamburger, setToggleButtonForHamburger] =
+    useState(false);
   window.onscroll = function () {
     var navbar = document.querySelector(".mainNav");
     if (window.pageYOffset > 0) {
@@ -18,12 +19,14 @@ function Header() {
   };
   useEffect(() => {
     if (toggleButtonForHamburger) {
-      setToggleButtonForHamburger(false)
-      ref.current.click()
-
+      setToggleButtonForHamburger(false);
+      ref.current.click();
     }
-  }, [pathname])
+  }, [pathname]);
   const ref = useRef();
+  if (window.location.pathname === "/thank-you") {
+    return <></>;
+  }
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" className="mainNav">
@@ -49,9 +52,7 @@ function Header() {
               ></i>
             </span>
           </Navbar.Toggle>
-          <Navbar.Collapse
-            id="responsive-navbar-nav"
-          >
+          <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="m-auto mobileMenu">
               <NavLink className="nav-link" to="/home">
                 HOME

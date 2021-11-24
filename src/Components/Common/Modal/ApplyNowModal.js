@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Button,
   Col,
@@ -10,9 +10,12 @@ import {
   Row,
 } from "react-bootstrap";
 import { useDispatch } from "react-redux";
+import { useHistory } from "react-router-dom";
+import Zoom from "react-reveal/Zoom";
 import { CHANGE_MODAL } from "../../../Store/Action";
 const ApplyNowModal = ({ show }) => {
-  const [phoneNumber, setPhoneNumber] = useState("");
+  const history = useHistory();
+  const [error, setError] = useState(false);
   const dispatch = useDispatch();
   const handleClose = () => {
     dispatch(CHANGE_MODAL(false));
@@ -23,9 +26,17 @@ const ApplyNowModal = ({ show }) => {
     axios
       .post("https://www.outsourcetoasia.io/sign-up", formData)
       .then((response) => {
-        console.log(response);
+        history.push("/thank-you");
+      })
+      .catch((error) => {
+        setError(true);
       });
   };
+  useEffect(() => {
+    setTimeout(() => {
+      setError(false);
+    }, 6000);
+  }, [error]);
   return (
     <div>
       <Modal
@@ -79,18 +90,15 @@ const ApplyNowModal = ({ show }) => {
                 </InputGroup>
               </Col>
               <Col lg={6}>
-                <div className="input-group">
-                  <input
-                    name="user_phone"
-                    placeholder="Enter Your Phone"
-                    type="number"
-                    aria-label="phone"
-                    aria-describedby="phone"
-                    min="10"
-                    required
-                    className="w-100"
-                  />
-                </div>
+                <input
+                  name="user_phone"
+                  placeholder="Enter Your Phone"
+                  aria-label="phone"
+                  aria-describedby="phone"
+                  minLength="10"
+                  required
+                  className="w-100"
+                />
               </Col>
             </Row>
             <Row>
@@ -113,6 +121,13 @@ const ApplyNowModal = ({ show }) => {
                 Submit
               </Button>
             </div>
+            {error && (
+              <div class="alert alert-danger" role="alert">
+                <Zoom right cascade>
+                  There is an error in the form. Please fill the form correctly.
+                </Zoom>
+              </div>
+            )}
           </Form>
         </Modal.Body>
       </Modal>

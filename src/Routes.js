@@ -16,7 +16,7 @@ import Pricing from "./Components/Pages/Pricing";
 import Blog from "./Components/Pages/Blog";
 import Contact from "./Components/Pages/Contact";
 import Portfolio from "./Components/Pages/Portfolio";
-
+import ThankYou from "./Layout/ThankYou/ThankYou";
 const routes = [
   {
     path: "/",
@@ -110,6 +110,11 @@ const routes = [
     path: "/portfolio",
     exact: true,
     component: Portfolio,
+  },
+  {
+    path: "/thank-you",
+    exact: true,
+    component: ThankYou,
   },
 ];
 export default routes;
