@@ -323,7 +323,9 @@ a.nav-link:hover {
   font-size: 25px;
   margin: auto;
 }
-
+.applyNow input:focus {
+  box-shadow: none !important;
+}
 .applyNow input::placeholder {
   color: #87b8da;
 }
@@ -538,6 +540,9 @@ span.read-more-less--more {
 }
 .font-size-14 {
   font-size: 14px !important;
+}
+.font-size-24 {
+  font-size: 24px !important;
 }
 
 @media screen and (max-device-width: 991px) {

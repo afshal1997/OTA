@@ -1,7 +1,6 @@
-
-export const CHNAGE_VALUE=(value)=>{
-    return{
-        type:"CHNAGE_VALUE",
-        payload:value
-    }
-}
+export const CHANGE_MODAL = (value) => {
+  return {
+    type: "CHANGE_MODAL",
+    payload: value,
+  };
+};
