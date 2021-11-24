@@ -7,10 +7,9 @@ const index = () => {
             <Container fluid>
                 <div className="mainBannerSocialMediaIcons">
                     <ul>
-                        <li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
-                        <li><a href="/"><i className="fab fa-twitter"></i></a></li>
-                        <li><a href="/"><i className="fab fa-instagram"></i></a></li>
-                        <li><a href="/"><i className="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.facebook.com/outsourcetoasiallc/"><i className="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/outsourcetoasia/?utm_medium=copy_link"><i className="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/outsource-to-asia"><i className="fab fa-linkedin-in"></i></a></li>
                     </ul>
                 </div>
                 <div className="mainBannerContact">

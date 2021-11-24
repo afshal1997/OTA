@@ -9,7 +9,8 @@ const ClientSlider = () => {
         arrows: false,
         slidesToShow: 4,
         autoplay: true,
-        autoplaySpeed: 2000,
+        speed: 3000,
+        autoplaySpeed: 3000,
         pauseOnHover: true,
         responsive: [
             {

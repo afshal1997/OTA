@@ -70,6 +70,13 @@
     background-repeat: no-repeat;
 }
 
+.slideImgBg02 {
+    background: url('../../../Assets/HomeAssets/solutionSliderimg02.png');
+    background-position: left;
+    background-size: 70% 150%;
+    background-repeat: no-repeat;
+}
+
 @media screen and (max-device-width: 1024px) {
     .verticalSettingsContent {
         max-width: 80% !important;
@@ -79,15 +86,20 @@
 
 @media screen and (max-device-width: 480px) {
 
-    .slideImgBg{
+    .slideImgBg,
+    .slideImgBg02{
         background-position: top left;
         background-size: cover;
+    }
+
+    .sliderbg1 svg {
+        font-size: 4rem;
     }
 
     .verticalSettings .slick-slide img {
         max-height: 510px;
         min-height: 510px;
-        object-fit: cover;
+        object-fit: contain;
         object-position: left;
     }
 

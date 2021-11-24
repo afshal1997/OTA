@@ -52,7 +52,7 @@ const TestmonialsSlider = (props) => {
                                                 <Col lg={3} className="m-auto col-3">
                                                     <img className="w-100" src={client_1} alt=""></img>
                                                 </Col>
-                                                <Col lg={9} className="col-9">
+                                                <Col lg={9} className="col-10 m-auto">
                                                     <h3>{props.testmonialTitle.Client1}</h3>
                                                     <h5>{props.testmonialTitle.ClientDesignation1}</h5>
                                                 </Col>
@@ -68,7 +68,7 @@ const TestmonialsSlider = (props) => {
                                                 <Col lg={3} className="m-auto col-2">
                                                     <img className="w-100" src={client_2} alt=""></img>
                                                 </Col>
-                                                <Col lg={9} className="col-10">
+                                                <Col lg={9} className="col-10 m-auto">
                                                     <h3>{props.testmonialTitle.Client2}</h3>
                                                     <h5>{props.testmonialTitle.ClientDesignation2}</h5>
                                                 </Col>
@@ -84,7 +84,7 @@ const TestmonialsSlider = (props) => {
                                                 <Col lg={3} className="m-auto col-2">
                                                     <img className="w-100" src={client_3} alt=""></img>
                                                 </Col>
-                                                <Col lg={9} className="col-10">
+                                                <Col lg={9} className="col-10 m-auto">
                                                     <h3>{props.testmonialTitle.Client3}</h3>
                                                     <h5>{props.testmonialTitle.ClientDesignation3}</h5>
                                                 </Col>
@@ -100,7 +100,7 @@ const TestmonialsSlider = (props) => {
                                                 <Col lg={3} className="m-auto col-2">
                                                     <img className="w-100" src={client_2} alt=""></img>
                                                 </Col>
-                                                <Col lg={9} className="col-10">
+                                                <Col lg={9} className="col-10 m-auto">
                                                     <h3>{props.testmonialTitle.Client2}</h3>
                                                     <h5>{props.testmonialTitle.ClientDesignation2}</h5>
                                                 </Col>

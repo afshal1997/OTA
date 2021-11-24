@@ -6,7 +6,12 @@ import { connect } from "react-redux";
 import Footer from "./Components/Common/Footer";
 import Header from "./Components/Common/Header";
 import ScrollToTop from "./Components/Common/ScrollToTop";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <>
       <Router>
