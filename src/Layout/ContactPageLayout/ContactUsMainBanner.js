@@ -1,9 +1,11 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { useDispatch } from "react-redux";
 import AboutUsForm from "../../Components/Common/AboutUsForm/AboutUsFrom";
 import SocialMediaContact from "../../Components/Common/SocialMediaContact";
-
+import { CHANGE_MODAL } from "../../Store/Action";
 const ContactUsMainBanner = () => {
+  const dispatch = useDispatch();
   return (
     <div>
       <div className="contactUsPageBanner">
@@ -43,7 +45,11 @@ const ContactUsMainBanner = () => {
                   </p>
                   <Row>
                     <Col lg={4}>
-                      <a href="" className="getStarted-btn">
+                      <a
+                        href="#"
+                        onClick={() => dispatch(CHANGE_MODAL(true))}
+                        className="getStarted-btn"
+                      >
                         Get Started
                       </a>
                     </Col>
