@@ -6,9 +6,15 @@ import { connect, useDispatch, useSelector } from "react-redux";
 import Footer from "./Components/Common/Footer";
 import Header from "./Components/Common/Header";
 import ScrollToTop from "./Components/Common/ScrollToTop";
+import AOS from 'aos';
+import 'aos/dist/aos.css';  
 import ApplyNowModal from "./Components/Common/Modal/ApplyNowModal";
+
 function App() {
   const { modalReducer } = useSelector((state) => state);
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <>
       <Router>

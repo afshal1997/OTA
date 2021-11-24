@@ -9,15 +9,15 @@ const BrandingAndDesigns = () => {
             <div className="PackageAndPricing">
               <h4>Logo Design (simple)</h4>
               <h3>
-                <span>USD -</span>$50{" "}
+                <span>USD -</span>$60{" "}
               </h3>
             </div>
             <ul>
-              <li>2 Original Logo Concepts</li>
-              <li>4 Revisions</li>
-              <li>100% Ownership Rights</li>
-              <li> JPEG and PSD</li>
-              <li>48-72 Hours Turn Around Time</li>
+              <li>3 original Concepts </li>
+              <li>5 Revisions on the Selected one </li>
+              <li>100% ownership Rights </li>
+              <li>Final Files (JPEG and PSD)</li>
+              <li>24 to 48  Hours Turn around time</li>
             </ul>
 
             <a
@@ -33,20 +33,39 @@ const BrandingAndDesigns = () => {
             <div className="PackageAndPricing">
               <h4>Mascot Logo</h4>
               <h3>
-                <span>USD -</span>$150{" "}
+                <span>USD -</span>$180{" "}
               </h3>
             </div>
             <ul>
-              <li>(1) Mascot Logo</li>
-              <li>10 Revisions</li>
-              <li>Hand drawn Sketch</li>
-              <li>Presentation on mockup</li>
-              <li>2 days' time delivery</li>
-              <li>Revision time Delivery (24 hours)</li>
-              <li>Mobile Responsive</li>
-              <li>Free Logo Design</li>
-              <li>After Sales Support</li>
-              <li> File Formats: Ai,Eps,Png,Psd,Jpeg,Pdf</li>
+              <li>2 Mascot Logo</li>
+              <li>15 Revisions on the selected one</li>
+              <li>1 day time delivery</li>
+              <li>48 hrs Revision time Delivery</li>
+              <li>100% ownership Rights</li>
+              <li>Final Files (Ai,Eps,Png,Psd,Jpeg,Pdf)</li>
+            </ul>
+            <a
+              className="PricingApplyNowBtn w-100 p-2"
+              href="javascript:void(0)"
+            >
+              Outsource Now
+            </a>
+          </div>
+        </div>
+        <div className="text-center col-lg-4 mb-5">
+          <div className="card PricingCard BrandFont pt-0 ">
+            <div className="PackageAndPricing">
+              <h4>Hand Drawn Sketch Logo (Starting from)</h4>
+              <h3>
+                <span>USD -</span>$250{" "}
+              </h3>
+            </div>
+            <ul>
+              <li>2 Concepts hand drawn </li>
+              <li>20 revisions </li>
+              <li>3 days delivery time</li>
+              <li>3 days revision time</li>
+              <li>Final files (Ai,EPS,PNG,PsSD,JPEG,PDF)</li>
             </ul>
 
             <a
@@ -60,18 +79,127 @@ const BrandingAndDesigns = () => {
         <div className="text-center col-lg-4 mb-5">
           <div className="card PricingCard BrandFont pt-0 ">
             <div className="PackageAndPricing">
-              <h4>Flyer (Single Leaflet)</h4>
+              <h4>Flyer (Single Side Leaflet)</h4>
               <h3>
-                <span>USD -</span>$50{" "}
+                <span>USD -</span>$80{" "}
               </h3>
             </div>
             <ul>
-              <li>1 Design Concept</li>
-              <li>Turn Around 48-72 Hours</li>
-              <li>1 Stock Photo</li>
-              <li>Free Unlimited Revisions</li>
+              <li>2 Concepts </li>
+              <li>Turn around time 48 to 72 hrs </li>
+              <li>1 Stock Photo </li>
+              <li>10 revisions on Locked Concept</li>
             </ul>
-
+            <a
+              className="PricingApplyNowBtn w-100 p-2"
+              href="javascript:void(0)"
+            >
+              Outsource Now
+            </a>
+          </div>
+        </div>
+        <div className="text-center col-lg-4 mb-5">
+          <div className="card PricingCard BrandFont pt-0 ">
+            <div className="PackageAndPricing">
+              <h4>Flyer (2 sides Leaflet)</h4>
+              <h3>
+                <span>USD -</span>$120{" "}
+              </h3>
+            </div>
+            <ul>
+              <li>2 Concepts </li>
+              <li>Turn Around time 48 to 72 hrs </li>
+              <li>3 Stock Photo </li>
+              <li>10 revisions on Locked Concept</li>
+            </ul>
+            <a
+              className="PricingApplyNowBtn w-100 p-2"
+              href="javascript:void(0)"
+            >
+              Outsource Now
+            </a>
+          </div>
+        </div>
+        <div className="text-center col-lg-4 mb-5">
+          <div className="card PricingCard BrandFont pt-0 ">
+            <div className="PackageAndPricing">
+              <h4>Brochure (double side front and Back)</h4>
+              <h3>
+                <span>USD -</span>$80{" "}
+              </h3>
+            </div>
+            <ul>
+              <li>2 Concepts </li>
+              <li>Turn Around time 48 to 72 hrs </li>
+              <li>2 Stock Photo</li>
+              <li>10 revisions on Locked Concept</li>
+            </ul>
+            <a
+              className="PricingApplyNowBtn w-100 p-2"
+              href="javascript:void(0)"
+            >
+              Outsource Now
+            </a>
+          </div>
+        </div>
+        <div className="text-center col-lg-4 mb-5">
+          <div className="card PricingCard BrandFont pt-0 ">
+            <div className="PackageAndPricing">
+              <h4>Brochure (2 fold)</h4>
+              <h3>
+                <span>USD -</span>$120{" "}
+              </h3>
+            </div>
+            <ul>
+              <li>2 Concepts </li>
+              <li>Turn Around time 48 to 72 hrs </li>
+              <li>3 Stock Photo </li>
+              <li>10 revisions on Locked Concept</li>
+            </ul>
+            <a
+              className="PricingApplyNowBtn w-100 p-2"
+              href="javascript:void(0)"
+            >
+              Outsource Now
+            </a>
+          </div>
+        </div>
+        <div className="text-center col-lg-4 mb-5">
+          <div className="card PricingCard BrandFont pt-0 ">
+            <div className="PackageAndPricing">
+              <h4>Brochure (3 fold)</h4>
+              <h3>
+                <span>USD -</span>$160{" "}
+              </h3>
+            </div>
+            <ul>
+              <li>2 Concepts </li>
+              <li>Turn Around time 48 to 72 hrs</li>
+              <li>3 Stock Photo</li>
+              <li>10 revisions on Locked Concept</li>
+            </ul>
+            <a
+              className="PricingApplyNowBtn w-100 p-2"
+              href="javascript:void(0)"
+            >
+              Outsource Now
+            </a>
+          </div>
+        </div>
+        <div className="text-center col-lg-4 mb-5">
+          <div className="card PricingCard BrandFont pt-0 ">
+            <div className="PackageAndPricing">
+              <h4>Standy Design</h4>
+              <h3>
+                <span>USD -</span>$120{" "}
+              </h3>
+            </div>
+            <ul>
+              <li>Complete size design</li>
+              <li>Proper Content alignment </li>
+              <li>10 revisions on Locked Concept</li>
+              <li>HiRes Printable files</li>
+            </ul>
             <a
               className="PricingApplyNowBtn w-100 p-2"
               href="javascript:void(0)"

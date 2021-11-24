@@ -189,7 +189,7 @@
     z-index: 999;
     background-position: center center;
     opacity: 0.9;
-    background-size: contain;
+    background-size: cover;
   }
 
   .video-development-category .slick-dots {

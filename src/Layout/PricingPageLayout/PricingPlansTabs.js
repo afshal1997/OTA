@@ -35,7 +35,7 @@ const PricingPlansTabs = () => {
                                 <h5><i><b>Introducing Outsource to asia new pricing packages.</b></i></h5>
                                 <h6>
                                     <b>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                        We are driven by our passion for our work and by our inquisitiveness to explore the use of tools and techniques that work best in the digital world. Many companies may be initially inexpensive, but they are not affordable throughout the course of your project! When you add up all of the features and services we provide, you get a bargain that none of our rivals can match.
                                     </b>
                                 </h6>
                             </div>
