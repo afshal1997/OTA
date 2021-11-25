@@ -25,6 +25,18 @@ const testmonialsSliderData = {
         "Our Journey started with small projects and after seeing their skills and dedication, I felt I can  do more work with them. They have a great team and provide amazing work on time. Their Project Managers are always very concerned about delivery and quality of work, and they are easy to reach and communicate with. It feels as though they are sitting next to me. I highly recommend their services to anyone looking to outsource and scale their business. I have also provided a Video Testimony to them.",
     Client3: " Jensen ",
     ClientDesignation3: " Founder of Adzum, LLC. ",
+    Paragraph4:
+        "I was struggling to get a website done for my business “Millenial Business Services” and then I came across “Outsource to Asia” on Instagram. After contacting them and discussing what I needed, they quickly provided a mock up for my site that literally needed little revision. They worked fast to get it completed, and their rates were very affordable for the quality of work they provided. The customer service experience was exceptional, and they never said no to any request which is amazing! They get the job done no matter how small, large, or challenging. I will always recommend their services to others.",
+    Client4: "Maylela Moran",
+    ClientDesignation4: " Founder of Millenial Business Services ",
+    Paragraph5:
+        " “I searched for more than just help with my website and scaling my business.I searched for and found a partner in growth and success.After interviewing other candidates it became obvious that Outsource To Asia was the perfect fit.” They are a one stop solution for multiple dimensions of online success.",
+    Client5: "Rick Lamanna",
+    ClientDesignation5: " Founder of Proform 360 ",
+    Paragraph6:
+        " They did a great job with my logo. They are creative and hard working. Would definitely recommend.",
+    Client6: "Stanley Julien",
+    ClientDesignation6: " Founder of Fitness Core Shop ",
 
 }
 
