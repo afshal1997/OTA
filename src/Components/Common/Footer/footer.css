@@ -1,20 +1,21 @@
 .logo img {
-    max-width: 250px;
-    margin: auto;
+  max-width: 150px;
+  margin: auto;
+  height: 50px;
 }
 
 .footer h6 {
-    font-weight: 600;
-    font-size: 1.09rem;
+  font-weight: 600;
+  font-size: 1.09rem;
 }
 
 .footerUl ul li a {
-    transition: 1s;
-    font-size: 0.9rem;
+  transition: 1s;
+  font-size: 0.9rem;
 }
 
 .footerUl ul li a:hover {
-    color: #fff;
-    padding-left: 4px;
-    transition: 1s;
+  color: #fff;
+  padding-left: 4px;
+  transition: 1s;
 }

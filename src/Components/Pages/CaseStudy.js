@@ -36,7 +36,6 @@ const CaseStudy = () => {
   return (
     <>
       <CaseStudyBanner />
-      <HomePageBannerThree />
       <CaseStudies />
       <WhiteLabellingPackages />
       <ClientSlider />

@@ -23,12 +23,22 @@ const ApplyNowModal = ({ show }) => {
   const submitContactForm = (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
-    let obj = {}
+    let obj = {};
     for (var pair of formData.entries()) {
-      obj[pair[0]] = pair[1]
+      obj[pair[0]] = pair[1];
     }
+    const config = {
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
+      },
+    };
     axios
-      .get(`http://api.outsourcetoasia.io/index.php?name=${obj.user_name}&email=${obj.user_email}&phone=${obj.user_phone}&company=${obj.user_company}&message=${obj.user_message}`, formData)
+      .get(
+        `http://api.outsourcetoasia.io/index.php?name=${obj.user_name}&email=${obj.user_email}&phone=${obj.user_phone}&company=${obj.user_company}&message=${obj.user_message}`,
+        formData,
+        config
+      )
       .then((response) => {
         history.push("/thank-you");
       })

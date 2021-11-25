@@ -1,10 +1,15 @@
 import React, { useEffect } from "react";
 import { Link, useHistory } from "react-router-dom";
 import Heading from "../../Components/Common/PagesHeadings/Heading";
-
 const ThankYou = () => {
   const history = useHistory();
   useEffect(() => {
+    const script = document.createElement("script");
+
+    script.src = "./StatsScript.js";
+
+    script.async = true;
+    document.body.appendChild(script);
     setTimeout(() => {
       history.push("/home");
     }, 3000);

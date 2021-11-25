@@ -16,8 +16,8 @@ function Footer() {
         <Container>
           <Row>
             <Col lg={3} className="pr-4 pl-4">
-              <div className="logo">
-                <img className="w-100" src={loGo}></img>
+              <div className="logo mb-3">
+                <img className="w-100" width="" src={loGo}></img>
               </div>
               <p>
                 Outsource to Asia is a premier full-service digital agency,
@@ -58,9 +58,6 @@ function Footer() {
                   </li>
                   <li>
                     <Link to="/terms-and-conditions">Terms & Conditions</Link>
-                  </li>
-                  <li>
-                    <Link to="/">Security Policy</Link>
                   </li>
                   <li>
                     <Link to="/privacy-policy">Privacy Policy</Link>
@@ -106,7 +103,15 @@ function Footer() {
                   <li>
                     <Row>
                       <Col lg={9}>
-                        <p>3145 Silbury Hl. Downingtown Pennsylvania, 19335</p>
+                        <p
+                          onClick={() =>
+                            window.open(
+                              "https://www.google.com/maps/place/3145+Silbury+Hill,+Downingtown,+PA+19335,+USA/@39.986511,-75.7625718,17z/data=!3m1!4b1!4m5!3m4!1s0x89c658d7df8cb7c5:0x8424ebb4ac3faaa4!8m2!3d39.986511!4d-75.7603831"
+                            )
+                          }
+                        >
+                          3145 Silbury Hl. Downingtown Pennsylvania, 19335
+                        </p>
                         <p>
                           <a href="mailto:info@outsourcetoasia.co">
                             info@outsourcetoasia.co
@@ -124,7 +129,13 @@ function Footer() {
                   <li>
                     <Row>
                       <Col lg={9}>
-                        <p>
+                        <p
+                          onClick={() =>
+                            window.open(
+                              "https://www.google.com/maps/search/Suite+%23+603,+6th+Floor,+Business+Avenue,+Block+6,+PECHS,+Karachi,+Pakistan+/@24.8621898,67.0696829,17z/data=!3m1!4b1"
+                            )
+                          }
+                        >
                           Suite # 603, 6th Floor, Business Avenue, Block 6,
                           PECHS, Karachi, Pakistan
                         </p>
@@ -134,7 +145,7 @@ function Footer() {
                           </a>
                         </p>
                         <p>
-                          <a href="tel:+92 21-34804850">+92 21-34804850</a>
+                          <a href="tel:02133374275">021-333-74275</a>
                         </p>
                       </Col>
                       <Col lg={3} className="m-auto">

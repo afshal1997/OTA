@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import "./PortfolioPageLayout.css";
@@ -32,6 +32,7 @@ import BrandingAndCreativeImg06 from "../../Assets/Portfolio/BrandingAndCreative
 import VideoDevelopmentCarousal from "../../Components/Common/VideoDevelopmentCarousal/VideoDevelopmentCarousal";
 import MobileAppDevelopmentCarousal from "../../Components/Common/MobileAppDevelopmentCarousal/MobileAppDevelopmentCarousal";
 const DevelopYourBrand = () => {
+  const [addMoreLogos, setMoreLogos] = useState(false);
   useEffect(() => {
     AOS.init({
       duration: 2000,
@@ -121,7 +122,11 @@ const DevelopYourBrand = () => {
                 </Col>
                 <Col lg={4}>
                   <div className="portfolioTabsCards">
-                    <img className="w-100" src={FamilyGovernmentAgency} alt="" ></img>
+                    <img
+                      className="w-100"
+                      src={FamilyGovernmentAgency}
+                      alt=""
+                    ></img>
                   </div>
                 </Col>
               </Row>
@@ -201,6 +206,15 @@ const DevelopYourBrand = () => {
                       alt=""
                     ></img>
                   </div>
+                </Col>
+                {addMoreLogos && <p>test</p>}
+                <Col lg={2} className="m-auto">
+                  <a
+                    className="getStarted-btn"
+                    onClick={() => setMoreLogos(!addMoreLogos)}
+                  >
+                    {!addMoreLogos ? "LOAD MORE" : "SHOW LESS"}
+                  </a>
                 </Col>
               </Row>
             </TabPanel>

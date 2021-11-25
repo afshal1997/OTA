@@ -17,6 +17,14 @@ const index = () => {
             </li>
             <li>
               <a
+                href="https://www.linkedin.com/company/outsource-to-asia"
+                target="_blank"
+              >
+                <i className="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://www.instagram.com/outsourcetoasia/?utm_medium=copy_link"
                 target="_blank"
               >
@@ -24,11 +32,8 @@ const index = () => {
               </a>
             </li>
             <li>
-              <a
-                href="https://www.linkedin.com/company/outsource-to-asia"
-                target="_blank"
-              >
-                <i className="fab fa-linkedin-in"></i>
+              <a href="#" target="_blank">
+                <i className="fab fa-youtube"></i>
               </a>
             </li>
           </ul>
