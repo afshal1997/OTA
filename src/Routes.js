@@ -14,6 +14,7 @@ import AppDevelopment from "./Components/Pages/AppDevelopment";
 import VideoDevelopment from "./Components/Pages/VideoDevelopment";
 import PrivacyPolicy from "./Components/Pages/PrivacyPolicy";
 import RefundPolicy from "./Components/Pages/RefundPolicy";
+import TermAndConditions from "./Components/Pages/TermAndConditions";
 import Pricing from "./Components/Pages/Pricing";
 import Blog from "./Components/Pages/Blog";
 import Contact from "./Components/Pages/Contact";
@@ -128,6 +129,11 @@ const routes = [
     path: "/refund-policy",
     exact: true,
     component: RefundPolicy,
+  },
+  {
+    path: "/terms-and-conditions",
+    exact: true,
+    component: TermAndConditions,
   },
   {
     path: "/thank-you",

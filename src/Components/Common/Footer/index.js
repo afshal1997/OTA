@@ -57,7 +57,7 @@ function Footer() {
                     <Link to="/digital-startup">Digital Startup</Link>
                   </li>
                   <li>
-                    <Link to="/">Terms & Conditions</Link>
+                    <Link to="/terms-and-conditions">Terms & Conditions</Link>
                   </li>
                   <li>
                     <Link to="/">Security Policy</Link>
@@ -161,16 +161,25 @@ function Footer() {
             </Col>
             <Col lg={4}>
               <div className="footerSocialLink text-center">
-                <a href="#">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/outsourcetoasiallc/"
+                >
                   <i className="fab fa-facebook"></i>
                 </a>
-                <a href="#">
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/outsourcetoasia/?utm_medium=copy_link"
+                >
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a href="#">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/company/outsource-to-asia"
+                >
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="#">
+                <a target="_blank" href="#">
                   <i className="fab fa-youtube"></i>
                 </a>
               </div>
