@@ -39,7 +39,7 @@ const TabLeadGeneration = () => {
               href="javascript:void(0)"
               onClick={() => dispatch(CHANGE_MODAL(true))}
             >
-              Outsource Now
+              Sign-Up
             </a>
           </div>
         </div>
@@ -85,7 +85,7 @@ const TabLeadGeneration = () => {
               href="javascript:void(0)"
               onClick={() => dispatch(CHANGE_MODAL(true))}
             >
-              Outsource Now
+              Sign-Up
             </a>
           </div>
         </div>
@@ -144,7 +144,7 @@ const TabLeadGeneration = () => {
               href="javascript:void(0)"
               onClick={() => dispatch(CHANGE_MODAL(true))}
             >
-              Outsource Now
+              Sign-Up
             </a>
           </div>
         </div>

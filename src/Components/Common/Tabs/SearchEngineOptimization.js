@@ -33,7 +33,7 @@ const SearchEngineOptimization = () => {
                 href="javascript:void(0)"
                 onClick={() => dispatch(CHANGE_MODAL(true))}
               >
-                Outsource Now
+                Sign-Up
               </a>
             </div>
           </div>
@@ -62,7 +62,7 @@ const SearchEngineOptimization = () => {
                 href="javascript:void(0)"
                 onClick={() => dispatch(CHANGE_MODAL(true))}
               >
-                Outsource Now
+                Sign-Up
               </a>
             </div>
           </div>
@@ -91,7 +91,7 @@ const SearchEngineOptimization = () => {
                 href="javascript:void(0)"
                 onClick={() => dispatch(CHANGE_MODAL(true))}
               >
-                Outsource Now
+                Sign-Up
               </a>
             </div>
           </div>

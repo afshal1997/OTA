@@ -28,7 +28,7 @@ const BrandingAndDesigns = () => {
               className="PricingApplyNowBtn w-100 p-2"
               href="javascript:void(0)"
             >
-              Outsource Now
+              Sign-Up
             </a>
           </div>
         </div>
@@ -53,7 +53,7 @@ const BrandingAndDesigns = () => {
               className="PricingApplyNowBtn w-100 p-2"
               href="javascript:void(0)"
             >
-              Outsource Now
+              Sign-Up
             </a>
           </div>
         </div>
@@ -78,7 +78,7 @@ const BrandingAndDesigns = () => {
               className="PricingApplyNowBtn w-100 p-2"
               href="javascript:void(0)"
             >
-              Outsource Now
+              Sign-Up
             </a>
           </div>
         </div>
@@ -101,7 +101,7 @@ const BrandingAndDesigns = () => {
               className="PricingApplyNowBtn w-100 p-2"
               href="javascript:void(0)"
             >
-              Outsource Now
+              Sign-Up
             </a>
           </div>
         </div>
@@ -124,7 +124,7 @@ const BrandingAndDesigns = () => {
               className="PricingApplyNowBtn w-100 p-2"
               href="javascript:void(0)"
             >
-              Outsource Now
+              Sign-Up
             </a>
           </div>
         </div>
@@ -147,7 +147,7 @@ const BrandingAndDesigns = () => {
               className="PricingApplyNowBtn w-100 p-2"
               href="javascript:void(0)"
             >
-              Outsource Now
+              Sign-Up
             </a>
           </div>
         </div>
@@ -170,7 +170,7 @@ const BrandingAndDesigns = () => {
               className="PricingApplyNowBtn w-100 p-2"
               href="javascript:void(0)"
             >
-              Outsource Now
+              Sign-Up
             </a>
           </div>
         </div>
@@ -193,7 +193,7 @@ const BrandingAndDesigns = () => {
               className="PricingApplyNowBtn w-100 p-2"
               href="javascript:void(0)"
             >
-              Outsource Now
+              Sign-Up
             </a>
           </div>
         </div>
@@ -216,7 +216,7 @@ const BrandingAndDesigns = () => {
               className="PricingApplyNowBtn w-100 p-2"
               href="javascript:void(0)"
             >
-              Outsource Now
+              Sign-Up
             </a>
           </div>
         </div>

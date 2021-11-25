@@ -30,7 +30,7 @@ const SocialMediaMarketing = () => {
                 onClick={() => dispatch(CHANGE_MODAL(true))}
                 href="javascript:void(0)"
               >
-                Outsource Now
+                Sign-Up
               </a>
             </div>
           </div>
@@ -56,7 +56,7 @@ const SocialMediaMarketing = () => {
                 onClick={() => dispatch(CHANGE_MODAL(true))}
                 href="javascript:void(0)"
               >
-                Outsource Now
+                Sign-Up
               </a>
             </div>
           </div>
@@ -86,7 +86,7 @@ const SocialMediaMarketing = () => {
                 onClick={() => dispatch(CHANGE_MODAL(true))}
                 href="javascript:void(0)"
               >
-                Outsource Now
+                Sign-Up
               </a>
             </div>
           </div>
