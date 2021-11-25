@@ -213,7 +213,7 @@ const DevelopYourBrand = () => {
                     ></img>
                   </div>
                 </Col>
-                {addMoreLogos && (
+                {
                   <>
                     <Row>
                       <Col lg={4}>
@@ -274,18 +274,8 @@ const DevelopYourBrand = () => {
                       </Col>
                     </Row>
                   </>
-                )}
+                }
               </Row>
-
-              <Col lg={2} className="m-auto">
-                <a
-                  href="#ct-ds"
-                  className="getStarted-btn"
-                  onClick={() => setMoreLogos(!addMoreLogos)}
-                >
-                  {!addMoreLogos ? "LOAD MORE" : "SHOW LESS"}
-                </a>
-              </Col>
             </TabPanel>
             <TabPanel>
               <MobileAppDevelopmentCarousal />

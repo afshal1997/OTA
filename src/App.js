@@ -23,7 +23,7 @@ function App() {
         localStorage.setItem("welcome-popup", true);
         setPopup(false);
         dispatch(CHANGE_MODAL(true));
-      }, 8000);
+      }, 15000);
     }
   }, []);
   return (
