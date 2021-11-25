@@ -84,7 +84,7 @@ const DevelopYourBrand = () => {
               <Tab>BRANDING & CREATIVE</Tab>
               <Tab>MOBILE APPS</Tab>
               <Tab>SOCIAL MEDIA</Tab>
-              <Tab>VIDEO DEVELOPMENT</Tab>
+              {/* <Tab>VIDEO DEVELOPMENT</Tab> */}
             </TabList>
             <TabPanel>
               <Row>
@@ -121,11 +121,7 @@ const DevelopYourBrand = () => {
                 </Col>
                 <Col lg={4}>
                   <div className="portfolioTabsCards">
-                    <img
-                      className="w-100"
-                      src={FamilyGovernmentAgency}
-                      alt=""
-                    ></img>
+                    <img className="w-100" src={FamilyGovernmentAgency} alt="" ></img>
                   </div>
                 </Col>
               </Row>

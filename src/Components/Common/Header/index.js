@@ -107,6 +107,9 @@ function Header() {
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
+              <NavLink className="nav-link" to="/case-studies">
+                Case Studies
+              </NavLink>
               <NavLink className="nav-link" to="/pricing">
                 PRICING
               </NavLink>
