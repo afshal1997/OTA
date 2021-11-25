@@ -102,7 +102,7 @@ function Footer() {
                 <ul>
                   <li>
                     <Row>
-                      <Col lg={9}>
+                      <Col lg={9} className="col-9">
                         <p
                           onClick={() =>
                             window.open(
@@ -121,14 +121,14 @@ function Footer() {
                           <a href="tel:+1 631-250-6471">+1 631-250-6471</a>
                         </p>
                       </Col>
-                      <Col lg={3}>
+                      <Col lg={3} className="col-3">
                         <img className="w-100" src={Pennsylvania} alt=""></img>
                       </Col>
                     </Row>
                   </li>
                   <li>
                     <Row>
-                      <Col lg={9}>
+                      <Col lg={9} className="col-9">
                         <p
                           onClick={() =>
                             window.open(
@@ -148,7 +148,7 @@ function Footer() {
                           <a href="tel:02133374275">021-333-74275</a>
                         </p>
                       </Col>
-                      <Col lg={3} className="m-auto">
+                      <Col lg={3} className="col-3 m-auto">
                         <img className="w-100" src={Pakistan} alt=""></img>
                       </Col>
                     </Row>

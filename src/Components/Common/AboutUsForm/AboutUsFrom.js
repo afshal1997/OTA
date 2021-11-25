@@ -27,8 +27,8 @@ const AboutUsFrom = () => {
       });
   };
   return (
-    <div>
-      <div className="applyNow">
+    <div className="">
+      <div className="applyNow pt-5">
         <div className="card">
           <h3>Apply Now</h3>
           <h1>
@@ -37,7 +37,7 @@ const AboutUsFrom = () => {
               <span>Free Training!</span>
             </Zoom>{" "}
           </h1>
-          <Form className="mb-4 mt-4" onSubmit={submitFreeTrainingForm}>
+          <Form className="" onSubmit={submitFreeTrainingForm}>
             <InputGroup className="mb-3">
               <InputGroup.Text id="Name">
                 <i className="fas fa-user"></i>

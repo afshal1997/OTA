@@ -52,7 +52,7 @@ const TestmonialsSlider = (props) => {
                                         <p>{props.testmonialTitle.Paragraph1}</p>
                                         <div className="TestmonialsSliderCardsContent">
                                             <Row>
-                                                <Col lg={3} className="m-auto col-3">
+                                                <Col lg={3} className="m-auto col-2">
                                                     <img className="w-100" src={client_1} alt=""></img>
                                                 </Col>
                                                 <Col lg={9} className="col-10 m-auto">

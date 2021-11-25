@@ -78,3 +78,9 @@
 .smartWork p {
   color: #fff;
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 991px){
+  .contactUsPageBanner{
+    height: 100%;
+  }
+}
