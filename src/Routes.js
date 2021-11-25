@@ -13,6 +13,7 @@ import DigitalMarketing from "./Components/Pages/DigitalMarketing";
 import AppDevelopment from "./Components/Pages/AppDevelopment";
 import VideoDevelopment from "./Components/Pages/VideoDevelopment";
 import PrivacyPolicy from "./Components/Pages/PrivacyPolicy";
+import RefundPolicy from "./Components/Pages/RefundPolicy";
 import Pricing from "./Components/Pages/Pricing";
 import Blog from "./Components/Pages/Blog";
 import Contact from "./Components/Pages/Contact";
@@ -122,6 +123,11 @@ const routes = [
     path: "/privacy-policy",
     exact: true,
     component: PrivacyPolicy,
+  },
+  {
+    path: "/refund-policy",
+    exact: true,
+    component: RefundPolicy,
   },
   {
     path: "/thank-you",

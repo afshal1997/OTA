@@ -3,6 +3,7 @@ import CaseStudyBanner from "../../Layout/CaseStudyLayout/Banner";
 import CaseStudies from "../../Layout/CaseStudyLayout/CaseStudies";
 import HomePageBannerThree from "../../Layout/HomePageLayout/HomePageBannerThree";
 import WhiteLabellingPackages from "../../Layout/PlansPageLayout/WhiteLabellingPageLayout/WhiteLabellingPackages";
+import ClientSlider from "../Common/ClientSlider/ClientSlider";
 import TestmonialsSlider from "../Common/Testmonials/TestmonialsSlider";
 
 const CaseStudy = () => {
@@ -26,6 +27,7 @@ const CaseStudy = () => {
       <HomePageBannerThree />
       <CaseStudies />
       <WhiteLabellingPackages />
+      <ClientSlider />
       <TestmonialsSlider testmonialTitle={testmonialsSliderData} />
     </>
   );

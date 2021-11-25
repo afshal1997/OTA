@@ -2,7 +2,6 @@ import React from "react";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import "./TabsStyle.css";
 import { verticalTabsUtilities } from "../../../Constants/VerticalTabsUtilities";
-import { Link } from "react-router-dom";
 
 const VerticalTabs = () => {
   return (
@@ -14,9 +13,7 @@ const VerticalTabs = () => {
               return (
                 <>
                   <Tab>
-                    <p>
-                      <Link>{tab}</Link>
-                    </p>
+                    <p>{tab}</p>
                   </Tab>
                 </>
               );

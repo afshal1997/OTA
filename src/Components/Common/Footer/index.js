@@ -3,8 +3,8 @@ import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./footer.css";
 import loGo from "../../../Assets/logo/logo.png";
-import Pakistan from '../../../Assets/footer/pakistan.png'
-import Pennsylvania from '../../../Assets/footer/pennsylvania.png'
+import Pakistan from "../../../Assets/footer/pakistan.png";
+import Pennsylvania from "../../../Assets/footer/pennsylvania.png";
 
 function Footer() {
   if (window.location.pathname === "/thank-you") {
@@ -20,7 +20,11 @@ function Footer() {
                 <img className="w-100" src={loGo}></img>
               </div>
               <p>
-                Outsource to Asia is a premier full-service digital agency, creating custom strategies for each of our clients based on their needs and goals. We focus on delivering data-driven and result-oriented services that bring revenue and strengthen brand identity.
+                Outsource to Asia is a premier full-service digital agency,
+                creating custom strategies for each of our clients based on
+                their needs and goals. We focus on delivering data-driven and
+                result-oriented services that bring revenue and strengthen brand
+                identity.
               </p>
             </Col>
             <Col lg={2} className="ps-5">
@@ -59,10 +63,10 @@ function Footer() {
                     <Link to="/">Security Policy</Link>
                   </li>
                   <li>
-                    <Link to="/">Privacy Policy</Link>
+                    <Link to="/privacy-policy">Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link to="/">Refund Policy</Link>
+                    <Link to="/refund-policy">Refund Policy</Link>
                   </li>
                 </ul>
               </div>
@@ -121,8 +125,8 @@ function Footer() {
                     <Row>
                       <Col lg={9}>
                         <p>
-                          Suite # 603, 6th Floor, Business Avenue, Block 6, PECHS,
-                          Karachi, Pakistan
+                          Suite # 603, 6th Floor, Business Avenue, Block 6,
+                          PECHS, Karachi, Pakistan
                         </p>
                         <p>
                           <a href="mailto:info@outsourcetoasia.co">
@@ -148,8 +152,11 @@ function Footer() {
           <Row className="pt-4 ">
             <Col lg={8}>
               <p>
-                © Copyright 2021 by <Link to="/" className="text-light"><strong>Outsource to Asia</strong></Link>, All
-                Rights Reserved.
+                © Copyright 2021 by{" "}
+                <Link to="/" className="text-light">
+                  <strong>Outsource to Asia</strong>
+                </Link>
+                , All Rights Reserved.
               </p>
             </Col>
             <Col lg={4}>
@@ -158,13 +165,13 @@ function Footer() {
                   <i className="fab fa-facebook"></i>
                 </a>
                 <a href="#">
-                  <i className="fab fa-twitter"></i>
+                  <i className="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i className="fab fa-linkedin"></i>
                 </a>
                 <a href="#">
                   <i className="fab fa-youtube"></i>
-                </a>
-                <a href="#">
-                  <i className="fab fa-instagram"></i>
                 </a>
               </div>
             </Col>
