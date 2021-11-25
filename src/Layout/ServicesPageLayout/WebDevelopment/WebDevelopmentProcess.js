@@ -21,7 +21,7 @@ const WebDevelopmentProcess = () => {
                                 <h1>Web Development</h1>
                             </Zoom>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum has been the industry's
+                                An expertly developed website is underrated. Our approach to the World Wide Web is through impeccable, advanced, and result-oriented web development outsourcing!
                             </p>
                         </div>
                     </div>

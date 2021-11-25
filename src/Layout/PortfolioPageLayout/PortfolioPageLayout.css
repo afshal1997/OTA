@@ -227,4 +227,7 @@
   .portfolioTabs .react-tabs .react-tabs__tab-list .react-tabs__tab {
     margin: 10px 10px;
   }
+  .react-tabs__tab-list{
+    max-width: 100%;
+  }
 }

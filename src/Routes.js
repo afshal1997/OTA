@@ -114,7 +114,7 @@ const routes = [
     component: Portfolio,
   },
   {
-    path: "/case-study",
+    path: "/case-studies",
     exact: true,
     component: CaseStudy,
   },

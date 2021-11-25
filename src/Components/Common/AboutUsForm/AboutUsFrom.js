@@ -1,16 +1,26 @@
 import axios from "axios";
-import React from "react";
+import React, { useState } from "react";
 import { Button, Form, FormControl, InputGroup } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
+import { useHistory } from "react-router";
 
 const AboutUsFrom = () => {
+  const [error, setError] = useState(false)
+  const history = useHistory()
   const submitFreeTrainingForm = (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
+    let obj = {}
+    for (var pair of formData.entries()) {
+      obj[pair[0]] = pair[1]
+    }
     axios
-      .post("https://www.outsourcetoasia.io/sign-up", formData)
+      .get(`http://api.outsourcetoasia.io/index.php?name=${obj.user_name}&email=${obj.user_email}&phone=${obj.user_phone}&company=${obj.user_company}&message=${obj.user_message}`, formData)
       .then((response) => {
-        console.log(response);
+        history.push("/thank-you");
+      })
+      .catch((error) => {
+        setError(true);
       });
   };
   return (
@@ -69,10 +79,7 @@ const AboutUsFrom = () => {
             </Button>
           </Form>
           <div className="d-flex justify-content-center getstarted-text">
-            <p className="font-size-12 w-75">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-            </p>
+
           </div>
         </div>
       </div>

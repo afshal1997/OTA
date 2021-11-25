@@ -21,7 +21,9 @@ const DigitalMarketingProcess = () => {
                                 <h1>Digital Marketing</h1>
                             </Zoom>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum has been the industry's
+                            Outline your brand with exclusive digital marketing that interprets what it’s like to be extraordinary. We help brands that are as smart as they're efficient.
+
+
                             </p>
                         </div>
                     </div>

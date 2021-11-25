@@ -21,7 +21,7 @@ const ContentWrittingProcess = () => {
                                 <h1>Content Writing</h1>
                             </Zoom>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum has been the industry's
+                            Content is a voice people don’t hear but understands instantly. It’s a key ingredient where the initial search begins.
                             </p>
                         </div>
                     </div>

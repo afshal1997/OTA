@@ -42,7 +42,7 @@ const PricingMainBanner = () => {
                 </h1>
                 <p>
                   <Bounce left cascade>
-                    Choose a Package that is right for your Business.
+                    From envisioning your web identity to advertising it on the internet, we fulfill all your digital needs for your brand to go big! Choose a package that is right for your business.
                   </Bounce>
                 </p>
                 <Row>

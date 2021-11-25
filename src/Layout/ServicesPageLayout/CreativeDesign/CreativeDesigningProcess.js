@@ -20,7 +20,11 @@ const CreativeDesigningProcess = () => {
                                 <h1>Creative Designing</h1>
                             </Zoom>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum has been the industry's
+                                LRepresent Your Brand with State-of-the-Art Designs
+                                That Explains Your Story Even Better – It Eventually
+                                Becomes a Reality!
+
+
                             </p>
                         </div>
                     </div>
