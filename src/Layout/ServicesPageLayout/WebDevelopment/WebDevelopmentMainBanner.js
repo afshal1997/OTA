@@ -31,7 +31,7 @@ const WebDevelopmentMainBanner = () => {
                       stroke="url(#gradient)"
                       fill="rgb(0, 0, 0,0.2)"
                     >
-                      expertly
+                      Expertly
                     </text>
                   </g>
                 </svg>
