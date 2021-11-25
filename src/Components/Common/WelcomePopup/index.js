@@ -4,17 +4,18 @@ import { Zoom } from "react-reveal";
 import Welcome from "../../../Assets/WelcomePopup/welcome.jpg";
 const WelcomePopup = ({ show, handleClose }) => {
   return (
-    <div className="">
+    <div className="d-block m-auto">
       <Zoom center cascade>
         <Modal
           show={show}
           onHide={handleClose}
           animation={false}
           centered
+          size="xl"
           className="welcome-popup"
         >
           <Modal.Body>
-            <img src={Welcome} className="w-100" />
+            <img src={Welcome} />
           </Modal.Body>
         </Modal>
       </Zoom>

@@ -27,20 +27,14 @@ const ApplyNowModal = ({ show }) => {
     for (var pair of formData.entries()) {
       obj[pair[0]] = pair[1];
     }
-    const config = {
-      headers: {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
-      },
-    };
     axios
       .get(
-        `http://api.outsourcetoasia.io/index.php?name=${obj.user_name}&email=${obj.user_email}&phone=${obj.user_phone}&company=${obj.user_company}&message=${obj.user_message}`,
-        formData,
-        config
+        `https://api.outsourcetoasia.io/index.php?name=${obj.user_name}&email=${obj.user_email}&phone=${obj.user_phone}&company=${obj.user_company}&message=${obj.user_message}`,
+        formData
       )
       .then((response) => {
         history.push("/thank-you");
+        handleClose();
       })
       .catch((error) => {
         setError(true);
