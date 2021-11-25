@@ -11,28 +11,9 @@ const TermAndConditions = () => {
         <div className="aboutUsMainBanner">
           <Container>
             <Row>
-              <Col lg={6} className="m-auto">
+              <Col lg={6} className="m-auto text-center">
                 <div className="smartWork mt-5 mb-5">
-                  <svg width="100%">
-                    <defs>
-                      <linearGradient id="gradient" y1="0" y2="1">
-                        <stop stopColor="#054084" offset="0" />
-                        <stop stopColor="#054084" offset="1" />
-                      </linearGradient>
-                    </defs>
-                    <g>
-                      <text
-                        id="text"
-                        y="103"
-                        strokeWidth="1"
-                        stroke="url(#gradient)"
-                        fill="rgb(0, 0, 0,0.2)"
-                      >
-                        Terms & Conditions
-                      </text>
-                    </g>
-                  </svg>
-
+                  <h1>Terms & Conditions</h1>
                   <p>
                     The decision of visiting our website, landing pages and
                     availing our service is exclusively your choice. Any
