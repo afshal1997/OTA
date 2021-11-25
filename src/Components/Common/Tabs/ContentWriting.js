@@ -7,7 +7,7 @@ const ContentWriting = () => {
   return (
     <div>
       <div className="pt-3 pb-3">
-        <div className="mt-5 row">
+        <div className="mt-5 row m-auto">
           <div className="text-center col-lg-4 mb-5">
             <div className="card PricingCard BrandFont pt-0 ActivePricingCard">
               <div className="PackageAndPricing">

@@ -25,7 +25,7 @@ const AppDevelopment = () => {
                   USD <span className="dollar">$</span>10-15
                   <span className="hour">/hour</span>
                 </h4>
-                <h5>
+                <h5 className="text-light">
                   <b>Android Development</b>
                 </h5>
                 <a
@@ -54,7 +54,7 @@ const AppDevelopment = () => {
                   USD <span className="dollar">$</span>10-15
                   <span className="hour">/hour</span>
                 </h4>
-                <h5>
+                <h5 className="text-light">
                   <b>IOS Development</b>
                 </h5>
                 <a
@@ -83,7 +83,7 @@ const AppDevelopment = () => {
                   USD <span className="dollar">$</span>20-25
                   <span className="hour">/hour</span>
                 </h4>
-                <h5>
+                <h5 className="text-light">
                   <b>Game Development</b>
                 </h5>
                 <a
