@@ -9,11 +9,7 @@ const WhiteLabellingPackages = () => {
         <div>
             <OurService>
                 <Container>
-                    <Row>
-                        <Col lg={12} className="m-auto text-center">
-                            <Heading Heading="Packages" tagline="we always come up with the out of the box ideas tailored to your consumer needs so your customers get hooked to your services/products in a matter of seconds." MainHeading="Pricing" />
-                        </Col>
-                    </Row>
+                    
                     
                     <Row>
                         <Col lg={4}></Col>

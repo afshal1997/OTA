@@ -31,7 +31,6 @@ const Blog = () => {
             <BlogPageSlider/>
             <BlogPageAIIntelligence/>
             <BlogPageOutsourceImportance/>
-            <BlogPageAIIntelligence/>
             <WatchVides/>
             <ClientSlider />
             <TestmonialsSlider testmonialTitle={testmonialsSliderData} />

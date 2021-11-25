@@ -25,7 +25,7 @@ const PricingPlansTabs = () => {
                                     </g>
                                 </svg>
                                 <h1>Our Pricing</h1>
-                                <h5>Most Affordable</h5>
+                                <h5 id="tst-id">Most Affordable</h5>
                             </div>
                         </Bounce>
                     </Col>

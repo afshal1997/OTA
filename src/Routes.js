@@ -12,6 +12,7 @@ import WebDevelopment from "./Components/Pages/WebDevelopment";
 import DigitalMarketing from "./Components/Pages/DigitalMarketing";
 import AppDevelopment from "./Components/Pages/AppDevelopment";
 import VideoDevelopment from "./Components/Pages/VideoDevelopment";
+import PrivacyPolicy from "./Components/Pages/PrivacyPolicy";
 import Pricing from "./Components/Pages/Pricing";
 import Blog from "./Components/Pages/Blog";
 import Contact from "./Components/Pages/Contact";
@@ -116,6 +117,11 @@ const routes = [
     path: "/case-study",
     exact: true,
     component: CaseStudy,
+  },
+  {
+    path: "/privacy-policy",
+    exact: true,
+    component: PrivacyPolicy,
   },
   {
     path: "/thank-you",
