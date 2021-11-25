@@ -13,12 +13,12 @@ export const ContactUsInformation = [
     containerClasses: "d-flex align-items-start mt-3 mb-2",
     className: "text-secondary mx-3 my-1  fas fa-map-marker-alt",
     heading: "PAKISTAN OFFICE",
-    text: "Gradsy building, Plot E2, Block 7/8, Shahrah-e-Faisal,Karachi Pakistan.",
+    text: "Suite # 603, 6th Floor, Business Avenue, Block 6, PECHS, Karachi, Pakistan",
   },
   {
     containerClasses: "d-flex align-items-start my-2",
     className: "text-secondary mx-3 my-1  fas fa-map-marker-alt",
     heading: "USA OFFICE",
-    text: "163 Charles Street,Dept. 5001 (11,696.61 km) 10014 New York, NY, US.",
+    text: "3145 Silbury Hl. Downingtown Pennsylvania, 19335",
   },
 ];
