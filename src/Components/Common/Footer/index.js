@@ -190,7 +190,10 @@ function Footer() {
                 >
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a target="_blank" href="#">
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/channel/UCu5Sl1qH8Jr3yaia0c2lTzw"
+                >
                   <i className="fab fa-youtube"></i>
                 </a>
               </div>

@@ -32,7 +32,7 @@ const index = () => {
               </a>
             </li>
             <li>
-              <a href="#" target="_blank">
+              <a href="https://www.youtube.com/channel/UCu5Sl1qH8Jr3yaia0c2lTzw" target="_blank">
                 <i className="fab fa-youtube"></i>
               </a>
             </li>

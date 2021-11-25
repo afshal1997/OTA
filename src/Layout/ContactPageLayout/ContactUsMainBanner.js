@@ -56,7 +56,7 @@ const ContactUsMainBanner = () => {
                   </Row>
                 </div>
               </Col>
-              <Col lg={6} className="pt-5">
+              <Col lg={6} className="pt-5 mt-5">
                 <AboutUsForm />
               </Col>
             </Row>
