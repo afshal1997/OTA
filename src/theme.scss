@@ -626,3 +626,25 @@ span.read-more-less--more {
     padding: 20px;
   }
 }
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1400px) {
+  .applyNow .card {
+    padding: 10px 30px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #b5406a; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

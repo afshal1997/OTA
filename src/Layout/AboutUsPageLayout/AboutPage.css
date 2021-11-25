@@ -25,17 +25,7 @@
   margin: auto;
   display: block;
   width: 100%;
-}
-.contactUsMainBanner {
-  position: absolute;
-  top: 50%;
-  left: 0%;
-  transform: translate(0%, -50%);
-  -webkit-transform: translate(0%, -50%);
-  width: 100%;
-  margin: auto;
-  display: block;
-  width: 100%;
+  z-index: 1;
 }
 
 .BlogPageMainBanner {

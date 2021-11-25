@@ -160,16 +160,6 @@
   opacity: 1 !important;
   height: 100%;
 }
-.active-app-div::before {
-  content: "View Case Study";
-  text-align: center;
-  position: absolute;
-  margin: auto;
-  bottom: 8px;
-  font-weight: 700;
-  right: 0;
-  left: 0;
-}
 .active-video-div::before {
   content: "";
   background: url("../../Assets/Portfolio/VideoDevelopment/VideoDevelopment.jpg");
