@@ -15,8 +15,8 @@ const MobileAppDevelopmentCarousal = () => {
     arrows: false,
     speed: 500,
     dots: true,
-    autoplay: true,
-    autoplaySpeed: 3000,
+    // autoplay: true,
+    // autoplaySpeed: 3000,
     beforeChange: (p, n) => setActiveSlide(p),
 
     appendDots: (dots) => (
