@@ -32,7 +32,7 @@ function Header() {
       <Navbar collapseOnSelect expand="lg" className="mainNav">
         <Container>
           <Navbar.Brand>
-            <img className="w-100" src={loGo}></img>
+            <Link to="/"><img className="w-100" src={loGo}></img></Link>
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
