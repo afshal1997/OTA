@@ -3,6 +3,8 @@ import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./footer.css";
 import loGo from "../../../Assets/logo/logo.png";
+import Pakistan from '../../../Assets/footer/pakistan.png'
+import Pennsylvania from '../../../Assets/footer/pennsylvania.png'
 
 function Footer() {
   if (window.location.pathname === "/thank-you") {
@@ -18,11 +20,7 @@ function Footer() {
                 <img className="w-100" src={loGo}></img>
               </div>
               <p>
-                Outsource to Asia is a premier full-service digital agency,
-                creating custom strategies for each of our clients based on
-                their needs and goals. We focus on delivering data-driven and
-                result-oriented services that bring revenue and strengthen brand
-                identity.
+                Outsource to Asia is a premier full-service digital agency, creating custom strategies for each of our clients based on their needs and goals. We focus on delivering data-driven and result-oriented services that bring revenue and strengthen brand identity.
               </p>
             </Col>
             <Col lg={2} className="ps-5">
@@ -102,29 +100,43 @@ function Footer() {
               <div className="footerUl footerContact position-relative">
                 <ul>
                   <li>
-                    <p>
-                      Suite # 603, 6th Floor, Business Avenue, Block 6, PECHS,
-                      Karachi, Pakistan
-                    </p>
-                    <p>
-                      <a href="mailto:info@outsourcetoasia.co">
-                        info@outsourcetoasia.co
-                      </a>
-                    </p>
-                    <p>
-                      <a href="tel:+92 21-34804850">+92 21-34804850</a>
-                    </p>
+                    <Row>
+                      <Col lg={9}>
+                        <p>3145 Silbury Hl. Downingtown Pennsylvania, 19335</p>
+                        <p>
+                          <a href="mailto:info@outsourcetoasia.co">
+                            info@outsourcetoasia.co
+                          </a>
+                        </p>
+                        <p>
+                          <a href="tel:+1 631-250-6471">+1 631-250-6471</a>
+                        </p>
+                      </Col>
+                      <Col lg={3}>
+                        <img className="w-100" src={Pennsylvania} alt=""></img>
+                      </Col>
+                    </Row>
                   </li>
                   <li>
-                    <p>3145 Silbury Hl. Downingtown Pennsylvania, 19335</p>
-                    <p>
-                      <a href="mailto:info@outsourcetoasia.co">
-                        info@outsourcetoasia.co
-                      </a>
-                    </p>
-                    <p>
-                      <a href="tel:+1 631-250-6471">+1 631-250-6471</a>
-                    </p>
+                    <Row>
+                      <Col lg={9}>
+                        <p>
+                          Suite # 603, 6th Floor, Business Avenue, Block 6, PECHS,
+                          Karachi, Pakistan
+                        </p>
+                        <p>
+                          <a href="mailto:info@outsourcetoasia.co">
+                            info@outsourcetoasia.co
+                          </a>
+                        </p>
+                        <p>
+                          <a href="tel:+92 21-34804850">+92 21-34804850</a>
+                        </p>
+                      </Col>
+                      <Col lg={3} className="m-auto">
+                        <img className="w-100" src={Pakistan} alt=""></img>
+                      </Col>
+                    </Row>
                   </li>
                 </ul>
               </div>
@@ -136,23 +148,23 @@ function Footer() {
           <Row className="pt-4 ">
             <Col lg={8}>
               <p>
-                © Copyright 2021 by <strong>Outsource to Asia</strong>, All
+                © Copyright 2021 by <Link to="/" className="text-light"><strong>Outsource to Asia</strong></Link>, All
                 Rights Reserved.
               </p>
             </Col>
             <Col lg={4}>
               <div className="footerSocialLink text-center">
-                <a href="https://www.facebook.com/outsourcetoasiallc/">
+                <a href="#">
                   <i className="fab fa-facebook"></i>
                 </a>
-                <a href="https://www.instagram.com/outsourcetoasia/?utm_medium=copy_link">
-                  <i className="fab fa-instagram"></i>
+                <a href="#">
+                  <i className="fab fa-twitter"></i>
                 </a>
-                <a href="https://www.linkedin.com/company/outsource-to-asia">
-                  <i className="fab fa-linkedin"></i>
-                </a>
-                <a href="">
+                <a href="#">
                   <i className="fab fa-youtube"></i>
+                </a>
+                <a href="#">
+                  <i className="fab fa-instagram"></i>
                 </a>
               </div>
             </Col>
