@@ -935,6 +935,14 @@ a.schedulecall:hover {
     }
 }
 
+@media screen and (min-device-width: 992px) and (max-device-width: 1400px){
+
+    .HomePageBannerFourHeading svg{
+        font-size: 5.7rem;
+    }
+
+}
+
 @media screen and (max-width: 480px) {
     .circleImg img {
         max-width: 220px !important;

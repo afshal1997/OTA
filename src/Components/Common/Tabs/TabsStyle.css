@@ -18,11 +18,6 @@
     height: 100%;
 }
 
-ul.react-tabs__tab-list{
-    position: sticky;
-    top: 130px;
-}
-
 .react-tabs__tab {
     list-style: none;
     padding: 15px 10px;
