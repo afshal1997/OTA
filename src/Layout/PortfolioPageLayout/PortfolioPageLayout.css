@@ -134,8 +134,7 @@
   position: relative;
   z-index: 99999 !important;
 }
-.video-development-category
-  .slick-slide.slick-active.slick-center.slick-current {
+.video-development-category .slick-slide.slick-active.slick-center.slick-current {
   transform: scale(1.2);
 }
 
@@ -152,7 +151,11 @@
   transition: 1s;
 }
 
-.mobile-app-development-category .slick-slide img:hover{
+.mobile-app-development-category .slick-current img {
+  opacity: 1;
+}
+
+.mobile-app-development-category .slick-slide img:hover {
   opacity: 1;
   transition: 1s;
 }
@@ -224,7 +227,7 @@
   .portfolioTabs .react-tabs .react-tabs__tab-list .react-tabs__tab {
     margin: 10px 10px;
   }
-  .react-tabs__tab-list{
+  .react-tabs__tab-list {
     max-width: 100%;
   }
 }
