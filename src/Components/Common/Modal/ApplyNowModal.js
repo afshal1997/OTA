@@ -23,8 +23,12 @@ const ApplyNowModal = ({ show }) => {
   const submitContactForm = (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
+    let obj = {}
+    for (var pair of formData.entries()) {
+      obj[pair[0]] = pair[1]
+    }
     axios
-      .post("https://www.outsourcetoasia.io/sign-up", formData)
+      .get(`http://api.outsourcetoasia.io/index.php?name=${obj.user_name}&email=${obj.user_email}&phone=${obj.user_phone}&company=${obj.user_company}&message=${obj.user_message}`, formData)
       .then((response) => {
         history.push("/thank-you");
       })

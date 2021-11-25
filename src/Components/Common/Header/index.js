@@ -122,9 +122,9 @@ function Header() {
               <NavLink className="nav-link" to="/contact-us">
                 CONTACT
               </NavLink>
-              <NavLink to="/login" className="adminLink">
+              <a href="https://www.outsourcetoasia.co/crm/client-login" className="adminLink">
                 LOGIN <img src={LogIn}></img>
-              </NavLink>
+              </a>
             </Nav>
           </Navbar.Collapse>
         </Container>

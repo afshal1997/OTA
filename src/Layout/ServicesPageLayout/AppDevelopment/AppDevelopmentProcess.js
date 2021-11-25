@@ -19,10 +19,10 @@ const AppDevelopmentProcess = () => {
                         <span class="BgText">Process</span>
                         <div className="OurServicesHeading">
                             <Zoom right cascade>
-                                <h1>Web Development</h1>
+                                <h1>App Development</h1>
                             </Zoom>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum has been the industry's
+                                With advanced technology in the world where mobile phones have become a total necessity and new softwares taking the world by storm; you don’t have to worry a thing about it!
                             </p>
                         </div>
                     </div>

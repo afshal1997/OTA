@@ -83,7 +83,7 @@ const HomePageBannerFour = () => {
         <Container>
           <Heading
             Heading="Our Services"
-            Tagline="Outsource Any Of Your Project To Us. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"
+            Tagline="Outsource Any Of Your Project To Us."
             MainHeading="Expertise"
           />
           <Row className="mt-5">
