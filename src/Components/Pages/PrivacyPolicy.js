@@ -15,34 +15,15 @@ const PrivacyPolicy = () => {
         <div className="aboutUsMainBanner">
           <Container>
             <Row>
-              <Col lg={6} className="m-auto">
+              <Col lg={6} className="m-auto text-center">
                 <div className="smartWork mt-5 mb-5">
-                  <svg width="100%">
-                    <defs>
-                      <linearGradient id="gradient" y1="0" y2="1">
-                        <stop stopColor="#054084" offset="0" />
-                        <stop stopColor="#054084" offset="1" />
-                      </linearGradient>
-                    </defs>
-                    <g>
-                      <text
-                        id="text"
-                        y="103"
-                        strokeWidth="1"
-                        stroke="url(#gradient)"
-                        fill="rgb(0, 0, 0,0.2)"
-                      >
-                        Privacy Policy
-                      </text>
-                    </g>
-                  </svg>
-
+                  <h1>Privacy Policy</h1>
                   <p>
                     This Privacy Policy describes how “Outsource To Asia”
                     (“Company” or “we” hereby) collects uses and shares
                     information provided by you when you visit our website
                     located at &nbsp;
-                    <Link to="/home">https://outsourcetoasia.co</Link> or use
+                    <Link className="text-light" to="/home"><b>https://outsourcetoasia.co</b></Link> or use
                     any of our services.
                   </p>
                 </div>

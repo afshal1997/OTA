@@ -13,28 +13,9 @@ const RefundPolicy = () => {
         <div className="aboutUsMainBanner">
           <Container>
             <Row>
-              <Col lg={6} className="m-auto">
+              <Col lg={6} className="m-auto text-center">
                 <div className="smartWork mt-5 mb-5">
-                  <svg width="100%">
-                    <defs>
-                      <linearGradient id="gradient" y1="0" y2="1">
-                        <stop stopColor="#054084" offset="0" />
-                        <stop stopColor="#054084" offset="1" />
-                      </linearGradient>
-                    </defs>
-                    <g>
-                      <text
-                        id="text"
-                        y="103"
-                        strokeWidth="1"
-                        stroke="url(#gradient)"
-                        fill="rgb(0, 0, 0,0.2)"
-                      >
-                        Refund Policy
-                      </text>
-                    </g>
-                  </svg>
-
+                  <h1>Refund Policy</h1>
                   <p>
                     Unlike other Digital Marketing firms, Outsource to Asia
                     issues you a refund when you’re not satisfied with our
