@@ -2,20 +2,17 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { useDispatch } from "react-redux";
 import { Bounce, Zoom, Fade } from "react-reveal";
-import { WhiteLabellingDesignDevelopment } from "../../Constants/WhiteLabellingServices";
 import beyondant from "../../Assets/CaseStudy/b.svg";
 import Mili from "../../Assets/CaseStudy/mili.png";
 import p360 from "../../Assets/CaseStudy/perrform360.png";
 import Adzum from "../../Assets/CaseStudy/adzum.png";
-import { CHANGE_MODAL } from "../../Store/Action";
 
 const CaseStudies = () => {
-  const dispatch = useDispatch();
   return (
     <div>
       <div>
         <Container>
-          <Row className="my-4">
+          <Row className="my-4" >
             <Col lg={5} className="m-auto">
               <Bounce left cascade>
                 <img className="w-100" src={p360} alt=""></img>
