@@ -113,6 +113,9 @@ function Header() {
               <NavLink className="nav-link" to="/portfolio">
                 PORTFOLIO
               </NavLink>
+              {/* <NavLink className="nav-link" to="/case-study">
+                CASE STUDY
+              </NavLink> */}
               <NavLink className="nav-link" to="/blog">
                 BLOG
               </NavLink>

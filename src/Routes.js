@@ -16,6 +16,7 @@ import Pricing from "./Components/Pages/Pricing";
 import Blog from "./Components/Pages/Blog";
 import Contact from "./Components/Pages/Contact";
 import Portfolio from "./Components/Pages/Portfolio";
+import CaseStudy from "./Components/Pages/CaseStudy";
 import ThankYou from "./Layout/ThankYou/ThankYou";
 const routes = [
   {
@@ -110,6 +111,11 @@ const routes = [
     path: "/portfolio",
     exact: true,
     component: Portfolio,
+  },
+  {
+    path: "/case-study",
+    exact: true,
+    component: CaseStudy,
   },
   {
     path: "/thank-you",
