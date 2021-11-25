@@ -940,6 +940,11 @@ a.schedulecall:hover {
     .HomePageBannerFourHeading svg{
         font-size: 5.7rem;
     }
+    
+    .testmonialsSlider svg,
+    .consultationContent svg{
+        font-size: 4.5rem;
+    }
 
 }
 
