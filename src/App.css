@@ -6,7 +6,13 @@
   border: none;
   padding: 0.2rem 0.7rem;
 }
-
+.welcome-popup .modal-content {
+  background-color: transparent;
+}
+.welcome-popup .modal-content img {
+  border-radius: 2rem;
+  box-shadow: 0 0.5rem 1rem rgb(255 255 255 / 26%) 
+}
 .ota-modal .modal-content {
   background-image: linear-gradient(to bottom right, #1599d1, #6a5982);
   position: relative;
