@@ -5,6 +5,8 @@ import client_1 from '../../../Assets/Icons/client-img-1.png'
 import client_2 from '../../../Assets/Icons/client-img-2.png'
 import client_3 from '../../../Assets/Icons/client-img-3.png'
 import client_4 from '../../../Assets/Icons/client-img-4.jpeg'
+import client_5 from '../../../Assets/Icons/client-img-5.jpg'
+import client_6 from '../../../Assets/Icons/client-img-6.jpg'
 import Zoom from 'react-reveal/Zoom';
 import Bounce from 'react-reveal/Bounce';
 import { TestmonialsSliderSettings } from '../Settings/Settings'
@@ -95,22 +97,6 @@ const TestmonialsSlider = (props) => {
                                 </div>
                                 <div>
                                     <Card className="TestmonialsSliderCards">
-                                        <p>{props.testmonialTitle.Paragraph2}</p>
-                                        <div className="TestmonialsSliderCardsContent">
-                                            <Row>
-                                                <Col lg={3} className="m-auto col-2">
-                                                    <img className="w-100" src={client_2} alt=""></img>
-                                                </Col>
-                                                <Col lg={9} className="col-10 m-auto">
-                                                    <h3>{props.testmonialTitle.Client2}</h3>
-                                                    <h5>{props.testmonialTitle.ClientDesignation2}</h5>
-                                                </Col>
-                                            </Row>
-                                        </div>
-                                    </Card>
-                                </div>
-                                <div>
-                                    <Card className="TestmonialsSliderCards">
                                         <p>{props.testmonialTitle.Paragraph4}</p>
                                         <div className="TestmonialsSliderCardsContent">
                                             <Row>
@@ -120,6 +106,38 @@ const TestmonialsSlider = (props) => {
                                                 <Col lg={9} className="col-10 m-auto">
                                                     <h3>{props.testmonialTitle.Client4}</h3>
                                                     <h5>{props.testmonialTitle.ClientDesignation4}</h5>
+                                                </Col>
+                                            </Row>
+                                        </div>
+                                    </Card>
+                                </div>
+                                <div>
+                                    <Card className="TestmonialsSliderCards">
+                                        <p>{props.testmonialTitle.Paragraph5}</p>
+                                        <div className="TestmonialsSliderCardsContent">
+                                            <Row>
+                                                <Col lg={3} className="testmonialImg m-auto col-2">
+                                                    <img className="w-100" src={client_5} alt=""></img>
+                                                </Col>
+                                                <Col lg={9} className="col-10 m-auto">
+                                                    <h3>{props.testmonialTitle.Client5}</h3>
+                                                    <h5>{props.testmonialTitle.ClientDesignation5}</h5>
+                                                </Col>
+                                            </Row>
+                                        </div>
+                                    </Card>
+                                </div>
+                                <div>
+                                    <Card className="TestmonialsSliderCards">
+                                        <p>{props.testmonialTitle.Paragraph6}</p>
+                                        <div className="TestmonialsSliderCardsContent">
+                                            <Row>
+                                                <Col lg={3} className="testmonialImg m-auto col-2">
+                                                    <img className="w-100" src={client_6} alt=""></img>
+                                                </Col>
+                                                <Col lg={9} className="col-10 m-auto">
+                                                    <h3>{props.testmonialTitle.Client6}</h3>
+                                                    <h5>{props.testmonialTitle.ClientDesignation6}</h5>
                                                 </Col>
                                             </Row>
                                         </div>
