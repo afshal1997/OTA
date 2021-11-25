@@ -28,6 +28,12 @@ import BrandingAndCreativeImg03 from "../../Assets/Portfolio/BrandingAndCreative
 import BrandingAndCreativeImg04 from "../../Assets/Portfolio/BrandingAndCreative/img04.jpg";
 import BrandingAndCreativeImg05 from "../../Assets/Portfolio/BrandingAndCreative/img05.jpg";
 import BrandingAndCreativeImg06 from "../../Assets/Portfolio/BrandingAndCreative/img06.jpg";
+import BrandingAndCreativeImg07 from "../../Assets/Portfolio/BrandingAndCreative/img07.jpg";
+import BrandingAndCreativeImg08 from "../../Assets/Portfolio/BrandingAndCreative/img08.jpg";
+import BrandingAndCreativeImg09 from "../../Assets/Portfolio/BrandingAndCreative/img09.jpg";
+import BrandingAndCreativeImg10 from "../../Assets/Portfolio/BrandingAndCreative/img10.jpg";
+import BrandingAndCreativeImg11 from "../../Assets/Portfolio/BrandingAndCreative/img11.jpg";
+import BrandingAndCreativeImg12 from "../../Assets/Portfolio/BrandingAndCreative/img06.jpg";
 
 import VideoDevelopmentCarousal from "../../Components/Common/VideoDevelopmentCarousal/VideoDevelopmentCarousal";
 import MobileAppDevelopmentCarousal from "../../Components/Common/MobileAppDevelopmentCarousal/MobileAppDevelopmentCarousal";
@@ -150,7 +156,7 @@ const DevelopYourBrand = () => {
               </Row>
             </TabPanel>
             <TabPanel>
-              <Row>
+              <Row id="ct-ds">
                 <Col lg={4}>
                   <div className="portfolioTabsCards">
                     <img
@@ -207,16 +213,79 @@ const DevelopYourBrand = () => {
                     ></img>
                   </div>
                 </Col>
-                {addMoreLogos && <p>test</p>}
-                <Col lg={2} className="m-auto">
-                  <a
-                    className="getStarted-btn"
-                    onClick={() => setMoreLogos(!addMoreLogos)}
-                  >
-                    {!addMoreLogos ? "LOAD MORE" : "SHOW LESS"}
-                  </a>
-                </Col>
+                {addMoreLogos && (
+                  <>
+                    <Row>
+                      <Col lg={4}>
+                        <div className="portfolioTabsCards">
+                          <img
+                            className="w-100"
+                            src={BrandingAndCreativeImg07}
+                            alt=""
+                          ></img>
+                        </div>
+                      </Col>
+                      <Col lg={4}>
+                        <div className="portfolioTabsCards">
+                          <img
+                            className="w-100"
+                            src={BrandingAndCreativeImg08}
+                            alt=""
+                          ></img>
+                        </div>
+                      </Col>
+                      <Col lg={4}>
+                        <div className="portfolioTabsCards">
+                          <img
+                            className="w-100"
+                            src={BrandingAndCreativeImg09}
+                            alt=""
+                          ></img>
+                        </div>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col lg={4}>
+                        <div className="portfolioTabsCards">
+                          <img
+                            className="w-100"
+                            src={BrandingAndCreativeImg10}
+                            alt=""
+                          ></img>
+                        </div>
+                      </Col>
+                      <Col lg={4}>
+                        <div className="portfolioTabsCards">
+                          <img
+                            className="w-100"
+                            src={BrandingAndCreativeImg11}
+                            alt=""
+                          ></img>
+                        </div>
+                      </Col>
+                      <Col lg={4}>
+                        <div className="portfolioTabsCards">
+                          <img
+                            className="w-100"
+                            src={BrandingAndCreativeImg12}
+                            alt=""
+                          ></img>
+                        </div>
+                      </Col>
+                    </Row>
+                  </>
+                )}
               </Row>
+
+              <Col lg={2} className="m-auto">
+                <a
+                  href="#ct-ds"
+                  className="getStarted-btn"
+                  onClick={() => setMoreLogos(!addMoreLogos)}
+                >
+                  {!addMoreLogos ? "LOAD MORE" : "SHOW LESS"}
+                </a>
+              </Col>
             </TabPanel>
             <TabPanel>
               <MobileAppDevelopmentCarousal />
