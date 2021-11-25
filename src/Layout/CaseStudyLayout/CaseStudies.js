@@ -2,10 +2,10 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { useDispatch } from "react-redux";
 import { Bounce, Zoom, Fade } from "react-reveal";
-import beyondant from "../../Assets/CaseStudy/b.svg";
-import Mili from "../../Assets/CaseStudy/mili.png";
-import p360 from "../../Assets/CaseStudy/perrform360.png";
-import Adzum from "../../Assets/CaseStudy/adzum.png";
+import beyondant from "../../Assets/CaseStudy/beyondant.jpg";
+import Mili from "../../Assets/CaseStudy/Millenial.jpg";
+import p360 from "../../Assets/CaseStudy/Proform360.jpg";
+import Adzum from "../../Assets/CaseStudy/Adzum.jpg";
 
 const CaseStudies = () => {
   return (
