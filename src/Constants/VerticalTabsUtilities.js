@@ -4,6 +4,7 @@ import ContentWriting from "../Components/Common/Tabs/ContentWriting";
 import SearchEngineOptimization from "../Components/Common/Tabs/SearchEngineOptimization";
 import SocialMediaMarketing from "../Components/Common/Tabs/SocialMediaMarketing";
 import TabLeadGeneration from "../Components/Common/Tabs/TabLeadGeneration";
+import VideoAnimation from "../Components/Common/Tabs/VideoAnimation";
 import WebDevelopment from "../Components/Common/Tabs/WebDevelopment";
 
 export const verticalTabsUtilities = [
@@ -34,5 +35,9 @@ export const verticalTabsUtilities = [
   {
     tab: "Search Engine Optimization ",
     panel: <SearchEngineOptimization  />,
+  },
+  {
+    tab: "Video Animation",
+    panel: <VideoAnimation />,
   },
 ];

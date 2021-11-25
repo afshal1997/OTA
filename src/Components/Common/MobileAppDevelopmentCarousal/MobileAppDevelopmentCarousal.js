@@ -3,6 +3,10 @@ import Slider from "react-slick/lib/slider";
 import Image1 from "../../../Assets/Portfolio/AppDevelopment/image1.png";
 import Image2 from "../../../Assets/Portfolio/AppDevelopment/image2.png";
 import Image3 from "../../../Assets/Portfolio/AppDevelopment/image3.png";
+import Image4 from "../../../Assets/Portfolio/AppDevelopment/image4.jpg";
+import Image5 from "../../../Assets/Portfolio/AppDevelopment/image5.jpg";
+
+
 const MobileAppDevelopmentCarousal = () => {
   const [activeSlide, setActiveSlide] = useState(1);
   useEffect(() => {
@@ -60,7 +64,7 @@ const MobileAppDevelopmentCarousal = () => {
   return (
     <div className="mobile-app-development-category">
       <Slider {...settings}>
-        {[Image1, Image2, Image3, Image1].map((image, idx) => (
+        {[Image1, Image2, Image3, Image4 ,Image5].map((image, idx) => (
           <div
             key={idx}
             className={
