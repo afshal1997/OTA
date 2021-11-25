@@ -6,12 +6,22 @@
   border: none;
   padding: 0.2rem 0.7rem;
 }
+.welcome-popup .modal-dialog-centered {
+  width: 75%;
+  padding-top: 40px;
+  margin: auto !important;
+}
 .welcome-popup .modal-content {
   background-color: transparent;
+  border: 0px !important;
+  padding: 0px;
+  
+  display: flex !important;
+  justify-content: center !important;
 }
 .welcome-popup .modal-content img {
-  border-radius: 2rem;
-  box-shadow: 0 0.5rem 1rem rgb(255 255 255 / 26%) 
+  width: 100%;
+  height: 100%;
 }
 .ota-modal .modal-content {
   background-image: linear-gradient(to bottom right, #1599d1, #6a5982);
@@ -54,7 +64,7 @@
   position: relative;
   z-index: 1;
   top: 0;
-  color: #0c4663;
+  color: #fff;
   background: #30709b;
   padding: 20px 5px;
   padding-left: 15px;
