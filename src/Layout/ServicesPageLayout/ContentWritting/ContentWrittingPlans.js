@@ -24,46 +24,6 @@ const ContentWrittingPlans = () => {
               />
             </Col>
           </Row>
-          {/* <Row className="mt-5">
-            {StartupPricing.map(
-              ({
-                type,
-                pricing,
-                description,
-                services,
-                classes,
-                applyNowButton,
-              }) => {
-                return (
-                  <Col lg={4} className="text-center mb-5">
-                    <div className={`card PricingCard ${classes}`}>
-                      <h2>{type}</h2>
-                      <h3>
-                        <span>USD -</span>
-                        {pricing}{" "}
-                      </h3>
-                      <div className="textBox">
-                        <p>{description}</p>
-                      </div>
-                      <ul>
-                        {services.map((service) => {
-                          return <li>{service}</li>;
-                        })}
-                      </ul>
-                      <a
-                        href="#"
-                        onClick={() => dispatch(CHANGE_MODAL(true))}
-                        className={applyNowButton.buttonStyling}
-                        href={applyNowButton.linkText}
-                      >
-                        {applyNowButton.buttonText}
-                      </a>
-                    </div>
-                  </Col>
-                );
-              }
-            )}
-          </Row> */}
             <ContentWriting />
           <Row className="mt-5">
             <Col lg={4}></Col>

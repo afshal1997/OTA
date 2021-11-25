@@ -16,28 +16,6 @@ const AppDevelopmentPlansPricing = () => {
                             <Heading Heading="App Development" tagline="Introducing Outsource To Asia new pricing packages." MainHeading="" />
                         </Col>
                     </Row>
-                    {/* <Row className="mt-5">
-                        {WebDevelopmentPricing.map(({ type, pricing, services, classes, applyNowButton }) => {
-                            return (
-                                <Col lg={4} className="text-center mb-5">
-                                    <div className={`card PricingCard pt-0 ${classes}`}>
-                                        <div className="PackageAndPricing">
-                                        <h4>{type}</h4>
-                                        <h3><span>USD -</span>{pricing} </h3>
-                                        </div>
-                                        <ul>
-                                            {services.map((service) => {
-                                                return (
-                                                    <li>{service}</li>
-                                                )
-                                            })}
-                                        </ul>
-                                        <a className={applyNowButton.buttonStyling} href={applyNowButton.linkText}>{applyNowButton.buttonText}</a>
-                                    </div>
-                                </Col>
-                            )
-                        })}
-                    </Row> */}
                     <AppDevelopment/>
                     <Row className="mt-5">
                         <Col lg={4}></Col>

@@ -39,10 +39,9 @@ const Pricing = () => {
     <div>
       <PricingMainBanner />
       <PricingPlansTabs />
-      <HomePageBannerThree />
+      <TestmonialsSlider testmonialTitle={testmonialsSliderData} />
       <WatchVides />
       <ClientSlider />
-      <TestmonialsSlider testmonialTitle={testmonialsSliderData} />
       <Consultation />
     </div>
   );
