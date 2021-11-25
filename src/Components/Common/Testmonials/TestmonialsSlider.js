@@ -31,7 +31,7 @@ const TestmonialsSlider = (props) => {
                                     <text id="text" y="85" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Clients</text>
                                 </g>
                             </svg>
-                            <Zoom right><h2><strong>Testmonials</strong></h2></Zoom>
+                            <Zoom right><h2><strong>Testimonials</strong></h2></Zoom>
                         </Col>
                         <Col></Col>
                     </Row>

@@ -10,12 +10,12 @@ const CyberSecurityAcknowledgements = () => {
         <div>
             <OurService>
                 <Container>
-                    <Row>
+                    {/* <Row>
                         <Col lg={12} className="m-auto">
                             <Heading Heading="Acknowledgements" tagline="We aim to move forward / grow alongside our employees" MainHeading="" />
                         </Col>
                     </Row>
-                    {/* <Row className="mt-5">
+                    <Row className="mt-5">
                         {StartupPricing.map(({ type, pricing, description, services, classes, applyNowButton }) => {
                             return (
                                 <Col lg={4} className="text-center mb-5">
