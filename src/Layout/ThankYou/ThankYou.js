@@ -21,7 +21,7 @@ const ThankYou = () => {
     >
       <div>
         <Heading Heading="Thankyou for contacting us. We'll get back to you. We will get back to you soon." />
-        <div className="col-2 m-auto">
+        <div className="col-lg-2 m-auto col-sm-9 col-md-6">
           <Link to="/home" class={`getStarted-btn`}>
             Go To Home Page
           </Link>
