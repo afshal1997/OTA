@@ -561,6 +561,24 @@ span.read-more-less--more {
   margin: auto;
 }
 
+.WhiteLabliblingSlider .slick-dots {
+  bottom: -55px !important;
+}
+
+.WhiteLabliblingSliderCards:hover {
+  background-image: linear-gradient(to right, #08678a, #0b96c8);
+  transition: 1s;
+}
+
+.WhiteLabliblingSliderCards:hover h3 span{
+  color: #fff;
+  transition: 1s;
+}
+
+.WhiteLabliblingSliderCards{
+  transition: 1s;
+}
+
 @media screen and (max-device-width: 991px) {
   body,
   html {
@@ -581,7 +599,7 @@ span.read-more-less--more {
     bottom: 0;
   }
 
-  .testmonialImg img{
+  .testmonialImg img {
     height: 40px;
   }
 
@@ -642,13 +660,13 @@ span.read-more-less--more {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
- 
+
 ::-webkit-scrollbar-thumb {
-  background: #b5406a; 
+  background: #b5406a;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #555;
 }
