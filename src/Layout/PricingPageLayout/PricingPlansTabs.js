@@ -45,7 +45,7 @@ const PricingPlansTabs = () => {
             </Container>
             <Container fluid className="p-0">
                 <Row>
-                    <Col lg={9} className="me-0 m-auto">
+                    <Col lg={12} className="me-0 m-auto">
                         <VerticalTabs />
                     </Col>
                 </Row>

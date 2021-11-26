@@ -570,13 +570,20 @@ span.read-more-less--more {
   transition: 1s;
 }
 
-.WhiteLabliblingSliderCards:hover h3 span{
+.WhiteLabliblingSliderCards:hover h3 span {
   color: #fff;
   transition: 1s;
 }
 
-.WhiteLabliblingSliderCards{
+.WhiteLabliblingSliderCards {
   transition: 1s;
+}
+
+.VerticalTabsWidth {
+  width: 100%;
+  max-width: 1250px;
+  margin: auto;
+  margin-right: 0;
 }
 
 @media screen and (max-device-width: 991px) {
@@ -652,6 +659,11 @@ span.read-more-less--more {
 @media screen and (min-device-width: 992px) and (max-device-width: 1400px) {
   .applyNow .card {
     padding: 10px 30px;
+  }
+
+  .VerticalTabsWidth {
+    width: 100% !important;
+    max-width: 100% !important;
   }
 }
 
