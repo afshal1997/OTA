@@ -581,7 +581,7 @@ span.read-more-less--more {
 
 .VerticalTabsWidth {
   width: 100%;
-  max-width: 1250px;
+  max-width: 1400px;
   margin: auto;
   margin-right: 0;
 }
@@ -604,6 +604,10 @@ span.read-more-less--more {
     left: 0;
     right: 100%;
     bottom: 0;
+  }
+
+  .ota-modal .modal-content{
+    padding: 10px 10px !important;
   }
 
   .testmonialImg img {
@@ -665,6 +669,20 @@ span.read-more-less--more {
     width: 100% !important;
     max-width: 100% !important;
   }
+
+  .VideoAnimationTabsHeight {
+    min-height: 180px !important;
+    max-height: 180px !important;
+  }
+
+  .BrandFont h3{
+    font-size: 1.4rem !important;
+  }
+
+  .mobileMenu.navbar-nav{
+    width: 80% !important;
+  }
+
 }
 
 ::-webkit-scrollbar {

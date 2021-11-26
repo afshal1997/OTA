@@ -10,7 +10,7 @@ const VideoAnimation = () => {
                 <div className="mt-5 row">
                     <div className="text-center col-lg-4 mb-5">
                         <div className="card PricingCard BrandFont pt-0 ">
-                            <div className="PackageAndPricing">
+                            <div className="PackageAndPricing VideoAnimationTabsHeight">
                                 <h4>2D Character</h4>
                                 <h3>
                                     <span>USD -</span>$400 <small>/30 Seconds</small>{" "}
@@ -40,7 +40,7 @@ const VideoAnimation = () => {
                     </div>
                     <div className="text-center col-lg-4 mb-5">
                         <div className="card PricingCard BrandFont pt-0 ActivePricingCard">
-                            <div className="PackageAndPricing">
+                            <div className="PackageAndPricing VideoAnimationTabsHeight">
                                 <h4>Motion Graphics</h4>
                                 <h3>
                                     <span>USD -</span>$300 <small>/30 Seconds</small>{" "}
@@ -70,10 +70,10 @@ const VideoAnimation = () => {
                     </div>
                     <div className="text-center col-lg-4 mb-5">
                         <div className="card PricingCard BrandFont pt-0 ">
-                            <div className="PackageAndPricing">
+                            <div className="PackageAndPricing VideoAnimationTabsHeight">
                                 <h4>White Board Animation</h4>
                                 <h3>
-                                    <span>USD -</span>$600 <small>/30 seconds</small>{" "}
+                                    <span>USD -</span>$300 <small>/30 seconds</small>{" "}
                                 </h3>
                                 ($2000/2 minutes)
                             </div>
@@ -100,8 +100,8 @@ const VideoAnimation = () => {
                         </div>
                     </div>
                     <div className="text-center col-lg-4 mb-5">
-                        <div className="card PricingCard BrandFont pt-0 ">
-                            <div className="PackageAndPricing">
+                        <div className="card PricingCard BrandFont pt-0 ActivePricingCard">
+                            <div className="PackageAndPricing VideoAnimationTabsHeight">
                                 <h4>Screencast</h4>
                                 <h3>
                                     <span>USD -</span>$300 <small>/30 Seconds</small> {" "}
@@ -130,8 +130,8 @@ const VideoAnimation = () => {
                         </div>
                     </div>
                     <div className="text-center col-lg-4 mb-5">
-                        <div className="card PricingCard BrandFont pt-0 ActivePricingCard">
-                            <div className="PackageAndPricing">
+                        <div className="card PricingCard BrandFont pt-0 ">
+                            <div className="PackageAndPricing VideoAnimationTabsHeight">
                                 <h4>Live Video Editing</h4>
                                 <h3>
                                     <span>USD -</span>$349{" "}
@@ -159,8 +159,8 @@ const VideoAnimation = () => {
                         </div>
                     </div>
                     <div className="text-center col-lg-4 mb-5">
-                        <div className="card PricingCard BrandFont pt-0 ">
-                            <div className="PackageAndPricing">
+                        <div className="card PricingCard BrandFont pt-0 ActivePricingCard">
+                            <div className="PackageAndPricing VideoAnimationTabsHeight">
                                 <h4>Stock Animation</h4>
                                 <h3>
                                     <span>USD -</span>$300 <small>/30 Seconds</small> {" "}
@@ -190,7 +190,7 @@ const VideoAnimation = () => {
                     </div>
                     <div className="text-center col-lg-4 mb-5">
                         <div className="card PricingCard BrandFont pt-0 ">
-                            <div className="PackageAndPricing">
+                            <div className="PackageAndPricing VideoAnimationTabsHeight">
                                 <h4>3D Animation</h4>
                                 <h3>
                                     <span>USD -</span>$600 <small>/30 Seconds</small> {" "}

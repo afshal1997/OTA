@@ -1,7 +1,7 @@
 import React from "react";
 import { Modal } from "react-bootstrap";
 import { Zoom } from "react-reveal";
-import Welcome from "../../../Assets/WelcomePopup/welcome.jpg";
+import blackfriday from "../../../Assets/WelcomePopup/blackfriday.jpeg";
 const WelcomePopup = ({ show, handleClose }) => {
   return (
     <div className="d-block m-auto">
@@ -15,7 +15,7 @@ const WelcomePopup = ({ show, handleClose }) => {
           className="welcome-popup"
         >
           <Modal.Body>
-            <img src={Welcome} />
+            <img src={blackfriday} />
           </Modal.Body>
         </Modal>
       </Zoom>

@@ -24,7 +24,6 @@ const WebDevelopment = () => {
                 <li>2 Revisions</li>
                 <li>CMS (WordPress)</li>
                 <li>Mobile Responsive</li>
-                <li>Free Domain Hosting</li>
                 <li>After Sales Support</li>
               </ul>
               <a
@@ -52,7 +51,6 @@ const WebDevelopment = () => {
                 <li>Unlimited Revisions</li>
                 <li>CMS (WordPress)</li>
                 <li>Mobile Responsive</li>
-                <li>Free Logo Design</li>
                 <li>After Sales Support</li>
               </ul>
               <a
@@ -80,7 +78,6 @@ const WebDevelopment = () => {
                 <li>Unlimited Revisions</li>
                 <li>(Woo Commerce/Shopify/ PrestaShop/SquareSpace)</li>
                 <li>Mobile Responsive</li>
-                <li>Free Logo Design</li>
                 <li>After Sales Support</li>
               </ul>
               <a

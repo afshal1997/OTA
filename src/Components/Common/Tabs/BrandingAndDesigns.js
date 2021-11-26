@@ -9,7 +9,7 @@ const BrandingAndDesigns = () => {
       <div className="mt-5 row">
         <div className="text-center col-lg-4 mb-5">
           <div className="card PricingCard BrandFont pt-0 ">
-            <div className="PackageAndPricing">
+            <div className="PackageAndPricing pt-5">
               <h4>Logo Design (simple)</h4>
               <h3>
                 <span>USD -</span>$60{" "}
@@ -34,7 +34,7 @@ const BrandingAndDesigns = () => {
         </div>
         <div className="text-center col-lg-4 mb-5">
           <div className="card PricingCard BrandFont pt-0 ActivePricingCard">
-            <div className="PackageAndPricing">
+            <div className="PackageAndPricing pt-5">
               <h4>Mascot Logo</h4>
               <h3>
                 <span>USD -</span>$180{" "}
@@ -83,7 +83,7 @@ const BrandingAndDesigns = () => {
           </div>
         </div>
         <div className="text-center col-lg-4 mb-5">
-          <div className="card PricingCard BrandFont pt-0 ">
+          <div className="card PricingCard BrandFont pt-0 ActivePricingCard">
             <div className="PackageAndPricing">
               <h4>Flyer (Single Side Leaflet)</h4>
               <h3>
@@ -129,7 +129,7 @@ const BrandingAndDesigns = () => {
           </div>
         </div>
         <div className="text-center col-lg-4 mb-5">
-          <div className="card PricingCard BrandFont pt-0 ">
+          <div className="card PricingCard BrandFont pt-0 ActivePricingCard">
             <div className="PackageAndPricing">
               <h4>Brochure (double side front and Back)</h4>
               <h3>
@@ -175,7 +175,7 @@ const BrandingAndDesigns = () => {
           </div>
         </div>
         <div className="text-center col-lg-4 mb-5">
-          <div className="card PricingCard BrandFont pt-0 ">
+          <div className="card PricingCard BrandFont pt-0 ActivePricingCard">
             <div className="PackageAndPricing">
               <h4>Brochure (3 fold)</h4>
               <h3>

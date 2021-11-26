@@ -20,11 +20,7 @@ function Footer() {
                 <img className="w-100" width="" src={loGo}></img>
               </div>
               <p>
-                Outsource to Asia is a premier full-service digital agency,
-                creating custom strategies for each of our clients based on
-                their needs and goals. We focus on delivering data-driven and
-                result-oriented services that bring revenue and strengthen brand
-                identity.
+                Pioneering innovative digital experiences that fuel startups, scale-up enterprises, and help family businesses embrace digital transformation.
               </p>
             </Col>
             <Col lg={2} className="ps-5">
