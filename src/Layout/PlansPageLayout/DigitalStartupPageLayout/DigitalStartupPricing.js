@@ -13,7 +13,7 @@ const DigitalStartupPricing = () => {
     <div className="DigitalStartupPricing">
       <OurService>
         <Container>
-          {/* <Row>
+          <Row>
             <Col lg={12} className="m-auto text-center">
               <Heading
                 Heading="Starting Prices"
@@ -61,7 +61,7 @@ const DigitalStartupPricing = () => {
                 );
               }
             )}
-          </Row> */}
+          </Row>
           <Row className="mt-5">
             <Col lg={4}></Col>
             <Col lg={6} className="m-auto">
