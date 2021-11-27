@@ -132,22 +132,22 @@ const VideoAnimation = () => {
                     <div className="text-center col-lg-4 mb-5">
                         <div className="card PricingCard BrandFont pt-0 ">
                             <div className="PackageAndPricing VideoAnimationTabsHeight">
-                                <h4>Live Video Editing</h4>
+                                <h4>Video Editing</h4>
                                 <h3>
                                     <span>USD -</span>$349{" "}
                                 </h3>
+                                (Upto 5 minutes )
                             </div>
                             <ul>
-                                <li>Concept & Script Writing</li>
-                                <li>Upto 5 Revisions</li>
-                                <li>Themes</li>
-                                <li>Story Board</li>
-                                <li>Animation</li>
-                            </ul>
-                            <h6><span>Add On For $100</span></h6>
-                            <ul>
-                                <li>Professional voice over and VFX</li>
-                                <li>Unlimited Revisions</li>
+                                <li>Color Correction</li>
+                                <li>Exposure adjustment</li>
+                                <li>Blurring</li>
+                                <li>Frame cropping</li>
+                                <li>Trimming</li>
+                                <li>Re-sequencing</li>
+                                <li>Cross dissolving</li>
+                                <li>Cut-aways</li>
+                                <li>Fade in/fade out</li>
                             </ul>
                             <a
                                 className="PricingApplyNowBtn w-100 p-2"
