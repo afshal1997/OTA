@@ -9,16 +9,17 @@ import Heading from '../PagesHeadings/Heading'
 const WhiteLabelPackages = () => {
     const dispatch = useDispatch()
     const settings = {
-        className: "center",
-        centerMode: true,
+        className: "WhiteLabliblingSlider",
+        centerMode: false,
+        arrows: false,
         dots: true,
         infinite: true,
-        slidesToShow: 4,
+        slidesToShow: 3,
         centerPadding: '0px',
         autoplay: true,
         speed: 3000,
         autoplaySpeed: 3000,
-        focusOnSelect: true,
+        focusOnSelect: false,
         appendDots: (dots) => (
             <div className="bg-primary">
                 <ul> {dots} </ul>
@@ -63,23 +64,36 @@ const WhiteLabelPackages = () => {
                                     tagline="With us you will get multiple benefits such as :"
                                     MainHeading="Pricing"
                                 />
-
-
                             </Col>
                         </Row>
-                        <div className="whitelabeling-price-category">
+                        <div className="whitelabeling-price-category mt-5">
                             <Slider {...settings}>
-                                <div>plan 1 </div>
-                                <div>plan 2 </div>
-                                <div>plan 3 </div>
-                                <div>plan 4</div>
-                                <div>plan 5</div>
+                                <div className="card PricingCard WhiteLabliblingSliderCards text-center">
+                                    <h3 className="mb-0"><span>USD $100</span></h3>
+                                    <h4><b>Web Development</b></h4>
+                                    <p>USD 100</p>
+                                </div>
+                                <div className="card PricingCard WhiteLabliblingSliderCards text-center">
+                                    <h3 className="mb-0"><span>USD $10/hour</span></h3>
+                                    <h4><b>App Development</b></h4>
+                                    <p>USD 10/hour</p>
+                                </div>
+                                <div className="card PricingCard WhiteLabliblingSliderCards text-center">
+                                    <h3 className="mb-0"><span>USD $150</span></h3>
+                                    <h4><b>Video Animation</b></h4>
+                                    <p>USD 150</p>
+                                </div>
+                                <div className="card PricingCard WhiteLabliblingSliderCards text-center">
+                                    <h3 className="mb-0"><span>USD $50</span></h3>
+                                    <h4><b>Logo Design</b></h4>
+                                    <p>USD 50</p>
+                                </div>
                             </Slider>
                         </div>
-                        <Col className="m-auto my-5" lg={2}>
-                            <Button className="getStarted" onClick={() => dispatch(CHANGE_MODAL(true))}>
+                        <Col className="m-auto pt-5 mt-4" lg={2}>
+                            <a className="getStarted" onClick={() => dispatch(CHANGE_MODAL(true))}>
                                 Get Started
-                            </Button>
+                            </a>
                         </Col>
                     </Container>
                 </OurService>
