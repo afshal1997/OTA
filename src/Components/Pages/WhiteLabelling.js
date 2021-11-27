@@ -9,6 +9,7 @@ import WhiteLabellingPackages from '../../Layout/PlansPageLayout/WhiteLabellingP
 import WhiteLabellingPractices from '../../Layout/PlansPageLayout/WhiteLabellingPageLayout/WhiteLabellingPractices'
 import ClientSlider from '../Common/ClientSlider/ClientSlider'
 import TestmonialsSlider from '../Common/Testmonials/TestmonialsSlider'
+import WhiteLabelPackages from '../Common/WhiteLabelPackages/WhiteLabelPackages'
 
 
 const testmonialsSliderData = {
@@ -48,6 +49,7 @@ const WhiteLabelling = () => {
             <WeDo />
             <DigitalMarketing />
             <BusinessAndSolutions />
+            <WhiteLabelPackages />
             <WhiteLabellingPackages />
             <ClientSlider />
             <TestmonialsSlider testmonialTitle={testmonialsSliderData} />
