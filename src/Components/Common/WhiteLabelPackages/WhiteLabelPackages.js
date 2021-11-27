@@ -1,10 +1,13 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Button, Col, Container, Row } from 'react-bootstrap'
+import { useDispatch } from 'react-redux'
 import Slider from 'react-slick'
+import { CHANGE_MODAL } from '../../../Store/Action'
 import OurService from '../OurService/OurService'
 import Heading from '../PagesHeadings/Heading'
 
 const WhiteLabelPackages = () => {
+    const dispatch = useDispatch()
     const settings = {
         className: "center",
         centerMode: true,
@@ -73,6 +76,11 @@ const WhiteLabelPackages = () => {
                                 <div>plan 5</div>
                             </Slider>
                         </div>
+                        <Col className="m-auto my-5" lg={2}>
+                            <Button className="getStarted" onClick={() => dispatch(CHANGE_MODAL(true))}>
+                                Get Started
+                            </Button>
+                        </Col>
                     </Container>
                 </OurService>
             </div>
