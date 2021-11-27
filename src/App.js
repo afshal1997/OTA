@@ -20,12 +20,12 @@ function App() {
     let time = now.getTime();
     const hourImMs = 60 * 60 * 1000
     AOS.init();
-    const checkTimer = +localStorage.getItem('welcome-popup') + hourImMs
+    const checkTimer = +localStorage.getItem('black-friday-popup') + hourImMs
     const estimatedTimeToShowPopup = now > checkTimer
-    if (!localStorage.getItem("welcome-popup") || estimatedTimeToShowPopup) {
+    if (!localStorage.getItem("black-friday-popup") || estimatedTimeToShowPopup) {
       setPopup(true);
       setTimeout(() => {
-        localStorage.setItem("welcome-popup", time);
+        localStorage.setItem("black-friday-popup", time);
         setPopup(false);
         dispatch(CHANGE_MODAL(true));
       }, 15000);
