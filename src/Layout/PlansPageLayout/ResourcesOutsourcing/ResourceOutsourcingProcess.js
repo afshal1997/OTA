@@ -18,7 +18,7 @@ const ResourceOutsourcingProcess = () => {
 
                     <div className="WhyChooseUs">
                         <img className="w-100 processImg" src={WhyChooseUs} alt=""></img>
-                        <Row>
+                        <Row className="mobile-view">
                             <Col>
                                 <Card className="WhyChooseUSCards">
                                     <Col lg={8} className="m-auto text-center p-0">

@@ -606,7 +606,7 @@ span.read-more-less--more {
     bottom: 0;
   }
 
-  .ota-modal .modal-content{
+  .ota-modal .modal-content {
     padding: 10px 10px !important;
   }
 
@@ -658,6 +658,23 @@ span.read-more-less--more {
   .OutsourcingBusiness .react-tabs__tab-panel {
     padding: 20px;
   }
+
+  .mobile-view {
+    display: block;
+  }
+  .mobile-view .col:nth-child(even) .WhyChooseUSCards div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .WhyChooseUs img {
+    width: 100% !important;
+    max-width: 80px;
+    object-fit: contain;
+  }
+  .WhyChooseUs {
+    padding: 10px !important;
+  }
 }
 
 @media screen and (min-device-width: 992px) and (max-device-width: 1400px) {
@@ -675,14 +692,13 @@ span.read-more-less--more {
     max-height: 180px !important;
   }
 
-  .BrandFont h3{
+  .BrandFont h3 {
     font-size: 1.4rem !important;
   }
 
-  .mobileMenu.navbar-nav{
+  .mobileMenu.navbar-nav {
     width: 80% !important;
   }
-
 }
 
 ::-webkit-scrollbar {
