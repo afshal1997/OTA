@@ -117,6 +117,7 @@ const ApplyNowModal = ({ show }) => {
                     as="textarea"
                     aria-label="With textarea"
                     placeholder="Message"
+                    rows="2"
                   />
                 </InputGroup>
               </Col>

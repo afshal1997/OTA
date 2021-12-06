@@ -675,6 +675,19 @@ span.read-more-less--more {
   .WhyChooseUs {
     padding: 10px !important;
   }
+
+  .applyNow .card {
+    padding: 10px 10px !important;
+  }
+
+  .ota-modal textarea {
+    padding: 10px 5px !important;
+  }
+
+  .ota-modal input {
+    padding: 10px 20px !important;
+    margin: 10px auto !important;
+  }
 }
 
 @media screen and (min-device-width: 992px) and (max-device-width: 1400px) {
@@ -698,6 +711,13 @@ span.read-more-less--more {
 
   .mobileMenu.navbar-nav {
     width: 80% !important;
+  }
+}
+
+@media screen and (max-device-width: 1024px) {
+  .mainBannerContact,
+  .mainBannerSocialMediaIcons {
+    display: none !important;
   }
 }
 
