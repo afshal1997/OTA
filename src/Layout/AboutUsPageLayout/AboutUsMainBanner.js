@@ -33,8 +33,8 @@ const AboutUsMainBanner = () => {
                       </text>
                     </g>
                   </svg>
-                  <h1>Based In Asia</h1>
-                  <h3>Your Virtual Digital Production Facility</h3>
+                  <h1>Your Virtual Digital</h1>
+                  <h3>Production Facility Based In Asia</h3>
                   <p>
                     We at Outsource to Asia provide our clients with
                     out-of-the-box solutions in the realms of web design, web

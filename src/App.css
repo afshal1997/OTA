@@ -15,7 +15,7 @@
   background-color: transparent;
   border: 0px !important;
   padding: 0px;
-  
+
   display: flex !important;
   justify-content: center !important;
 }
@@ -68,7 +68,6 @@
   background: #30709b;
   padding: 20px 5px;
   padding-left: 15px;
-  height: 100%;
   font-size: 25px;
   margin: auto;
   resize: none;

@@ -55,7 +55,7 @@ const ApplyNowModal = ({ show }) => {
         className="ota-modal"
       >
         <Modal.Header>
-          <h4>Get In Touch With Us</h4>
+          <h6>Get In Touch With Us</h6>
           <i className="fas fa-times font-size-24" onClick={handleClose}></i>
         </Modal.Header>
         <Modal.Body>
@@ -117,6 +117,7 @@ const ApplyNowModal = ({ show }) => {
                     as="textarea"
                     aria-label="With textarea"
                     placeholder="Message"
+                    rows="2"
                   />
                 </InputGroup>
               </Col>

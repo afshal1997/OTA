@@ -19,8 +19,8 @@ const CallCenterChooseUs = () => {
 
                     <div className="WhyChooseUs">
                         <img className="w-100 processImg" src={WhyChooseUs} alt=""></img>
-                        <Row>
-                            <Col>
+                        <Row className="mobile-view">
+                            <Col className="for-mobile">
                                 <Card className="WhyChooseUSCards">
                                     <Col lg={8} className="m-auto text-center p-0">
                                         <img className="w-50 position-relative mb-4" src={CallCenterIcon01} alt=""></img>
@@ -28,7 +28,7 @@ const CallCenterChooseUs = () => {
                                     </Col>
                                 </Card>
                             </Col>
-                            <Col>
+                            <Col className="for-mobile">
                                 <Card className="WhyChooseUSCards">
                                     <Col lg={8} className="m-auto text-center p-0">
                                         <p><b>Efficiency And Time Saving</b></p>
@@ -37,7 +37,7 @@ const CallCenterChooseUs = () => {
                                 </Card>
                             </Col>
 
-                            <Col>
+                            <Col className="for-mobile">
                                 <Card className="WhyChooseUSCards">
                                     <Col lg={8} className="m-auto text-center p-0">
                                         <img className="w-50 position-relative mb-4" src={CallCenterIcon03} alt=""></img>
@@ -45,7 +45,7 @@ const CallCenterChooseUs = () => {
                                     </Col>
                                 </Card>
                             </Col>
-                            <Col>
+                            <Col className="for-mobile">
                                 <Card className="WhyChooseUSCards">
                                     <Col lg={8} className="m-auto text-center p-0">
                                         <p><b>Experienced <br></br> Staff</b></p>
@@ -53,7 +53,7 @@ const CallCenterChooseUs = () => {
                                     </Col>
                                 </Card>
                             </Col>
-                            <Col>
+                            <Col className="for-mobile">
                                 <Card className="WhyChooseUSCards">
                                     <Col lg={8} className="m-auto text-center p-0">
                                         <img className="w-50 position-relative mb-4" src={CallCenterIcon05} alt=""></img>

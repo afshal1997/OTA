@@ -300,13 +300,13 @@
 
 @media screen and (min-device-width: 1024px) and (max-device-width: 1399px){
     .mainNav .nav-link {
-        font-size: 12px;
+        font-size: 11px;
         margin: auto 0px;
         font-weight: 500;
-        padding: 6px !important;
+        padding: 6px 4px !important;
     }
     .plansDropdown{
-        font-size: 12px;
+        font-size: 11px;
     }
     
     .servicesBox2 h5{ 
@@ -356,4 +356,21 @@
     .Mobile img{
         min-width: 360px;
     }
+
+    span.navbar-brand img {
+        max-width: 130px;
+    }
+
+    .adminLink {
+        padding: 6px !important;
+        min-width: 100px !important;
+        max-width: 100px !important;
+        font-size: 0.8rem !important;
+    }
+
+    .adminLink img {
+        max-width: 18px !important;
+        max-height: 15px !important;
+    }
+
 }

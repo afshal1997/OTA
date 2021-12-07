@@ -5,7 +5,7 @@ import { verticalTabsUtilities } from "../../../Constants/VerticalTabsUtilities"
 
 const VerticalTabs = () => {
   return (
-    <div>
+    <div className="VerticalTabsWidth">
       <Tabs>
         <TabList>
           {React.Children.toArray(

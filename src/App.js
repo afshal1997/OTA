@@ -16,11 +16,16 @@ function App() {
   const [welcomePopup, setPopup] = useState(false);
   const dispatch = useDispatch();
   useEffect(() => {
+    const now = new Date();
+    let time = now.getTime();
+    const hourImMs = 60 * 60 * 1000
     AOS.init();
-    if (!localStorage.getItem("welcome-popup")) {
+    const checkTimer = +localStorage.getItem('happy-december-friday-popup') + hourImMs
+    const estimatedTimeToShowPopup = now > checkTimer
+    if (!localStorage.getItem("happy-december-friday-popup") || estimatedTimeToShowPopup) {
       setPopup(true);
       setTimeout(() => {
-        localStorage.setItem("welcome-popup", true);
+        localStorage.setItem("happy-december-friday-popup", time);
         setPopup(false);
         dispatch(CHANGE_MODAL(true));
       }, 15000);

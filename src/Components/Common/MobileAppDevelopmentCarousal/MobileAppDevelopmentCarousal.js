@@ -7,33 +7,27 @@ import Image4 from "../../../Assets/Portfolio/AppDevelopment/image4.jpg";
 import Image5 from "../../../Assets/Portfolio/AppDevelopment/image5.jpg";
 
 const MobileAppDevelopmentCarousal = () => {
-  const [activeSlide, setActiveSlide] = useState(1);
   const settings = {
+    className: "center",
     infinite: true,
+    centerMode: true,
     centerPadding: "0px",
     slidesToShow: 3,
     arrows: false,
     speed: 500,
-    dots: true,
-    // autoplay: true,
-    // autoplaySpeed: 3000,
-    beforeChange: (p, n) => setActiveSlide(p),
-
-    appendDots: (dots) => (
-      <div className="bg-primary">
-        <ul> {dots} </ul>
-      </div>
-    ),
-    customPaging: (i) => <div className="app-pagination-dots">{""}</div>,
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
+          centerMode: true,
+          centerPadding: "0px",
           infinite: true,
-          dots: true,
-          beforeChange: (p, n) => setActiveSlide(n),
+          dots: false
         },
       },
       {
@@ -41,8 +35,9 @@ const MobileAppDevelopmentCarousal = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2,
-          beforeChange: (p, n) => setActiveSlide(n),
+          centerMode: true,
+          centerPadding: "0px",
+          initialSlide: 2
         },
       },
       {
@@ -50,7 +45,8 @@ const MobileAppDevelopmentCarousal = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          beforeChange: (p, n) => setActiveSlide(n),
+          centerMode: true,
+          centerPadding: "0px",
         },
       },
     ],
@@ -58,19 +54,21 @@ const MobileAppDevelopmentCarousal = () => {
   return (
     <div className="mobile-app-development-category">
       <Slider {...settings}>
-        {[Image1, Image2, Image3, Image4, Image5].map((image, idx) => {
-          console.log(idx === activeSlide);
-          return (
-            <div
-              key={idx}
-              className={
-                idx === activeSlide ? "active-app-div" : "non-active-app-div"
-              }
-            >
-              <img src={image} />
-            </div>
-          );
-        })}
+        <div>
+          <img src={Image1} alt="" />
+        </div>
+        <div>
+          <img src={Image2} alt="" />
+        </div>
+        <div>
+          <img src={Image3} alt="" />
+        </div>
+        <div>
+          <img src={Image4} alt="" />
+        </div>
+        <div>
+          <img src={Image5} alt="" />
+        </div>
       </Slider>
     </div>
   );

@@ -9,8 +9,6 @@ const WhiteLabellingPackages = () => {
         <div>
             <OurService>
                 <Container>
-                    
-                    
                     <Row>
                         <Col lg={4}></Col>
                         <Col lg={6} className="m-auto">
@@ -30,7 +28,6 @@ const WhiteLabellingPackages = () => {
                         </Col>
                     </Row>
                     <VideoTestimonal />
-
                 </Container>
             </OurService>
         </div>

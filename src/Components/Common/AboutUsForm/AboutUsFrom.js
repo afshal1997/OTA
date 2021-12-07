@@ -30,13 +30,13 @@ const AboutUsFrom = () => {
     <div className="">
       <div className="applyNow pt-5">
         <div className="card">
-          <h3>Apply Now</h3>
-          <h1>
-            for a{" "}
+          <h3>Meet Your </h3>
+          <h2>
             <Zoom right cascade>
-              <span>Free Training!</span>
+              <span> Virtual Production</span>
             </Zoom>{" "}
-          </h1>
+          </h2>
+          <h3>Team Today!</h3>
           <Form className="" onSubmit={submitFreeTrainingForm}>
             <InputGroup className="mb-3">
               <InputGroup.Text id="Name">
@@ -84,8 +84,7 @@ const AboutUsFrom = () => {
               </div>
             )}
             <Button className="my-4 get-started-form" type="submit">
-              let's Get Started
-              <i className="fa fa-user-edit mx-2" aria-hidden="true"></i>
+              Apply Now
             </Button>
           </Form>
           <div className="d-flex justify-content-center getstarted-text"></div>

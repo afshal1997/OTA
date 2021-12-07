@@ -7,8 +7,11 @@ import "react-toastify/dist/ReactToastify.css";
 
 import "./contact-use.css";
 import { ContactUsInformation } from "../../Constants/ContactUsInformation";
+import { useHistory } from "react-router";
+import axios from "axios";
 const ContactWithUs = () => {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const history = useHistory()
   const [error, setError] = useState({});
   const changeInputFields = ({ target: { name, value } }) => {
     if (value.trim().length < 3) {
@@ -52,21 +55,25 @@ const ContactWithUs = () => {
   };
   const submitContactForm = (e) => {
     e.preventDefault();
+    const formData = new FormData(e.target);
+    let obj = {};
+    for (var pair of formData.entries()) {
+      obj[pair[0]] = pair[1];
+    }
+    e.preventDefault();
     if (Object.values(error).filter(Boolean).length === 0) {
-      toast.success(
-        "Thank you for getting in touch! We appreciate you contacting us! ",
-        {
-          position: "top-right",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-        }
-      );
-
       e.target.reset();
+      axios
+        .get(
+          `https://api.outsourcetoasia.io/index.php?name=${obj.user_name}&email=${obj.user_email}&phone=${obj.user_phone}&company=${obj.user_company}&message=${obj.user_message}`,
+          formData
+        )
+        .then((response) => {
+          history.push("/thank-you");
+        })
+        .catch((error) => {
+          setError(true);
+        });
     }
   };
 
@@ -112,7 +119,7 @@ const ContactWithUs = () => {
                         type="text"
                         id="floatingInput"
                         placeholder="Enter Your Name"
-                        name="name"
+                        name="user_name"
                       />
                       <label for="floatingInput" className="text-light">
                         Enter Your Name
@@ -125,7 +132,7 @@ const ContactWithUs = () => {
                       <input
                         {...inputProps}
                         type="email"
-                        name="email"
+                        name="user_email"
                         id="floatingInput"
                         placeholder="Enter Your Email Address"
                       />
@@ -141,7 +148,7 @@ const ContactWithUs = () => {
                     <div className="form-floating mb-3">
                       <input
                         {...inputProps}
-                        name="company_name"
+                        name="user_company"
                         type="text"
                         id="floatingInput"
                         placeholder="Enter Your Company Name"
@@ -156,7 +163,7 @@ const ContactWithUs = () => {
                     <div className="form-floating mb-3">
                       <input
                         {...inputProps}
-                        name="your_phone_number"
+                        name="user_phone"
                         type="number"
                         id="floatingInput"
                         minLength="11"
@@ -174,7 +181,7 @@ const ContactWithUs = () => {
                     <div className="form-floating">
                       <textarea
                         {...inputProps}
-                        name="your_comment"
+                        name="user_message"
                         placeholder="Leave a comment here"
                         id="floatingTextarea2"
                         maxlength="500"
