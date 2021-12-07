@@ -41,8 +41,8 @@ const index = () => {
         <div className="mainBannerContact">
           <ul>
             <li>
-              <a href="tel:+16312506471">
-                <i className="fas fa-phone-alt"></i> +1 631-250-6471
+              <a href="tel:+16103791236">
+                <i className="fas fa-phone-alt"></i> +1 610-379-1236
               </a>
             </li>
 

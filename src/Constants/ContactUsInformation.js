@@ -7,7 +7,7 @@ export const ContactUsInformation = [
   {
     containerClasses: "d-flex align-items-start my-3",
     className: "fas fa-phone-volume text-secondary mx-3 my-1",
-    text: "+1 631-250-6471",
+    text: "+1 610-379-1236",
   },
   {
     containerClasses: "d-flex align-items-start mt-3 mb-2",
