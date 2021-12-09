@@ -62,7 +62,7 @@ const SafeCyberSecurity = () => {
                     </Col>
                     <Col lg={3} className="m-auto">
                         <Bounce bottom>
-                            <img className="w-100" src={CyberSecurityimg01} alt=""></img>
+                            <img className="w-100" src={CyberSecurityimg01} alt="CyberSecurityimg01"></img>
                         </Bounce>
                     </Col>
                     <Col lg={4} className="m-auto text-white">

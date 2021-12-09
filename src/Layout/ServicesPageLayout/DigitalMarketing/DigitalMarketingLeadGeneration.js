@@ -18,7 +18,7 @@ const DigitalMarketingLeadGeneration = () => {
               <img
                 className="w-100"
                 src={LeadGeneration.LeadGenerationImagePath}
-                alt=""
+                alt="LeadGeneration.LeadGenerationImagePath"
               ></img>
             </Bounce>
           </Col>

@@ -61,7 +61,7 @@ const DigitalMarketingOnline = () => {
                     </Col>
                     <Col lg={3} className="m-auto">
                         <Bounce bottom>
-                            <img className="w-100" src={DigitalMarketingImg01} alt=""></img>
+                            <img className="w-100" src={DigitalMarketingImg01} alt="DigitalMarketingImg01"></img>
                         </Bounce>
                     </Col>
                     <Col lg={4} className="m-auto text-white">
