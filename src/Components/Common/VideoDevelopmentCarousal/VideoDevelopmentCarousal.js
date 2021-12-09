@@ -66,9 +66,8 @@ const VideoDevelopmentCarousal = () => {
           <div
             key={idx}
             className={
-              idx === activeSlide ? "active-video-div" : "non-active-video-div"
+              idx === activeSlide ? "active-video-div w-100" : "non-active-video-div w-100"
             }
-            style={{ width: "100%", objectFit: "contain" }}
             onClick={() => {
               if (idx === activeSlide) {
                 setVideoModal(true)
@@ -79,7 +78,8 @@ const VideoDevelopmentCarousal = () => {
             <img
               width="400"
               ref={idx === activeSlide ? ref : null}
-              style={{ width: "100%" }} src={slide}
+              className="w-100"
+              src={slide}
               alt={`slide ${idx}`}
             />
 

@@ -134,7 +134,8 @@
   position: relative;
   z-index: 99999 !important;
 }
-.whitelabeling-price-category .slick-slide.slick-active.slick-center.slick-current {
+.whitelabeling-price-category
+  .slick-slide.slick-active.slick-center.slick-current {
   transform: scale(1.2);
 }
 
@@ -198,7 +199,10 @@
   .whitelabeling-price-category .slick-dots {
     margin: -20px auto;
   }
-
+  .active-video-div,
+  .non-active-video-div {
+    object-fit: contain !important;
+  }
   .non-active-video-div {
     opacity: 0.4;
   }

@@ -9,10 +9,7 @@ const ThankYou = () => {
     }, 5000);
   }, []);
   return (
-    <div
-      className="text-primary HomePageBannerFour d-flex justify-content-center align-items-center"
-      style={{ height: "100vh" }}
-    >
+    <div className="text-primary HomePageBannerFour d-flex justify-content-center align-items-center vh-100">
       <div>
         <Heading Heading="Thankyou for contacting us. We'll get back to you. We will get back to you soon." />
         <div className="col-lg-2 m-auto col-sm-9 col-md-6">

@@ -185,7 +185,7 @@ const ContactWithUs = () => {
                         placeholder="Leave a comment here"
                         id="floatingTextarea2"
                         maxlength="500"
-                        style={{ height: "200px", resize: "none" }}
+                        className="contact-text-area form-control bg-transparent border-0 border-bottom rounded-0 text-light"
                       ></textarea>
                       <label for="floatingTextarea2" className="text-light">
                         Type Message Here
