@@ -13,7 +13,7 @@ const SearchEngineOptimization = () => {
               <div className="PackageAndPricing">
                 <h4>BASIC</h4>
                 <h3>
-                  <span>USD -</span>$250 <small>/ mo</small>{" "}
+                  <span>USD -</span>$199 <small>/ mo</small>{" "}
                 </h3>
               </div>
               <ul>
@@ -27,6 +27,7 @@ const SearchEngineOptimization = () => {
                 <li>Classified Submissions ( 10 )</li>
                 <li>Local Optimization ( 01 )</li>
                 <li>Local Business Listings ( 01 )</li>
+                <li>Video Optimization</li>
               </ul>
               <a
                 className="PricingApplyNowBtn w-100 p-2"
@@ -56,6 +57,8 @@ const SearchEngineOptimization = () => {
                 <li>Classified Submissions ( 20 )</li>
                 <li>Local Optimization ( 02 )</li>
                 <li>Local Business Listings ( 02 )</li>
+                <li>Video Optimization</li>
+
               </ul>
               <a
                 className="PricingApplyNowBtn w-100 p-2"
@@ -85,6 +88,10 @@ const SearchEngineOptimization = () => {
                 <li>Blogs Social Bookmarking ( 54 )</li>
                 <li>Classified Submissions ( 30 )</li>
                 <li>Local Optimization ( 05 )</li>
+                <li>Local Business Listings ( 05 )</li>
+                <li>Video Optimization</li>
+                <li>PPT Creation</li>
+
               </ul>
               <a
                 className="PricingApplyNowBtn w-100 p-2"
