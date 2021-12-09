@@ -11,13 +11,13 @@ import Logo_08 from '../../Assets/logo/logo-8.png'
 import Logo_09 from '../../Assets/logo/logo-9.png'
 
 export default function LogoSlider(props) {
-    const sliderLogos = [Logo_01, Logo_02, Logo_03, Logo_04,Logo_05 ,Logo_06 ,Logo_07,Logo_08,Logo_09]
-    
+    const sliderLogos = [Logo_01, Logo_02, Logo_03, Logo_04, Logo_05, Logo_06, Logo_07, Logo_08, Logo_09]
+
     return (
         <Slider className={props.className} {...props.settings}>
             {sliderLogos.map((slides, id) => (
                 <div className={`slider${id}`}>
-                    <img src={slides}></img>
+                    <img src={slides} alt={`slide ${id}`}></img>
                 </div>
             ))
             }

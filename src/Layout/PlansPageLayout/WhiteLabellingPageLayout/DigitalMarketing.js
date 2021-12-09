@@ -73,7 +73,7 @@ const DigitalMarketing = () => {
                 src={
                   WhiteLabellingDigitalMarketing.WhiteLabellingDigitalMarketingImage
                 }
-                alt=""
+                alt="WhiteLabellingDigitalMarketing.WhiteLabellingDigitalMarketingImage"
               ></img>
             </Bounce>
           </Col>

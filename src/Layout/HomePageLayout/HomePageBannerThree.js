@@ -20,17 +20,17 @@ const HomePageBannerThree = () => {
                         <Row>
                             <Col lg={6} className="m-auto">
                                 <div className="line02" data-aos="flip-up" data-aos-duration="1200">
-                                    <img className="w-100" src={line2} alt=""></img>
+                                    <img className="w-100" src={line2} alt="line2"></img>
                                 </div>
                             </Col>
                             <Col lg={3} className="position-relative m-auto">
                                 <div className="Mobile" data-aos="flip-left" data-aos-duration="700">
-                                    <img className="w-100" src={Mobile} alt=""></img>
+                                    <img className="w-100" src={Mobile} alt="Mobile"></img>
                                 </div>
                             </Col>
                             <Col lg={2} className="m-auto mt-0">
                                 <div className="line01" data-aos="flip-right" data-aos-duration="1000">
-                                    <img className="w-100" src={line1} alt=""></img>
+                                    <img className="w-100" src={line1} alt="line1"></img>
                                 </div>
                             </Col>
                         </Row>
@@ -49,7 +49,7 @@ const HomePageBannerThree = () => {
                         <Row>
                             <Col lg={3}>
                                 <div className="line03" data-aos="flip-left" data-aos-duration="1000">
-                                    <img className="w-100 m-auto ms-4" src={line3}></img>
+                                    <img className="w-100 m-auto ms-4" src={line3} alt='line3'></img>
                                 </div>
                             </Col>
                             <Col lg={3} className="m-auto">
@@ -61,7 +61,7 @@ const HomePageBannerThree = () => {
                                             <p className="text-muted">Register your free account on our Client Portal.</p>
                                         </Col>
                                         <Col lg={6} className="col-4">
-                                            <img className="w-100" src={processImgOne}></img>
+                                            <img className="w-100" src={processImgOne} alt='processImgOne'></img>
                                         </Col>
                                     </Row>
                                 </div>
@@ -75,7 +75,7 @@ const HomePageBannerThree = () => {
                                             <p className="text-muted">Provide brief and basic information of your project.</p>
                                         </Col>
                                         <Col lg={6} className="col-4">
-                                            <img className="w-100" src={ProcessTwoBg}></img>
+                                            <img className="w-100" src={ProcessTwoBg} alt='ProcessTwoBg'></img>
                                         </Col>
                                     </Row>
                                 </div>
@@ -89,7 +89,7 @@ const HomePageBannerThree = () => {
                                             <p className="text-muted">We will deliver your work in the shortest period of time.</p>
                                         </Col>
                                         <Col lg={6} className="col-4">
-                                            <img className="w-100" src={ProcessThreeBg}></img>
+                                            <img className="w-100" src={ProcessThreeBg} alt='ProcessThreeBg'></img>
                                         </Col>
                                     </Row>
                                 </div>

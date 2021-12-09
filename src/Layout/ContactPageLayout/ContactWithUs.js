@@ -206,7 +206,7 @@ const ContactWithUs = () => {
           </Col>
           <Col sm={12} lg={5}>
             <div className="d-flex justify-content-center align-items-start flex-column text-light mx-2 contact-use-info">
-              <img src={ContactUSDemo} />
+              <img src={ContactUSDemo} alt='ContactUSDemo' />
               <h2 className="fw-bold mx-3">Contact Info! </h2>
               {React.Children.toArray(
                 ContactUsInformation.map(

@@ -15,7 +15,7 @@ const CaseStudies = () => {
           <Row className="my-4" >
             <Col lg={5} className="m-auto">
               <Bounce left cascade>
-                <img className="w-100" src={p360} alt=""></img>
+                <img className="w-100" src={p360} alt="p360"></img>
               </Bounce>
             </Col>
             <Col lg={7} className="m-auto">
@@ -139,14 +139,14 @@ const CaseStudies = () => {
             </Col>
             <Col lg={5} className="m-auto">
               <Bounce left cascade>
-                <img className="w-100" src={beyondant} alt=""></img>
+                <img className="w-100" src={beyondant} alt="beyondant"></img>
               </Bounce>
             </Col>
           </Row>
           <Row className="my-4">
             <Col lg={5} className="m-auto">
               <Bounce left cascade>
-                <img className="w-100" src={Mili} alt=""></img>
+                <img className="w-100" src={Mili} alt="Mili"></img>
               </Bounce>
             </Col>
             <Col lg={7} className="m-auto">
@@ -265,7 +265,7 @@ const CaseStudies = () => {
             </Col>
             <Col lg={5} className="m-auto">
               <Bounce left cascade>
-                <img className="w-100" src={Adzum} alt=""></img>
+                <img className="w-100" src={Adzum} alt="Adzum"></img>
               </Bounce>
             </Col>
           </Row>

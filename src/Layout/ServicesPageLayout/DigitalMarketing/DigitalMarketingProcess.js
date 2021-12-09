@@ -29,12 +29,12 @@ const DigitalMarketingProcess = () => {
                     </div>
                 </Col>
                 <div className="WhyChooseUs">
-                    <img className="w-100 processImg" src={WebDevelopmentImage02} alt=""></img>
+                    <img className="w-100 processImg" src={WebDevelopmentImage02} alt="WebDevelopmentImage02"></img>
                     <Row className="mobile-view">
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <img className="w-50 position-relative mb-4" src={DigitalMarketing01} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={DigitalMarketing01} alt="DigitalMarketing01"></img>
                                     <p><b>Brief</b></p>
                                 </Col>
                             </Card>
@@ -43,7 +43,7 @@ const DigitalMarketingProcess = () => {
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
                                     <p><b>Targeting</b></p>
-                                    <img className="w-50 position-relative mb-4" src={DigitalMarketing02} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={DigitalMarketing02} alt="DigitalMarketing02"></img>
                                 </Col>
                             </Card>
                         </Col>
@@ -51,7 +51,7 @@ const DigitalMarketingProcess = () => {
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <img className="w-50 position-relative mb-4" src={DigitalMarketing03} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={DigitalMarketing03} alt="DigitalMarketing03"></img>
                                     <p><b>Ad Development</b></p>
                                 </Col>
                             </Card>
@@ -60,14 +60,14 @@ const DigitalMarketingProcess = () => {
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
                                     <p><b>Split Testing</b></p>
-                                    <img className="w-50 position-relative mb-4" src={DigitalMarketing04} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={DigitalMarketing04} alt="DigitalMarketing04"></img>
                                 </Col>
                             </Card>
                         </Col>
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <img className="w-50 position-relative mb-4" src={DigitalMarketing10} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={DigitalMarketing10} alt="DigitalMarketing10"></img>
                                     <p><b>Execution</b></p>
                                 </Col>
                             </Card>
@@ -76,7 +76,7 @@ const DigitalMarketingProcess = () => {
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
                                     <p><b>Reporting</b></p>
-                                    <img className="w-50 position-relative mb-4" src={DigitalMarketing11} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={DigitalMarketing11} alt="DigitalMarketing11"></img>
                                 </Col>
                             </Card>
                         </Col>

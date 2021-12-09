@@ -6,6 +6,7 @@ import Bounce from "react-reveal/Bounce";
 import Zoom from "react-reveal/Zoom";
 import { CHANGE_MODAL } from "../../Store/Action";
 import { useDispatch } from "react-redux";
+import GetStarted from "../../Components/Common/Buttons/GetStarted";
 
 const Consultation = () => {
   const dispatch = useDispatch();
@@ -53,13 +54,8 @@ const Consultation = () => {
             </Col>
             <Col lg={4} className="m-auto">
               <Bounce>
-                <Link
-                  href="#"
-                  onClick={() => dispatch(CHANGE_MODAL(true))}
-                  className="schedulecall w-75"
-                >
-                  Schedule a Call
-                </Link>
+                <GetStarted buttonText='Schedule a Call' buttonClass='schedulecall w-75' />
+
               </Bounce>
             </Col>
           </Row>

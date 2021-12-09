@@ -17,6 +17,7 @@ import Heading from "../../Components/Common/PagesHeadings/Heading";
 import VideoTestimonal from "../../Components/Common/VideoTestimonal/VideoTestimonal";
 import { useDispatch } from "react-redux";
 import { CHANGE_MODAL } from "../../Store/Action";
+import GetStarted from "../../Components/Common/Buttons/GetStarted";
 const HomePageBannerFour = () => {
   const servicesCards = [
     {
@@ -107,13 +108,8 @@ const HomePageBannerFour = () => {
 
             <Col lg={2}>
               <Bounce>
-                <Link
-                  href="/"
-                  className="getStarted"
-                  onClick={() => dispatch(CHANGE_MODAL(true))}
-                >
-                  Get Started
-                </Link>
+              <GetStarted buttonText='Get Started' buttonClass='getStarted' />
+
               </Bounce>
             </Col>
             <Col></Col>

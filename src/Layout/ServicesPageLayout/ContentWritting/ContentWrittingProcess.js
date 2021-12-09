@@ -21,18 +21,18 @@ const ContentWrittingProcess = () => {
                                 <h1>Content Writing</h1>
                             </Zoom>
                             <p>
-                            Content is a voice people don’t hear but understands instantly. It’s a key ingredient where the initial search begins.
+                                Content is a voice people don’t hear but understands instantly. It’s a key ingredient where the initial search begins.
                             </p>
                         </div>
                     </div>
                 </Col>
                 <div className="WhyChooseUs">
-                    <img className="w-100 processImg" src={ContentWrittingProcessImg} alt=""></img>
+                    <img className="w-100 processImg" src={ContentWrittingProcessImg} alt="ContentWrittingProcessImg"></img>
                     <Row className="mobile-view">
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <img className="w-50 position-relative mb-4" src={ContentWrittingIcon01} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={ContentWrittingIcon01} alt="ContentWrittingIcon01"></img>
                                     <p><b>Brief</b></p>
                                 </Col>
                             </Card>
@@ -41,7 +41,7 @@ const ContentWrittingProcess = () => {
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
                                     <p><b>Brain Storming</b></p>
-                                    <img className="w-50 position-relative mb-4" src={ContentWrittingIcon03} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={ContentWrittingIcon03} alt="ContentWrittingIcon03"></img>
                                 </Col>
                             </Card>
                         </Col>
@@ -49,7 +49,7 @@ const ContentWrittingProcess = () => {
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <img className="w-50 position-relative mb-4" src={ContentWrittingIcon06} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={ContentWrittingIcon06} alt="ContentWrittingIcon06"></img>
                                     <p><b>Wireframe</b></p>
                                 </Col>
                             </Card>
@@ -58,14 +58,14 @@ const ContentWrittingProcess = () => {
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
                                     <p><b>Keyword Research</b></p>
-                                    <img className="w-50 position-relative mb-4" src={ContentWrittingIcon07} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={ContentWrittingIcon07} alt="ContentWrittingIcon07"></img>
                                 </Col>
                             </Card>
                         </Col>
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <img className="w-50 position-relative mb-4" src={ContentWrittingIcon08} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={ContentWrittingIcon08} alt="ContentWrittingIcon08"></img>
                                     <p><b>Writing</b></p>
                                 </Col>
                             </Card>
@@ -74,7 +74,7 @@ const ContentWrittingProcess = () => {
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
                                     <p><b>Delivery</b></p>
-                                    <img className="w-50 position-relative mb-4" src={ContentWrittingIcon09} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={ContentWrittingIcon09} alt="ContentWrittingIcon09"></img>
                                 </Col>
                             </Card>
                         </Col>

@@ -73,7 +73,7 @@ const CallCenterOccSection = () => {
           </Col>
           <Col lg={4} className="m-auto">
             <Bounce left cascade>
-              <img className="w-100" src={CallCenterImg03} alt=""></img>
+              <img className="w-100" src={CallCenterImg03} alt="CallCenterImg03"></img>
             </Bounce>
           </Col>
         </Row>

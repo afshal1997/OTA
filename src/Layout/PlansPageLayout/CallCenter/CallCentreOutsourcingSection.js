@@ -3,17 +3,16 @@ import { Col, Container, Row } from "react-bootstrap";
 import CallCenterImg01 from "../../../Assets/PlansAssets/CallCenter/CallCenterImg01.png";
 import Bounce from "react-reveal/Bounce";
 import { useDispatch } from "react-redux";
-import { CHANGE_MODAL } from "../../../Store/Action";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const CallCentreOutsourcingSection = () => {
-  const dispatch = useDispatch();
   return (
     <div className="CallCentreOutsourcingbg pt-5 pb-5">
       <Container>
         <Row>
           <Col lg={6}>
             <Bounce right cascade>
-              <img className="w-75" src={CallCenterImg01} alt=""></img>
+              <img className="w-75" src={CallCenterImg01} alt="CallCenterImg01"></img>
             </Bounce>
           </Col>
           <Col lg={6} className="m-auto">
@@ -49,13 +48,7 @@ const CallCentreOutsourcingSection = () => {
                 </h5>
                 <Row>
                   <Col lg={4}>
-                    <a
-                      href="#"
-                      onClick={() => dispatch(CHANGE_MODAL(true))}
-                      className="getStarted-btn"
-                    >
-                      Get Started
-                    </a>
+                    <GetStarted buttonText='Get Started' buttonClass='getStarted-btn' />
                   </Col>
                 </Row>
               </div>

@@ -22,7 +22,7 @@ const ResourceOutsourcingProcess = () => {
                             <Col>
                                 <Card className="WhyChooseUSCards">
                                     <Col lg={8} className="m-auto text-center p-0">
-                                        <img className="w-50 position-relative mb-4" src={ResourcesOutsourcingBusinessIcon03} alt=""></img>
+                                        <img className="w-50 position-relative mb-4" src={ResourcesOutsourcingBusinessIcon03} alt="ResourcesOutsourcingBusinessIcon03"></img>
                                         <p><b>Select the Resources You Want Us To Help With!</b></p>
                                     </Col>
                                 </Card>
@@ -31,7 +31,7 @@ const ResourceOutsourcingProcess = () => {
                                 <Card className="WhyChooseUSCards">
                                     <Col lg={8} className="m-auto text-center p-0">
                                         <p><b>Provide Us A Little Detail About Your Organization</b></p>
-                                        <img className="w-50 position-relative mb-4" src={ResourcesOutsourcingBusinessIcon04} alt=""></img>
+                                        <img className="w-50 position-relative mb-4" src={ResourcesOutsourcingBusinessIcon04} alt="ResourcesOutsourcingBusinessIcon04"></img>
                                     </Col>
                                 </Card>
                             </Col>
@@ -39,7 +39,7 @@ const ResourceOutsourcingProcess = () => {
                             <Col>
                                 <Card className="WhyChooseUSCards">
                                     <Col lg={8} className="m-auto text-center p-0">
-                                        <img className="w-50 position-relative mb-4" src={ResourcesOutsourcingBusinessIcon05} alt=""></img>
+                                        <img className="w-50 position-relative mb-4" src={ResourcesOutsourcingBusinessIcon05} alt="ResourcesOutsourcingBusinessIcon05"></img>
                                         <p><b>Schedule A Quick Meeting and Ola! You Are tOnboard!</b></p>
                                     </Col>
                                 </Card>
@@ -48,7 +48,7 @@ const ResourceOutsourcingProcess = () => {
                                 <Card className="WhyChooseUSCards">
                                     <Col lg={8} className="m-auto text-center p-0">
                                         <p><b>Enjoy the Growth of Your Organization</b></p>
-                                        <img className="w-50 position-relative mb-4" src={ResourcesOutsourcingBusinessIcon06} alt=""></img>
+                                        <img className="w-50 position-relative mb-4" src={ResourcesOutsourcingBusinessIcon06} alt="ResourcesOutsourcingBusinessIcon06"></img>
                                     </Col>
                                 </Card>
                             </Col>

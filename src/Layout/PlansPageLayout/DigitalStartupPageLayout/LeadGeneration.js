@@ -17,7 +17,7 @@ const LeadGeneration = () => {
               <img
                 className="w-100"
                 src={leadgenarationpagecontent.ProvideSupportingToolsImagePath}
-                alt=""
+                alt="leadgenarationpagecontent.ProvideSupportingToolsImagePath"
               ></img>
             </Bounce>
           </Col>

@@ -27,12 +27,12 @@ const WebDevelopmentProcess = () => {
                     </div>
                 </Col>
                 <div className="WhyChooseUs">
-                    <img className="w-100 processImg" src={WebDevelopmentImage02} alt=""></img>
+                    <img className="w-100 processImg" src={WebDevelopmentImage02} alt="WebDevelopmentImage02"></img>
                     <Row className="mobile-view">
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <img className="w-50 position-relative mb-4" src={CallCenterIcon01} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={CallCenterIcon01} alt="CallCenterIcon01"></img>
                                     <p><b>Brief</b></p>
                                 </Col>
                             </Card>
@@ -41,7 +41,7 @@ const WebDevelopmentProcess = () => {
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
                                     <p><b>Mock-Up</b></p>
-                                    <img className="w-50 position-relative mb-4" src={CallCenterIcon02} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={CallCenterIcon02} alt="CallCenterIcon02"></img>
                                 </Col>
                             </Card>
                         </Col>
@@ -49,7 +49,7 @@ const WebDevelopmentProcess = () => {
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <img className="w-50 position-relative mb-4" src={CallCenterIcon03} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={CallCenterIcon03} alt="CallCenterIcon03"></img>
                                     <p><b>Design Approval</b></p>
                                 </Col>
                             </Card>
@@ -58,14 +58,14 @@ const WebDevelopmentProcess = () => {
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
                                     <p><b>Development</b></p>
-                                    <img className="w-50 position-relative mb-4" src={CallCenterIcon04} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={CallCenterIcon04} alt="CallCenterIcon04"></img>
                                 </Col>
                             </Card>
                         </Col>
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <img className="w-50 position-relative mb-4" src={CallCenterIcon10} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={CallCenterIcon10} alt="CallCenterIcon10"></img>
                                     <p><b>Testing</b></p>
                                 </Col>
                             </Card>
@@ -74,7 +74,7 @@ const WebDevelopmentProcess = () => {
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
                                     <p><b>Delivery</b></p>
-                                    <img className="w-50 position-relative mb-4" src={CallCenterIcon09} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={CallCenterIcon09} alt="CallCenterIcon09"></img>
                                 </Col>
                             </Card>
                         </Col>

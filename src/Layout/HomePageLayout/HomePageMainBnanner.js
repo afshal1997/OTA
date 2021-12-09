@@ -44,7 +44,7 @@ function HomePageMainBnanner() {
                             <Row>
                                 <Col lg={8} className="m-auto">
                                     <div className="mainBanner">
-                                        <img src={BannerImg01}></img>
+                                        <img src={BannerImg01} alt='BannerImg01'></img>
                                         <svg width="100%">
                                             <defs>
                                                 <linearGradient id="gradient" y1="0" y2="1">

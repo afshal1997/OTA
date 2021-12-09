@@ -66,7 +66,7 @@ const CreativeDesignUIUX = () => {
               <img
                 className="w-100"
                 src={UIUXDesign.UIUXDesignImagePath}
-                alt=""
+                alt="UIUXDesign.UIUXDesignImagePath"
               ></img>
             </Bounce>
           </Col>

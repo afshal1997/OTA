@@ -68,7 +68,7 @@ const AppDevelopmentIOSApp = () => {
               <img
                 className="w-100"
                 src={IosAppService.IosAppServiceImagePath}
-                alt=""
+                alt="IosAppService.IosAppServiceImagePath"
               ></img>
             </Bounce>
           </Col>

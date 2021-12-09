@@ -17,7 +17,7 @@ const AppDevelopment = () => {
               <div className="PricingCardImg">
                 <Col lg={10} className="m-auto p-3">
                   <Card.Title>
-                    <img className="w-100" src={PricingCardImg01}></img>
+                    <img className="w-100" src={PricingCardImg01} alt='PricingCardImg01'></img>
                   </Card.Title>
                 </Col>
               </div>
@@ -41,7 +41,7 @@ const AppDevelopment = () => {
               <div className="PricingCardImg">
                 <Col lg={10} className="m-auto p-3">
                   <Card.Title>
-                    <img className="w-100" src={PricingCardImg02}></img>
+                    <img className="w-100" src={PricingCardImg02} alt='PricingCardImg02'></img>
                   </Card.Title>
                 </Col>
               </div>
@@ -65,7 +65,7 @@ const AppDevelopment = () => {
               <div className="PricingCardImg">
                 <Col lg={10} className="m-auto p-3">
                   <Card.Title>
-                    <img className="w-100" src={PricingCardImg03}></img>
+                    <img className="w-100" src={PricingCardImg03} alt='PricingCardImg03'></img>
                   </Card.Title>
                 </Col>
               </div>

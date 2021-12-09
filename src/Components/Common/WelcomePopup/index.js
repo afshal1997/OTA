@@ -15,7 +15,7 @@ const WelcomePopup = ({ show, handleClose }) => {
           className="welcome-popup"
         >
           <Modal.Body>
-            <img src={happydecember} />
+            <img src={happydecember} alt='happydecember' />
           </Modal.Body>
         </Modal>
       </Zoom>

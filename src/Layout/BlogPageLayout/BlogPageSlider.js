@@ -73,7 +73,7 @@ const BlogPageSlider = () => {
                 <Card className="itemSlider">
                   <Row className="align-items-center">
                     <Col lg={5} className="col-5">
-                      <img className="w-100" src={slideImage} />
+                      <img className="w-100" src={slideImage} alt='slideImage' />
                     </Col>
                     <Col lg={7} className="col-7 p-0">
                       <Card.Title className="text-light">

@@ -17,7 +17,7 @@ function Footer() {
           <Row>
             <Col lg={3} className="pr-4 pl-4">
               <div className="logo mb-3">
-                <img className="w-100" width="" src={loGo}></img>
+                <img className="w-100" width="" src={loGo} alt="outsourcetoasia"></img>
               </div>
               <p>
                 Pioneering innovative digital experiences that fuel startups, scale-up enterprises, and help family businesses embrace digital transformation.
@@ -118,7 +118,7 @@ function Footer() {
                         </p>
                       </Col>
                       <Col lg={3} className="col-3">
-                        <img className="w-100" src={Pennsylvania} alt=""></img>
+                        <img className="w-100" src={Pennsylvania} alt="Pennsylvania"></img>
                       </Col>
                     </Row>
                   </li>
@@ -145,7 +145,7 @@ function Footer() {
                         </p>
                       </Col>
                       <Col lg={3} className="col-3 m-auto">
-                        <img className="w-100" src={Pakistan} alt=""></img>
+                        <img className="w-100" src={Pakistan} alt="Pakistan"></img>
                       </Col>
                     </Row>
                   </li>

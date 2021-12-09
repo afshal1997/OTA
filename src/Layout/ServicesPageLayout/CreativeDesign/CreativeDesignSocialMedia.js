@@ -18,7 +18,7 @@ const CreativeDesignSocialMedia = () => {
               <img
                 className="w-100"
                 src={SocialMediaDesign.SocialMediaDesignImagePath}
-                alt=""
+                alt="SocialMediaDesign.SocialMediaDesignImagePath"
               ></img>
             </Bounce>
           </Col>

@@ -48,7 +48,7 @@ const StartupServices = () => {
               <img
                 className="w-100"
                 src={DevelopBrandPersonal.DevelopBrandPersonaImagePath}
-                alt=""
+                alt="DevelopBrandPersonal.DevelopBrandPersonaImagePath"
               ></img>
             </Bounce>
           </Col>

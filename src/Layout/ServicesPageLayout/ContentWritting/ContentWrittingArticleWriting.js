@@ -66,7 +66,7 @@ const ContentWrittingArticleWriting = () => {
               <img
                 className="w-100"
                 src={ArticleWriting.ArticleWritingImagePath}
-                alt=""
+                alt="ArticleWriting.ArticleWritingImagePath"
               ></img>
             </Bounce>
           </Col>

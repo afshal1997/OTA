@@ -67,7 +67,7 @@ const ServicesProvidingBanner = () => {
                     </Col>
                     <Col lg={3} className="m-auto">
                         <Bounce bottom>
-                            <img className="w-100" src={Rocket} alt=""></img>
+                            <img className="w-100" src={Rocket} alt="Rocket"></img>
                         </Bounce>
                     </Col>
                     <Col lg={4} className="m-auto text-white">

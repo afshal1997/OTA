@@ -66,7 +66,7 @@ const DigitalMarketingSocialMediaMarketing = () => {
               <img
                 className="w-100"
                 src={SocialMediaMarketing.SocialMediaMarketingImagePath}
-                alt=""
+                alt="SocialMediaMarketing.SocialMediaMarketingImagePath"
               ></img>
             </Bounce>
           </Col>

@@ -71,7 +71,7 @@ const OutsourcingHumanResources = () => {
               <img
                 className="w-100"
                 src={ResourcesOutsourcingBusinessImg02}
-                alt=""
+                alt="ResourcesOutsourcingBusinessImg02"
               ></img>
             </Bounce>
           </Col>

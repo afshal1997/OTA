@@ -49,7 +49,7 @@ const VideoDevelopmentMotionGraphics = () => {
               <img
                 className="w-100"
                 src={MotionGraphicsServices.MotionGraphicsServicesImgPath}
-                alt=""
+                alt="MotionGraphicsServices.MotionGraphicsServicesImgPath"
               ></img>
             </Bounce>
           </Col>

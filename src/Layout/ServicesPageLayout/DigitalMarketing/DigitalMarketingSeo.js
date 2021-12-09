@@ -48,7 +48,7 @@ const DigitalMarketingSeo = () => {
               <img
                 className="w-100"
                 src={SearchEngineOptimization.SearchEngineOptimizationImagePath}
-                alt=""
+                alt="SearchEngineOptimization.SearchEngineOptimizationImagePath"
               ></img>
             </Bounce>
           </Col>

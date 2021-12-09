@@ -26,12 +26,12 @@ const VideoDevelopmentProcess = () => {
                     </div>
                 </Col>
                 <div className="WhyChooseUs">
-                    <img className="w-100 processImg" src={VideoDevelopmentImage02} alt=""></img>
+                    <img className="w-100 processImg" src={VideoDevelopmentImage02} alt="VideoDevelopmentImage02"></img>
                     <Row className="mobile-view">
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <img className="w-50 position-relative mb-4" src={VideoDevelopmentImg01} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={VideoDevelopmentImg01} alt="VideoDevelopmentImg01"></img>
                                     <p><b>Brief</b></p>
                                 </Col>
                             </Card>
@@ -40,7 +40,7 @@ const VideoDevelopmentProcess = () => {
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
                                     <p><b>Script</b></p>
-                                    <img className="w-50 position-relative mb-4" src={VideoDevelopmentImg02} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={VideoDevelopmentImg02} alt="VideoDevelopmentImg02"></img>
                                 </Col>
                             </Card>
                         </Col>
@@ -48,7 +48,7 @@ const VideoDevelopmentProcess = () => {
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <img className="w-50 position-relative mb-4" src={VideoDevelopmentImg03} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={VideoDevelopmentImg03} alt="VideoDevelopmentImg03"></img>
                                     <p><b>Theme</b></p>
                                 </Col>
                             </Card>
@@ -57,14 +57,14 @@ const VideoDevelopmentProcess = () => {
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
                                     <p><b>Storyboard</b></p>
-                                    <img className="w-50 position-relative mb-4" src={VideoDevelopmentImg04} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={VideoDevelopmentImg04} alt="VideoDevelopmentImg04"></img>
                                 </Col>
                             </Card>
                         </Col>
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <img className="w-50 position-relative mb-4" src={VideoDevelopmentImg09} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={VideoDevelopmentImg09} alt="VideoDevelopmentImg09"></img>
                                     <p><b>Illustration</b></p>
                                 </Col>
                             </Card>
@@ -73,14 +73,14 @@ const VideoDevelopmentProcess = () => {
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
                                     <p><b>Animation</b></p>
-                                    <img className="w-50 position-relative mb-4" src={VideoDevelopmentImg10} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={VideoDevelopmentImg10} alt="VideoDevelopmentImg10"></img>
                                 </Col>
                             </Card>
                         </Col>
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <img className="w-50 position-relative mb-4" src={VideoDevelopmentImg11} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={VideoDevelopmentImg11} alt="VideoDevelopmentImg11"></img>
                                     <p><b>Voice Over</b></p>
                                 </Col>
                             </Card>
@@ -89,7 +89,7 @@ const VideoDevelopmentProcess = () => {
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
                                     <p><b>Delivery</b></p>
-                                    <img className="w-50 position-relative mb-4" src={VideoDevelopmentImg12} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={VideoDevelopmentImg12} alt="VideoDevelopmentImg12"></img>
                                 </Col>
                             </Card>
                         </Col>

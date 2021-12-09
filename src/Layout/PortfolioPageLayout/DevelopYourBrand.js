@@ -97,17 +97,17 @@ const DevelopYourBrand = () => {
               <Row>
                 <Col lg={4}>
                   <div className="portfolioTabsCards">
-                    <img className="w-100" src={Akaria} alt=""></img>
+                    <img className="w-100" src={Akaria} alt="Akaria"></img>
                   </div>
                 </Col>
                 <Col lg={4}>
                   <div className="portfolioTabsCards">
-                    <img className="w-100" src={BlackBoxMedia} alt=""></img>
+                    <img className="w-100" src={BlackBoxMedia} alt="BlackBoxMedia"></img>
                   </div>
                 </Col>
                 <Col lg={4}>
                   <div className="portfolioTabsCards">
-                    <img className="w-100" src={BusinessMadeEazi} alt=""></img>
+                    <img className="w-100" src={BusinessMadeEazi} alt="BusinessMadeEazi"></img>
                   </div>
                 </Col>
               </Row>
@@ -117,13 +117,13 @@ const DevelopYourBrand = () => {
                     <img
                       className="w-100"
                       src={CalsAutoRepairCenter}
-                      alt=""
+                      alt="CalsAutoRepairCenter"
                     ></img>
                   </div>
                 </Col>
                 <Col lg={4}>
                   <div className="portfolioTabsCards">
-                    <img className="w-100" src={DopeStudios} alt=""></img>
+                    <img className="w-100" src={DopeStudios} alt="DopeStudios"></img>
                   </div>
                 </Col>
                 <Col lg={4}>
@@ -131,7 +131,7 @@ const DevelopYourBrand = () => {
                     <img
                       className="w-100"
                       src={FamilyGovernmentAgency}
-                      alt=""
+                      alt="FamilyGovernmentAgency"
                     ></img>
                   </div>
                 </Col>
@@ -139,18 +139,18 @@ const DevelopYourBrand = () => {
               <Row>
                 <Col lg={4}>
                   <div className="portfolioTabsCards">
-                    <img className="w-100" src={knitTech} alt=""></img>
+                    <img className="w-100" src={knitTech} alt="knitTech"></img>
                   </div>
                 </Col>
 
                 <Col lg={4}>
                   <div className="portfolioTabsCards">
-                    <img className="w-100" src={MarvelMarketing} alt=""></img>
+                    <img className="w-100" src={MarvelMarketing} alt="MarvelMarketing"></img>
                   </div>
                 </Col>
                 <Col lg={4}>
                   <div className="portfolioTabsCards">
-                    <img className="w-100" src={RolixAutomotive} alt=""></img>
+                    <img className="w-100" src={RolixAutomotive} alt="RolixAutomotive"></img>
                   </div>
                 </Col>
               </Row>
@@ -162,7 +162,7 @@ const DevelopYourBrand = () => {
                     <img
                       className="w-100"
                       src={BrandingAndCreativeImg01}
-                      alt=""
+                      alt="BrandingAndCreativeImg01"
                     ></img>
                   </div>
                 </Col>
@@ -171,7 +171,7 @@ const DevelopYourBrand = () => {
                     <img
                       className="w-100"
                       src={BrandingAndCreativeImg02}
-                      alt=""
+                      alt="BrandingAndCreativeImg02"
                     ></img>
                   </div>
                 </Col>
@@ -180,7 +180,7 @@ const DevelopYourBrand = () => {
                     <img
                       className="w-100"
                       src={BrandingAndCreativeImg03}
-                      alt=""
+                      alt="BrandingAndCreativeImg03"
                     ></img>
                   </div>
                 </Col>
@@ -191,7 +191,7 @@ const DevelopYourBrand = () => {
                     <img
                       className="w-100"
                       src={BrandingAndCreativeImg04}
-                      alt=""
+                      alt="BrandingAndCreativeImg04"
                     ></img>
                   </div>
                 </Col>
@@ -221,7 +221,7 @@ const DevelopYourBrand = () => {
                           <img
                             className="w-100"
                             src={BrandingAndCreativeImg07}
-                            alt=""
+                            alt="BrandingAndCreativeImg07"
                           ></img>
                         </div>
                       </Col>
@@ -230,7 +230,7 @@ const DevelopYourBrand = () => {
                           <img
                             className="w-100"
                             src={BrandingAndCreativeImg08}
-                            alt=""
+                            alt="BrandingAndCreativeImg08"
                           ></img>
                         </div>
                       </Col>
@@ -239,7 +239,7 @@ const DevelopYourBrand = () => {
                           <img
                             className="w-100"
                             src={BrandingAndCreativeImg09}
-                            alt=""
+                            alt="BrandingAndCreativeImg09"
                           ></img>
                         </div>
                       </Col>
@@ -250,7 +250,7 @@ const DevelopYourBrand = () => {
                           <img
                             className="w-100"
                             src={BrandingAndCreativeImg10}
-                            alt=""
+                            alt="BrandingAndCreativeImg10"
                           ></img>
                         </div>
                       </Col>
@@ -259,7 +259,7 @@ const DevelopYourBrand = () => {
                           <img
                             className="w-100"
                             src={BrandingAndCreativeImg11}
-                            alt=""
+                            alt="BrandingAndCreativeImg11"
                           ></img>
                         </div>
                       </Col>
@@ -268,7 +268,7 @@ const DevelopYourBrand = () => {
                           <img
                             className="w-100"
                             src={BrandingAndCreativeImg12}
-                            alt=""
+                            alt="BrandingAndCreativeImg12"
                           ></img>
                         </div>
                       </Col>
@@ -284,52 +284,52 @@ const DevelopYourBrand = () => {
               <Row>
                 <Col lg={4}>
                   <div className="portfolioTabsCards">
-                    <img className="w-100" src={img01} alt=""></img>
+                    <img className="w-100" src={img01} alt="img01"></img>
                   </div>
                 </Col>
                 <Col lg={4}>
                   <div className="portfolioTabsCards">
-                    <img className="w-100" src={img02} alt=""></img>
+                    <img className="w-100" src={img02} alt="img02"></img>
                   </div>
                 </Col>
                 <Col lg={4}>
                   <div className="portfolioTabsCards">
-                    <img className="w-100" src={img03} alt=""></img>
-                  </div>
-                </Col>
-              </Row>
-              <Row>
-                <Col lg={4}>
-                  <div className="portfolioTabsCards">
-                    <img className="w-100" src={img04} alt=""></img>
-                  </div>
-                </Col>
-                <Col lg={4}>
-                  <div className="portfolioTabsCards">
-                    <img className="w-100" src={img05} alt=""></img>
-                  </div>
-                </Col>
-                <Col lg={4}>
-                  <div className="portfolioTabsCards">
-                    <img className="w-100" src={img06} alt=""></img>
+                    <img className="w-100" src={img03} alt="img03"></img>
                   </div>
                 </Col>
               </Row>
               <Row>
                 <Col lg={4}>
                   <div className="portfolioTabsCards">
-                    <img className="w-100" src={img07} alt=""></img>
+                    <img className="w-100" src={img04} alt="img04"></img>
+                  </div>
+                </Col>
+                <Col lg={4}>
+                  <div className="portfolioTabsCards">
+                    <img className="w-100" src={img05} alt="img05"></img>
+                  </div>
+                </Col>
+                <Col lg={4}>
+                  <div className="portfolioTabsCards">
+                    <img className="w-100" src={img06} alt="img06"></img>
+                  </div>
+                </Col>
+              </Row>
+              <Row>
+                <Col lg={4}>
+                  <div className="portfolioTabsCards">
+                    <img className="w-100" src={img07} alt="img07"></img>
                   </div>
                 </Col>
 
                 <Col lg={4}>
                   <div className="portfolioTabsCards">
-                    <img className="w-100" src={hustlepost1} alt=""></img>
+                    <img className="w-100" src={hustlepost1} alt="hustlepost1"></img>
                   </div>
                 </Col>
                 <Col lg={4}>
                   <div className="portfolioTabsCards">
-                    <img className="w-100" src={hustlepost2} alt=""></img>
+                    <img className="w-100" src={hustlepost2} alt="hustlepost2"></img>
                   </div>
                 </Col>
               </Row>

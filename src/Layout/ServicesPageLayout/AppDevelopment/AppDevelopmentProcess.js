@@ -33,7 +33,7 @@ const AppDevelopmentProcess = () => {
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <img className="w-50 position-relative mb-4" src={AppDevelopment01} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={AppDevelopment01} alt="AppDevelopment01"></img>
                                     <p><b>Brief</b></p>
                                 </Col>
                             </Card>
@@ -42,14 +42,14 @@ const AppDevelopmentProcess = () => {
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
                                     <p><b>Proposal</b></p>
-                                    <img className="w-50 position-relative mb-4" src={AppDevelopment02} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={AppDevelopment02} alt="AppDevelopment02"></img>
                                 </Col>
                             </Card>
                         </Col>
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <img className="w-50 position-relative mb-4" src={AppDevelopment03} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={AppDevelopment03} alt="AppDevelopment03"></img>
                                     <p><b>Wireframe</b></p>
                                 </Col>
                             </Card>
@@ -59,14 +59,14 @@ const AppDevelopmentProcess = () => {
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
                                     <p><b>Mockup</b></p>
-                                    <img className="w-50 position-relative mb-4" src={AppDevelopment11} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={AppDevelopment11} alt="AppDevelopment11"></img>
                                 </Col>
                             </Card>
                         </Col>
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <img className="w-50 position-relative mb-4" src={AppDevelopment09} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={AppDevelopment09} alt="AppDevelopment09"></img>
                                     <p><b>Development</b></p>
                                 </Col>
                             </Card>
@@ -74,7 +74,7 @@ const AppDevelopmentProcess = () => {
                         <Col>
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
-                                    <img className="w-50 position-relative mb-4" src={AppDevelopment10} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={AppDevelopment10} alt="AppDevelopment10"></img>
                                     <p><b>Testing</b></p>
                                 </Col>
                             </Card>
@@ -83,7 +83,7 @@ const AppDevelopmentProcess = () => {
                             <Card className="WhyChooseUSCards text-dark">
                                 <Col lg={8} className="m-auto text-center p-0">
                                     <p><b>Delivery</b></p>
-                                    <img className="w-50 position-relative mb-4" src={AppDevelopment12} alt=""></img>
+                                    <img className="w-50 position-relative mb-4" src={AppDevelopment12} alt="AppDevelopment12"></img>
                                 </Col>
                             </Card>
                         </Col>

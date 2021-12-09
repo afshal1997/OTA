@@ -9,7 +9,7 @@ const VideoModal = ({ show, handleClose, image }) => {
             <Modal show={show} onHide={handleClose} centered>
 
                 <Modal.Body>
-                    <img src={image} alt="" width="100%"/>
+                    <img src={image} alt="image" width="100%"/>
                 </Modal.Body>
             </Modal>
         </div>

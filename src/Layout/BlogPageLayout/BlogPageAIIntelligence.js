@@ -9,7 +9,7 @@ const BlogPageAIIntelligence = () => {
     <Container>
       <div className="row">
         <div className="col-lg-5">
-          <img className="w-100 BlogPageImge01" src={blogImg01} alt=""></img>
+          <img className="w-100 BlogPageImge01" src={blogImg01} alt="BlogPageImge01"></img>
         </div>
         <div className="col-lg-7 m-auto mt-5 pt-5">
           <h3>

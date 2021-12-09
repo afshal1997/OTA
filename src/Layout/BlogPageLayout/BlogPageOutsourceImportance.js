@@ -95,7 +95,7 @@ const BlogPageOutsourceImportance = () => {
           </ShowMoreText>
         </div>
         <div className="col-lg-6">
-          <img className="w-100 BlogPageImge01" src={blogImg02} alt=""></img>
+          <img className="w-100 BlogPageImge01" src={blogImg02} alt="BlogPageImge01"></img>
         </div>
       </div>
     </Container>

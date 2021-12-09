@@ -48,7 +48,7 @@ const ContentWrittingOTAWriting = () => {
               <img
                 className="w-100"
                 src={BlogWritingService.BlogWritingServiceImgPath}
-                alt=""
+                alt="BlogWritingService.BlogWritingServiceImgPath"
               ></img>
             </Bounce>
           </Col>

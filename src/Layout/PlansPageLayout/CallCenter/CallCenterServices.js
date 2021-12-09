@@ -2,18 +2,17 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import CallCenterImg02 from "../../../Assets/PlansAssets/CallCenter/CallCenterImg02.png";
 import Bounce from "react-reveal/Bounce";
-import { CHANGE_MODAL } from "../../../Store/Action";
 import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const CallCenterServices = () => {
-  const dispatch = useDispatch();
   return (
     <div>
       <Container>
         <Row>
           <Col lg={4} className="m-auto">
             <Bounce right cascade>
-              <img className="w-100" src={CallCenterImg02} alt=""></img>
+              <img className="w-100" src={CallCenterImg02} alt="CallCenterImg02"></img>
             </Bounce>
           </Col>
           <Col lg={6}>
@@ -53,13 +52,7 @@ const CallCenterServices = () => {
                 </p>
                 <Row>
                   <Col lg={4}>
-                    <a
-                      href="#"
-                      onClick={() => dispatch(CHANGE_MODAL(true))}
-                      className="getStarted-btn"
-                    >
-                      Get Started
-                    </a>
+                    <GetStarted buttonText='Get Started' buttonClass='getStarted-btn' />
                   </Col>
                 </Row>
               </div>

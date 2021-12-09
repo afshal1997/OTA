@@ -48,7 +48,7 @@ const WeDo = () => {
               <img
                 className="w-100"
                 src={WhiteLabellingDesignDevelopment.DesignDevelopment}
-                alt=""
+                alt="WhiteLabellingDesignDevelopment.DesignDevelopment"
               ></img>
             </Bounce>
           </Col>

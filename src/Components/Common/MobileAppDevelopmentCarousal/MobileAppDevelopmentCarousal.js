@@ -55,19 +55,19 @@ const MobileAppDevelopmentCarousal = () => {
     <div className="mobile-app-development-category">
       <Slider {...settings}>
         <div>
-          <img src={Image1} alt="" />
+          <img src={Image1} alt="Image1" />
         </div>
         <div>
-          <img src={Image2} alt="" />
+          <img src={Image2} alt="Image2" />
         </div>
         <div>
-          <img src={Image3} alt="" />
+          <img src={Image3} alt="Image3" />
         </div>
         <div>
-          <img src={Image4} alt="" />
+          <img src={Image4} alt="Image4" />
         </div>
         <div>
-          <img src={Image5} alt="" />
+          <img src={Image5} alt="Image5" />
         </div>
       </Slider>
     </div>

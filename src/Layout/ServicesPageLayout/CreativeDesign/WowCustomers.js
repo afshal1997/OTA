@@ -48,7 +48,7 @@ const WowCustomers = () => {
               <img
                 className="w-100"
                 src={BrandLogoDesign.DevelopBrandPersonaImagePath}
-                alt=""
+                alt="BrandLogoDesign.DevelopBrandPersonaImagePath"
               ></img>
             </Bounce>
           </Col>

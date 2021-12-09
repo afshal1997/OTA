@@ -55,8 +55,8 @@ const ProvideSupportingtools = () => {
               <img
                 className="w-100"
                 src={ProvideSupportingTools.ProvideSupportingToolsImagePath}
-                alt=""
-              ></img>
+                alt="ProvideSupportingTools.ProvideSupportingToolsImagePath"
+              />
             </Bounce>
           </Col>
         </Row>

@@ -51,7 +51,7 @@ const AppDevelopmentOtaExclusive = () => {
               <img
                 className="w-100"
                 src={AndroidAppService.AndroidAppServiceImgPath}
-                alt=""
+                alt="AndroidAppService.AndroidAppServiceImgPath"
               ></img>
             </Bounce>
           </Col>

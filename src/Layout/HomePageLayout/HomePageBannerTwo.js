@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 import { CHANGE_MODAL } from "../../Store/Action";
 import { useDispatch } from "react-redux";
+import GetStarted from "../../Components/Common/Buttons/GetStarted";
 
 const HomePageBannerTwo = () => {
   const dispatch = useDispatch();
@@ -88,13 +89,8 @@ const HomePageBannerTwo = () => {
                           </Link>
                         </Col>
                         <Col lg={4} className="m-auto">
-                          <Link
-                            href="#"
-                            onClick={() => dispatch(CHANGE_MODAL(true))}
-                            className="getStarted-btn"
-                          >
-                            Get Started
-                          </Link>
+                          <GetStarted buttonText='Get Started' buttonClass='getStarted-btn' />
+
                         </Col>
                         <Col></Col>
                       </Row>

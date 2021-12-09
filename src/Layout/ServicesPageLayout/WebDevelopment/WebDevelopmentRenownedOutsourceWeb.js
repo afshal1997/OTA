@@ -49,7 +49,7 @@ const WebDevelopmentRenownedOutsourceWeb = () => {
               <img
                 className="w-100"
                 src={BasicWebsite.BasicWebsiteImagePath}
-                alt=""
+                alt="BasicWebsite.BasicWebsiteImagePath"
               ></img>
             </Bounce>
           </Col>

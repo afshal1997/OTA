@@ -80,6 +80,7 @@ const VideoDevelopmentCarousal = () => {
               width="400"
               ref={idx === activeSlide ? ref : null}
               style={{ width: "100%" }} src={slide}
+              alt={`slide ${idx}`}
             />
 
           </div>

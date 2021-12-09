@@ -20,7 +20,7 @@ const BusinessAndSolutions = () => {
                 src={
                   BusinessAndSolutionsContent.BusinessAndSolutionsContentImagePath
                 }
-                alt=""
+                alt="BusinessAndSolutionsContent.BusinessAndSolutionsContentImagePath"
               ></img>
             </Bounce>
           </Col>

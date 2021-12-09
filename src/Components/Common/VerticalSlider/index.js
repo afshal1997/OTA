@@ -54,7 +54,7 @@ const index = () => {
                         <Row>
                             <Col lg={6} className="p-0 slideImgBg">
                                 <Zoom>
-                                    <img className="w-100" src={Slide_1} alt=""></img>
+                                    <img className="w-100" src={Slide_1} alt="Slide_1"></img>
                                 </Zoom>
                             </Col>
                             <Col lg={6} className="m-auto">
@@ -85,7 +85,7 @@ const index = () => {
                         <Row>
                             <Col lg={6} className="p-0 slideImgBg02">
                                 <Zoom>
-                                    <img className="w-100" src={Slide_2} alt=""></img>
+                                    <img className="w-100" src={Slide_2} alt="Slide_2"></img>
                                 </Zoom>
                             </Col>
                             <Col lg={6} className="m-auto">
@@ -116,7 +116,7 @@ const index = () => {
                         <Row>
                             <Col lg={6} className="p-0 slideImgBg">
                                 <Zoom>
-                                    <img className="w-75" src={Slide_3} alt=""></img>
+                                    <img className="w-75" src={Slide_3} alt="Slide_3"></img>
                                 </Zoom>
                             </Col>
                             <Col lg={6} className="m-auto">
@@ -147,7 +147,7 @@ const index = () => {
                         <Row>
                             <Col lg={6} className="p-0 slideImgBg02">
                                 <Zoom>
-                                    <img className="w-100" src={Slide_4} alt=""></img>
+                                    <img className="w-100" src={Slide_4} alt="Slide_4"></img>
                                 </Zoom>
                             </Col>
                             <Col lg={6} className="m-auto">
@@ -178,7 +178,7 @@ const index = () => {
                         <Row>
                             <Col lg={6} className="p-0 slideImgBg">
                                 <Zoom>
-                                    <img className="w-75" src={Slide_5} alt=""></img>
+                                    <img className="w-75" src={Slide_5} alt="Slide_5"></img>
                                 </Zoom>
                             </Col>
                             <Col lg={6} className="m-auto">
