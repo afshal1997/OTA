@@ -1,6 +1,7 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
 import { CHANGE_MODAL } from '../../../Store/Action'
+import GetStarted from '../Buttons/GetStarted'
 
 const VideoAnimation = () => {
     const dispatch = useDispatch()
@@ -29,13 +30,7 @@ const VideoAnimation = () => {
                                 <li>Professional voice over and VFX</li>
                                 <li>Unlimited Revisions</li>
                             </ul>
-                            <a
-                                className="PricingApplyNowBtn w-100 p-2"
-                                onClick={() => dispatch(CHANGE_MODAL(true))}
-                                href="javascript:void(0)"
-                            >
-                                Sign-Up
-                            </a>
+                            <GetStarted buttonText='Sign-Up' buttonClass='PricingApplyNowBtn w-100 p-2' />
                         </div>
                     </div>
                     <div className="text-center col-lg-4 mb-5">
@@ -59,13 +54,8 @@ const VideoAnimation = () => {
                                 <li>Professional voice over and VFX</li>
                                 <li>Unlimited Revisions</li>
                             </ul>
-                            <a
-                                className="PricingApplyNowBtn w-100 p-2"
-                                onClick={() => dispatch(CHANGE_MODAL(true))}
-                                href="javascript:void(0)"
-                            >
-                                Sign-Up
-                            </a>
+                            <GetStarted buttonText='Sign-Up' buttonClass='PricingApplyNowBtn w-100 p-2' />
+
                         </div>
                     </div>
                     <div className="text-center col-lg-4 mb-5">
@@ -75,7 +65,7 @@ const VideoAnimation = () => {
                                 <h3>
                                     <span>USD -</span>$300 <small>/30 seconds</small>{" "}
                                 </h3>
-                                ($2000/2 minutes)
+                                ( $1000/2 minutes)
                             </div>
                             <ul>
                                 <li>Concept & Script Writing</li>
@@ -90,13 +80,8 @@ const VideoAnimation = () => {
                                 <li>Professional voice over and VFX</li>
                                 <li>Unlimited Revisions</li>
                             </ul>
-                            <a
-                                className="PricingApplyNowBtn w-100 p-2"
-                                onClick={() => dispatch(CHANGE_MODAL(true))}
-                                href="javascript:void(0)"
-                            >
-                                Sign-Up
-                            </a>
+                            <GetStarted buttonText='Sign-Up' buttonClass='PricingApplyNowBtn w-100 p-2' />
+
                         </div>
                     </div>
                     <div className="text-center col-lg-4 mb-5">
@@ -120,13 +105,8 @@ const VideoAnimation = () => {
                                 <li>Professional voice over and VFX</li>
                                 <li>Unlimited Revisions</li>
                             </ul>
-                            <a
-                                className="PricingApplyNowBtn w-100 p-2"
-                                onClick={() => dispatch(CHANGE_MODAL(true))}
-                                href="javascript:void(0)"
-                            >
-                                Sign-Up
-                            </a>
+                            <GetStarted buttonText='Sign-Up' buttonClass='PricingApplyNowBtn w-100 p-2' />
+
                         </div>
                     </div>
                     <div className="text-center col-lg-4 mb-5">
@@ -149,13 +129,8 @@ const VideoAnimation = () => {
                                 <li>Cut-aways</li>
                                 <li>Fade in/fade out</li>
                             </ul>
-                            <a
-                                className="PricingApplyNowBtn w-100 p-2"
-                                onClick={() => dispatch(CHANGE_MODAL(true))}
-                                href="javascript:void(0)"
-                            >
-                                Sign-Up
-                            </a>
+                            <GetStarted buttonText='Sign-Up' buttonClass='PricingApplyNowBtn w-100 p-2' />
+
                         </div>
                     </div>
                     <div className="text-center col-lg-4 mb-5">
@@ -179,13 +154,8 @@ const VideoAnimation = () => {
                                 <li>Professional voice over and VFX</li>
                                 <li>Unlimited Revisions</li>
                             </ul>
-                            <a
-                                className="PricingApplyNowBtn w-100 p-2"
-                                onClick={() => dispatch(CHANGE_MODAL(true))}
-                                href="javascript:void(0)"
-                            >
-                                Sign-Up
-                            </a>
+                            <GetStarted buttonText='Sign-Up' buttonClass='PricingApplyNowBtn w-100 p-2' />
+
                         </div>
                     </div>
                     <div className="text-center col-lg-4 mb-5">
@@ -209,13 +179,8 @@ const VideoAnimation = () => {
                                 <li>Professional voice over and VFX</li>
                                 <li>Unlimited Revisions</li>
                             </ul>
-                            <a
-                                className="PricingApplyNowBtn w-100 p-2"
-                                onClick={() => dispatch(CHANGE_MODAL(true))}
-                                href="javascript:void(0)"
-                            >
-                                Sign-Up
-                            </a>
+                            <GetStarted buttonText='Sign-Up' buttonClass='PricingApplyNowBtn w-100 p-2' />
+
                         </div>
                     </div>
                 </div>

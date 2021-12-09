@@ -1,6 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { CHANGE_MODAL } from "../../../Store/Action";
+import GetStarted from "../Buttons/GetStarted";
 
 const TabLeadGeneration = () => {
   const dispatch = useDispatch();
@@ -12,7 +13,7 @@ const TabLeadGeneration = () => {
             <div className="PackageAndPricing mb-3">
               <h4>BASIC</h4>
               <h3>
-                <span>USD -</span>$799
+                <span>USD -</span>$999
               </h3>
             </div>
             <h6>
@@ -22,25 +23,19 @@ const TabLeadGeneration = () => {
               <li>2 Ad Copies</li>
               <li>Lead Forms</li>
               <li>Messenger Leads</li>
-              <li>JPEG and PSD</li>
               <li>Campaign Management</li>
             </ul>
             <h6>
               <span>BUDGET</span>
             </h6>
             <ul>
-              <li>$500 ( One Platforms )</li>
+              <li>$500 ( One Platform )</li>
             </ul>
             <h5 className="mb-4">
               <b>EST. LEADS: 25</b>
             </h5>
-            <a
-              className="PricingApplyNowBtn w-100 p-2"
-              href="javascript:void(0)"
-              onClick={() => dispatch(CHANGE_MODAL(true))}
-            >
-              Sign-Up
-            </a>
+            <GetStarted buttonText='Sign-Up' buttonClass='PricingApplyNowBtn w-100 p-2' />
+
           </div>
         </div>
         <div className="text-center col-lg-4 mb-5">
@@ -48,7 +43,7 @@ const TabLeadGeneration = () => {
             <div className="PackageAndPricing mb-3">
               <h4>STANDARD</h4>
               <h3>
-                <span>USD -</span>$2,199
+                <span>USD -</span>$2,499
               </h3>
             </div>
             <h6>
@@ -58,7 +53,6 @@ const TabLeadGeneration = () => {
               <li>2 Ad Copies</li>
               <li>Lead Forms</li>
               <li>Messenger Leads</li>
-              <li>JPEG and PSD</li>
               <li>Campaign Management</li>
             </ul>
             <h6>
@@ -67,26 +61,20 @@ const TabLeadGeneration = () => {
             <ul>
               <li>2 Ad Copies</li>
               <li>Lead Forms</li>
-              <li>Messenger Leads</li>
               <li>Campaign Management</li>
             </ul>
             <h6>
               <span>BUDGET</span>
             </h6>
             <ul>
-              <li> $1500 ( Two platforms )</li>
+              <li> $1500 ( Two Platforms )</li>
             </ul>
             <h5 className="mb-4">
               <b>EST. LEADS: 75</b>
             </h5>
 
-            <a
-              className="PricingApplyNowBtn w-100 p-2"
-              href="javascript:void(0)"
-              onClick={() => dispatch(CHANGE_MODAL(true))}
-            >
-              Sign-Up
-            </a>
+            <GetStarted buttonText='Sign-Up' buttonClass='PricingApplyNowBtn w-100 p-2' />
+
           </div>
         </div>
         <div className="text-center col-lg-4 mb-5">
@@ -94,7 +82,7 @@ const TabLeadGeneration = () => {
             <div className="PackageAndPricing mb-3">
               <h4>ADVANCE</h4>
               <h3>
-                <span>USD -</span>$3,000
+                <span>USD -</span>$3,499
               </h3>
             </div>
             <h6>
@@ -104,7 +92,6 @@ const TabLeadGeneration = () => {
               <li>3 Ad Copies</li>
               <li>Lead Forms</li>
               <li>Messenger Leads</li>
-              <li>JPEG and PSD</li>
               <li>Campaign Management</li>
             </ul>
             <h6>
@@ -113,39 +100,29 @@ const TabLeadGeneration = () => {
             <ul>
               <li>3 Ad Copies</li>
               <li>Lead Forms</li>
-              <li>Messenger Leads</li>
               <li>Campaign Management</li>
             </ul>
-            <h6>
-              <span>BUDGET</span>
-            </h6>
-            <ul>
-              <li> $1500 ( Two platforms )</li>
-            </ul>
+            
             <h6>
               <span>GOOGLE PPC</span>
             </h6>
             <ul>
               <li>2 Ad Copy</li>
               <li>Campaign Management</li>
-              <li>$1500 ( Two platforms )</li>
             </ul>
             <h6>
               <span>BUDGET</span>
             </h6>
+
             <ul>
-              <li>$2500 ( three platforms )</li>
+              <li>$2500 ( Three Platforms )</li>
             </ul>
+
             <h5 className="mb-4">
               <b>EST. LEADS: 100</b>
             </h5>
-            <a
-              className="PricingApplyNowBtn w-100 p-2"
-              href="javascript:void(0)"
-              onClick={() => dispatch(CHANGE_MODAL(true))}
-            >
-              Sign-Up
-            </a>
+            <GetStarted buttonText='Sign-Up' buttonClass='PricingApplyNowBtn w-100 p-2' />
+
           </div>
         </div>
       </div>

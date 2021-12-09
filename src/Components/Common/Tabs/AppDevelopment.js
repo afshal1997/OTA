@@ -5,6 +5,7 @@ import PricingCardImg01 from "../../../Assets/Pricing/PricingCardImg01.png";
 import PricingCardImg02 from "../../../Assets/Pricing/PricingCardImg02.png";
 import PricingCardImg03 from "../../../Assets/Pricing/PricingCardImg03.png";
 import { CHANGE_MODAL } from "../../../Store/Action";
+import GetStarted from "../Buttons/GetStarted";
 const AppDevelopment = () => {
   const dispatch = useDispatch();
   return (
@@ -28,13 +29,8 @@ const AppDevelopment = () => {
                 <h5 className="text-light">
                   <b>Android Development</b>
                 </h5>
-                <a
-                  onClick={() => dispatch(CHANGE_MODAL(true))}
-                  class="PricingApplyNowBtn w-100 p-2"
-                  href="javascript:void(0)"
-                >
-                  Sign-Up
-                </a>
+                <GetStarted buttonText='Sign-Up' buttonClass='PricingApplyNowBtn w-100 p-2' />
+
               </div>
             </Card.Body>
           </Card>
@@ -57,13 +53,8 @@ const AppDevelopment = () => {
                 <h5 className="text-light">
                   <b>IOS Development</b>
                 </h5>
-                <a
-                  onClick={() => dispatch(CHANGE_MODAL(true))}
-                  class="PricingApplyNowBtn w-100 p-2"
-                  href="javascript:void(0)"
-                >
-                  Sign-Up
-                </a>
+                <GetStarted buttonText='Sign-Up' buttonClass='PricingApplyNowBtn w-100 p-2' />
+
               </div>
             </Card.Body>
           </Card>
@@ -86,13 +77,8 @@ const AppDevelopment = () => {
                 <h5 className="text-light">
                   <b>Game Development</b>
                 </h5>
-                <a
-                  onClick={() => dispatch(CHANGE_MODAL(true))}
-                  class="PricingApplyNowBtn w-100 p-2"
-                  href="javascript:void(0)"
-                >
-                  Sign-Up
-                </a>
+                <GetStarted buttonText='Sign-Up' buttonClass='PricingApplyNowBtn w-100 p-2' />
+
               </div>
             </Card.Body>
           </Card>

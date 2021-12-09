@@ -72,7 +72,7 @@ const SocialMediaMarketing = () => {
               <ul>
                 <li>Page Management (Upto 3 Platforms)</li>
                 <li>Cover & Page UI</li>
-                <li>12 Social Media Posts</li>
+                <li>20 Social Media Posts</li>
                 <li>1 Animation</li>
                 <li>Audience Engagement</li>
                 <li>Community Management</li>
