@@ -1,6 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { CHANGE_MODAL } from "../../../Store/Action";
+import GetStarted from "../Buttons/GetStarted";
 
 const SearchEngineOptimization = () => {
   const dispatch = useDispatch();
@@ -29,13 +30,8 @@ const SearchEngineOptimization = () => {
                 <li>Local Business Listings ( 01 )</li>
                 <li>Video Optimization</li>
               </ul>
-              <a
-                className="PricingApplyNowBtn w-100 p-2"
-                href="javascript:void(0)"
-                onClick={() => dispatch(CHANGE_MODAL(true))}
-              >
-                Sign-Up
-              </a>
+              <GetStarted buttonText='Sign-Up' buttonClass='PricingApplyNowBtn w-100 p-2' />
+
             </div>
           </div>
           <div className="text-center col-lg-4 mb-5">
@@ -60,13 +56,8 @@ const SearchEngineOptimization = () => {
                 <li>Video Optimization</li>
 
               </ul>
-              <a
-                className="PricingApplyNowBtn w-100 p-2"
-                href="javascript:void(0)"
-                onClick={() => dispatch(CHANGE_MODAL(true))}
-              >
-                Sign-Up
-              </a>
+              <GetStarted buttonText='Sign-Up' buttonClass='PricingApplyNowBtn w-100 p-2' />
+
             </div>
           </div>
           <div className="text-center col-lg-4 mb-5">
@@ -93,13 +84,8 @@ const SearchEngineOptimization = () => {
                 <li>PPT Creation</li>
 
               </ul>
-              <a
-                className="PricingApplyNowBtn w-100 p-2"
-                href="javascript:void(0)"
-                onClick={() => dispatch(CHANGE_MODAL(true))}
-              >
-                Sign-Up
-              </a>
+              <GetStarted buttonText='Sign-Up' buttonClass='PricingApplyNowBtn w-100 p-2' />
+
             </div>
           </div>
         </div>
