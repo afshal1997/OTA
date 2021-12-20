@@ -21,6 +21,7 @@ const ApplyNowModal = ({ show }) => {
   const handleClose = () => {
     dispatch(CHANGE_MODAL(false));
   };
+
   const submitContactForm = (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -29,8 +30,8 @@ const ApplyNowModal = ({ show }) => {
       obj[pair[0]] = pair[1];
     }
     axios
-      .get(
-        `https://api.outsourcetoasia.io/index.php?name=${obj.user_name}&email=${obj.user_email}&phone=${obj.user_phone}&company=${obj.user_company}&message=${obj.user_message}`,
+      .post(
+        `https://api.outsourcetoasia.io/`,
         formData
       )
       .then((response) => {
@@ -77,7 +78,7 @@ const ApplyNowModal = ({ show }) => {
                 <InputGroup className="">
                   <FormControl
                     required
-                    name="user_email"
+                    name="email"
                     placeholder="Enter Your Email"
                     type="email"
                     aria-label="email"
@@ -90,7 +91,7 @@ const ApplyNowModal = ({ show }) => {
               <Col lg={6}>
                 <InputGroup className="">
                   <FormControl
-                    name="user_company"
+                    name="company"
                     placeholder="Company"
                     aria-label="Company"
                     aria-describedby="Company"
@@ -100,7 +101,7 @@ const ApplyNowModal = ({ show }) => {
               </Col>
               <Col lg={6}>
                 <input
-                  name="user_phone"
+                  name="phone"
                   placeholder="Enter Your Phone"
                   aria-label="phone"
                   aria-describedby="phone"
@@ -142,7 +143,7 @@ const ApplyNowModal = ({ show }) => {
               <Col lg={12}>
                 <InputGroup>
                   <FormControl
-                    name="user_message"
+                    name="message"
                     as="textarea"
                     aria-label="With textarea"
                     placeholder="Message"
