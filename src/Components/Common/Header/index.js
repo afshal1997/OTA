@@ -12,9 +12,9 @@ function Header() {
   window.onscroll = function () {
     var navbar = document.querySelector(".mainNav");
     if (window.pageYOffset > 0) {
-      navbar.classList.add("scrolled");
+      navbar?.classList?.add("scrolled");
     } else {
-      navbar.classList.remove("scrolled");
+      navbar?.classList?.remove("scrolled");
     }
   };
   useEffect(() => {
