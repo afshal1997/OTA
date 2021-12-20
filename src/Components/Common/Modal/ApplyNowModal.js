@@ -9,12 +9,13 @@ import {
   Modal,
   Row,
 } from "react-bootstrap";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 import Zoom from "react-reveal/Zoom";
 import { CHANGE_MODAL } from "../../../Store/Action";
 const ApplyNowModal = ({ show }) => {
   const history = useHistory();
+  const { modalReducer: { isScheduleCall } } = useSelector(state => state)
   const [error, setError] = useState(false);
   const dispatch = useDispatch();
   const handleClose = () => {
@@ -109,6 +110,34 @@ const ApplyNowModal = ({ show }) => {
                 />
               </Col>
             </Row>
+            {isScheduleCall &&
+              <Row className="">
+                <Col lg={6}>
+                  <InputGroup className="">
+                    <FormControl
+                      required
+                      name="time"
+                      placeholder="time"
+                      aria-label="time"
+                      aria-describedby="time"
+                      type="time"
+                    />
+                  </InputGroup>
+                </Col>
+                <Col lg={6}>
+                  <input
+                    required
+                    name="date"
+                    type="date"
+                    placeholder="Meeting Date"
+                    aria-label="Meeting Date"
+                    aria-describedby="Meeting Date"
+                    minLength="10"
+                    required
+                    className="w-100"
+                  />
+                </Col>
+              </Row>}
             <Row>
               <Col lg={12}>
                 <InputGroup>
@@ -117,6 +146,7 @@ const ApplyNowModal = ({ show }) => {
                     as="textarea"
                     aria-label="With textarea"
                     placeholder="Message"
+                    className="my-2"
                     rows="2"
                   />
                 </InputGroup>

@@ -84,3 +84,7 @@
 .ota-modal input::-ms-input-placeholder {
   color: #87b8da;
 }
+input::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+

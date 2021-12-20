@@ -1,12 +1,10 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import "./HomePage.css";
 import Bounce from "react-reveal/Bounce";
 import Zoom from "react-reveal/Zoom";
-import { CHANGE_MODAL } from "../../Store/Action";
+import { CHANGE_MODAL, SCHEDULE_CALL } from "../../Store/Action";
 import { useDispatch } from "react-redux";
-import GetStarted from "../../Components/Common/Buttons/GetStarted";
 
 const Consultation = () => {
   const dispatch = useDispatch();
@@ -54,7 +52,13 @@ const Consultation = () => {
             </Col>
             <Col lg={4} className="m-auto">
               <Bounce>
-                <GetStarted buttonText='Schedule a Call' buttonClass='schedulecall w-75' />
+                <a
+                  className={'schedulecall w-75'}
+                  onClick={() => dispatch(SCHEDULE_CALL({ isScheduleCall: true, isModalOpen: true }))}
+                  href="javascript:void(0)"
+                >
+                  {'Schedule a Call'}
+                </a>
 
               </Bounce>
             </Col>
