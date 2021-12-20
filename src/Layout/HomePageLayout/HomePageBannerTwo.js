@@ -2,12 +2,9 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
-import { CHANGE_MODAL } from "../../Store/Action";
-import { useDispatch } from "react-redux";
 import GetStarted from "../../Components/Common/Buttons/GetStarted";
 
 const HomePageBannerTwo = () => {
-  const dispatch = useDispatch();
 
   return (
     <div>
@@ -17,7 +14,7 @@ const HomePageBannerTwo = () => {
             <Col lg={6} className="ota_Bg">
               <Fade left>
                 <div className="whyChooseOta">
-                  <h1>Why Choose</h1>
+                  <h3 className="text-dark font-size-36 font-weight-bold">Why Choose</h3>
                   <h2>Outsource to Asia</h2>
                   <Row>
                     <Col className="col-1">

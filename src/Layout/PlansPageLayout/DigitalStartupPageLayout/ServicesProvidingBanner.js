@@ -23,7 +23,7 @@ const ServicesProvidingBanner = () => {
                                         <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Startups</text>
                                     </g>
                                 </svg>
-                                <h1>Services Providing Unique</h1>
+                                <h2>Services Providing Unique</h2>
                             </div>
                         </Bounce>
                     </Col>

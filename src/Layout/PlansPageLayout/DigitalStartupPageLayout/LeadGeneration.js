@@ -28,7 +28,7 @@ const LeadGeneration = () => {
                 <div className="OurServicesHeadingUl">
                   <ul>
                     <Zoom right cascade>
-                      <h1>{leadgenarationpagecontent.heading}</h1>
+                      <h2>{leadgenarationpagecontent.heading}</h2>
                     </Zoom>
                     <Fade>
                       <h6>

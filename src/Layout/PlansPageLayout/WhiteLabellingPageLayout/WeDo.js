@@ -27,7 +27,7 @@ const WeDo = () => {
                   </Col>
                   <Col className="col-10">
                     <Zoom right cascade>
-                      <h1>{WhiteLabellingWeDo.title}</h1>
+                      <h2>{WhiteLabellingWeDo.title}</h2>
                     </Zoom>
                   </Col>
                 </Row>
@@ -61,7 +61,7 @@ const WeDo = () => {
                 <div className="OurServicesHeadingUl">
                   <ul>
                     <Zoom right cascade>
-                      <h1>{WhiteLabellingDesignDevelopment.title}</h1>
+                      <h2>{WhiteLabellingDesignDevelopment.title}</h2>
                     </Zoom>
                     <Fade>
                       <h6>

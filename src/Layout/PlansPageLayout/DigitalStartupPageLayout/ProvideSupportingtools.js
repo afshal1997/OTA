@@ -20,7 +20,7 @@ const ProvideSupportingtools = () => {
                 <div className="OurServicesHeadingUl">
                   <ul>
                     <Zoom right cascade>
-                      <h1>{ProvideSupportingTools.title}</h1>
+                      <h2>{ProvideSupportingTools.title}</h2>
                     </Zoom>
                     <Fade>
                       <p>

@@ -72,7 +72,7 @@ const index = () => {
                                 <div className="verticalSettingsContent">
                                     <Bounce>
                                         <h2 className="mb-0">Looking for a</h2>
-                                        <h1><strong>better solution</strong></h1>
+                                        <h2><strong>better solution</strong></h2>
                                         <p>
                                             Stop staring at the problem, outsource it to us. Outsource to Asia™ is your ticket to survive in the ruthless digital world. We assist customers in the design and development of future-proof, substantial, and secure digital products that are based on the requirements of users and meet their business objectives.
                                         </p>
@@ -103,7 +103,7 @@ const index = () => {
                                 <div className="verticalSettingsContent">
                                     <Bounce>
                                         <h2 className="mb-0">Save Time, Money,</h2>
-                                        <h1><strong>And Resources</strong></h1>
+                                        <h2><strong>And Resources</strong></h2>
                                         <p>
                                             We are honest and forthright upfront, always offering a comprehensive breakdown of the time necessary to finish a project and how much it is going to cost when preparing a proposal for a potential customer. Letting us handle your digital needs relinquish your resources, so you can focus on more pressing matters.
                                         </p>
@@ -134,7 +134,7 @@ const index = () => {
                                 <div className="verticalSettingsContent">
                                     <Bounce>
                                         <h2 className="mb-0">Customer-Centric</h2>
-                                        <h1><strong>Approach</strong></h1>
+                                        <h2><strong>Approach</strong></h2>
                                         <p>
                                             Having helped brands generate better businesses, we have created several success stories. We will not sell you stuff you don’t require. In our endeavor of providing effective services and solutions, we have made great relations with our clients. Our professionals leave no stone unturned to ensure good returns from every penny invested in the project.
                                         </p>
@@ -165,9 +165,9 @@ const index = () => {
                                 <div className="verticalSettingsContent">
                                     <Bounce>
                                         <h2 className="mb-0">Unmatched Customer</h2>
-                                        <h1><strong>Retention Rate</strong></h1>
+                                        <h2><strong>Retention Rate</strong></h2>
                                         <p>
-                                            From SEO & PPC to Social Media marketing & management, all of our consultants are experts in their professions. We are quite pleased with our great client retention rate, which is only possible because we consistently deliver positive outcomes! We are so confident in our abilities that we will never bind you to a long-term commitment.
+                                            From SEO &#38; PPC to Social Media marketing &#38; management, all of our consultants are experts in their professions. We are quite pleased with our great client retention rate, which is only possible because we consistently deliver positive outcomes! We are so confident in our abilities that we will never bind you to a long-term commitment.
                                         </p>
                                     </Bounce>
                                 </div>
@@ -196,7 +196,7 @@ const index = () => {
                                 <div className="verticalSettingsContent">
                                     <Bounce>
                                         <h2 className="mb-0">What Are You</h2>
-                                        <h1><strong>Waiting For?</strong></h1>
+                                        <h2><strong>Waiting For?</strong></h2>
                                         <p>
                                             Drop your Projects in the Pipeline Today!
                                             Signup Now and start outsourcing your projects to your geeky friends from Asia.

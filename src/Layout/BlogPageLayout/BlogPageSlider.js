@@ -60,7 +60,7 @@ const BlogPageSlider = () => {
                     <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">OTA</text>
                   </g>
                 </svg>
-                <h1>Popular Posts</h1>
+                <h2 className="text-light">Popular Posts</h2>
               </div>
             </Bounce>
           </Col>

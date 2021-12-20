@@ -27,7 +27,7 @@ const StartupServices = () => {
                   </Col>
                   <Col className="col-10">
                     <Zoom right cascade>
-                      <h1>{Startup.title}</h1>
+                      <h2>{Startup.title}</h2>
                     </Zoom>
                   </Col>
                 </Row>
@@ -59,7 +59,7 @@ const StartupServices = () => {
                 <div className="OurServicesHeadingUl">
                   <ul>
                     <Zoom right cascade>
-                      <h1>{DevelopBrandPersonal.title}</h1>
+                      <h2>{DevelopBrandPersonal.title}</h2>
                     </Zoom>
                     <Fade>
                       <h6>

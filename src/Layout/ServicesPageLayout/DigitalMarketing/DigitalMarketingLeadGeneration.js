@@ -29,7 +29,7 @@ const DigitalMarketingLeadGeneration = () => {
                 <div className="OurServicesHeadingUl">
                   <ul>
                     <Zoom right cascade>
-                      <h1>{LeadGeneration.title}</h1>
+                      <h2>{LeadGeneration.title}</h2>
                     </Zoom>
                     <Fade>
                       <h6>

@@ -10,7 +10,7 @@ const Heading = ({ Heading, tagline, MainHeading }) => {
             <div className="HomePageBannerFourHeading">
                 <Zoom right>
                     <SectionMainHeadings text={MainHeading} />
-                    <h1>{Heading}</h1>
+                    <h2 className='text-light font-size-36'>{Heading}</h2>
                 </Zoom>
                 <Bounce left>
                     <p>{tagline}</p>

@@ -74,7 +74,7 @@
     stroke: darkgray;
 }
 
-.Business h1,
+.Business h2,
 .Operating h1 {
     color: #fff;
     font-weight: 700;
@@ -371,7 +371,7 @@
     position: relative;
 }
 
-.OurServicesHeadingUl h1::before {
+.OurServicesHeadingUl h2::before {
     content: "\f30b";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;

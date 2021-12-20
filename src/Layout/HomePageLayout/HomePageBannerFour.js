@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Card, Col, Container, Row } from "react-bootstrap";
+import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import ServicesCards from "./ServicesCards";
 import Icon1 from "../../Assets/HomeAssets/icon.png";
 import Icon2 from "../../Assets/HomeAssets/icon2.png";
@@ -9,14 +9,11 @@ import Icon5 from "../../Assets/HomeAssets/icon5.png";
 import Icon6 from "../../Assets/HomeAssets/icon6.png";
 import Icon7 from "../../Assets/HomeAssets/icon7.png";
 import Icon8 from "../../Assets/HomeAssets/icon8.png";
-import { Link } from "react-router-dom";
 import Zoom from "react-reveal/Zoom";
 import Bounce from "react-reveal/Bounce";
 import OurService from "../../Components/Common/OurService/OurService";
 import Heading from "../../Components/Common/PagesHeadings/Heading";
 import VideoTestimonal from "../../Components/Common/VideoTestimonal/VideoTestimonal";
-import { useDispatch } from "react-redux";
-import { CHANGE_MODAL } from "../../Store/Action";
 import GetStarted from "../../Components/Common/Buttons/GetStarted";
 const HomePageBannerFour = () => {
   const servicesCards = [
@@ -77,7 +74,6 @@ const HomePageBannerFour = () => {
       href: "/web-development"
     },
   ];
-  const dispatch = useDispatch();
   return (
     <OurService>
       <div>
@@ -108,7 +104,7 @@ const HomePageBannerFour = () => {
 
             <Col lg={2}>
               <Bounce>
-              <GetStarted buttonText='Get Started' buttonClass='getStarted' />
+                <GetStarted buttonText='Get Started' buttonClass='getStarted' />
 
               </Bounce>
             </Col>

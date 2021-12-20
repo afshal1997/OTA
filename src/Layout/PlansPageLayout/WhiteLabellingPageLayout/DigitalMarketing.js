@@ -22,7 +22,7 @@ const DigitalMarketing = () => {
                 <div className="OurServicesHeadingUl">
                   <ul>
                     <Zoom right cascade>
-                      <h1>{WhiteLabellingDigitalMarketing.title}</h1>
+                      <h2>{WhiteLabellingDigitalMarketing.title}</h2>
                     </Zoom>
                     <Fade>
                       <p>

@@ -32,7 +32,7 @@ const AppDevelopmentFacebook = () => {
                 <div className="OurServicesHeadingUl">
                   <ul>
                     <Zoom right cascade>
-                      <h1>{BusinessAndSolutionsContent.title}</h1>
+                      <h2>{BusinessAndSolutionsContent.title}</h2>
                     </Zoom>
                     <Fade>
                       <h6>

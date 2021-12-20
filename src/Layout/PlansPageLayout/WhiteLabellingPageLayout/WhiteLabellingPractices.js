@@ -23,7 +23,7 @@ const WhiteLabellingPractices = () => {
                                         <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Practices</text>
                                     </g>
                                 </svg>
-                                <h1>We Have Developed Easy Ways</h1>
+                                <h2 className='text-light'>We Have Developed Easy Ways</h2>
                             </div>
                         </Bounce>
                     </Col>

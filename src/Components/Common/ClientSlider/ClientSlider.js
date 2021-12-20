@@ -45,7 +45,7 @@ const ClientSlider = () => {
                         <Row>
                             <Col lg={3} className="col-4 m-auto">
                                 <h4>Firms We</h4>
-                                <h1> Served</h1>
+                                <h2 className='text-primary'> Served</h2>
                             </Col>
                             <Col lg={8} className="col-8">
                                 <LogoSlider settings={settings} className="logoSlider" />

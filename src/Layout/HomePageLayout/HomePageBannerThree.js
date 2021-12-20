@@ -38,7 +38,7 @@ const HomePageBannerThree = () => {
                             <Col lg={5}>
                                 <div className="process" data-aos="flip-up">
                                     <span className="spanProcess">Process</span>
-                                    <h1><span><i className="fas fa-long-arrow-alt-right text-primary"></i></span> How it works<span>?</span></h1>
+                                    <h2><span><i className="fas fa-long-arrow-alt-right text-primary"></i></span> How it works<span>?</span></h2>
                                     <h6>Set of actions to partake</h6>
                                     <p>
                                         Partner with us today to our outsourcing program and reap limitless benefits to kickstart your business to the path to success. Just follow these steps to get started:
