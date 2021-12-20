@@ -46,7 +46,7 @@ const ContactUsMainBanner = () => {
                   <Row>
                     <Col lg={4}>
                       <a
-                        href="#"
+                        href="javascript:void(0)"
                         onClick={() => dispatch(CHANGE_MODAL(true))}
                         className="getStarted-btn"
                       >

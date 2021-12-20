@@ -6,6 +6,7 @@ import Bounce from "react-reveal/Bounce";
 import { BusinessAndSolutionsContent } from "../../../Constants/WhiteLabellingServices";
 import { CHANGE_MODAL } from "../../../Store/Action";
 import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const BusinessAndSolutions = () => {
   const dispatch = useDispatch();
@@ -20,7 +21,7 @@ const BusinessAndSolutions = () => {
                 src={
                   BusinessAndSolutionsContent.BusinessAndSolutionsContentImagePath
                 }
-                alt="BusinessAndSolutionsContent.BusinessAndSolutionsContentImagePath"
+                alt="BusinessAndSolutions"
               ></img>
             </Bounce>
           </Col>
@@ -62,13 +63,7 @@ const BusinessAndSolutions = () => {
                       </Row>
                     </Fade>
                     <Col lg="3">
-                      <a
-                        href="#"
-                        onClick={() => dispatch(CHANGE_MODAL(true))}
-                        class={`${BusinessAndSolutionsContent.button[1]}`}
-                      >
-                        {BusinessAndSolutionsContent.button[0]}
-                      </a>
+                      <GetStarted buttonText={`${BusinessAndSolutionsContent.button[0]}`} buttonClass={`${BusinessAndSolutionsContent.button[1]}`} />
                     </Col>
                   </ul>
                 </div>

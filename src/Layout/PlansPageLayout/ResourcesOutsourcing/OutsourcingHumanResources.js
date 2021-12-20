@@ -2,11 +2,9 @@ import React from "react";
 import ResourcesOutsourcingBusinessImg02 from "../../../Assets/PlansAssets/ResourcesOutsourcing/ResourcesOutsourcingBusinessImg02.png";
 import Bounce from "react-reveal/Bounce";
 import { Col, Container, Row } from "react-bootstrap";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const OutsourcingHumanResources = () => {
-  const dispatch = useDispatch();
   return (
     <div className="pt-5 pb-5">
       <Container>
@@ -54,13 +52,7 @@ const OutsourcingHumanResources = () => {
                 </p>
                 <Row>
                   <Col lg={4}>
-                    <a
-                      href="#"
-                      onClick={() => dispatch(CHANGE_MODAL(true))}
-                      class="getStarted-btn"
-                    >
-                      Get Started
-                    </a>
+                    <GetStarted buttonText='Get Started' buttonClass='getStarted-btn' />
                   </Col>
                 </Row>
               </div>

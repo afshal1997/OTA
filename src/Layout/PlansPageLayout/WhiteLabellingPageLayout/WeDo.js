@@ -9,6 +9,7 @@ import {
 } from "../../../Constants/WhiteLabellingServices";
 import { useDispatch } from "react-redux";
 import { CHANGE_MODAL } from "../../../Store/Action";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const WeDo = () => {
   const dispatch = useDispatch();
@@ -89,15 +90,7 @@ const WeDo = () => {
                       </Row>
                     </Fade>
                     <Col lg="3">
-                      <a
-                        href="#"
-                        onClick={() => {
-                          dispatch(CHANGE_MODAL(true));
-                        }}
-                        class={`${WhiteLabellingDesignDevelopment.button[1]}`}
-                      >
-                        {WhiteLabellingDesignDevelopment.button[0]}
-                      </a>
+                      <GetStarted buttonText={`${WhiteLabellingDesignDevelopment.button[0]}`} buttonClass={`${WhiteLabellingDesignDevelopment.button[1]}`} />
                     </Col>
                   </ul>
                 </div>

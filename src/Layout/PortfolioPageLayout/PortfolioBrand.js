@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { useDispatch } from "react-redux";
+import GetStarted from "../../Components/Common/Buttons/GetStarted";
 import { CHANGE_MODAL } from "../../Store/Action";
 import "./PortfolioPageLayout.css";
 
@@ -38,13 +39,7 @@ const PortfolioBrand = () => {
               </p>
               <Row>
                 <Col lg={4}>
-                  <a
-                    href="#"
-                    onClick={() => dispatch(CHANGE_MODAL(true))}
-                    class="getStarted-btn"
-                  >
-                    Get Started
-                  </a>
+                  <GetStarted buttonText={` Get Started`} buttonClass={`getStarted-btn`} />
                 </Col>
               </Row>
               <Row>

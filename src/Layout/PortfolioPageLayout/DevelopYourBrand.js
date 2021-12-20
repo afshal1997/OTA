@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import "./PortfolioPageLayout.css";
@@ -38,7 +38,6 @@ import BrandingAndCreativeImg12 from "../../Assets/Portfolio/BrandingAndCreative
 import VideoDevelopmentCarousal from "../../Components/Common/VideoDevelopmentCarousal/VideoDevelopmentCarousal";
 import MobileAppDevelopmentCarousal from "../../Components/Common/MobileAppDevelopmentCarousal/MobileAppDevelopmentCarousal";
 const DevelopYourBrand = () => {
-  const [addMoreLogos, setMoreLogos] = useState(false);
   useEffect(() => {
     AOS.init({
       duration: 2000,
@@ -88,7 +87,7 @@ const DevelopYourBrand = () => {
           <Tabs>
             <TabList>
               <Tab>WEB DEVELOPMENT</Tab>
-              <Tab>BRANDING & CREATIVE</Tab>
+              <Tab>BRANDING &#38; CREATIVE</Tab>
               <Tab>MOBILE APPS</Tab>
               <Tab>SOCIAL MEDIA</Tab>
               {/* <Tab>VIDEO DEVELOPMENT</Tab> */}
@@ -200,7 +199,7 @@ const DevelopYourBrand = () => {
                     <img
                       className="w-100"
                       src={BrandingAndCreativeImg05}
-                      alt=""
+                      alt="BrandingAndCreative"
                     ></img>
                   </div>
                 </Col>
@@ -209,7 +208,7 @@ const DevelopYourBrand = () => {
                     <img
                       className="w-100"
                       src={BrandingAndCreativeImg06}
-                      alt=""
+                      alt="BrandingAndCreative"
                     ></img>
                   </div>
                 </Col>

@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import "./HomePage.css";
 import Bounce from "react-reveal/Bounce";
 import Zoom from "react-reveal/Zoom";
-import { CHANGE_MODAL, SCHEDULE_CALL } from "../../Store/Action";
+import {  SCHEDULE_CALL } from "../../Store/Action";
 import { useDispatch } from "react-redux";
 
 const Consultation = () => {

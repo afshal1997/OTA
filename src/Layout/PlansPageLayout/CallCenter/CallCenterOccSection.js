@@ -4,6 +4,7 @@ import CallCenterImg03 from "../../../Assets/PlansAssets/CallCenter/CallCenterIm
 import Bounce from "react-reveal/Bounce";
 import { CHANGE_MODAL } from "../../../Store/Action";
 import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const CallCenterOccSection = () => {
   const dispatch = useDispatch();
@@ -58,14 +59,10 @@ const CallCenterOccSection = () => {
                   away from the worries of bad publicity.
                 </p>
                 <Row>
+
                   <Col lg={4}>
-                    <a
-                      href="#"
-                      onClick={() => dispatch(CHANGE_MODAL(true))}
-                      class="getStarted-btn"
-                    >
-                      Get Started
-                    </a>
+                    <GetStarted buttonText='Get Started' buttonClass='getStarted-btn' />
+
                   </Col>
                 </Row>
               </div>

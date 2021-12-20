@@ -36,7 +36,7 @@ function HomePageMainBnanner() {
                                     <Col lg={1}></Col>
                                     <Col lg={3} className="col-6">
                                         <div className="servicesBox2 text-light position-relative">
-                                            <h5>Creative & Design</h5>
+                                            <h5>Creative &#38; Design</h5>
                                         </div>
                                     </Col>
                                 </Row>

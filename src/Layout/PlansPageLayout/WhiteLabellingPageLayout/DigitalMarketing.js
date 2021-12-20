@@ -4,11 +4,10 @@ import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import { WhiteLabellingDigitalMarketing } from "../../../Constants/WhiteLabellingServices";
-import { useDispatch } from "react-redux";
-import { CHANGE_MODAL } from "../../../Store/Action";
+
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const DigitalMarketing = () => {
-  const dispatch = useDispatch();
   return (
     <div className="mt-5 pt-5">
       <Container>
@@ -53,13 +52,7 @@ const DigitalMarketing = () => {
                       </Row>
                     </Fade>
                     <Col lg="3">
-                      <a
-                        href="#"
-                        onClick={()=>dispatch(CHANGE_MODAL(true))}
-                        class={`${WhiteLabellingDigitalMarketing.button[1]}`}
-                      >
-                        {WhiteLabellingDigitalMarketing.button[0]}
-                      </a>
+                      <GetStarted buttonText={`${WhiteLabellingDigitalMarketing.button[0]}`} buttonClass={`${WhiteLabellingDigitalMarketing.button[1]}`} />
                     </Col>
                   </ul>
                 </div>

@@ -75,7 +75,7 @@ const StartupServices = () => {
                     </Fade>
                     <Col lg="3">
                       <a
-                        href="#"
+                        href="javascript:void(0)"
                         onClick={() => dispatch(CHANGE_MODAL(true))}
                         class={`${DevelopBrandPersonal.button[1]}`}
                       >

@@ -13,7 +13,7 @@ const ResourcesOutsourcingBusiness = () => {
                 <Row>
                     <Col lg={6} className="m-auto">
                         <Bounce right cascade>
-                            <img className="w-100" src={ResourcesOutsourcingBusinessImg01} alt="ResourcesOutsourcingBusinessImg01"></img>
+                            <img className="w-100" src={ResourcesOutsourcingBusinessImg01} alt="ResourcesOutsourcing"></img>
                         </Bounce>
                     </Col>
                     <Col lg={6} className="m-auto">
@@ -43,7 +43,7 @@ const ResourcesOutsourcingBusiness = () => {
                                     <Col lg={6}>
                                         <Row>
                                             <Col className="col-3 mb-3">
-                                                <img className="w-100" src={ResourcesOutsourcingBusinessIcon01} alt="ResourcesOutsourcingBusinessIcon01"></img>
+                                                <img className="w-100" src={ResourcesOutsourcingBusinessIcon01} alt="ResourcesOutsourcing"></img>
                                             </Col>
                                             <Col className="col-9 m-auto">
                                                 <h5><b>Low on Budget</b></h5>
@@ -53,7 +53,7 @@ const ResourcesOutsourcingBusiness = () => {
                                     <Col lg={6}>
                                         <Row>
                                             <Col className="col-3 mb-3">
-                                                <img className="w-100" src={ResourcesOutsourcingBusinessIcon02} alt="ResourcesOutsourcingBusinessIcon02"></img>
+                                                <img className="w-100" src={ResourcesOutsourcingBusinessIcon02} alt="ResourcesOutsourcing"></img>
                                             </Col>
                                             <Col lg={9} className="col-9 m-auto">
                                                 <h5><b>High on Evaluations</b></h5>

@@ -23,7 +23,7 @@ const HomePageBannerTwo = () => {
                     <Col className="col-11">
                       <h3>A Wide Array of Services Provided Under One Roof</h3>
                       <p>
-                        From the nascent stages of design & development to
+                        From the nascent stages of design &#38; development to
                         advertising it on the internet, we offer a slew of
                         services to help you establish your brand in the digital
                         world. SEO, SEM, SMO, web development, CMS development,

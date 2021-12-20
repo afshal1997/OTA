@@ -4,11 +4,9 @@ import AboutUsFrom from "../../../Components/Common/AboutUsForm/AboutUsFrom";
 import SocialMediaContact from "../../../Components/Common/SocialMediaContact";
 import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
-import { useDispatch } from "react-redux";
-import { CHANGE_MODAL } from "../../../Store/Action";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const MainBannerResourcesOutsourcing = () => {
-  const dispatch = useDispatch();
   return (
     <div>
       <div className="plansPageResourcesOutsourcingMainBanner">
@@ -55,13 +53,8 @@ const MainBannerResourcesOutsourcing = () => {
                   </p>
                   <Row>
                     <Col lg={4}>
-                      <a
-                        href="#"
-                        onClick={() => dispatch(CHANGE_MODAL(true))}
-                        class="getStarted-btn"
-                      >
-                        Get Started
-                      </a>
+                      <GetStarted buttonText='Get Started' buttonClass='getStarted-btn' />
+
                     </Col>
                   </Row>
                 </div>

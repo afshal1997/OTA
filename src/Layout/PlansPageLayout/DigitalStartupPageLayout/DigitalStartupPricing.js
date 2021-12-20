@@ -49,7 +49,7 @@ const DigitalStartupPricing = () => {
                         })}
                       </ul>
                       <a
-                        href="#"
+                        href="javascript:void(0)"
                         onClick={() => dispatch(CHANGE_MODAL(true))}
                         className={applyNowButton.buttonStyling}
                         href={applyNowButton.linkText}

@@ -4,11 +4,9 @@ import AboutUsFrom from "../../../Components/Common/AboutUsForm/AboutUsFrom";
 import SocialMediaContact from "../../../Components/Common/SocialMediaContact";
 import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
-import { useDispatch } from "react-redux";
-import { CHANGE_MODAL } from "../../../Store/Action";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const WhiteLabellingMainBanner = () => {
-  const dispatch = useDispatch();
   return (
     <div className="WhiteLabellingMainBanner">
       <div className="DigitalStartupMainBanner">
@@ -37,7 +35,7 @@ const WhiteLabellingMainBanner = () => {
                 </svg>
                 <h1>
                   <Fade top cascade>
-                    Affordable & Reliable
+                    Affordable &#38; Reliable
                   </Fade>
                 </h1>
                 <h3>
@@ -52,15 +50,7 @@ const WhiteLabellingMainBanner = () => {
                 </p>
                 <Row>
                   <Col lg={4}>
-                    <a
-                      href="#"
-                      class="getStarted-btn"
-                      onClick={() => {
-                        dispatch(CHANGE_MODAL(true));
-                      }}
-                    >
-                      Get Started
-                    </a>
+                    <GetStarted buttonText={`Get Started`} buttonClass={`getStarted-btn`} />
                   </Col>
                 </Row>
               </div>

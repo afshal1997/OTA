@@ -31,7 +31,7 @@ const TermAndConditions = () => {
             <Row>
               <Col lg={2} className="m-auto">
                 <a
-                  href="#"
+                  href="javascript:void(0)"
                   onClick={() => {
                     dispatch(CHANGE_MODAL(true));
                   }}
