@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Slider from "react-slick/lib/slider";
 import Image1 from "../../../Assets/Portfolio/AppDevelopment/image1.png";
 import Image2 from "../../../Assets/Portfolio/AppDevelopment/image2.png";

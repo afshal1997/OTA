@@ -19,7 +19,7 @@ const VideoAnimation = () => {
                                 ($1300/2 minutes)
                             </div>
                             <ul>
-                                <li>Concept & Script Writing</li>
+                                <li>Concept &#38; Script Writing</li>
                                 <li>Upto 5 Revisions</li>
                                 <li>Themes</li>
                                 <li>Story Board</li>
@@ -43,7 +43,7 @@ const VideoAnimation = () => {
                                 ($1000/2minute)
                             </div>
                             <ul>
-                                <li>Concept & Script Writing</li>
+                                <li>Concept &#38; Script Writing</li>
                                 <li>Upto 5 Revisions</li>
                                 <li>Themes</li>
                                 <li>Story Board</li>
@@ -68,7 +68,7 @@ const VideoAnimation = () => {
                                 ( $1000/2 minutes)
                             </div>
                             <ul>
-                                <li>Concept & Script Writing</li>
+                                <li>Concept &#38; Script Writing</li>
                                 <li>Upto 5 Revisions</li>
                                 <li>Themes</li>
                                 <li>Story Board</li>
@@ -94,7 +94,7 @@ const VideoAnimation = () => {
                                 ($1000/2 minutes)
                             </div>
                             <ul>
-                                <li>Concept & Script Writing</li>
+                                <li>Concept &#38; Script Writing</li>
                                 <li>Upto 5 Revisions</li>
                                 <li>Themes</li>
                                 <li>Story Board</li>
@@ -143,7 +143,7 @@ const VideoAnimation = () => {
                                 ($1000/2 minute)
                             </div>
                             <ul>
-                                <li>Concept & Script Writing</li>
+                                <li>Concept &#38; Script Writing</li>
                                 <li>Upto 5 Revisions</li>
                                 <li>Themes</li>
                                 <li>Story Board</li>
@@ -168,7 +168,7 @@ const VideoAnimation = () => {
                                 ($2000/2 minutes)
                             </div>
                             <ul>
-                                <li>Concept & Script Writing</li>
+                                <li>Concept &#38; Script Writing</li>
                                 <li>Upto 5 Revisions</li>
                                 <li>Themes</li>
                                 <li>Story Board</li>
