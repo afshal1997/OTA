@@ -16,7 +16,7 @@ const AppDevelopmentIOSApp = () => {
           <Col lg={7} className="m-auto">
             <Bounce right cascade>
               <div className="StartUp pt-5 mt-5">
-                <span class="BgText">{IosAppService.heading}</span>
+                <span className="BgText">{IosAppService.heading}</span>
                 <div className="OurServicesHeadingUl">
                   <ul>
                     <Zoom right cascade>
@@ -69,6 +69,7 @@ const AppDevelopmentIOSApp = () => {
                 className="w-100"
                 src={IosAppService.IosAppServiceImagePath}
                 alt="IosAppService.IosAppServiceImagePath"
+                loading='lazy'
               ></img>
             </Bounce>
           </Col>

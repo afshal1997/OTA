@@ -15,7 +15,7 @@ const DigitalMarketing = () => {
           <Col lg={7} className="m-auto">
             <Bounce right cascade>
               <div className="StartUp pt-5 mt-5">
-                <span class="BgText">
+                <span className="BgText">
                   {WhiteLabellingDigitalMarketing.heading}
                 </span>
                 <div className="OurServicesHeadingUl">
@@ -66,6 +66,7 @@ const DigitalMarketing = () => {
                 src={
                   WhiteLabellingDigitalMarketing.WhiteLabellingDigitalMarketingImage
                 }
+                loading='lazy'
                 alt="WhiteLabellingDigitalMarketing.WhiteLabellingDigitalMarketingImage"
               ></img>
             </Bounce>

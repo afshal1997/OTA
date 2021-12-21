@@ -58,7 +58,7 @@ const CallCenterMainBanner = () => {
                       <a
                         href="javascript:void(0)"
                         onClick={() => dispatch(CHANGE_MODAL(true))}
-                        class="getStarted-btn"
+                        className="getStarted-btn"
                       >
                         Get Started
                       </a>

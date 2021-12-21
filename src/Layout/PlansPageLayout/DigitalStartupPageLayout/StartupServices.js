@@ -19,11 +19,11 @@ const StartupServices = () => {
           <Col lg={4} className="m-auto">
             <Bounce right cascade>
               <div className="StartUp">
-                <span class="BgText">{Startup.heading}</span>
+                <span className="BgText">{Startup.heading}</span>
                 <Row className="OurServicesHeading">
                   <Col className="col-1"></Col>
                   <Col className="col-1 m-auto">
-                    <i class="fas fa-long-arrow-alt-right text-primary"></i>
+                    <i className="fas fa-long-arrow-alt-right text-primary"></i>
                   </Col>
                   <Col className="col-10">
                     <Zoom right cascade>
@@ -77,7 +77,7 @@ const StartupServices = () => {
                       <a
                         href="javascript:void(0)"
                         onClick={() => dispatch(CHANGE_MODAL(true))}
-                        class={`${DevelopBrandPersonal.button[1]}`}
+                        className={`${DevelopBrandPersonal.button[1]}`}
                       >
                         {DevelopBrandPersonal.button[0]}
                       </a>

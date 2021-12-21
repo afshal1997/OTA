@@ -65,7 +65,7 @@ const AboutUsFrom = () => {
             </InputGroup>
             <InputGroup className="mb-3">
               <InputGroup.Text id="number">
-                <i class="fas fa-phone-volume"></i>
+                <i className="fas fa-phone-volume"></i>
               </InputGroup.Text>
               <FormControl
                 required
@@ -77,7 +77,7 @@ const AboutUsFrom = () => {
               />
             </InputGroup>
             {error && (
-              <div class="alert alert-danger" role="alert">
+              <div className="alert alert-danger" role="alert">
                 <Zoom right cascade>
                   There is an error in the form. Please fill the form correctly.
                 </Zoom>

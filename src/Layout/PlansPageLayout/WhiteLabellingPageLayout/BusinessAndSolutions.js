@@ -4,12 +4,9 @@ import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import { BusinessAndSolutionsContent } from "../../../Constants/WhiteLabellingServices";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const BusinessAndSolutions = () => {
-  const dispatch = useDispatch();
   return (
     <div className="mt-5 pt-5 mb-5">
       <Container>
@@ -28,7 +25,7 @@ const BusinessAndSolutions = () => {
           <Col lg={7} className="m-auto">
             <Bounce right cascade>
               <div className="StartUp pt-5 mt-5">
-                <span class="BgText">
+                <span className="BgText">
                   {BusinessAndSolutionsContent.heading}
                 </span>
                 <div className="OurServicesHeadingUl">

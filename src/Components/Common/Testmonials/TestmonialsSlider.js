@@ -53,7 +53,7 @@ const TestmonialsSlider = (props) => {
                                         <div className="TestmonialsSliderCardsContent">
                                             <Row>
                                                 <Col lg={3} className="m-auto col-2">
-                                                    <img className="w-100" src={client_1} alt="client_1"></img>
+                                                    <img loading='lazy' className="w-100" src={client_1} alt="client_1"></img>
                                                 </Col>
                                                 <Col lg={9} className="col-10 m-auto">
                                                     <h3>{props.testmonialTitle.Client1}</h3>
@@ -69,7 +69,7 @@ const TestmonialsSlider = (props) => {
                                         <div className="TestmonialsSliderCardsContent">
                                             <Row>
                                                 <Col lg={3} className="m-auto col-2">
-                                                    <img className="w-100" src={client_2} alt="client_2"></img>
+                                                    <img loading='lazy' className="w-100" src={client_2} alt="client_2"></img>
                                                 </Col>
                                                 <Col lg={9} className="col-10 m-auto">
                                                     <h3>{props.testmonialTitle.Client2}</h3>
@@ -85,7 +85,7 @@ const TestmonialsSlider = (props) => {
                                         <div className="TestmonialsSliderCardsContent">
                                             <Row>
                                                 <Col lg={3} className="m-auto col-2">
-                                                    <img className="w-100" src={client_3} alt="client_3"></img>
+                                                    <img loading='lazy' className="w-100" src={client_3} alt="client_3"></img>
                                                 </Col>
                                                 <Col lg={9} className="col-10 m-auto">
                                                     <h3>{props.testmonialTitle.Client3}</h3>
@@ -101,7 +101,7 @@ const TestmonialsSlider = (props) => {
                                         <div className="TestmonialsSliderCardsContent">
                                             <Row>
                                                 <Col lg={3} className="testmonialImg m-auto col-2">
-                                                    <img className="w-100" src={client_4} alt="client_4"></img>
+                                                    <img loading='lazy' className="w-100" src={client_4} alt="client_4"></img>
                                                 </Col>
                                                 <Col lg={9} className="col-10 m-auto">
                                                     <h3>{props.testmonialTitle.Client4}</h3>
@@ -117,7 +117,7 @@ const TestmonialsSlider = (props) => {
                                         <div className="TestmonialsSliderCardsContent">
                                             <Row>
                                                 <Col lg={3} className="testmonialImg m-auto col-2">
-                                                    <img className="w-100" src={client_5} alt="client_5"></img>
+                                                    <img loading='lazy' className="w-100" src={client_5} alt="client_5"></img>
                                                 </Col>
                                                 <Col lg={9} className="col-10 m-auto">
                                                     <h3>{props.testmonialTitle.Client5}</h3>
@@ -133,7 +133,7 @@ const TestmonialsSlider = (props) => {
                                         <div className="TestmonialsSliderCardsContent">
                                             <Row>
                                                 <Col lg={3} className="testmonialImg m-auto col-2">
-                                                    <img className="w-100" src={client_6} alt="client_6"></img>
+                                                    <img loading='lazy' className="w-100" src={client_6} alt="client_6"></img>
                                                 </Col>
                                                 <Col lg={9} className="col-10 m-auto">
                                                     <h3>{props.testmonialTitle.Client6}</h3>

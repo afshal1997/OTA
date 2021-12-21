@@ -7,12 +7,9 @@ import {
   WhiteLabellingDesignDevelopment,
   WhiteLabellingWeDo,
 } from "../../../Constants/WhiteLabellingServices";
-import { useDispatch } from "react-redux";
-import { CHANGE_MODAL } from "../../../Store/Action";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const WeDo = () => {
-  const dispatch = useDispatch();
   return (
     <div>
       <Container>
@@ -20,11 +17,11 @@ const WeDo = () => {
           <Col lg={4} className="m-auto">
             <Bounce right cascade>
               <div className="StartUp">
-                <span class="BgText">{WhiteLabellingWeDo.heading}</span>
+                <span className="BgText">{WhiteLabellingWeDo.heading}</span>
                 <Row className="OurServicesHeading">
                   <Col className="col-1"></Col>
                   <Col className="col-1 m-auto">
-                    <i class="fas fa-long-arrow-alt-right text-primary"></i>
+                    <i className="fas fa-long-arrow-alt-right text-primary"></i>
                   </Col>
                   <Col className="col-10">
                     <Zoom right cascade>
@@ -56,7 +53,7 @@ const WeDo = () => {
           <Col lg={7} className="m-auto">
             <Bounce right cascade>
               <div className="StartUp pt-5 mt-5">
-                <span class="BgText">
+                <span className="BgText">
                   {WhiteLabellingDesignDevelopment.heading}
                 </span>
                 <div className="OurServicesHeadingUl">

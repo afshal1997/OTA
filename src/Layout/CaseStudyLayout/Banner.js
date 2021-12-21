@@ -52,7 +52,7 @@ const CaseStudyBanner = () => {
                   <Col lg={4}>
                     <a
                       href="#"
-                      class="getStarted-btn"
+                      className="getStarted-btn"
                       onClick={() => {
                         dispatch(CHANGE_MODAL(true));
                       }}

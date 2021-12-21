@@ -26,7 +26,7 @@ const AppDevelopmentFacebook = () => {
           <Col lg={7} className="m-auto">
             <Bounce right cascade>
               <div className="StartUp pt-5 mt-5">
-                <span class="BgText">
+                <span className="BgText">
                   {BusinessAndSolutionsContent.heading}
                 </span>
                 <div className="OurServicesHeadingUl">
@@ -61,9 +61,9 @@ const AppDevelopmentFacebook = () => {
                     </Fade>
                     <Col lg="3">
                       <a
-                        href="#"
+                        href="javascript:void(0)"
                         onClick={() => dispatch(CHANGE_MODAL(true))}
-                        class={`${BusinessAndSolutionsContent.button[1]}`}
+                        className={`${BusinessAndSolutionsContent.button[1]}`}
                       >
                         {BusinessAndSolutionsContent.button[0]}
                       </a>

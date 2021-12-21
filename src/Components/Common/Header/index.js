@@ -32,7 +32,9 @@ function Header() {
       <Navbar collapseOnSelect expand="lg" className="mainNav">
         <Container>
           <Navbar.Brand>
-            <Link to="/"><img className="w-100" src={loGo} alt='outsourcetoasia'></img></Link>
+            <Link to="/">
+              <img loading='lazy' className="w-100" src={loGo} alt='outsourcetoasia'></img>
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
@@ -123,7 +125,7 @@ function Header() {
                 CONTACT
               </NavLink>
               <a href="https://www.outsourcetoasia.co/crm/client-login" className="adminLink">
-                LOGIN <img src={LogIn} alt='login-svg'></img>
+                LOGIN <img loading='lazy' src={LogIn} alt='login-svg'></img>
               </a>
             </Nav>
           </Navbar.Collapse>

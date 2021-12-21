@@ -17,7 +17,7 @@ export default function LogoSlider(props) {
         <Slider className={props.className} {...props.settings}>
             {sliderLogos.map((slides, id) => (
                 <div className={`slider${id}`}>
-                    <img src={slides} alt={`slide ${id}`}></img>
+                    <img src={slides} alt={`slide ${id}`} loading='lazy'></img>
                 </div>
             ))
             }
