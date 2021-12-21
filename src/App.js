@@ -31,8 +31,17 @@ function App() {
       }, 15000);
     }
   }, []);
+  // const structuredDataSchema = {
+  //   "@context": "https://schema.org/",
+  //   "@type": "WebSite",
+  //   "name": "outsourcetoasia",
+  //   "url": "https://www.outsourcetoasia.io/"
+  // }
   return (
     <>
+      {/* <script type="application/ld+json">
+        {JSON.stringify(structuredDataSchema)}
+      </script> */}
       <Router>
         <Header />
         <ScrollToTop />
