@@ -2,8 +2,6 @@ import React from "react";
 import HomePageBannerTwo from "../../Layout/HomePageLayout/HomePageBannerTwo";
 import HomePageMainBnanner from '../../Layout/HomePageLayout/HomePageMainBnanner'
 import MainSliderConatiner from "../Common/VerticalSlider";
-import solutionSliderimg01 from '../../Assets/HomeAssets/solutionSliderimg01.png'
-import solutionSliderbg from '../../Assets/HomeAssets/solution_bg.jpg'
 import './home.scss';
 import HomePageBannerThree from "../../Layout/HomePageLayout/HomePageBannerThree";
 import HomePageBannerFour from "../../Layout/HomePageLayout/HomePageBannerFour";

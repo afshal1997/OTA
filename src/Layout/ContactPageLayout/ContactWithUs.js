@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import OurService from "../../Components/Common/OurService/OurService";
 import ContactUSDemo from "../../Assets/Contact-Us/contact-us-demo-template.png";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import "./contact-use.css";
@@ -56,16 +56,19 @@ const ContactWithUs = () => {
   const submitContactForm = (e) => {
     e.preventDefault();
     const formData = new FormData(e.target);
-    let obj = {};
+    let obj = {
+      type: 'About Us'
+    };
     for (var pair of formData.entries()) {
       obj[pair[0]] = pair[1];
     }
+    console.log(obj)
     e.preventDefault();
     if (Object.values(error).filter(Boolean).length === 0) {
       e.target.reset();
       axios
-        .get(
-          `https://api.outsourcetoasia.io/index.php?name=${obj.user_name}&email=${obj.user_email}&phone=${obj.user_phone}&company=${obj.user_company}&message=${obj.user_message}`,
+        .post(
+          `https://api.outsourcetoasia.io/`,
           formData
         )
         .then((response) => {

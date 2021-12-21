@@ -1,13 +1,10 @@
 import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
-import { useDispatch } from "react-redux";
 import PricingCardImg01 from "../../../Assets/Pricing/PricingCardImg01.png";
 import PricingCardImg02 from "../../../Assets/Pricing/PricingCardImg02.png";
 import PricingCardImg03 from "../../../Assets/Pricing/PricingCardImg03.png";
-import { CHANGE_MODAL } from "../../../Store/Action";
 import GetStarted from "../Buttons/GetStarted";
 const AppDevelopment = () => {
-  const dispatch = useDispatch();
   return (
     <div className="pt-5 pb-5">
       <Row>

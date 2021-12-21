@@ -1,10 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { useDispatch } from "react-redux";
 import { Bounce, Zoom, Fade } from "react-reveal";
 import beyondant from "../../Assets/CaseStudy/beyondant.jpg";
-import Mili from "../../Assets/CaseStudy/Millenial.jpg";
-import p360 from "../../Assets/CaseStudy/Proform360.jpg";
+import Millenial from "../../Assets/CaseStudy/Millenial.jpg";
+import Proform360 from "../../Assets/CaseStudy/Proform360.jpg";
 import Adzum from "../../Assets/CaseStudy/Adzum.jpg";
 
 const CaseStudies = () => {
@@ -15,7 +14,7 @@ const CaseStudies = () => {
           <Row className="my-4" >
             <Col lg={5} className="m-auto">
               <Bounce left cascade>
-                <img className="w-100" src={p360} alt="p360"></img>
+                <img className="w-100" src={Proform360} alt="Proform360"></img>
               </Bounce>
             </Col>
             <Col lg={7} className="m-auto">
@@ -146,7 +145,7 @@ const CaseStudies = () => {
           <Row className="my-4">
             <Col lg={5} className="m-auto">
               <Bounce left cascade>
-                <img className="w-100" src={Mili} alt="Mili"></img>
+                <img className="w-100" src={Millenial} alt="Millenial"></img>
               </Bounce>
             </Col>
             <Col lg={7} className="m-auto">

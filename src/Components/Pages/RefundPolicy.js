@@ -1,12 +1,11 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { useDispatch } from "react-redux";
 import WatchVides from "../../Layout/BlogPageLayout/WatchVides";
-import { CHANGE_MODAL } from "../../Store/Action";
+import GetStarted from "../Common/Buttons/GetStarted";
 import ClientSlider from "../Common/ClientSlider/ClientSlider";
 import SocialMediaContact from "../Common/SocialMediaContact";
+
 const RefundPolicy = () => {
-  const dispatch = useDispatch();
   return (
     <div>
       <div className="aboutUsPageBanner">
@@ -30,15 +29,7 @@ const RefundPolicy = () => {
             </Row>
             <Row>
               <Col lg={2} className="m-auto">
-                <a
-                  href="#"
-                  onClick={() => {
-                    dispatch(CHANGE_MODAL(true));
-                  }}
-                  className="getStarted-btn"
-                >
-                  Get Started
-                </a>
+                <GetStarted buttonText='Get Started' buttonClass='getStarted-btn' />
               </Col>
             </Row>
           </Container>

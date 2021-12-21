@@ -1,5 +1,4 @@
 import React from "react";
-import OurService from "../../Components/Common/OurService/OurService";
 import Slider from "react-slick";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import { popularPostsSlides } from "./../../Constants/popularPostsSlides";

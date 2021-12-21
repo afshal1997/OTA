@@ -7,7 +7,7 @@ const ThankYou = () => {
     setTimeout(() => {
       history.push("/home");
     }, 5000);
-  }, []);
+  }, [history]);
   return (
     <div className="text-primary HomePageBannerFour d-flex justify-content-center align-items-center vh-100">
       <div>

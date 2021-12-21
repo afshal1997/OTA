@@ -1,10 +1,7 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import { CHANGE_MODAL } from '../../../Store/Action'
 import GetStarted from '../Buttons/GetStarted'
-
 const VideoAnimation = () => {
-    const dispatch = useDispatch()
     return (
         <div>
             <div className="pt-3 pb-3">

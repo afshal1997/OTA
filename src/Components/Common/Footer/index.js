@@ -169,25 +169,25 @@ function Footer() {
             <Col lg={4}>
               <div className="footerSocialLink text-center">
                 <a
-                  target="_blank"
+                  target="blank"
                   href="https://www.facebook.com/outsourcetoasiallc/"
                 >
                   <i className="fab fa-facebook"></i>
                 </a>
                 <a
-                  target="_blank"
+                  target="blank"
                   href="https://www.instagram.com/outsourcetoasia/?utm_medium=copy_link"
                 >
                   <i className="fab fa-instagram"></i>
                 </a>
                 <a
-                  target="_blank"
+                  target="blank"
                   href="https://www.linkedin.com/company/outsource-to-asia"
                 >
                   <i className="fab fa-linkedin"></i>
                 </a>
                 <a
-                  target="_blank"
+                  target="blank"
                   href="https://www.youtube.com/channel/UCu5Sl1qH8Jr3yaia0c2lTzw"
                 >
                   <i className="fab fa-youtube"></i>

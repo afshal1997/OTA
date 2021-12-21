@@ -7,11 +7,9 @@ import {
   BasicWebsite,
   RenownedOutsourceWeb,
 } from "../../../Constants/WebDevelopmentServices";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const WebDevelopmentRenownedOutsourceWeb = () => {
-  const dispatch = useDispatch();
   return (
     <div>
       <Container>
@@ -88,15 +86,7 @@ const WebDevelopmentRenownedOutsourceWeb = () => {
                       </Row>
                     </Fade>
                     <Col lg="3">
-                      <a
-                        onClick={() => {
-                          dispatch(CHANGE_MODAL(true));
-                        }}
-                        href="#"
-                        class={`${BasicWebsite.button[1]}`}
-                      >
-                        {BasicWebsite.button[0]}
-                      </a>
+                      <GetStarted buttonText={BasicWebsite.button[0]} buttonClass={`${BasicWebsite.button[1]}`} />
                     </Col>
                   </ul>
                 </div>

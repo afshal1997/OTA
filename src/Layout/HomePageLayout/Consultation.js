@@ -35,7 +35,7 @@ const Consultation = () => {
                   </g>
                 </svg>
                 <Bounce right>
-                  <h1>Free Consultation</h1>
+                  <h2>Free Consultation</h2>
                 </Bounce>
                 <Bounce left>
                   <h5>How We Can Partner</h5>

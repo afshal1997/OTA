@@ -25,7 +25,7 @@ fbq("track", "PageView");
   <img
     height="1"
     width="1"
-    style="display:none"
+    className="d-none"
     src="https://www.facebook.com/tr?id=897719781144027&ev=PageView&noscript=1"
   />
 </noscript>;

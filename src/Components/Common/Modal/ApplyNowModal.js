@@ -25,14 +25,16 @@ const ApplyNowModal = ({ show }) => {
   const submitContactForm = (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
-    let obj = {};
+    let obj = {
+      type: isScheduleCall ? 'Schedule a Call' : 'Get Started'
+    };
     for (var pair of formData.entries()) {
       obj[pair[0]] = pair[1];
     }
     axios
       .post(
         `https://api.outsourcetoasia.io/`,
-        formData
+        obj
       )
       .then((response) => {
         history.push("/thank-you");
@@ -134,7 +136,6 @@ const ApplyNowModal = ({ show }) => {
                     aria-label="Meeting Date"
                     aria-describedby="Meeting Date"
                     minLength="10"
-                    required
                     className="w-100"
                   />
                 </Col>

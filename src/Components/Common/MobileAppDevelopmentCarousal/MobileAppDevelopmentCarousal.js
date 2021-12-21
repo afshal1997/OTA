@@ -1,10 +1,10 @@
 import React from "react";
 import Slider from "react-slick/lib/slider";
-import Image1 from "../../../Assets/Portfolio/AppDevelopment/image1.png";
-import Image2 from "../../../Assets/Portfolio/AppDevelopment/image2.png";
-import Image3 from "../../../Assets/Portfolio/AppDevelopment/image3.png";
+import Image1 from "../../../Assets/Portfolio/AppDevelopment/towrevo.png";
+import Image2 from "../../../Assets/Portfolio/AppDevelopment/bizhub.png";
+import Image3 from "../../../Assets/Portfolio/AppDevelopment/swat-network.png";
 import Image4 from "../../../Assets/Portfolio/AppDevelopment/image4.jpg";
-import Image5 from "../../../Assets/Portfolio/AppDevelopment/image5.jpg";
+import Image5 from "../../../Assets/Portfolio/AppDevelopment/beyondant.jpg";
 
 const MobileAppDevelopmentCarousal = () => {
   const settings = {

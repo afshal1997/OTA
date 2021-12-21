@@ -10,7 +10,7 @@ const index = () => {
             <li>
               <a
                 href="https://www.facebook.com/outsourcetoasiallc/"
-                target="_blank"
+                target="blank"
               >
                 <i className="fab fa-facebook-f"></i>
               </a>
@@ -18,7 +18,7 @@ const index = () => {
             <li>
               <a
                 href="https://www.linkedin.com/company/outsource-to-asia"
-                target="_blank"
+                target="blank"
               >
                 <i className="fab fa-linkedin-in"></i>
               </a>
@@ -26,13 +26,13 @@ const index = () => {
             <li>
               <a
                 href="https://www.instagram.com/outsourcetoasia/?utm_medium=copy_link"
-                target="_blank"
+                target="blank"
               >
                 <i className="fab fa-instagram"></i>
               </a>
             </li>
             <li>
-              <a href="https://www.youtube.com/channel/UCu5Sl1qH8Jr3yaia0c2lTzw" target="_blank">
+              <a href="https://www.youtube.com/channel/UCu5Sl1qH8Jr3yaia0c2lTzw" target="blank">
                 <i className="fab fa-youtube"></i>
               </a>
             </li>

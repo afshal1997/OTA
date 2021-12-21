@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Container, Dropdown, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Container, Dropdown, Nav, Navbar } from "react-bootstrap";
 import "./header.css";
 import LogIn from "../../../Assets/Icons/login.png";
 import loGo from "../../../Assets/logo/logo.png";
@@ -32,7 +32,7 @@ function Header() {
       <Navbar collapseOnSelect expand="lg" className="mainNav">
         <Container>
           <Navbar.Brand>
-            <Link to="/"><img className="w-100" src={loGo} al='logo'></img></Link>
+            <Link to="/"><img className="w-100" src={loGo} alt='outsourcetoasia'></img></Link>
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
