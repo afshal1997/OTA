@@ -4,13 +4,9 @@ import OurService from '../../../Components/Common/OurService/OurService'
 import Heading from '../../../Components/Common/PagesHeadings/Heading'
 import VideoTestimonal from '../../../Components/Common/VideoTestimonal/VideoTestimonal'
 import WhyChooseUs from '../../../Assets/PlansAssets/CallCenter/CallCenterWhyChooseUsBg.jpg'
-import CallCenterIcon01 from '../../../Assets/PlansAssets/CallCenter/CallCenterIcon01.png'
-import CallCenterIcon02 from '../../../Assets/PlansAssets/CallCenter/CallCenterIcon02.png'
-import CallCenterIcon03 from '../../../Assets/PlansAssets/CallCenter/CallCenterIcon03.png'
-import CallCenterIcon04 from '../../../Assets/PlansAssets/CallCenter/CallCenterIcon04.png'
-import CallCenterIcon05 from '../../../Assets/PlansAssets/CallCenter/CallCenterIcon05.png'
-
+import { importAll } from '../../../Constants/functions'
 const CallCenterChooseUs = () => {
+    const callCenter = ['Saving On Operational Costs', 'Efficiency And Time Saving', 'Flexibility And Diversity', 'Experienced Staff', 'Increased ROI']
     return (
         <div>
             <OurService>
@@ -20,47 +16,18 @@ const CallCenterChooseUs = () => {
                     <div className="WhyChooseUs">
                         <img className="w-100 processImg" src={WhyChooseUs} alt=""></img>
                         <Row className="mobile-view">
-                            <Col className="for-mobile">
-                                <Card className="WhyChooseUSCards">
-                                    <Col lg={8} className="m-auto text-center p-0">
-                                        <img className="w-50 position-relative mb-4" src={CallCenterIcon01} alt="CallCenterIcon01"></img>
-                                        <p><b>Saving On Operational Costs</b></p>
+                            {Object.values(importAll(require.context('../../../Assets/PlansAssets/CallCenter/icons', false, /\.(png|jpe?g|svg)$/))).map((path, id) => {
+                                return (
+                                    <Col className="for-mobile">
+                                        <Card className="WhyChooseUSCards">
+                                            <Col lg={8} className="m-auto text-center p-0">
+                                                <img className="w-50 position-relative mb-4" src={path.default} alt="CallCenterIcon01"></img>
+                                                <p><b>{callCenter[id]}</b></p>
+                                            </Col>
+                                        </Card>
                                     </Col>
-                                </Card>
-                            </Col>
-                            <Col className="for-mobile">
-                                <Card className="WhyChooseUSCards">
-                                    <Col lg={8} className="m-auto text-center p-0">
-                                        <p><b>Efficiency And Time Saving</b></p>
-                                        <img className="w-50 position-relative mb-4" src={CallCenterIcon02} alt="CallCenterIcon02"></img>
-                                    </Col>
-                                </Card>
-                            </Col>
-
-                            <Col className="for-mobile">
-                                <Card className="WhyChooseUSCards">
-                                    <Col lg={8} className="m-auto text-center p-0">
-                                        <img className="w-50 position-relative mb-4" src={CallCenterIcon03} alt="CallCenterIcon03"></img>
-                                        <p><b>Flexibility And Diversity</b></p>
-                                    </Col>
-                                </Card>
-                            </Col>
-                            <Col className="for-mobile">
-                                <Card className="WhyChooseUSCards">
-                                    <Col lg={8} className="m-auto text-center p-0">
-                                        <p><b>Experienced <br></br> Staff</b></p>
-                                        <img className="w-50 position-relative mb-4" src={CallCenterIcon04} alt="CallCenterIcon04"></img>
-                                    </Col>
-                                </Card>
-                            </Col>
-                            <Col className="for-mobile">
-                                <Card className="WhyChooseUSCards">
-                                    <Col lg={8} className="m-auto text-center p-0">
-                                        <img className="w-50 position-relative mb-4" src={CallCenterIcon05} alt="CallCenterIcon05"></img>
-                                        <p><b>Increased <br></br> ROI</b></p>
-                                    </Col>
-                                </Card>
-                            </Col>
+                                )
+                            })}
                         </Row>
                     </div>
 
