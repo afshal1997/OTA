@@ -17,7 +17,7 @@ const HomePageBannerTwo = () => {
                   <h3 className="text-dark font-size-36 font-weight-bold">Why Choose</h3>
                   <h2>Outsource to Asia</h2>
                   <Row>
-                    <Col className="col-1">
+                    <Col className="col-1 mt-4">
                       <i className="fas fa-long-arrow-alt-right text-primary"></i>
                     </Col>
                     <Col className="col-11">
@@ -61,7 +61,7 @@ const HomePageBannerTwo = () => {
               <Fade right>
                 <div className="whyChooseOta">
                   <Row>
-                    <Col className="col-1">
+                    <Col className="col-1 mt-3">
                       <i className="fas fa-long-arrow-alt-right text-primary"></i>
                     </Col>
                     <Col className="col-11">

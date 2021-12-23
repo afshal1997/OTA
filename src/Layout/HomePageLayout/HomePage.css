@@ -295,9 +295,9 @@
 }
 
 .whyChooseOta h3 {
-  margin: 20px 0 0 0;
+  margin: 10px 0 0 0;
   font-weight: 700;
-  font-size: 3.6rem;
+  font-size: 2rem;
   color: #424242;
 }
 
@@ -1107,7 +1107,7 @@ a.schedulecall:hover {
   }
 
   .whyChooseOta h3 {
-    font-size: 2.6rem;
+    font-size: 1.6rem;
   }
 
   .whyChooseOta h2 {
