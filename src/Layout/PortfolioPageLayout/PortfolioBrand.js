@@ -1,12 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { useDispatch } from "react-redux";
 import GetStarted from "../../Components/Common/Buttons/GetStarted";
-import { CHANGE_MODAL } from "../../Store/Action";
 import "./PortfolioPageLayout.css";
 
 const PortfolioBrand = () => {
-  const dispatch = useDispatch();
   return (
     <div className="PortfolioBrand">
       <Container>

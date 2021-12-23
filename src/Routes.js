@@ -1,8 +1,8 @@
+import { lazy } from "react";
 import { Redirect } from "react-router-dom";
 import AboutUS from "./Components/Pages/AboutUS";
 import CallCenter from "./Components/Pages/CallCenter";
 import ResourcesOutsourcing from "./Components/Pages/ResourceOutsourcing";
-import Home from "./Components/Pages/Home";
 import DigitalStartup from "./Components/Pages/DigitalStartup";
 import WhiteLabelling from "./Components/Pages/WhiteLabelling";
 import CreativeDesign from "./Components/Pages/CreativeDesign";
@@ -17,10 +17,11 @@ import RefundPolicy from "./Components/Pages/RefundPolicy";
 import TermAndConditions from "./Components/Pages/TermAndConditions";
 import Pricing from "./Components/Pages/Pricing";
 import Blog from "./Components/Pages/Blog";
-import Contact from "./Components/Pages/Contact";
-import Portfolio from "./Components/Pages/Portfolio";
-import CaseStudy from "./Components/Pages/CaseStudy";
-import ThankYou from "./Layout/ThankYou/ThankYou";
+const Contact = lazy(() => import("./Components/Pages/Contact"));
+const Portfolio = lazy(() => import("./Components/Pages/Portfolio"))
+const CaseStudy = lazy(() => import("./Components/Pages/CaseStudy"))
+const Home = lazy(() => import("./Components/Pages/Home"))
+const ThankYou = lazy(() => import("./Layout/ThankYou/ThankYou"));
 const routes = [
   {
     path: "/",

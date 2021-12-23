@@ -34,8 +34,6 @@ import BrandingAndCreativeImg09 from "../../Assets/Portfolio/BrandingAndCreative
 import BrandingAndCreativeImg10 from "../../Assets/Portfolio/BrandingAndCreative/img10.jpg";
 import BrandingAndCreativeImg11 from "../../Assets/Portfolio/BrandingAndCreative/img11.jpg";
 import BrandingAndCreativeImg12 from "../../Assets/Portfolio/BrandingAndCreative/img06.jpg";
-
-import VideoDevelopmentCarousal from "../../Components/Common/VideoDevelopmentCarousal/VideoDevelopmentCarousal";
 import MobileAppDevelopmentCarousal from "../../Components/Common/MobileAppDevelopmentCarousal/MobileAppDevelopmentCarousal";
 const DevelopYourBrand = () => {
   useEffect(() => {
@@ -90,7 +88,6 @@ const DevelopYourBrand = () => {
               <Tab>BRANDING &#38; CREATIVE</Tab>
               <Tab>MOBILE APPS</Tab>
               <Tab>SOCIAL MEDIA</Tab>
-              {/* <Tab>VIDEO DEVELOPMENT</Tab> */}
             </TabList>
             <TabPanel>
               <Row>
@@ -162,6 +159,7 @@ const DevelopYourBrand = () => {
                       className="w-100"
                       src={BrandingAndCreativeImg01}
                       alt="BrandingAndCreativeImg01"
+                      loading='lazy'
                     ></img>
                   </div>
                 </Col>
@@ -171,12 +169,14 @@ const DevelopYourBrand = () => {
                       className="w-100"
                       src={BrandingAndCreativeImg02}
                       alt="BrandingAndCreativeImg02"
+                      loading='lazy'
                     ></img>
                   </div>
                 </Col>
                 <Col lg={4}>
                   <div className="portfolioTabsCards">
                     <img
+                      loading='lazy'
                       className="w-100"
                       src={BrandingAndCreativeImg03}
                       alt="BrandingAndCreativeImg03"
@@ -189,6 +189,7 @@ const DevelopYourBrand = () => {
                   <div className="portfolioTabsCards">
                     <img
                       className="w-100"
+                      loading='lazy'
                       src={BrandingAndCreativeImg04}
                       alt="BrandingAndCreativeImg04"
                     ></img>
@@ -198,6 +199,7 @@ const DevelopYourBrand = () => {
                   <div className="portfolioTabsCards">
                     <img
                       className="w-100"
+                      loading='lazy'
                       src={BrandingAndCreativeImg05}
                       alt="BrandingAndCreative"
                     ></img>
@@ -207,6 +209,7 @@ const DevelopYourBrand = () => {
                   <div className="portfolioTabsCards">
                     <img
                       className="w-100"
+                      loading='lazy'
                       src={BrandingAndCreativeImg06}
                       alt="BrandingAndCreative"
                     ></img>
@@ -219,6 +222,7 @@ const DevelopYourBrand = () => {
                         <div className="portfolioTabsCards">
                           <img
                             className="w-100"
+                            loading='lazy'
                             src={BrandingAndCreativeImg07}
                             alt="BrandingAndCreativeImg07"
                           ></img>
@@ -228,6 +232,7 @@ const DevelopYourBrand = () => {
                         <div className="portfolioTabsCards">
                           <img
                             className="w-100"
+                            loading='lazy'
                             src={BrandingAndCreativeImg08}
                             alt="BrandingAndCreativeImg08"
                           ></img>
@@ -237,6 +242,7 @@ const DevelopYourBrand = () => {
                         <div className="portfolioTabsCards">
                           <img
                             className="w-100"
+                            loading='lazy'
                             src={BrandingAndCreativeImg09}
                             alt="BrandingAndCreativeImg09"
                           ></img>
@@ -248,6 +254,7 @@ const DevelopYourBrand = () => {
                         <div className="portfolioTabsCards">
                           <img
                             className="w-100"
+                            loading='lazy'
                             src={BrandingAndCreativeImg10}
                             alt="BrandingAndCreativeImg10"
                           ></img>
@@ -257,6 +264,7 @@ const DevelopYourBrand = () => {
                         <div className="portfolioTabsCards">
                           <img
                             className="w-100"
+                            loading='lazy'
                             src={BrandingAndCreativeImg11}
                             alt="BrandingAndCreativeImg11"
                           ></img>
@@ -266,6 +274,7 @@ const DevelopYourBrand = () => {
                         <div className="portfolioTabsCards">
                           <img
                             className="w-100"
+                            loading='lazy'
                             src={BrandingAndCreativeImg12}
                             alt="BrandingAndCreativeImg12"
                           ></img>
@@ -333,9 +342,7 @@ const DevelopYourBrand = () => {
                 </Col>
               </Row>
             </TabPanel>
-            <TabPanel>
-              <VideoDevelopmentCarousal />
-            </TabPanel>
+
           </Tabs>
         </div>
       </Container>

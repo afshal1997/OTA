@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import routes from "./Routes";
 import "./App.css";
@@ -31,42 +31,36 @@ function App() {
       }, 15000);
     }
   }, []);
-  // const structuredDataSchema = {
-  //   "@context": "https://schema.org/",
-  //   "@type": "WebSite",
-  //   "name": "outsourcetoasia",
-  //   "url": "https://www.outsourcetoasia.io/"
-  // }
   return (
     <>
-      {/* <script type="application/ld+json">
-        {JSON.stringify(structuredDataSchema)}
-      </script> */}
-      <Router>
-        <Header />
-        <ScrollToTop />
-        <WelcomePopup show={welcomePopup} handleClose={() => setPopup(false)} />
-        <ApplyNowModal show={modalReducer.isModalOpen} />
-        <Switch>
-          {routes.map((route, index) => {
-            return route.component ? (
-              <Route
-                key={index}
-                path={route.path}
-                exact={route.exact}
-                render={(props) => {
-                  return (
-                    <>
-                      <route.component {...props} />
-                    </>
-                  );
-                }}
-              />
-            ) : null;
-          })}
-        </Switch>
-        <Footer />
-      </Router>
+      
+      <Suspense fallback={<div className="d-flex justify-content-center align-items-center">Loading...</div>}>
+        <Router>
+          <Header />
+          <ScrollToTop />
+          <WelcomePopup show={welcomePopup} handleClose={() => setPopup(false)} />
+          <ApplyNowModal show={modalReducer.isModalOpen} />
+          <Switch>
+            {routes.map((route, index) => {
+              return route.component ? (
+                <Route
+                  key={index}
+                  path={route.path}
+                  exact={route.exact}
+                  render={(props) => {
+                    return (
+                      <>
+                        <route.component {...props} />
+                      </>
+                    );
+                  }}
+                />
+              ) : null;
+            })}
+          </Switch>
+          <Footer />
+        </Router>
+      </Suspense>
     </>
   );
 }
