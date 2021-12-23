@@ -4,11 +4,9 @@ import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import { ArticleWriting } from "../../../Constants/ContentWrittingServices";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const ContentWrittingArticleWriting = () => {
-  const dispatch = useDispatch();
   return (
     <div className="mt-5 pt-5">
       <Container>
@@ -48,13 +46,7 @@ const ContentWrittingArticleWriting = () => {
                       </Row>
                     </Fade>
                     <Col lg="3">
-                      <a
-                        href="#"
-                        onClick={() => dispatch(CHANGE_MODAL(true))}
-                        class={`${ArticleWriting.button[1]}`}
-                      >
-                        {ArticleWriting.button[0]}
-                      </a>
+                      <GetStarted buttonText={ArticleWriting.button[0]} buttonClass={ArticleWriting.button[1]} />
                     </Col>
                   </ul>
                 </div>

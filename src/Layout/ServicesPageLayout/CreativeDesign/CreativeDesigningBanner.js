@@ -23,7 +23,7 @@ const CreativeDesigningBanner = () => {
                                         <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Creative</text>
                                     </g>
                                 </svg>
-                                <h1>Creative Designing</h1>
+                                <h2>Creative Designing</h2>
                             </div>
                         </Bounce>
                     </Col>

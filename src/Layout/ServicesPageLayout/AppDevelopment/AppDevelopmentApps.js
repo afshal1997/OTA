@@ -24,7 +24,7 @@ const AppDevelopmentApps = () => {
                                         <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Apps</text>
                                     </g>
                                 </svg>
-                                <h1>App Development</h1>
+                                <h2>App Development</h2>
                             </div>
                         </Bounce>
                     </Col>

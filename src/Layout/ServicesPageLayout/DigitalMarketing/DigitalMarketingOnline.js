@@ -23,7 +23,7 @@ const DigitalMarketingOnline = () => {
                                         <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Online</text>
                                     </g>
                                 </svg>
-                                <h1>Digital Marketing</h1>
+                                <h2>Digital Marketing</h2>
                             </div>
                         </Bounce>
                     </Col>

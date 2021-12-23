@@ -24,7 +24,7 @@ const PricingPlansTabs = () => {
                                         <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Plans</text>
                                     </g>
                                 </svg>
-                                <h1>Our Pricing</h1>
+                                <h2>Our Pricing</h2>
                                 <h5 id="tst-id">Most Affordable</h5>
                             </div>
                         </Bounce>

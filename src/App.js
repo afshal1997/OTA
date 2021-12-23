@@ -11,10 +11,12 @@ import "aos/dist/aos.css";
 import ApplyNowModal from "./Components/Common/Modal/ApplyNowModal";
 import WelcomePopup from "./Components/Common/WelcomePopup";
 import { CHANGE_MODAL } from "./Store/Action";
+import { addAltAttribute } from "./Constants/functions";
 function App() {
   const { modalReducer } = useSelector((state) => state);
   const [welcomePopup, setPopup] = useState(false);
   const dispatch = useDispatch();
+
   useEffect(() => {
     const now = new Date();
     let time = now.getTime();
@@ -30,10 +32,11 @@ function App() {
         dispatch(CHANGE_MODAL(true));
       }, 15000);
     }
+    addAltAttribute()
   }, []);
   return (
     <>
-      
+
       <Suspense fallback={<div className="d-flex justify-content-center align-items-center">Loading...</div>}>
         <Router>
           <Header />

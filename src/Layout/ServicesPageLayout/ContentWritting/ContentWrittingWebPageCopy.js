@@ -4,11 +4,8 @@ import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import { BusinessAndSolutionsContent } from "../../../Constants/ContentWrittingServices";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
-
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 const ContentWrittingWebPageCopy = () => {
-  const dispatch = useDispatch();
   return (
     <div className="mt-5 pt-5 mb-5">
       <Container>
@@ -61,15 +58,7 @@ const ContentWrittingWebPageCopy = () => {
                       </Row>
                     </Fade>
                     <Col lg="3">
-                      <a
-                        onClick={() => {
-                          dispatch(CHANGE_MODAL(true));
-                        }}
-                        href="#"
-                        class={`${BusinessAndSolutionsContent.button[1]}`}
-                      >
-                        {BusinessAndSolutionsContent.button[0]}
-                      </a>
+                      <GetStarted buttonText={`${BusinessAndSolutionsContent.button[0]}`} buttonClass={`${BusinessAndSolutionsContent.button[1]}`} />
                     </Col>
                   </ul>
                 </div>

@@ -4,10 +4,8 @@ import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import Zoom from "react-reveal/Zoom";
 import { BusinessAndSolutionsContent } from "../../../Constants/AppDevelopmentServices";
-import { useDispatch } from "react-redux";
-import { CHANGE_MODAL } from "../../../Store/Action";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 const AppDevelopmentFacebook = () => {
-  const dispatch = useDispatch();
   return (
     <div className="mb-5">
       <Container>
@@ -60,13 +58,7 @@ const AppDevelopmentFacebook = () => {
                       </Row>
                     </Fade>
                     <Col lg="3">
-                      <a
-                        href="javascript:void(0)"
-                        onClick={() => dispatch(CHANGE_MODAL(true))}
-                        className={`${BusinessAndSolutionsContent.button[1]}`}
-                      >
-                        {BusinessAndSolutionsContent.button[0]}
-                      </a>
+                      <GetStarted buttonText={BusinessAndSolutionsContent.button[0]} buttonClass={BusinessAndSolutionsContent.button[1]} />
                     </Col>
                   </ul>
                 </div>

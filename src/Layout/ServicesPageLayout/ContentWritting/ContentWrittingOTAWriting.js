@@ -7,11 +7,9 @@ import {
   BlogWritingService,
   OTAWrittingService,
 } from "../../../Constants/ContentWrittingServices";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const ContentWrittingOTAWriting = () => {
-  const dispatch = useDispatch();
   return (
     <div>
       <Container>
@@ -87,15 +85,8 @@ const ContentWrittingOTAWriting = () => {
                       </Row>
                     </Fade>
                     <Col lg="3">
-                      <a
-                        href="#"
-                        onClick={() => {
-                          dispatch(CHANGE_MODAL(true));
-                        }}
-                        class={`${BlogWritingService.button[1]}`}
-                      >
-                        {BlogWritingService.button[0]}
-                      </a>
+                      <GetStarted buttonText={BlogWritingService.button[0]} buttonClass={BlogWritingService.button[1]} />
+
                     </Col>
                   </ul>
                 </div>

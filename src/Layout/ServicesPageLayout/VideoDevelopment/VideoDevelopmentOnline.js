@@ -23,7 +23,7 @@ const VideoDevelopmentOnline = () => {
                                         <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Online</text>
                                     </g>
                                 </svg>
-                                <h1>Video Animation</h1>
+                                <h2>Video Animation</h2>
                             </div>
                         </Bounce>
                     </Col>

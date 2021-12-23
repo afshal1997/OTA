@@ -23,7 +23,7 @@ const WebDevelopmentBranding = () => {
                                         <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Branding</text>
                                     </g>
                                 </svg>
-                                <h1>Web Development</h1>
+                                <h2>Web Development</h2>
                                 <p>A Creative Branding Idea</p>
                             </div>
                         </Bounce>

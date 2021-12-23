@@ -23,7 +23,7 @@ const SafeCyberSecurity = () => {
                                         <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Safe</text>
                                     </g>
                                 </svg>
-                                <h1>Cyber Security</h1>
+                                <h2>Cyber Security</h2>
                                 <p>Secure your Data</p>
                             </div>
                         </Bounce>
