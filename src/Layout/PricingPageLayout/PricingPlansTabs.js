@@ -1,8 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';
-import CreativeDesigningImg01 from '../../Assets/Services/CreativeDesign/CreativeDesigningImg01.png'
 import VerticalTabs from '../../Components/Common/Tabs/VerticalTabs';
 
 const PricingPlansTabs = () => {

@@ -2,7 +2,6 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import CallCenterImg01 from "../../../Assets/PlansAssets/CallCenter/CallCenterImg01.png";
 import Bounce from "react-reveal/Bounce";
-import { useDispatch } from "react-redux";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const CallCentreOutsourcingSection = () => {

@@ -2,12 +2,8 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import CallCenterImg03 from "../../../Assets/PlansAssets/CallCenter/CallCenterImg03.png";
 import Bounce from "react-reveal/Bounce";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
-
 const CallCenterOccSection = () => {
-  const dispatch = useDispatch();
   return (
     <div className="PlanOccBg">
       <Container>

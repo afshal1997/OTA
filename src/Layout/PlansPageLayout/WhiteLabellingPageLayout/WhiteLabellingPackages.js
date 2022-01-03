@@ -1,7 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import OurService from '../../../Components/Common/OurService/OurService'
-import Heading from '../../../Components/Common/PagesHeadings/Heading'
 import VideoTestimonal from '../../../Components/Common/VideoTestimonal/VideoTestimonal'
 
 const WhiteLabellingPackages = () => {

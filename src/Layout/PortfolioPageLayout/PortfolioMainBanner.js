@@ -1,7 +1,5 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Fade from "react-reveal/Fade";
-import Bounce from "react-reveal/Bounce";
 import SocialMediaContact from "../../Components/Common/SocialMediaContact";
 import AboutUsFrom from "../../Components/Common/AboutUsForm/AboutUsFrom";
 import "./PortfolioPageLayout.css";

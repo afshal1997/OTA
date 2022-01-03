@@ -18,7 +18,7 @@ const WebDevelopmentOptimizeEcommerceWebsite = () => {
               <img
                 className="w-100"
                 src={OptimizeEcommerceWebsite.OptimizeEcommerceWebsiteImagePath}
-                alt=""
+                alt="WebDevelopmentImage"
               ></img>
             </Bounce>
           </Col>

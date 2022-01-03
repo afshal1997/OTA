@@ -4,8 +4,6 @@ import OurService from '../../../Components/Common/OurService/OurService'
 import Heading from '../../../Components/Common/PagesHeadings/Heading'
 import AppDevelopment from '../../../Components/Common/Tabs/AppDevelopment'
 import VideoTestimonal from '../../../Components/Common/VideoTestimonal/VideoTestimonal'
-import { WebDevelopmentPricing } from '../../../Constants/WebDevelopmentPricingPlans'
-
 const AppDevelopmentPlansPricing = () => {
     return (
         <div>

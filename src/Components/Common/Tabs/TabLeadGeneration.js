@@ -1,10 +1,7 @@
 import React from "react";
-import { useDispatch } from "react-redux";
-import { CHANGE_MODAL } from "../../../Store/Action";
 import GetStarted from "../Buttons/GetStarted";
 
 const TabLeadGeneration = () => {
-  const dispatch = useDispatch();
   return (
     <div className="pt-3 pb-3">
       <div className="mt-5 row">

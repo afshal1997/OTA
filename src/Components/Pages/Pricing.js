@@ -1,7 +1,6 @@
 import React from "react";
 import PricingMainBanner from "../../Layout/PricingPageLayout/PricingMainBanner";
 import PricingPlansTabs from "../../Layout/PricingPageLayout/PricingPlansTabs";
-import HomePageBannerThree from "../../Layout/HomePageLayout/HomePageBannerThree";
 import ClientSlider from "../Common/ClientSlider/ClientSlider";
 import TestmonialsSlider from "../Common/Testmonials/TestmonialsSlider";
 import Consultation from "../../Layout/HomePageLayout/Consultation";

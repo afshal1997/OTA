@@ -1,16 +1,11 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { useDispatch } from "react-redux";
 import OurService from "../../../Components/Common/OurService/OurService";
 import Heading from "../../../Components/Common/PagesHeadings/Heading";
 import ContentWriting from "../../../Components/Common/Tabs/ContentWriting";
 import VideoTestimonal from "../../../Components/Common/VideoTestimonal/VideoTestimonal";
-import { StartupPricing } from "../../../Constants/DigitalStartupPricing";
-import { CHANGE_MODAL } from "../../../Store/Action";
 
 const ContentWrittingPlans = () => {
-  const dispatch = useDispatch();
-
   return (
     <div>
       <OurService>
@@ -24,7 +19,7 @@ const ContentWrittingPlans = () => {
               />
             </Col>
           </Row>
-            <ContentWriting />
+          <ContentWriting />
           <Row className="mt-5">
             <Col lg={4}></Col>
             <Col lg={6} className="m-auto">

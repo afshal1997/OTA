@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import { useDispatch } from 'react-redux'
 import Slider from 'react-slick'
 import { CHANGE_MODAL } from '../../../Store/Action'
