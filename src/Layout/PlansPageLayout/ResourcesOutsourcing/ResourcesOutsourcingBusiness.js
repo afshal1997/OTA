@@ -30,7 +30,7 @@ const ResourcesOutsourcingBusiness = () => {
                                         <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Business</text>
                                     </g>
                                 </svg>
-                                <h1>Resource Outsourcing</h1>
+                                <h2>Resource Outsourcing</h2>
                                 <p>
                                     Every company either SME’s or large enterprises focuses on getting the maximum output from a minimum input which involves cost cutting and good infrastructure and a controlled environment. Well, we know how hard it is to manage the infrastructure while keeping the departments in check therefore we offer companies an amazing opportunity to outsource these resources and you choose the resources you want us to do or manage and we take the opportunity to grow your business providing you with clear cut solutions and detailed guidelines.
                                 </p>
