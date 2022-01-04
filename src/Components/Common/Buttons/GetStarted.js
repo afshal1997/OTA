@@ -7,13 +7,9 @@ const GetStarted = ({ buttonClass, buttonText }) => {
 
    return (
       <div>
-         <a
-            className={buttonClass}
-            onClick={() => dispatch(CHANGE_MODAL(true))}
-            href="javascript:void(0)"
-         >
+         <button className={buttonClass} onClick={() => dispatch(CHANGE_MODAL(true))}>
             {buttonText}
-         </a>
+         </button>
       </div>
    )
 }
