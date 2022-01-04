@@ -1,14 +1,11 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 import OurService from "../../../Components/Common/OurService/OurService";
 import Heading from "../../../Components/Common/PagesHeadings/Heading";
 import VideoTestimonal from "../../../Components/Common/VideoTestimonal/VideoTestimonal";
 import { WebDevelopmentPricing } from "../../../Constants/WebDevelopmentPricingPlans";
-import { CHANGE_MODAL } from "../../../Store/Action";
-
 const WebDevelopmentPlans = () => {
-  const dispatch = useDispatch();
   return (
     <div>
       <OurService>
@@ -40,13 +37,8 @@ const WebDevelopmentPlans = () => {
                           return <li>{service}</li>;
                         })}
                       </ul>
-                      <a
-                        className={applyNowButton.buttonStyling}
-                        href={applyNowButton.linkText}
-                        onClick={() => dispatch(CHANGE_MODAL(true))}
-                      >
-                        {applyNowButton.buttonText}
-                      </a>
+                      <GetStarted buttonText={applyNowButton.buttonText} buttonClass={applyNowButton.buttonStyling} />
+
                     </div>
                   </Col>
                 );

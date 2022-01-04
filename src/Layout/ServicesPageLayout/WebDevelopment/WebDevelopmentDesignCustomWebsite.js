@@ -6,6 +6,7 @@ import Zoom from "react-reveal/Zoom";
 import { DesignCustomWebsite } from "../../../Constants/WebDevelopmentServices";
 import { CHANGE_MODAL } from "../../../Store/Action";
 import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const WebDevelopmentDesignCustomWebsite = () => {
   const dispatch = useDispatch();
@@ -48,15 +49,7 @@ const WebDevelopmentDesignCustomWebsite = () => {
                       </Row>
                     </Fade>
                     <Col lg="3">
-                      <a
-                        href="#"
-                        onClick={() => {
-                          dispatch(CHANGE_MODAL(true));
-                        }}
-                        class={`${DesignCustomWebsite.button[1]}`}
-                      >
-                        {DesignCustomWebsite.button[0]}
-                      </a>
+                      <GetStarted buttonText={DesignCustomWebsite.button[0]} buttonClass={DesignCustomWebsite.button[1]} />
                     </Col>
                   </ul>
                 </div>

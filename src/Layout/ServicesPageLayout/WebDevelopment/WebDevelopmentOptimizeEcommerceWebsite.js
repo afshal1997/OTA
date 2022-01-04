@@ -4,11 +4,9 @@ import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import Zoom from "react-reveal/Zoom";
 import { OptimizeEcommerceWebsite } from "../../../Constants/WebDevelopmentServices";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const WebDevelopmentOptimizeEcommerceWebsite = () => {
-  const dispatch = useDispatch();
   return (
     <div className="mt-5 pt-4 mb-5 pb-4">
       <Container>
@@ -57,13 +55,7 @@ const WebDevelopmentOptimizeEcommerceWebsite = () => {
                       </Row>
                     </Fade>
                     <Col lg="3">
-                      <a
-                        href="#"
-                        onClick={() => dispatch(CHANGE_MODAL(true))}
-                        class={`${OptimizeEcommerceWebsite.button[1]}`}
-                      >
-                        {OptimizeEcommerceWebsite.button[0]}
-                      </a>
+                      <GetStarted buttonText={OptimizeEcommerceWebsite.button[0]} buttonClass={OptimizeEcommerceWebsite.button[1]} />
                     </Col>
                   </ul>
                 </div>

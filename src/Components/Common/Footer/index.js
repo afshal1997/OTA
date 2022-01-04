@@ -159,7 +159,7 @@ function Footer() {
           <Row className="pt-4 ">
             <Col lg={8}>
               <p>
-                © Copyright 2021 by{" "}
+                © Copyright 2022 by{" "}
                 <Link to="/" className="text-light">
                   <strong>Outsource to Asia</strong>
                 </Link>
