@@ -4,12 +4,9 @@ import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import Zoom from "react-reveal/Zoom";
 import { DesignCustomWebsite } from "../../../Constants/WebDevelopmentServices";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const WebDevelopmentDesignCustomWebsite = () => {
-  const dispatch = useDispatch();
   return (
     <div className="mt-5 pt-4">
       <Container>
