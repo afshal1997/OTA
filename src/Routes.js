@@ -17,11 +17,11 @@ import RefundPolicy from "./Components/Pages/RefundPolicy";
 import TermAndConditions from "./Components/Pages/TermAndConditions";
 import Pricing from "./Components/Pages/Pricing";
 import Blog from "./Components/Pages/Blog";
-const Contact = lazy(() => import("./Components/Pages/Contact"));
-const Portfolio = lazy(() => import("./Components/Pages/Portfolio"))
-const CaseStudy = lazy(() => import("./Components/Pages/CaseStudy"))
-const Home = lazy(() => import("./Components/Pages/Home"))
-const ThankYou = lazy(() => import("./Layout/ThankYou/ThankYou"));
+import Contact from "./Components/Pages/Contact";
+import Portfolio from "./Components/Pages/Portfolio"
+import CaseStudy from "./Components/Pages/CaseStudy"
+import Home from "./Components/Pages/Home"
+import ThankYou from "./Layout/ThankYou/ThankYou";
 const routes = [
   {
     path: "/",
