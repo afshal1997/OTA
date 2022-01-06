@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import OurService from "../../Components/Common/OurService/OurService";
 import ContactUSDemo from "../../Assets/Contact-Us/contact-us-demo-template.png";
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 import "./contact-use.css";
 import { ContactUsInformation } from "../../Constants/ContactUsInformation";
@@ -83,7 +81,6 @@ const ContactWithUs = () => {
   return (
     <OurService>
       <Container>
-        <ToastContainer />
         <Row className="contact-with-us">
           <Col sm={12} lg={7}>
             <div className="smartWork">
