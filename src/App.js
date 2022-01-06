@@ -3,8 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import routes from "./Routes";
 import "./App.css";
 import { connect, useDispatch, useSelector } from "react-redux";
-import Footer from "./Components/Common/Footer";
-import Header from "./Components/Common/Header";
+import Layout from './Components/Layout'
 import ScrollToTop from "./Components/Common/ScrollToTop";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -33,34 +32,34 @@ const App = () => {
   return (
     <>
 
-      <Suspense fallback={<div className="d-flex justify-content-center align-items-center">Loading...</div>}>
-        <Router>
+      <Router>
+        <Layout>
           <WebSchema />
-          <Header />
-          <ScrollToTop />
-          <ApplyNowModal show={modalReducer.isModalOpen} />
-          <Switch>
-            {React.Children.toArray(
-              routes.map((route) => {
-                return route.component ? (
-                  <Route
-                    path={route.path}
-                    exact={route.exact}
-                    render={(props) => {
-                      return (
-                        <>
-                          <route.component {...props} />
-                        </>
-                      );
-                    }}
-                  />
-                ) : null;
-              })
-            )}
-          </Switch>
-          <Footer />
-        </Router>
-      </Suspense>
+          <Suspense fallback={<div className="d-flex justify-content-center align-items-center">Loading...</div>}>
+            <ScrollToTop />
+            <ApplyNowModal show={modalReducer.isModalOpen} />
+            <Switch>
+              {React.Children.toArray(
+                routes.map((route) => {
+                  return route.component ? (
+                    <Route
+                      path={route.path}
+                      exact={route.exact}
+                      render={(props) => {
+                        return (
+                          <>
+                            <route.component {...props} />
+                          </>
+                        );
+                      }}
+                    />
+                  ) : null;
+                })
+              )}
+            </Switch>
+          </Suspense>
+        </Layout>
+      </Router>
     </>
   );
 }
