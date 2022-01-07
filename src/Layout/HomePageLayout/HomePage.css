@@ -302,7 +302,7 @@ a.learn-btn:hover {
     transition: background-color 0.5s;
     font-size: 0.8rem;
 }
-a.getStarted-btn:hover {
+.getStarted-btn:hover {
     background: transparent !important;
     border: 1px solid #d34e81;
     color: #d34e81;

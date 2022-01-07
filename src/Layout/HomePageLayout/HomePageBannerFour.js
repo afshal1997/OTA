@@ -3,12 +3,11 @@ import { Col, Container, Row } from "react-bootstrap";
 import ServicesCards from "./ServicesCards";
 
 import Zoom from "react-reveal/Zoom";
-import Bounce from "react-reveal/Bounce";
 import OurService from "../../Components/Common/OurService/OurService";
 import Heading from "../../Components/Common/PagesHeadings/Heading";
 import VideoTestimonal from "../../Components/Common/VideoTestimonal/VideoTestimonal";
-import GetStarted from "../../Components/Common/Buttons/GetStarted";
 import { servicesCards } from '../../Constants/ServicesCards'
+import './HomePage.css'
 const HomePageBannerFour = () => {
 
   return (
@@ -36,17 +35,8 @@ const HomePageBannerFour = () => {
               ))
             )}
           </Row>
-          <Row>
-            <Col></Col>
-
-            <Col lg={2}>
-              <Bounce>
-                <GetStarted buttonText='Get Started' buttonClass='getStarted' />
-
-              </Bounce>
-            </Col>
-            <Col></Col>
-          </Row>
+          <br />
+          <br />
           <Row>
             <Col lg={4}></Col>
             <Col lg={6} className="m-auto">
