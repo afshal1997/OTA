@@ -9,7 +9,8 @@ import CreativeDesignUIUX from '../../Layout/ServicesPageLayout/CreativeDesign/C
 import WowCustomers from '../../Layout/ServicesPageLayout/CreativeDesign/WowCustomers'
 import ClientSlider from '../Common/ClientSlider/ClientSlider'
 import TestmonialsSlider from '../Common/Testmonials/TestmonialsSlider'
-
+import '../../Layout/PlansPageLayout/PlansPage.css'
+import '../../Layout/PlansPageLayout/PlanPageMediaQuery.css'
 
 const testmonialsSliderData = {
     Paragraph1:

@@ -4,7 +4,8 @@ import CaseStudies from "../../Layout/CaseStudyLayout/CaseStudies";
 import WhiteLabellingPackages from "../../Layout/PlansPageLayout/WhiteLabellingPageLayout/WhiteLabellingPackages";
 import ClientSlider from "../Common/ClientSlider/ClientSlider";
 import TestmonialsSlider from "../Common/Testmonials/TestmonialsSlider";
-
+import '../../Layout/PlansPageLayout/PlansPage.css'
+import '../../Layout/PlansPageLayout/PlanPageMediaQuery.css'
 const CaseStudy = () => {
   const testmonialsSliderData = {
     Paragraph1:

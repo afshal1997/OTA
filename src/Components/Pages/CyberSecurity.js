@@ -10,7 +10,8 @@ import CyberSecurityThreatManagement from '../../Layout/ServicesPageLayout/Cyber
 import SafeCyberSecurity from '../../Layout/ServicesPageLayout/CyberSecurity/SafeCyberSecurity'
 import ClientSlider from '../Common/ClientSlider/ClientSlider'
 import TestmonialsSlider from '../Common/Testmonials/TestmonialsSlider'
-
+import '../../Layout/PlansPageLayout/PlansPage.css'
+import '../../Layout/PlansPageLayout/PlanPageMediaQuery.css'
 
 
 const testmonialsSliderData = {

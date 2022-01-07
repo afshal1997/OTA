@@ -1,7 +1,5 @@
 import React from 'react'
 import CallCenterMainBanner from '../../Layout/PlansPageLayout/CallCenter/CallCenterMainBanner'
-import '../../Layout/PlansPageLayout/PlansPage.css'
-import '../../Layout/PlansPageLayout/PlanPageMediaQuery.css'
 import CallCentreOutsourcingSection from '../../Layout/PlansPageLayout/CallCenter/CallCentreOutsourcingSection'
 import HomePageBannerThree from '../../Layout/HomePageLayout/HomePageBannerThree'
 import CallCenterOccSection from '../../Layout/PlansPageLayout/CallCenter/CallCenterOccSection'
@@ -10,6 +8,8 @@ import CallCenterChooseUs from '../../Layout/PlansPageLayout/CallCenter/CallCent
 import ClientSlider from "../Common/ClientSlider/ClientSlider";
 import TestmonialsSlider from '../Common/Testmonials/TestmonialsSlider'
 import Consultation from '../../Layout/HomePageLayout/Consultation'
+import '../../Layout/PlansPageLayout/PlansPage.css'
+import '../../Layout/PlansPageLayout/PlanPageMediaQuery.css'
 
 const testmonialsSliderData = {
     Paragraph1:

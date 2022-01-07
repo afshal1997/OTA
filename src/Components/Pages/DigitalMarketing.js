@@ -9,7 +9,8 @@ import DigitalMarketingSeo from '../../Layout/ServicesPageLayout/DigitalMarketin
 import DigitalMarketingSocialMediaMarketing from '../../Layout/ServicesPageLayout/DigitalMarketing/DigitalMarketingSocialMediaMarketing'
 import ClientSlider from "../Common/ClientSlider/ClientSlider";
 import TestmonialsSlider from "../Common/Testmonials/TestmonialsSlider";
-
+import '../../Layout/PlansPageLayout/PlansPage.css'
+import '../../Layout/PlansPageLayout/PlanPageMediaQuery.css'
 
 const testmonialsSliderData = {
     Paragraph1:

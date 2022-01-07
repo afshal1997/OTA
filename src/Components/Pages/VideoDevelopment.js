@@ -9,8 +9,8 @@ import VideoDevelopmentScreenCast from '../../Layout/ServicesPageLayout/VideoDev
 import ClientSlider from '../Common/ClientSlider/ClientSlider'
 import TestmonialsSlider from '../Common/Testmonials/TestmonialsSlider'
 import Consultation from '../../Layout/HomePageLayout/Consultation'
-
-
+import '../../Layout/PlansPageLayout/PlansPage.css'
+import '../../Layout/PlansPageLayout/PlanPageMediaQuery.css'
 const testmonialsSliderData = {
     Paragraph1:
         "Beyondant has been pleased to have entered into a joint venture with Outsource To Asia. The JV provides offshore resources as an augmentation to our U.S back office departments.",

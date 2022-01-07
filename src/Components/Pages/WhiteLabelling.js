@@ -10,7 +10,8 @@ import WhiteLabellingPractices from '../../Layout/PlansPageLayout/WhiteLabelling
 import ClientSlider from '../Common/ClientSlider/ClientSlider'
 import TestmonialsSlider from '../Common/Testmonials/TestmonialsSlider'
 import WhiteLabelPackages from '../Common/WhiteLabelPackages/WhiteLabelPackages'
-
+import '../../Layout/PlansPageLayout/PlansPage.css'
+import '../../Layout/PlansPageLayout/PlanPageMediaQuery.css'
 
 const testmonialsSliderData = {
     Paragraph1:

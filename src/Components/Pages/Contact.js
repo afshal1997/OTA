@@ -5,6 +5,8 @@ import ClientSlider from "../Common/ClientSlider/ClientSlider";
 import TestmonialsSlider from "../Common/Testmonials/TestmonialsSlider";
 import Consultation from "../../Layout/HomePageLayout/Consultation";
 import ContactWithUs from "../../Layout/ContactPageLayout/ContactWithUs";
+import '../../Layout/AboutUsPageLayout/AboutPage.css'
+import '../../Layout/AboutUsPageLayout/AboutUsMediaQuery.css'
 const Contact = () => {
   const testmonialsSliderData = {
     Paragraph1:

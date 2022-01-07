@@ -9,7 +9,8 @@ import ServicesProvidingBanner from "../../Layout/PlansPageLayout/DigitalStartup
 import StartupServices from "../../Layout/PlansPageLayout/DigitalStartupPageLayout/StartupServices";
 import ClientSlider from "../Common/ClientSlider/ClientSlider";
 import TestmonialsSlider from "../Common/Testmonials/TestmonialsSlider";
-
+import '../../Layout/PlansPageLayout/PlansPage.css'
+import '../../Layout/PlansPageLayout/PlanPageMediaQuery.css'
 
 const testmonialsSliderData = {
     Paragraph1:

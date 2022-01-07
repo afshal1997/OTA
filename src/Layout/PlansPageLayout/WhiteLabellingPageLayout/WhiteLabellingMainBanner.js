@@ -5,7 +5,6 @@ import SocialMediaContact from "../../../Components/Common/SocialMediaContact";
 import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
-
 const WhiteLabellingMainBanner = () => {
   return (
     <div className="WhiteLabellingMainBanner">

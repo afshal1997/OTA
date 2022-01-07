@@ -9,7 +9,8 @@ import WebDevelopmentPlans from '../../Layout/ServicesPageLayout/WebDevelopment/
 import ClientSlider from '../Common/ClientSlider/ClientSlider'
 import TestmonialsSlider from '../Common/Testmonials/TestmonialsSlider'
 import Consultation from '../../Layout/HomePageLayout/Consultation'
-
+import '../../Layout/PlansPageLayout/PlansPage.css'
+import '../../Layout/PlansPageLayout/PlanPageMediaQuery.css'
 
 const testmonialsSliderData = {
     Paragraph1:

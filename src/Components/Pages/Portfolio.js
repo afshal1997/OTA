@@ -5,6 +5,9 @@ import PortfolioMainBanner from "../../Layout/PortfolioPageLayout/PortfolioMainB
 import CallCenterChooseUs from "../../Layout/PlansPageLayout/CallCenter/CallCenterChooseUs";
 import ClientSlider from "../Common/ClientSlider/ClientSlider";
 import TestmonialsSlider from "../Common/Testmonials/TestmonialsSlider";
+import '../../Layout/PlansPageLayout/PlansPage.css'
+import '../../Layout/PlansPageLayout/PlanPageMediaQuery.css'
+import '../../Layout/PortfolioPageLayout/PortfolioPageLayout.css'
 const Portfolio = () => {
   const testmonialsSliderData = {
     Paragraph1:

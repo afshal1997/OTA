@@ -1,27 +1,94 @@
-import { lazy } from "react";
 import { Redirect } from "react-router-dom";
-import AboutUS from "./Components/Pages/AboutUS";
-import CallCenter from "./Components/Pages/CallCenter";
-import ResourcesOutsourcing from "./Components/Pages/ResourceOutsourcing";
-import DigitalStartup from "./Components/Pages/DigitalStartup";
-import WhiteLabelling from "./Components/Pages/WhiteLabelling";
-import CreativeDesign from "./Components/Pages/CreativeDesign";
-import CyberSecurity from "./Components/Pages/CyberSecurity";
-import ContentWritting from "./Components/Pages/ContentWritting";
-import WebDevelopment from "./Components/Pages/WebDevelopment";
-import DigitalMarketing from "./Components/Pages/DigitalMarketing";
-import AppDevelopment from "./Components/Pages/AppDevelopment";
-import VideoDevelopment from "./Components/Pages/VideoDevelopment";
-import PrivacyPolicy from "./Components/Pages/PrivacyPolicy";
-import RefundPolicy from "./Components/Pages/RefundPolicy";
-import TermAndConditions from "./Components/Pages/TermAndConditions";
-import Pricing from "./Components/Pages/Pricing";
-import Blog from "./Components/Pages/Blog";
-const Contact = lazy(() => import("./Components/Pages/Contact"));
-const Portfolio = lazy(() => import("./Components/Pages/Portfolio"))
-const CaseStudy = lazy(() => import("./Components/Pages/CaseStudy"))
-const Home = lazy(() => import("./Components/Pages/Home"))
-const ThankYou = lazy(() => import("./Layout/ThankYou/ThankYou"));
+import Loadable from 'react-loadable'
+const Home = Loadable({
+  loader: () => import(/*webpackChunkName:"Home"*/ "./Components/Pages/Home"),
+  loading: () => <div>loading ............</div>,
+});
+const AboutUS = Loadable({
+  loader: () => import(/*webpackChunkName:"About Us"*/ "./Components/Pages/AboutUS"),
+  loading: () => <div>loading ............</div>,
+});
+const WhiteLabelling = Loadable({
+  loader: () => import(/*webpackChunkName:"WhiteLabelling"*/ "./Components/Pages/WhiteLabelling"),
+  loading: () => <div>loading ............</div>,
+});
+const DigitalStartup = Loadable({
+  loader: () => import(/*webpackChunkName:"DigitalStartup"*/ "./Components/Pages/DigitalStartup"),
+  loading: () => <div>loading ............</div>,
+});
+
+const ResourcesOutsourcing = Loadable({
+  loader: () => import(/*webpackChunkName:"ResourcesOutsourcing"*/ "./Components/Pages/ResourceOutsourcing"),
+  loading: () => <div>loading ............</div>,
+});
+const CallCenter = Loadable({
+  loader: () => import(/*webpackChunkName:"CallCenter"*/ "./Components/Pages/CallCenter"),
+  loading: () => <div>loading ............</div>,
+});
+const CreativeDesign = Loadable({
+  loader: () => import(/*webpackChunkName:"CreativeDesign"*/ "./Components/Pages/CreativeDesign"),
+  loading: () => <div>loading ............</div>,
+});
+const WebDevelopment = Loadable({
+  loader: () => import(/*webpackChunkName:"WebDevelopment"*/ "./Components/Pages/WebDevelopment"),
+  loading: () => <div>loading ............</div>,
+});
+const DigitalMarketing = Loadable({
+  loader: () => import(/*webpackChunkName:"WhiteLabelling"*/ "./Components/Pages/DigitalMarketing"),
+  loading: () => <div>loading ............</div>,
+});
+const AppDevelopment = Loadable({
+  loader: () => import(/*webpackChunkName:"AppDevelopment"*/ "./Components/Pages/AppDevelopment"),
+  loading: () => <div>loading ............</div>,
+});
+const VideoDevelopment = Loadable({
+  loader: () => import(/*webpackChunkName:"VideoDevelopment"*/ "./Components/Pages/VideoDevelopment"),
+  loading: () => <div>loading ............</div>,
+});
+const ContentWriting = Loadable({
+  loader: () => import(/*webpackChunkName:"ContentWriting"*/ "./Components/Pages/ContentWritting"),
+  loading: () => <div>loading ............</div>,
+});
+const CyberSecurity = Loadable({
+  loader: () => import(/*webpackChunkName:"WhiteLabelling"*/ "./Components/Pages/CyberSecurity"),
+  loading: () => <div>loading ............</div>,
+});
+const CaseStudy = Loadable({
+  loader: () => import(/*webpackChunkName:"CyberSecurity"*/ "./Components/Pages/CaseStudy"),
+  loading: () => <div>loading ............</div>,
+});
+const Pricing = Loadable({
+  loader: () => import(/*webpackChunkName:"Pricing"*/ "./Components/Pages/Pricing"),
+  loading: () => <div>loading ............</div>,
+});
+const Portfolio = Loadable({
+  loader: () => import(/*webpackChunkName:"Portfolio"*/ "./Components/Pages/Portfolio"),
+  loading: () => <div>loading ............</div>,
+});
+const Blog = Loadable({
+  loader: () => import(/*webpackChunkName:"Blog"*/ "./Components/Pages/Blog"),
+  loading: () => <div>loading ............</div>,
+});
+const Contact = Loadable({
+  loader: () => import(/*webpackChunkName:"Contact"*/ "./Components/Pages/Contact"),
+  loading: () => <div>loading ............</div>,
+});
+const PrivacyPolicy = Loadable({
+  loader: () => import(/*webpackChunkName:"PrivacyPolicy"*/ "./Components/Pages/PrivacyPolicy"),
+  loading: () => <div>loading ............</div>,
+});
+const RefundPolicy = Loadable({
+  loader: () => import(/*webpackChunkName:"RefundPolicy"*/ "./Components/Pages/RefundPolicy"),
+  loading: () => <div>loading ............</div>,
+});
+const TermAndConditions = Loadable({
+  loader: () => import(/*webpackChunkName:"TermAndConditions"*/ "./Components/Pages/TermAndConditions"),
+  loading: () => <div>loading ............</div>,
+});
+const ThankYou = Loadable({
+  loader: () => import(/*webpackChunkName:"ThankYou"*/ "./Layout/ThankYou/ThankYou"),
+  loading: () => <div>loading ............</div>,
+});
 const routes = [
   {
     path: "/",
@@ -79,7 +146,7 @@ const routes = [
   {
     path: "/content-writing",
     exact: true,
-    component: ContentWritting,
+    component: ContentWriting,
   },
   {
     path: "/web-development",
