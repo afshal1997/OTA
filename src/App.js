@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect } from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import routes from "./Routes";
 import "./App.css";
@@ -35,29 +35,27 @@ const App = () => {
       <Router>
         <Layout>
           <WebSchema />
-          <Suspense fallback={<div className="d-flex justify-content-center align-items-center">Loading...</div>}>
-            <ScrollToTop />
-            <ApplyNowModal show={modalReducer.isModalOpen} />
-            <Switch>
-              {React.Children.toArray(
-                routes.map((route) => {
-                  return route.component ? (
-                    <Route
-                      path={route.path}
-                      exact={route.exact}
-                      render={(props) => {
-                        return (
-                          <>
-                            <route.component {...props} />
-                          </>
-                        );
-                      }}
-                    />
-                  ) : null;
-                })
-              )}
-            </Switch>
-          </Suspense>
+          <ScrollToTop />
+          <ApplyNowModal show={modalReducer.isModalOpen} />
+          <Switch>
+            {React.Children.toArray(
+              routes.map((route) => {
+                return route.component ? (
+                  <Route
+                    path={route.path}
+                    exact={route.exact}
+                    render={(props) => {
+                      return (
+                        <>
+                          <route.component {...props} />
+                        </>
+                      );
+                    }}
+                  />
+                ) : null;
+              })
+            )}
+          </Switch>
         </Layout>
       </Router>
     </>
