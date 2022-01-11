@@ -40,16 +40,12 @@ const MainBannerResourcesOutsourcing = () => {
                     </Fade>
                   </h1>
                   <h3>
-                    <Bounce right cascade>
-                      To lift the burden off your shoulders!
-                    </Bounce>
+                    To lift the burden off your shoulders!
                   </h3>
                   <p>
-                    <Bounce left cascade>
-                      We treat resources like an asset helping your organization
-                      achieve goals in a minimum capacity - both time and
-                      infrastructure cost.
-                    </Bounce>
+                    We treat resources like an asset helping your organization
+                    achieve goals in a minimum capacity - both time and
+                    infrastructure cost.
                   </p>
                   <Row>
                     <Col lg={4}>

@@ -41,11 +41,9 @@ const VideoDevelopmentMainBanner = () => {
                   </Fade>
                 </h1>
                 <p>
-                  <Bounce left cascade>
-                    Add graphics & voice to your digital business story through
-                    engaging video development that helps customers understand
-                    you better.
-                  </Bounce>
+                  Add graphics & voice to your digital business story through
+                  engaging video development that helps customers understand
+                  you better.
                 </p>
                 <Row>
                   <Col lg={4}>

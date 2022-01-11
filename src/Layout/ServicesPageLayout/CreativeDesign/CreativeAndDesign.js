@@ -41,11 +41,9 @@ const CreativeAndDesign = () => {
                   </Fade>
                 </h1>
                 <p>
-                  <Bounce left cascade>
                     Represent Your Brand with State-of-the-Art Designs That
                     Explains Your Story Even Better – It Eventually Becomes a
                     Reality!
-                  </Bounce>
                 </p>
                 <Row>
                   <Col lg={4}>

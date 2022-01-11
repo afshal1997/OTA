@@ -41,11 +41,9 @@ const ContentWrittingMainBanner = () => {
                   </Fade>
                 </h1>
                 <p>
-                  <Bounce left cascade>
-                    Content is a voice people don’t hear but understands
-                    instantly. It’s a key ingredient where the initial search
-                    begins.
-                  </Bounce>
+                  Content is a voice people don’t hear but understands
+                  instantly. It’s a key ingredient where the initial search
+                  begins.
                 </p>
                 <Row>
                   <Col lg={4}>

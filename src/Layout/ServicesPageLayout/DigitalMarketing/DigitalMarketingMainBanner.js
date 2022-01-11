@@ -41,11 +41,9 @@ const DigitalMarketingMainBanner = () => {
                   </Fade>
                 </h1>
                 <p>
-                  <Bounce left cascade>
                     Outline your brand with exclusive digital marketing that
                     interprets what it’s like to be extraordinary. We help
                     brands that are as smart as they're efficient.
-                  </Bounce>
                 </p>
                 <Row>
                   <Col lg={4}>

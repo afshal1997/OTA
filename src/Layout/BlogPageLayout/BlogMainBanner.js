@@ -42,10 +42,8 @@ const BlogMainBanner = () => {
                     </Fade>
                   </h1>
                   <h3>
-                    <Bounce right cascade>
                       Stay tuned with the latest news about Digital Marketing
                       industry.
-                    </Bounce>
                   </h3>
                   <Row>
                     <Col lg={4}>

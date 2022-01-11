@@ -21,9 +21,7 @@ const DigitalMarketingProcess = () => {
                                 <h1>Digital Marketing</h1>
                             </Zoom>
                             <p>
-                            Outline your brand with exclusive digital marketing that interprets what it’s like to be extraordinary. We help brands that are as smart as they're efficient.
-
-
+                                Outline your brand with exclusive digital marketing that interprets what it’s like to be extraordinary. We help brands that are as smart as they're efficient.
                             </p>
                         </div>
                     </div>

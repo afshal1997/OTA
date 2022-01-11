@@ -41,11 +41,9 @@ const WebDevelopmentMainBanner = () => {
                   </Fade>
                 </h1>
                 <p>
-                  <Bounce left cascade>
-                    An expertly developed website is underrated. Our approach to
-                    the World Wide Web is through impeccable, advanced, and
-                    result-oriented web development outsourcing!
-                  </Bounce>
+                  An expertly developed website is underrated. Our approach to
+                  the World Wide Web is through impeccable, advanced, and
+                  result-oriented web development outsourcing!
                 </p>
                 <Row>
                   <Col lg={4}>

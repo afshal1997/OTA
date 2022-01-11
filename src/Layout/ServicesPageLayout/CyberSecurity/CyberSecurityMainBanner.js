@@ -41,12 +41,10 @@ const CyberSecurityMainBanner = () => {
                   </Fade>
                 </h1>
                 <p>
-                  <Bounce left cascade>
-                    Today, mainstream usage of "hacker" mostly refers to
-                    computer criminals, due to the mass media usage of the word
-                    since the 1980s. The controversy is usually based on the
-                    assertion that the term originally.
-                  </Bounce>
+                  Today, mainstream usage of "hacker" mostly refers to
+                  computer criminals, due to the mass media usage of the word
+                  since the 1980s. The controversy is usually based on the
+                  assertion that the term originally.
                 </p>
                 <Row>
                   <Col lg={4}>

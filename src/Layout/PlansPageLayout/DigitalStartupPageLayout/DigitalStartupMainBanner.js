@@ -39,14 +39,10 @@ const DigitalStartupMainBanner = () => {
                   </Fade>
                 </h1>
                 <h3>
-                  <Bounce right cascade>
-                    Digital Services
-                  </Bounce>
+                  Digital Services
                 </h3>
                 <p>
-                  <Bounce left cascade>
-                    For Your Startup
-                  </Bounce>
+                  For Your Startup
                 </p>
                 <Row>
                   <Col lg={4}>

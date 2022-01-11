@@ -42,16 +42,12 @@ const CallCenterMainBanner = () => {
                     </Fade>
                   </h1>
                   <h3>
-                    <Bounce right cascade>
-                      We Offer instant and quality
-                    </Bounce>
+                    We Offer instant and quality
                   </h3>
                   <p>
-                    <Bounce left cascade>
-                      We offer instant and quality customer service to our
-                      clients helping them cater their customers needs and wants
-                      to ensure a reliable and helpful user experience !
-                    </Bounce>
+                    We offer instant and quality customer service to our
+                    clients helping them cater their customers needs and wants
+                    to ensure a reliable and helpful user experience !
                   </p>
                   <Row>
                     <Col lg={4}>

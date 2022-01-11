@@ -43,9 +43,7 @@ const WhiteLabellingMainBanner = () => {
                   </Bounce>
                 </h3>
                 <p>
-                  <Bounce left cascade>
                     For Digital Agencies.
-                  </Bounce>
                 </p>
                 <Row>
                   <Col lg={4}>

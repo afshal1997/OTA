@@ -40,17 +40,15 @@ const CaseStudyBanner = () => {
                   </Fade>
                 </h1>
                 <p>
-                  <Bounce left cascade>
-                    Before you can outsource your IT production, you have to
-                    make sure that you and your company are in safe hands. A
-                    case study of our clients and how we have helped them might
-                    vouch on our behalf.
-                  </Bounce>
+                  Before you can outsource your IT production, you have to
+                  make sure that you and your company are in safe hands. A
+                  case study of our clients and how we have helped them might
+                  vouch on our behalf.
                 </p>
 
                 <Row>
                   <Col lg={4}>
-                    <a
+                    {/* <a
                       href="#"
                       className="getStarted-btn"
                       onClick={() => {
@@ -58,7 +56,7 @@ const CaseStudyBanner = () => {
                       }}
                     >
                       Get Started
-                    </a>
+                    </a> */}
                   </Col>
                 </Row>
               </div>

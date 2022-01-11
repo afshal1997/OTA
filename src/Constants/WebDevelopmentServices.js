@@ -8,10 +8,10 @@ export const RenownedOutsourceWeb = {
     heading: 'Web',
     title: 'Development',
     title2: 'Renowned Outsource Web',
-    description: "ause you want to roll in greater numbers when it comes to generating ROI. We save you from the hustle of hiring people, training them, and then expect something in return. Whereas, we already have a team of highly-qualified and industrial-experienced mighty developers uplifting the web development."
+    description: "You want to roll in greater numbers when it comes to generating ROI. We save you from the hustle of hiring people, training them, and then expect something in return. Whereas, we already have a team of highly-qualified and industrial-experienced mighty developers uplifting the web development."
 }
 
-export const BasicWebsite ={
+export const BasicWebsite = {
     BasicWebsiteImagePath: WebDevelopmentImage03,
     heading: 'Website',
     title: 'Basic Website',
@@ -22,7 +22,7 @@ export const BasicWebsite ={
     button: ['Get Started', 'getStarted-btn']
 }
 
-export const DesignCustomWebsite ={
+export const DesignCustomWebsite = {
     heading: 'Design',
     title: 'Custom Website',
     description: 'Take complete control over your website through custom design. The look, usability, and response would be uniquely planned according to your business theme.',
@@ -37,7 +37,7 @@ export const DesignCustomWebsite ={
 export const OptimizeEcommerceWebsite = {
     OptimizeEcommerceWebsiteImagePath: WebDevelopmentImage05,
     heading: 'Optimize',
-    title:'Ecommerce Website',
+    title: 'Ecommerce Website',
     description: "A thoughtfully-designed Ecommerce website is like an online showroom! Beside an impetus performance, your site will be optimized fit-to-screen for every device.",
     list: [
         'Content Management Capabilities', 'Update Content, Product and Promotions', 'Multiple Payment Gateways'

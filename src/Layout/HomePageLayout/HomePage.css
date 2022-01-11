@@ -285,22 +285,22 @@ a.learn-btn:hover {
     transition: background-color 0.5s;
 }
 .getStarted-btn {
-    border: 1px solid transparent;
-    font-weight: 700;
-    background: linear-gradient(to right, #b5406a, #6f203d);
-    background-repeat: repeat;
-    padding: 10px 25px;
-    text-decoration: none;
-    color: #fff;
-    border-radius: 20px;
-    transition: 1s;
-    margin: 10px auto;
-    display: block;
-    width: 100%;
-    text-align: center;
-    animation: in-pulse 0.5s;
-    transition: background-color 0.5s;
-    font-size: 0.8rem;
+    border: 1px solid transparent ;
+    font-weight: 700 ;
+    background: linear-gradient(to right, #b5406a, #6f203d) ;
+    background-repeat: repeat ;
+    padding: 10px 25px ;
+    text-decoration: none ;
+    color: #fff ;
+    border-radius: 20px ;
+    transition: 1s ;
+    margin: 10px auto ;
+    display: block ;
+    width: 100% ;
+    text-align: center ;
+    animation: in-pulse 0.5s ;
+    transition: background-color 0.5s ;
+    font-size: 0.8rem ;
 }
 .getStarted-btn:hover {
     background: transparent !important;

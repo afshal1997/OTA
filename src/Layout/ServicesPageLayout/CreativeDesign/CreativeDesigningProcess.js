@@ -20,11 +20,9 @@ const CreativeDesigningProcess = () => {
                                 <h1>Creative Designing</h1>
                             </Zoom>
                             <p>
-                                LRepresent Your Brand with State-of-the-Art Designs
+                                Represent Your Brand with State-of-the-Art Designs
                                 That Explains Your Story Even Better – It Eventually
                                 Becomes a Reality!
-
-
                             </p>
                         </div>
                     </div>

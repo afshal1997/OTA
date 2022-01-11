@@ -41,9 +41,7 @@ const PricingMainBanner = () => {
                   </Fade>
                 </h1>
                 <p>
-                  <Bounce left cascade>
-                    From envisioning your web identity to advertising it on the internet, we fulfill all your digital needs for your brand to go big! Choose a package that is right for your business.
-                  </Bounce>
+                  From envisioning your web identity to advertising it on the internet, we fulfill all your digital needs for your brand to go big! Choose a package that is right for your business.
                 </p>
                 <Row>
                   <Col lg={4}>

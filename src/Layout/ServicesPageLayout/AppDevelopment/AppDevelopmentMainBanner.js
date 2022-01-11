@@ -41,11 +41,9 @@ const AppDevelopmentMainBanner = () => {
                   </Fade>
                 </h1>
                 <p>
-                  <Bounce left cascade>
                     With advanced technology in the world where mobile phones
                     have become a total necessity and new softwares taking the
                     world by storm; you don’t have to worry a thing about it!
-                  </Bounce>
                 </p>
                 <Row>
                   <Col lg={4}>
