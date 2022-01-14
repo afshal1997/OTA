@@ -1,1 +1,243 @@
-.PortfolioMainBanner{background:url("../../Assets/Portfolio/portfolioMainBanner.jpg");background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover;padding:15px 10px;height:100vh}.PortfolioBanner{position:absolute;top:50%;left:0;transform:translate(0%,-50%);-webkit-transform:translate(0%,-50%);margin:auto;display:block;width:100%}.PortfolioBrand{background:url("../../Assets/Portfolio/portfolioBrandBanner.jpg");background-position:center;background-repeat:no-repeat;background-size:cover;padding:15px 10px}.DevelopYourBrand{background:url("../../Assets/Portfolio/DevelopYourBrand.jpg");background-position:center;background-repeat:no-repeat;background-size:cover;padding:15px 10px;position:relative}.image-shape-1>img{width:100%;max-width:50px;opacity:.4!important;-webkit-animation:rotation 15s infinite linear;animation:rotation 15s infinite linear;position:absolute;left:20px}.image-shape-2>img{width:100%;max-width:80px;opacity:.7!important}.image-shape-4{transform:rotateY(210deg)}@keyframes rotation{from{-webkit-transform:rotate(0deg)}to{-webkit-transform:rotate(359deg)}}.portfolioTabs .react-tabs{display:block}.portfolioTabs .react-tabs .react-tabs__tab-list{flex-direction:row!important;position:static!important;background:transparent;max-width:100%}.portfolioTabs .react-tabs__tab--selected::after{background:none!important}.portfolioTabs .react-tabs .react-tabs__tab-list .react-tabs__tab{background:transparent;border:1px solid #2d3eb2;margin:30px 10px;width:100%;text-align:center;padding:15px!important;border-radius:20px;color:#519fd4;font-weight:600;transition:1s}.portfolioTabs .react-tabs__tab-panel{background:transparent!important;padding:0 20px!important}.portfolioTabs .react-tabs .react-tabs__tab-list .react-tabs__tab:hover,.portfolioTabs .react-tabs__tab--selected{background-image:linear-gradient(45deg,#752340,#d14f82)!important;transition:1s;color:#fff!important}.portfolio-heading svg{margin-top:20px}.portfolioTabsCards img{height:100%;max-height:400px;min-height:400px;object-fit:cover;object-position:center top;margin:30px auto;transition:all 3.5s}.portfolioTabsCards img:hover{object-position:center bottom;cursor:pointer;transition:all 3.5s}.video-pagination-dots{margin-top:25px;border-radius:50%;padding:2px 5px;height:10px;width:6px;background-color:rgb(104,103,103,0.4)}.whitelabeling-price-category .slick-active .video-pagination-dots{background:#d34e81!important}.whitelabeling-price-category .active-video-div{position:relative;z-index:99999!important}.whitelabeling-price-category .slick-slide.slick-active.slick-center.slick-current{transform:scale(1.2)}.mobile-app-development-category .slick-slide img{width:100%;height:100%;max-width:290px;max-height:560px;min-height:560px;display:block;margin:auto;border-radius:20px;opacity:.4;transition:1s}.mobile-app-development-category .slick-current img{opacity:1}.mobile-app-development-category .slick-slide img:hover{opacity:1;transition:1s}.active-app-div{position:relative;height:100%;min-height:670px!important}.active-app-div img{opacity:1!important;height:100%}.active-video-div::before{content:"";background:url("../../Assets/Portfolio/VideoDevelopment/VideoDevelopment.jpg");position:absolute;width:100%;height:100%;display:block;z-index:999;background-position:center center;opacity:.9;background-size:contain}@media screen and (max-width:991px){.portfolio-heading svg{font-size:2.5rem!important}.PortfolioMainBanner{height:100%;display:block;z-index:999;background-position:center center;opacity:.9;background-size:cover}.whitelabeling-price-category .slick-dots{margin:-20px auto}.active-video-div,.non-active-video-div{object-fit:contain!important}.non-active-video-div{opacity:.4}}@media screen and (max-width:991px){.portfolio-heading svg{font-size:2.5rem!important}.PortfolioMainBanner{height:100%}.PortfolioBanner{position:relative;top:0;left:0;transform:translate(0%,0%);-webkit-transform:translate(0%,0%);width:100%}.portfolioTabs .react-tabs .react-tabs__tab-list{flex-direction:column!important}.portfolioTabs .react-tabs .react-tabs__tab-list .react-tabs__tab{margin:10px 10px}.react-tabs__tab-list{max-width:100%}}
+.PortfolioMainBanner {
+  background: url("../../Assets/Portfolio/portfolioMainBanner.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px 10px;
+  height: 100vh;
+}
+.PortfolioBanner {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, -50%);
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.PortfolioBrand {
+  background: url("../../Assets/Portfolio/portfolioBrandBanner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px 10px;
+}
+.DevelopYourBrand {
+  background: url("../../Assets/Portfolio/DevelopYourBrand.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px 10px;
+  position: relative;
+}
+.image-shape-1 > img {
+  width: 100%;
+  max-width: 50px;
+  opacity: 0.4 !important;
+  -webkit-animation: rotation 15s infinite linear;
+  animation: rotation 15s infinite linear;
+  position: absolute;
+  left: 20px;
+}
+.image-shape-2 > img {
+  width: 100%;
+  max-width: 80px;
+  opacity: 0.7 !important;
+}
+.image-shape-4 {
+  transform: rotateY(210deg);
+}
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+.portfolioTabs .react-tabs {
+  display: block;
+}
+.portfolioTabs .react-tabs .react-tabs__tab-list {
+  flex-direction: row !important;
+  position: static !important;
+  background: transparent;
+  max-width: 100%;
+}
+.portfolioTabs .react-tabs__tab--selected::after {
+  background: none !important;
+}
+.portfolioTabs .react-tabs .react-tabs__tab-list .react-tabs__tab {
+  background: transparent;
+  border: 1px solid #2d3eb2;
+  margin: 30px 10px;
+  width: 100%;
+  text-align: center;
+  padding: 15px !important;
+  border-radius: 20px;
+  color: #519fd4;
+  font-weight: 600;
+  transition: 1s;
+}
+.portfolioTabs .react-tabs__tab-panel {
+  background: transparent !important;
+  padding: 0 20px !important;
+}
+.portfolioTabs .react-tabs .react-tabs__tab-list .react-tabs__tab:hover,
+.portfolioTabs .react-tabs__tab--selected {
+  background-image: linear-gradient(45deg, #752340, #d14f82) !important;
+  transition: 1s;
+  color: #fff !important;
+}
+.portfolio-heading svg {
+  margin-top: 20px;
+}
+.portfolioTabsCards img {
+  height: 100%;
+  max-height: 400px;
+  min-height: 400px;
+  object-fit: cover;
+  object-position: center top;
+  margin: 30px auto;
+  transition: all 3.5s;
+}
+.portfolioTabsCards img:hover {
+  object-position: center bottom;
+  cursor: pointer;
+  transition: all 3.5s;
+}
+.video-pagination-dots {
+  margin-top: 25px;
+  border-radius: 50%;
+  padding: 2px 5px;
+  height: 10px;
+  width: 6px;
+  background-color: rgb(104, 103, 103, 0.4);
+}
+.whitelabeling-price-category .slick-active .video-pagination-dots {
+  background: #d34e81 !important;
+}
+.whitelabeling-price-category .active-video-div {
+  position: relative;
+  z-index: 99999 !important;
+}
+.whitelabeling-price-category
+  .slick-slide.slick-active.slick-center.slick-current {
+  transform: scale(1.2);
+}
+.mobile-app-development-category .slick-slide img {
+  width: 100%;
+  height: 100%;
+  max-width: 290px;
+  max-height: 560px;
+  min-height: 560px;
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+  opacity: 0.4;
+  transition: 1s;
+}
+.mobile-app-development-category .slick-current img {
+  opacity: 1;
+}
+.mobile-app-development-category .slick-slide img:hover {
+  opacity: 1;
+  transition: 1s;
+}
+.active-app-div {
+  position: relative;
+  height: 100%;
+  min-height: 670px !important;
+}
+.active-app-div img {
+  opacity: 1 !important;
+  height: 100%;
+}
+.active-video-div::before {
+  content: "";
+  background: url("../../Assets/Portfolio/VideoDevelopment/VideoDevelopment.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 999;
+  background-position: center center;
+  opacity: 0.9;
+  background-size: contain;
+}
+@media screen and (max-width: 991px) {
+  .portfolio-heading svg {
+    font-size: 2.5rem !important;
+  }
+  .PortfolioMainBanner {
+    height: 100%;
+    display: block;
+    z-index: 999;
+    background-position: center center;
+    opacity: 0.9;
+    background-size: cover;
+  }
+  .whitelabeling-price-category .slick-dots {
+    margin: -20px auto;
+  }
+  .active-video-div,
+  .non-active-video-div {
+    object-fit: contain !important;
+  }
+  .non-active-video-div {
+    opacity: 0.4;
+  }
+}
+@media screen and (max-width: 991px) {
+  .portfolio-heading svg {
+    font-size: 2.5rem !important;
+  }
+  .PortfolioMainBanner {
+    height: 100%;
+  }
+  .PortfolioBanner {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0%, 0%);
+    -webkit-transform: translate(0%, 0%);
+    width: 100%;
+  }
+  .portfolioTabs .react-tabs .react-tabs__tab-list {
+    flex-direction: column !important;
+  }
+  .portfolioTabs .react-tabs .react-tabs__tab-list .react-tabs__tab {
+    margin: 10px 10px;
+  }
+  .react-tabs__tab-list {
+    max-width: 100%;
+  }
+}
+.getStarted-btn {
+  border: 1px solid transparent;
+  font-weight: 700;
+  background: linear-gradient(to right, #b5406a, #6f203d);
+  background-repeat: repeat;
+  padding: 10px 25px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 20px;
+  transition: 1s;
+  margin: 10px auto;
+  display: block;
+  width: 100%;
+  text-align: center;
+  animation: in-pulse 0.5s;
+  transition: background-color 0.5s;
+  font-size: 0.8rem;
+}
+.getStarted-btn:hover {
+  background: transparent !important;
+  border: 1px solid #d34e81;
+  color: #d34e81;
+  transition: 0.5s ease all;
+  animation: avatar-pulse 1s;
+  transition: background-color 0.5s;
+}

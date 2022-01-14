@@ -6,6 +6,7 @@ import CallCenterChooseUs from "../../Layout/PlansPageLayout/CallCenter/CallCent
 import ClientSlider from "../Common/ClientSlider/ClientSlider";
 import TestmonialsSlider from "../Common/Testmonials/TestmonialsSlider";
 import '../../Layout/PlansPageLayout/PlansPage.css'
+import '../../Layout/HomePageLayout/HomePage.css'
 import '../../Layout/PlansPageLayout/PlanPageMediaQuery.css'
 import '../../Layout/PortfolioPageLayout/PortfolioPageLayout.css'
 import { testimonialSliderData } from "../../Constants/testimonialSliderData";

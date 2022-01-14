@@ -1,17 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import "./PortfolioPageLayout.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import MobileAppDevelopmentCarousal from "../../Components/Common/MobileAppDevelopmentCarousal/MobileAppDevelopmentCarousal";
 import { importAll } from "../../Constants/functions";
+import "../../Components/Common/Tabs/TabsStyle.css"
 const DevelopYourBrand = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 2000,
-    });
-  }, []);
   return (
     <div className="DevelopYourBrand" id="OTAPortfolio">
       <Container>
