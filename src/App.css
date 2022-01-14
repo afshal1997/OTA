@@ -89,3 +89,7 @@
 input::-webkit-calendar-picker-indicator {
   filter: invert(1);
 }
+.pre-loader {
+  position: relative;
+  z-index: 99999999 !important;
+}
