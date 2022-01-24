@@ -25,7 +25,7 @@ const App = () => {
       setTimeout(() => {
         localStorage.setItem("contact-ota", time);
         dispatch(CHANGE_MODAL(true));
-      }, 2000);
+      }, 10000);
     }
     addAltAttribute()
   }, []);

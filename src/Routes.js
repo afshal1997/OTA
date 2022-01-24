@@ -4,7 +4,6 @@ import Loader from "./Components/Common/Loader/Loader";
 const Home = Loadable({
   loader: async () => {
     const fileToLoad = await import(/*webpackChunkName:"Home"*/ "./Components/Pages/Home")
-    console.log(fileToLoad)
     return fileToLoad
   },
   loading: () => <Loader />,

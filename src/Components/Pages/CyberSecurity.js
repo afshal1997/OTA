@@ -13,13 +13,13 @@ import TestmonialsSlider from '../Common/Testmonials/TestmonialsSlider'
 import '../../Layout/PlansPageLayout/PlansPage.css'
 import '../../Layout/PlansPageLayout/PlanPageMediaQuery.css'
 import { testimonialSliderData } from '../../Constants/testimonialSliderData'
-
+import CyberSecurityProcess from '../../Layout/ServicesPageLayout/CyberSecurity/CyberSecurityProcess'
 const CyberSecurity = () => {
     return (
         <div>
             <CyberSecurityMainBanner />
             <SafeCyberSecurity />
-            <HomePageBannerThree />
+            <CyberSecurityProcess />
             <CyberSecurityPenetrationTesting />
             <CyberSecurityThreatManagement />
             <CyberSecurityMalwareAnalysis />

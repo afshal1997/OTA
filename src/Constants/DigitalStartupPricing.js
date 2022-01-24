@@ -49,7 +49,7 @@ export const StartupPricing = [
   },
   {
     type: "ELITE",
-    pricing: "$1,999",
+    pricing: "$2,499",
     description:
       "In this plan we are offering you Elite services so you can start up your new home based business in very low amount.",
     services: [

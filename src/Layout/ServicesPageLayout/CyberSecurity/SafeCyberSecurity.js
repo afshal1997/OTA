@@ -54,7 +54,7 @@ const SafeCyberSecurity = () => {
                                         Phishing
                                     </li>
                                     <li>
-                                        Social Engineering
+                                        Denial-of-Service (DOS)
                                     </li>
                                 </ul>
                             </Fade>
