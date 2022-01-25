@@ -34,7 +34,7 @@ const ContentWrittingWebPageCopy = () => {
                     </Zoom>
                     <Fade>
                       <p>
-                        <b>{BusinessAndSolutionsContent.description}</b>
+                        Without good content, even an impeccably designed website will struggle to engage visitors, let alone generate leads. Our expert <strong>copywriters</strong> churn out high-quality web copies that are compelling, gripping, and relevant.
                       </p>
                       <Row>
                         {BusinessAndSolutionsContent.list.map((li, id) => {

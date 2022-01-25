@@ -21,7 +21,7 @@ const ContentWrittingProcess = () => {
                                 <h1>Content Writing</h1>
                             </Zoom>
                             <p>
-                                Content is a voice people don’t hear but understands instantly. It’s a key ingredient where the initial search begins.
+                                Shaping time and resources into <strong>creative writing</strong> by proficiently following a well-organized and efficient writing process.
                             </p>
                         </div>
                     </div>

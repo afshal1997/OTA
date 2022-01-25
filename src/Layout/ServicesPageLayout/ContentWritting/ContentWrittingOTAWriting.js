@@ -35,7 +35,7 @@ const ContentWrittingOTAWriting = () => {
           <Col lg={7} className="m-auto">
             <Bounce right>
               <h6>
-                <b>{OTAWrittingService.description}</b>
+                When you work with OTA, we align our <strong>content writing services</strong> with your brand’s business and marketing objectives, feeding your marketing machine the content it needs to create genuine outcomes for your company. Given our team's adaptation of the most recent news, trends, and insights, we dig deep into driving consumer attention to indelible memory through effective <strong>content writing</strong> tricks!
               </h6>
             </Bounce>
           </Col>
@@ -61,7 +61,7 @@ const ContentWrittingOTAWriting = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        <b>{BlogWritingService.description}</b>
+                        Blogs are an incredible method for informing, teaching, and even engaging your target audience. High-grade <strong>blog writing services</strong> that not only aid in SEO but also increase site traffic.
                       </h6>
                       <Row>
                         {BlogWritingService.list.map((li, id) => {
@@ -86,7 +86,6 @@ const ContentWrittingOTAWriting = () => {
                     </Fade>
                     <Col lg="3">
                       <GetStarted buttonText={BlogWritingService.button[0]} buttonClass={BlogWritingService.button[1]} />
-
                     </Col>
                   </ul>
                 </div>

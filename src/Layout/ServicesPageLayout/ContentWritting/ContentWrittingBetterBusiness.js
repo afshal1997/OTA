@@ -30,11 +30,10 @@ const ContentWrittingBetterBusiness = () => {
                     <Col lg={6} className="m-auto text-white">
                         <Bounce left cascade>
                             <div className="Business">
-                                <h5><i><b>YOU CAN STOP WARS WITH WRITING</b></i></h5>
+                                <h5><i>
+                                    Words that leave a mark on one’s soul</i></h5>
                                 <h6>
-                                    <b>
-                                        We are professional writers with a weird obsession of making everything creative and huge. We travel towards the authenticity to make sure there is reliability on everything we write; whether it’s just a post or na entire website, we produce high-quality content so you keep coming for more. We crack every code to your customer’s heart and provide you the key to their bank accounts – making sure the writing conquers every battle. Get enlightened from our services in-depth;
-                                    </b>
+                                    Words are the instrumental mechanisms of human expression and the primal conveyors of substance for search engines. <strong>We're a digital marketing agency</strong> that knows the significance of great quality content all through your marketing strategy. Our team of <strong>professional content writers</strong> guarantees each piece of content that we dispatch is of outstanding quality and gives the outcomes you desire.
                                 </h6>
                             </div>
                         </Bounce>

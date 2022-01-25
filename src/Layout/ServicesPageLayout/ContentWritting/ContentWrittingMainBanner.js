@@ -3,12 +3,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import AboutUsFrom from "../../../Components/Common/AboutUsForm/AboutUsFrom";
 import SocialMediaContact from "../../../Components/Common/SocialMediaContact";
 import Fade from "react-reveal/Fade";
-import Bounce from "react-reveal/Bounce";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const ContentWrittingMainBanner = () => {
-  const dispatch = useDispatch();
   return (
     <div className="ContentWrittingMainBanner">
       <div className="DigitalStartupMainBanner">
@@ -41,19 +38,11 @@ const ContentWrittingMainBanner = () => {
                   </Fade>
                 </h1>
                 <p>
-                  Content is a voice people don’t hear but understands
-                  instantly. It’s a key ingredient where the initial search
-                  begins.
+                  Draw in and inspire a developing fanbase for the content you put out. At the point when your worth is obvious, choosing you becomes a no-brainer.
                 </p>
                 <Row>
                   <Col lg={4}>
-                    <a
-                      href="#"
-                      onClick={() => dispatch(CHANGE_MODAL(true))}
-                      class="getStarted-btn"
-                    >
-                      Get Started
-                    </a>
+                    <GetStarted buttonClass={"getStarted-btn"} buttonText={"Get Started"}></GetStarted>
                   </Col>
                 </Row>
               </div>

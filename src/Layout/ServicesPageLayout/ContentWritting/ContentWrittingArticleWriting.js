@@ -22,7 +22,7 @@ const ContentWrittingArticleWriting = () => {
                     </Zoom>
                     <Fade>
                       <p>
-                        <b>{ArticleWriting.description}</b>
+                        You can rely on us for profoundly investigated and conceptual pieces with a clear-cut message. From history to fiction - our <strong>article writing services</strong> cover everything.
                       </p>
                       <Row>
                         {ArticleWriting.list.map((li, id) => {
