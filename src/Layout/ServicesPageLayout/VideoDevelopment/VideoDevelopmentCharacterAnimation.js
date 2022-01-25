@@ -6,6 +6,7 @@ import Zoom from "react-reveal/Zoom";
 import { CharacterAnimationService } from "../../../Constants/VideoDevelopmentServices";
 import { CHANGE_MODAL } from "../../../Store/Action";
 import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const VideoDevelopmentCharacterAnimation = () => {
   const dispatch = useDispatch();
@@ -24,7 +25,7 @@ const VideoDevelopmentCharacterAnimation = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        <b>{CharacterAnimationService.description}</b>
+                        Utilizing great animation modeling skills to bring character, feeling, and expression into otherwise lifeless animated characters.
                       </h6>
                       <Row>
                         {CharacterAnimationService.list.map((li, id) => {
@@ -48,13 +49,8 @@ const VideoDevelopmentCharacterAnimation = () => {
                       </Row>
                     </Fade>
                     <Col lg="3">
-                      <a
-                        href="#"
-                        onClick={() => dispatch(CHANGE_MODAL(true))}
-                        class={`${CharacterAnimationService.button[1]}`}
-                      >
-                        {CharacterAnimationService.button[0]}
-                      </a>
+                      <GetStarted buttonClass={CharacterAnimationService.button[1]} buttonText={CharacterAnimationService.button[0]}></GetStarted>
+
                     </Col>
                   </ul>
                 </div>

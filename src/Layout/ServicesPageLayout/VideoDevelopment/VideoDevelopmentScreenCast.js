@@ -4,11 +4,9 @@ import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import Zoom from "react-reveal/Zoom";
 import { ScreenCastService } from "../../../Constants/VideoDevelopmentServices";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const VideoDevelopmentScreenCast = () => {
-  const dispatch = useDispatch();
   return (
     <div className="mt-5 pt-4 mb-5">
       <Container>
@@ -33,7 +31,7 @@ const VideoDevelopmentScreenCast = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        <b>{ScreenCastService.description}</b>
+                        Walk viewers through your newly launched product or service with splendid and swanky-looking <strong>Screencast animation service</strong>
                       </h6>
                       <Row>
                         {ScreenCastService.list.map((li, id) => {
@@ -57,13 +55,8 @@ const VideoDevelopmentScreenCast = () => {
                       </Row>
                     </Fade>
                     <Col lg="3">
-                      <a
-                        href="#"
-                        onClick={() => dispatch(CHANGE_MODAL(true))}
-                        class={`${ScreenCastService.button[1]}`}
-                      >
-                        {ScreenCastService.button[0]}
-                      </a>
+                      <GetStarted buttonText={ScreenCastService.button[0]} buttonClass={ScreenCastService.button[1]}></GetStarted>
+
                     </Col>
                   </ul>
                 </div>

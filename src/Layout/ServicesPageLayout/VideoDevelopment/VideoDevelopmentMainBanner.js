@@ -3,11 +3,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import AboutUsFrom from "../../../Components/Common/AboutUsForm/AboutUsFrom";
 import SocialMediaContact from "../../../Components/Common/SocialMediaContact";
 import Fade from "react-reveal/Fade";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const VideoDevelopmentMainBanner = () => {
-  const dispatch = useDispatch();
   return (
     <div className="VideoDevelopmentMainBanner">
       <div className="DigitalStartupMainBanner">
@@ -40,21 +38,11 @@ const VideoDevelopmentMainBanner = () => {
                   </Fade>
                 </h1>
                 <p>
-                  Add graphics & voice to your digital business story through
-                  engaging video development that helps customers understand
-                  you better.
+                  Spectacular, riveting, and awe-inspiring <strong>Video Animation</strong> that enchants viewers, transforms prospects into clients and clients into fans.
                 </p>
                 <Row>
                   <Col lg={4}>
-                    <a
-                      href="#"
-                      onClick={() => {
-                        dispatch(CHANGE_MODAL(true));
-                      }}
-                      class="getStarted-btn"
-                    >
-                      Get Started
-                    </a>
+                    <GetStarted buttonClass={"getStarted-btn"} buttonText={"Get Started"}></GetStarted>
                   </Col>
                 </Row>
               </div>

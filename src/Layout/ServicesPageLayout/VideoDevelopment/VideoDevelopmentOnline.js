@@ -20,7 +20,7 @@ const VideoDevelopmentOnline = () => {
                                         </linearGradient>
                                     </defs>
                                     <g>
-                                        <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Online</text>
+                                        <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Creative</text>
                                     </g>
                                 </svg>
                                 <h2>Video Animation</h2>
@@ -30,11 +30,15 @@ const VideoDevelopmentOnline = () => {
                     <Col lg={6} className="m-auto text-white">
                         <Bounce left cascade>
                             <div className="Business">
-                                <h5><i><b>HIT THEM WITH JUST ONE BALL!</b></i></h5>
+                                <h5>
+                                    <i>
+                                        Your Emotions In Motion
+                                    </i>
+                                </h5>
                                 <h6>
-                                    <b>
-                                        Video animation is the only thing on the internet which is liked by all; either you are man or a woman, a kid or a veteran and you want to know why? “Only a few great minds know that a massive 78% of viewers watch online videos every week.”
-                                    </b>
+                                    <strong>
+                                        Everybody has a story to tell. Yours is considerably more remarkable than you know. Your purchasers need to know you. They need to see your excellence. Our animators connect you with endless possibilities and transform them into moving and breathing masterpieces!
+                                    </strong>
                                 </h6>
                             </div>
                         </Bounce>

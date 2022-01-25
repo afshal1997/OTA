@@ -7,11 +7,9 @@ import {
   MotionGraphicsServices,
   WowMakeCustomersGoService,
 } from "../../../Constants/VideoDevelopmentServices";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const VideoDevelopmentMotionGraphics = () => {
-  const dispatch = useDispatch();
   return (
     <div className="mt-5 pt-4">
       <Container>
@@ -38,7 +36,7 @@ const VideoDevelopmentMotionGraphics = () => {
           <Col lg={7} className="m-auto">
             <Bounce right>
               <h6>
-                <b>{WowMakeCustomersGoService.description}</b>
+                <strong>Video Animation</strong> is an integral tool that helps you vividly imagine and grasp the specific idea of a film, animated feature, advertisement, or production. Connect with an award-winning <strong>animation outsourcing company</strong> and lift your ROI with wholeheartedly engaging <strong>video production services</strong>.
               </h6>
             </Bounce>
           </Col>
@@ -64,7 +62,8 @@ const VideoDevelopmentMotionGraphics = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        <b>{MotionGraphicsServices.description}</b>
+                        Play with pictorial objectives and creative edits to furnish astounding <strong>motion graphics</strong> for your viewers.
+
                       </h6>
                       <Row>
                         {MotionGraphicsServices.list.map((li, id) => {
@@ -88,15 +87,7 @@ const VideoDevelopmentMotionGraphics = () => {
                       </Row>
                     </Fade>
                     <Col lg="3">
-                      <a
-                        href="#"
-                        onClick={() => {
-                          dispatch(CHANGE_MODAL(true));
-                        }}
-                        class={`${MotionGraphicsServices.button[1]}`}
-                      >
-                        {MotionGraphicsServices.button[0]}
-                      </a>
+                      <GetStarted buttonClass={MotionGraphicsServices.button[1]} buttonText={MotionGraphicsServices.button[0]} />
                     </Col>
                   </ul>
                 </div>

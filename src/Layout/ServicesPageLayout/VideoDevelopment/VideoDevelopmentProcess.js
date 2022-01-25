@@ -10,6 +10,7 @@ import VideoDevelopmentImg10 from '../../../Assets/Services/Icons/Icon18.png'
 import VideoDevelopmentImg11 from '../../../Assets/Services/Icons/Icon22.png'
 import VideoDevelopmentImg12 from '../../../Assets/Services/Icons/Icon09.png'
 import Zoom from 'react-reveal/Zoom';
+import { Reveal } from 'react-reveal'
 
 const VideoDevelopmentProcess = () => {
     return (
@@ -22,6 +23,11 @@ const VideoDevelopmentProcess = () => {
                             <Zoom right cascade>
                                 <h1>Video Animation</h1>
                             </Zoom>
+                            <Reveal>
+                                <p>
+                                Whether we are <strong>outsourcing explainer or corporate video production service</strong>, we follow a simple yet highly efficient <strong>animation production process</strong> behind it:
+                                </p>
+                            </Reveal>
                         </div>
                     </div>
                 </Col>
