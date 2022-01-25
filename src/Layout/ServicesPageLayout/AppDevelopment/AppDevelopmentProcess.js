@@ -22,7 +22,7 @@ const AppDevelopmentProcess = () => {
                                 <h1>App Development</h1>
                             </Zoom>
                             <p>
-                                With advanced technology in the world where mobile phones have become a total necessity and new softwares taking the world by storm; you don’t have to worry a thing about it!
+                                Our designers offer groundbreaking <strong>app development services</strong> by coordinating consistently into your project and conveying remarkable experiences for your customers.
                             </p>
                         </div>
                     </div>

@@ -3,12 +3,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import AboutUsFrom from "../../../Components/Common/AboutUsForm/AboutUsFrom";
 import SocialMediaContact from "../../../Components/Common/SocialMediaContact";
 import Fade from "react-reveal/Fade";
-import Bounce from "react-reveal/Bounce";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const AppDevelopmentMainBanner = () => {
-  const dispatch = useDispatch();
   return (
     <div className="AppDevelopmentMainBanner">
       <div className="DigitalStartupMainBanner">
@@ -41,19 +38,12 @@ const AppDevelopmentMainBanner = () => {
                   </Fade>
                 </h1>
                 <p>
-                    With advanced technology in the world where mobile phones
-                    have become a total necessity and new softwares taking the
-                    world by storm; you don’t have to worry a thing about it!
+                  Creating custom-built, high-performing, and digitally transformative apps for satisfying user experiences on Android and iOS alike.
+
                 </p>
                 <Row>
                   <Col lg={4}>
-                    <a
-                      href="#"
-                      onClick={() => dispatch(CHANGE_MODAL(true))}
-                      class="getStarted-btn"
-                    >
-                      Get Started
-                    </a>
+                    <GetStarted buttonClass={"getStarted-btn"} buttonText={"Get Started"} />
                   </Col>
                 </Row>
               </div>

@@ -21,21 +21,23 @@ const AppDevelopmentApps = () => {
                                         </linearGradient>
                                     </defs>
                                     <g>
-                                        <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Apps</text>
+                                        <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Custom</text>
                                     </g>
                                 </svg>
-                                <h2>App Development</h2>
+                                <h2>Application Development</h2>
                             </div>
                         </Bounce>
                     </Col>
                     <Col lg={6} className="m-auto text-white">
                         <Bounce left cascade>
                             <div className="Business">
-                                <h5><i><b>YOUR APP – OUR TABS!</b></i></h5>
+                                <h5>
+                                    <i>
+                                        Assisting you to find mobility with innovation.
+                                    </i>
+                                </h5>
                                 <h6>
-                                    <b>
-                                        With advanced technology in the world where mobile phones have become a total necessity and new softwares taking the world by storm; you don’t have to worry a thing about it! With people choosing apps for more convenience and people looking at your business from all over the globe; your app needs the utmost attention. With outsourcing app development services, we deliver what's best for you.
-                                    </b>
+                                    Without a doubt, app development has the potential to determine the fate of your business. From development to optimization, OTA is your all-in-one <strong> outsourcing app development</strong> partner. We design and create your adaptable application from concept to completion, integrating the new product into your framework and scaling up as needed.
                                 </h6>
                             </div>
                         </Bounce>

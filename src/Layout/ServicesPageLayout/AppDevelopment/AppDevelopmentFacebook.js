@@ -34,7 +34,7 @@ const AppDevelopmentFacebook = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        <b>{BusinessAndSolutionsContent.description}</b>
+                        An application for a preeminent social platform- Facebook. The odds of raking a higher user base and consequently your business growth greatly increases by landing your app on the leading social platform.
                       </h6>
                       <Row>
                         {BusinessAndSolutionsContent.list.map((li, id) => {

@@ -4,11 +4,9 @@ import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import Zoom from "react-reveal/Zoom";
 import { IosAppService } from "../../../Constants/AppDevelopmentServices";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const AppDevelopmentIOSApp = () => {
-  const dispatch = useDispatch();
   return (
     <div>
       <Container>
@@ -24,7 +22,7 @@ const AppDevelopmentIOSApp = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        <b>{IosAppService.description}</b>
+                        Leverage OTA’s expertise in <strong>iOS app development services</strong>  to fabricate an intelligent, engaging, and consistent application for your industry, regardless of intricacy. As an <strong>outsource iOS app development agency</strong>, we start with the idea of getting an upheaval of the IOS app industry by enhancing your application on top of the iOS application store.
                       </h6>
                       <Row>
                         {IosAppService.list.map((li, id) => {
@@ -48,15 +46,7 @@ const AppDevelopmentIOSApp = () => {
                       </Row>
                     </Fade>
                     <Col lg="3">
-                      <a
-                        href="#"
-                        onClick={() => {
-                          dispatch(CHANGE_MODAL(true));
-                        }}
-                        class={`${IosAppService.button[1]}`}
-                      >
-                        {IosAppService.button[0]}
-                      </a>
+                      <GetStarted buttonClass={IosAppService.button[1]} buttonText={IosAppService.button[0]}></GetStarted>
                     </Col>
                   </ul>
                 </div>

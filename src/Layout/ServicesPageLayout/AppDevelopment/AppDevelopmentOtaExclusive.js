@@ -40,7 +40,7 @@ const AppDevelopmentOtaExclusive = () => {
           <Col lg={7} className="m-auto">
             <Bounce right>
               <h6>
-                <b>{ExclusiveAppDevelopmentService.description}</b>
+                While designing your app, we take its look, feel, and incorporation of elements into thought. We carry out a technique that is the best methodology for mobile application improvement as it permits us to make changes, add new features, and advance with changing trends. Our <strong>application development services</strong> include:
               </h6>
             </Bounce>
           </Col>
@@ -66,7 +66,7 @@ const AppDevelopmentOtaExclusive = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        <b>{AndroidAppService.description}</b>
+                        OTA has an expert team of <strong>mobile app development professionals</strong> specializing in Android app development services. We help companies create a terrific Android app experience, create new consumer channels, and differentiate themselves from the competition. We ensure our <strong>Android mobile application development services</strong> match your necessities, by being:
                       </h6>
                       <Row>
                         {AndroidAppService.list.map((li, id) => {
