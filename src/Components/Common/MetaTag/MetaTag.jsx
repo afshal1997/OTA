@@ -1,18 +1,14 @@
 import React from 'react';
 
-const MetaTag = () => {
-   let location = useLocation();
-   useEffect(() => {
-      const metaTag = document.createElement("meta");
-      metaTag.createElement('name', "value")
-      metaTag.createElement('description', "value")
-      metaTag.head.appendChild(metaTag)
-   }, [location.pathname])
-   return (
-      <div>
+const OTAMeTagsAndDescriptions = () => {
 
-      </div>
+   return (
+      <MetaTags>
+         <title>Page 1</title>
+         <meta name="description" content="Some description." />
+         <meta property="og:title" content="MyApp" />
+      </MetaTags>
    );
 };
 
-export default MetaTag;
+export default OTAMeTagsAndDescriptions;

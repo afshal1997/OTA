@@ -30,22 +30,20 @@ const MainBannerResourcesOutsourcing = () => {
                         stroke="url(#gradient)"
                         fill="rgb(0, 0, 0,0.2)"
                       >
-                        Outsource
+                        Outsourcing
                       </text>
                     </g>
                   </svg>
                   <h1>
                     <Fade top cascade>
-                      Your Essentials
+                      Business Essentials
                     </Fade>
                   </h1>
                   <h3>
-                    To lift the burden off your shoulders!
+                    Lifting the burden off your shoulders!
                   </h3>
                   <p>
-                    We treat resources like an asset helping your organization
-                    achieve goals in a minimum capacity - both time and
-                    infrastructure cost.
+                    From <strong>outsourcing designers and developers to sales representatives and project managers</strong>, we help your organization achieve goals in minimum capacity - in both time, complexity, and infrastructure cost.
                   </p>
                   <Row>
                     <Col lg={4}>

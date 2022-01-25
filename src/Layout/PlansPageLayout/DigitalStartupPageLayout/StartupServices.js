@@ -37,7 +37,7 @@ const StartupServices = () => {
           <Col lg={7} className="m-auto">
             <Bounce right>
               <h6>
-                <b>{Startup.description}</b>
+                We hope to bring a transformation in the world of business through our cutting-edge services designed for <strong>digital startups</strong>. The services are competitively priced to give newer businesses a chance to revolutionize the world. Our services have been specifically designed with up-and-coming digital startups in mind to <strong>boost your business</strong>. We have assembled a team of professionals with extensive knowledge and expertise in the field of digital services.
               </h6>
             </Bounce>
           </Col>
@@ -63,7 +63,7 @@ const StartupServices = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        <b>{DevelopBrandPersonal.description}</b>
+                        We acutely focus on analyzing your brand inclinations to concoct the right techniques for <strong>creating an uplifting brand identity</strong>. Highlights of a brand persona built at OTA are
                       </h6>
                       {DevelopBrandPersonal.list.map((li) => {
                         return (

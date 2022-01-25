@@ -32,7 +32,7 @@ const LeadGeneration = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        <b>{leadgenarationpagecontent.description}</b>
+                        Be it Inbound or Outbound, our <strong>B2B Lead Generation services</strong> offer an incredible chance to get quality leads that convert. Rapidly increase your sales pipeline through our lead generation services via BPO or digital marketing, that provides
                       </h6>
                       {leadgenarationpagecontent.list.map((li) => {
                         return (

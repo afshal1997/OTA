@@ -20,10 +20,10 @@ const ServicesProvidingBanner = () => {
                                         </linearGradient>
                                     </defs>
                                     <g>
-                                        <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Startups</text>
+                                        <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Elevate Your</text>
                                     </g>
                                 </svg>
-                                <h2>Services Providing Unique</h2>
+                                <h2>Launching Startups into the Digital Space</h2>
                             </div>
                         </Bounce>
                     </Col>
@@ -32,9 +32,7 @@ const ServicesProvidingBanner = () => {
                             <div className="Business">
                                 <h5><i><b>For Digital Startups</b></i></h5>
                                 <h6>
-                                    <b>
-                                        Digital practices have gone global and there is no way you can operate your business successfully without it. We provide well-strategized digital services to startups struggling to gain reach and conversion within the shortest time period. Our aim is to provide our clients with full commitment and a growth-oriented approach.
-                                    </b>
+                                    The digital industry is rife with competition and can be quite brutal for newcomers. As a bootstrapped firm ourselves, we admire startups for their enthusiasm and drive to create unique solutions that tackle real-world issues. Leverage our expertise and discover <strong>how to build a successful business</strong> by utilizing various <strong>digital marketing services</strong> to help <strong>digital startups</strong> of all sizes and markets.
                                 </h6>
                             </div>
                         </Bounce>

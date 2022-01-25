@@ -24,7 +24,7 @@ const ProvideSupportingtools = () => {
                     </Zoom>
                     <Fade>
                       <p>
-                        <b>{ProvideSupportingTools.description}</b>
+                        With custom or 3rd party customer support tools such as Tawk.to and Zendesk Chat App or popular chat platforms integration through WhatsApp/iMessage for business, your clients experience exceptional after-sales support 24/7
                       </p>
                       {ProvideSupportingTools.list.map((li) => {
                         return (

@@ -32,22 +32,20 @@ const CallCenterMainBanner = () => {
                         stroke="url(#gradient)"
                         fill="rgb(0, 0, 0,0.2)"
                       >
-                        Customer
+                        Quality
                       </text>
                     </g>
                   </svg>
                   <h1>
                     <Fade top cascade>
-                      Customer Services!
+                      Customer support
                     </Fade>
                   </h1>
                   <h3>
-                    We Offer instant and quality
+                    We’re Here To Help
                   </h3>
                   <p>
-                    We offer instant and quality customer service to our
-                    clients helping them cater their customers needs and wants
-                    to ensure a reliable and helpful user experience !
+                    Cut costs and take your <strong>customer support and sales operation</strong> to the next level with <strong>BPO outsourcing</strong> that caters to your consumer’s needs and guarantees a highly dependable and helpful client experience.
                   </p>
                   <Row>
                     <Col lg={4}>

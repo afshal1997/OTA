@@ -33,16 +33,13 @@ const DigitalStartupMainBanner = () => {
                     </text>
                   </g>
                 </svg>
-                <h1>
-                  <Fade top cascade>
-                    End-To-End
-                  </Fade>
-                </h1>
                 <h3>
-                  Digital Services
+                  <Fade top cascade>
+                    Digital services and Strategies
+                  </Fade>
                 </h3>
                 <p>
-                  For Your Startup
+                  Develop Your Customer Base With Data-Driven, End-To-End Designated Strategies From A Renowned Player In The It Industry.
                 </p>
                 <Row>
                   <Col lg={4}>
