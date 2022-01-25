@@ -22,7 +22,8 @@ const WebDevelopmentDesignCustomWebsite = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        <b>{DesignCustomWebsite.description}</b>
+                        Take control of your website through custom design and code. Our <strong>custom web design</strong> allows flexibility with the ever-evolving businesses spectrum, and is:
+
                       </h6>
                       <Row>
                         {DesignCustomWebsite.list.map((li, id) => {
@@ -58,7 +59,7 @@ const WebDevelopmentDesignCustomWebsite = () => {
               <img
                 className="w-100"
                 src={DesignCustomWebsite.DesignCustomWebsiteImagePath}
-                alt=""
+                alt="DesignCustomWebsite.DesignCustomWebsiteImagePath"
               ></img>
             </Bounce>
           </Col>

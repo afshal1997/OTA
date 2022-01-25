@@ -20,7 +20,7 @@ const WebDevelopmentBranding = () => {
                                         </linearGradient>
                                     </defs>
                                     <g>
-                                        <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Branding</text>
+                                        <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Custom</text>
                                     </g>
                                 </svg>
                                 <h2>Web Development</h2>
@@ -31,11 +31,15 @@ const WebDevelopmentBranding = () => {
                     <Col lg={6} className="m-auto text-white">
                         <Bounce left cascade>
                             <div className="Business">
-                                <h5><i><b>Just Like Your House; Your Website Requires Renovation</b></i></h5>
+                                <h5>
+                                    <i>
+                                        We don’t just build a website; We mold brands from the ground up.
+                                    </i>
+                                </h5>
                                 <h6>
-                                    <b>
-                                        Website is the place to grab that attention of the online shoppers, creating a scenery for your brand; developing the environment that welcome all with the open arms; at ota, we make sure things never go wrong. After listening to your every need and a thousands of changes – we deliver a bug-free, smooth running, eye soothing website from the comfort of your pocket and at the front of your table, our valuable web design outsourcing includes
-                                    </b>
+
+                                    We provide customer-centric end-to-end online solutions based on our vast domain experience, technical skills, in-depth understanding of current market trends, and quality-driven delivery strategy. Our <strong>custom web design services and packages</strong> will launch your brand in the limelight, strengthening your brand identity and perception. Being a leading <strong>offshore web development</strong> firm catering with result-oriented and cost-competitive solutions across the globe, Outsource to Asia LLC offers a wide array of <strong>web-based digital solutions</strong> to enterprises-big or small, including:
+
                                 </h6>
                             </div>
                         </Bounce>

@@ -62,7 +62,7 @@ const WebDevelopmentRenownedOutsourceWeb = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        <b>{BasicWebsite.description}</b>
+                        Improve your business standing with <strong>highly responsive web designs</strong> . Whether you want to generate leads, contact prospective clients, or advertise your business, our basic <strong>website development package</strong> is the perfect match, by being:
                       </h6>
                       <Row>
                         {BasicWebsite.list.map((li, id) => {

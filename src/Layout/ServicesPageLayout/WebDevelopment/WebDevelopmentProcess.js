@@ -21,7 +21,7 @@ const WebDevelopmentProcess = () => {
                                 <h1>Web Development</h1>
                             </Zoom>
                             <p>
-                                An expertly developed website is underrated. Our approach to the World Wide Web is through impeccable, advanced, and result-oriented web development outsourcing!
+                                For perfect execution of <strong>custom web application development</strong>, we develop and undergo a concrete plan and strategy based exclusively on your needs and requirements.
                             </p>
                         </div>
                     </div>

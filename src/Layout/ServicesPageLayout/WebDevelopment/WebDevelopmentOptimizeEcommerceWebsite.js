@@ -31,7 +31,8 @@ const WebDevelopmentOptimizeEcommerceWebsite = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        <b>{OptimizeEcommerceWebsite.description}</b>
+                        An insightful planned e-commerce website that resembles your physical showroom! Our enterprise-grade, professional, and fully-customized <strong>e-commerce website development service</strong> offers:
+
                       </h6>
                       <Row>
                         {OptimizeEcommerceWebsite.list.map((li, id) => {

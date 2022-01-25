@@ -15,9 +15,8 @@ export const BasicWebsite = {
     BasicWebsiteImagePath: WebDevelopmentImage03,
     heading: 'Website',
     title: 'Basic Website',
-    description: "A simple yet appealing website always attracts the customers no matter how fancy they've experienced. Here, design, text, alignment, color focus all come together.",
     list: [
-        'Easy Navigation', 'Trendy & Intuitive Design', 'Strategic Content'
+        'Simple ', 'Trendy', 'Mobile Friendly        '
     ],
     button: ['Get Started', 'getStarted-btn']
 }
@@ -25,9 +24,8 @@ export const BasicWebsite = {
 export const DesignCustomWebsite = {
     heading: 'Design',
     title: 'Custom Website',
-    description: 'Take complete control over your website through custom design. The look, usability, and response would be uniquely planned according to your business theme.',
     list: [
-        'Mobile Responsive', 'Browse Friendly', 'Secure, Scalable And Easy-To-Use'
+        'Unique', 'Customer-centered', 'Cross-browser compatible'
     ],
     button: ['Get Started', 'getStarted-btn'],
     DesignCustomWebsiteImagePath: WebDevelopmentImage04
@@ -40,7 +38,7 @@ export const OptimizeEcommerceWebsite = {
     title: 'Ecommerce Website',
     description: "A thoughtfully-designed Ecommerce website is like an online showroom! Beside an impetus performance, your site will be optimized fit-to-screen for every device.",
     list: [
-        'Content Management Capabilities', 'Update Content, Product and Promotions', 'Multiple Payment Gateways'
+        'User-Friendly CMS', 'Multiple Payment Gateways', 'Security And Scalability'
     ],
     button: ['Get Started', 'getStarted-btn']
 }

@@ -30,7 +30,7 @@ const WebDevelopmentMainBanner = () => {
                       stroke="url(#gradient)"
                       fill="rgb(0, 0, 0,0.2)"
                     >
-                      Expertly
+                      Traffic
                     </text>
                   </g>
                 </svg>
@@ -40,9 +40,7 @@ const WebDevelopmentMainBanner = () => {
                   </Fade>
                 </h1>
                 <p>
-                  An expertly developed website is underrated. Our approach to
-                  the World Wide Web is through impeccable, advanced, and
-                  result-oriented web development outsourcing!
+                  <strong>Web design</strong> that develops connections and improves notoriety. Our <strong>custom web</strong> <strong>development company</strong> helps your website persuade your audience to learn more, stay longer, and make a move.
                 </p>
                 <Row>
                   <Col lg={4}>
