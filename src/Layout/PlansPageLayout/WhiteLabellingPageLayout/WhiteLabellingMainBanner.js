@@ -43,7 +43,7 @@ const WhiteLabellingMainBanner = () => {
                   </Bounce>
                 </h3>
                 <p>
-                    For Digital Agencies.
+                Get the edge that will set you apart from your competitors. Our <strong>White Labeling Marketing Agency</strong> is the impetus your digital agency needs for unprecedented growth.
                 </p>
                 <Row>
                   <Col lg={4}>

@@ -35,10 +35,8 @@ const BusinessAndSolutions = () => {
                     </Zoom>
                     <Fade>
                       <p>
-                        <b>{BusinessAndSolutionsContent.description1}</b>
-                      </p>
-                      <p>
-                        <b>{BusinessAndSolutionsContent.description2}</b>
+                        If you need any help with <strong>growing business</strong> online, we are here for you. At Outsource To Asia, we provide our partners with limitless possibilities for expanding and becoming more perceptible to the rest of the globe.
+
                       </p>
                       <Row>
                         {BusinessAndSolutionsContent.list.map((li, id) => {

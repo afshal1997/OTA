@@ -35,8 +35,7 @@ const WeDo = () => {
           <Col lg={7} className="m-auto">
             <Bounce right>
               <h6>
-                <b>{WhiteLabellingWeDo.description}</b>
-              </h6>
+                We offer top-notch white labeling services to our valuable clients in the USA. The service is purely provided under the supervision of experienced and knowledgeable team members. Each of the <strong>white labeling services</strong> is designed with a result-oriented approach to give you an impressive return rate. We hope to add value to every process.              </h6>
             </Bounce>
           </Col>
         </Row>
@@ -63,7 +62,7 @@ const WeDo = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        <b>{WhiteLabellingDesignDevelopment.description}</b>
+                        Our design and development process is carried out with keen attention to detail to enhance our <strong>white labeling services</strong> experience. The process kick starts after a deep insight into the current trends and your requirements to get quality results. Your business philosophy and idea are analyzed to come up with an appropriate strategy. Our job is done only when every step is well-aligned with what your business needs. Outsource to Asia’s <strong>creative designing</strong> team are experts in delivering the following services with full commitment:
                       </h6>
                       <Row>
                         {WhiteLabellingDesignDevelopment.list.map((li, id) => {

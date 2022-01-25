@@ -41,8 +41,7 @@ const HomePageBannerThree = () => {
                                     <h2><span><i className="fas fa-long-arrow-alt-right text-primary"></i></span> How it works<span>?</span></h2>
                                     <h6>Set of actions to partake</h6>
                                     <p>
-                                        Partner with us today to our outsourcing program and reap limitless benefits to kickstart your business to the path to success. Just follow these steps to get started:
-                                    </p>
+                                        Be our <strong>white labeling partner</strong> and receive boundless benefits to fast-track your business on the way to progress. Simply follow these steps to begin                                    </p>
                                 </div>
                             </Col>
                         </Row>

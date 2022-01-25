@@ -24,8 +24,7 @@ export const WhiteLabellingDesignDevelopment ={
 export const WhiteLabellingDigitalMarketing ={
     heading: 'DM',
     title: 'Digital Marketing',
-    description1: 'Digital marketing is undoubtedly the backbone of every business. Trust our white labeling team to bring you the most refined and updated digital marketing services. Share your needs with us and the rest becomes our job. Through our digital marketing services, you get to experience instant boost in traffic, reach, and conversions. It is an ideal chance to increase brand awareness, gain a competitive edge, and organically expand your customer base.',
-    description2: 'Here is a list of services included in our digital marketing category.',
+
     list: [
         'Search Engine Optimization', 'Social Media Marketing', 'Lead Generation' , 'PPC Campaigns' , 'GDN Advertising' , 'Amazon Marketing'
     ],

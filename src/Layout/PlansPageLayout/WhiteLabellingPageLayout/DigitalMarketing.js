@@ -25,10 +25,10 @@ const DigitalMarketing = () => {
                     </Zoom>
                     <Fade>
                       <p>
-                        <b>{WhiteLabellingDigitalMarketing.description1}</b>
                       </p>
                       <p>
-                        <b>{WhiteLabellingDigitalMarketing.description2}</b>
+                        Digital marketing is without a doubt the foundation of each business. From <strong>SEO to Social Media outsourcing</strong>, trust our white labeling team to present to you the most refined and <strong>affordable digital marketing services</strong> for you, and your clients. Share your needs and requirements with us and the rest will be efficiently handled at our end. Get a chance to experience an instant <strong>boost to your business</strong> through increased traffic, reach, and conversions. The perfect opportunity to build brand awareness, gain a competitive edge, and organically expand your customer base.
+                        Here is a list of our <strong>digital marketing services</strong>
                       </p>
                       <Row>
                         {WhiteLabellingDigitalMarketing.list.map((li, id) => {

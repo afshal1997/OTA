@@ -30,12 +30,12 @@ const WhiteLabellingPractices = () => {
                     <Col lg={6} className="m-auto text-white">
                         <Bounce left cascade>
                             <div className="Business">
-                                <h5><i><b>And Best Practices </b></i></h5>
-                                <h5><i><b>To Always Remains Your First Choice.</b></i></h5>
+                                <h5><i>
+                                    White-labeling
+                                </i></h5>
+                                <h5><i>Your secret weapon for exponential growth.!</i></h5>
                                 <h6>
-                                    <b>
-                                        If you are a digital marketing agency owner or the head of business, you know exactly what it takes to acquire one account and to deliver optimum level services while keeping long term relationship. Reducing costs and the ability to focus on core business goals is the need of every organization. As you already know that the digital marketing industry is growing at an exponential rate due to rapid growth and there are three core challenges that your agency is facing.
-                                    </b>
+                                    Enhance customers' experience with <strong>higher-quality</strong>, <strong>affordable services</strong> by augmenting revenue generation opportunities through OTA's <strong>White labeling services</strong>. The <strong>digital marketing industry</strong> is growing at an exponential rate and being more competitive at each passing second. Reducing operational costs and instead focusing on core business goals is the need of every organization.
                                 </h6>
                             </div>
                         </Bounce>
