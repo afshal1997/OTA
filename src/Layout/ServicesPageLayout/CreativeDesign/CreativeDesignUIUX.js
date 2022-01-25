@@ -4,12 +4,9 @@ import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import { UIUXDesign } from "../../../Constants/CreativeDesignWowCustomers";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const CreativeDesignUIUX = () => {
-  const dispatch = useDispatch();
   return (
     <div className="mt-5 pt-5">
       <Container>
