@@ -3,12 +3,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import AboutUsFrom from "../../../Components/Common/AboutUsForm/AboutUsFrom";
 import SocialMediaContact from "../../../Components/Common/SocialMediaContact";
 import Fade from "react-reveal/Fade";
-import Bounce from "react-reveal/Bounce";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const CyberSecurityMainBanner = () => {
-  const dispatch = useDispatch();
   return (
     <div className="CyberSecurityMainBanner">
       <div className="DigitalStartupMainBanner">
@@ -41,20 +38,11 @@ const CyberSecurityMainBanner = () => {
                   </Fade>
                 </h1>
                 <p>
-                  Today, mainstream usage of "hacker" mostly refers to
-                  computer criminals, due to the mass media usage of the word
-                  since the 1980s. The controversy is usually based on the
-                  assertion that the term originally.
+                  CyberSecurityStrengthen your cyber resilience by leveraging the most out of the latest security protocols, courtesy of our <strong>digital security experts</strong>.
                 </p>
                 <Row>
                   <Col lg={4}>
-                    <a
-                      href="#"
-                      onClick={() => dispatch(CHANGE_MODAL(true))}
-                      class="getStarted-btn"
-                    >
-                      Get Started
-                    </a>
+                    <GetStarted buttonClass={"getStarted-btn"} buttonText={"Get Started"}></GetStarted>
                   </Col>
                 </Row>
               </div>

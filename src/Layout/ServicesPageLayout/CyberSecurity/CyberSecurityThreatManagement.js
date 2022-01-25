@@ -27,7 +27,7 @@ const CyberSecurityThreatManagement = () => {
                         <b>{ThreatManagementService.description1}</b>
                       </p>
                       <p>
-                        <b>{ThreatManagementService.description2}</b>
+                        Striving to support the governance, reporting, and reduction of information security risks through the implementation of cybersecurity risk management programs and initiatives, we realize failure is not an option in cyberspace by shielding against.
                       </p>
                       <Row>
                         {ThreatManagementService.list.map((li, id) => {

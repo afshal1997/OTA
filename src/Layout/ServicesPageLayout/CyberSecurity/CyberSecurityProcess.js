@@ -21,7 +21,7 @@ const CyberSecurityProcess = () => {
                         <h1>Cyber Security</h1>
                      </Zoom>
                      <p>
-                        Our Cyber Security Specialists successfully tackle and resolve cyber attacks and threats by following an effective method that is easy to comprehend.
+                        Our <strong>Cyber Security Specialists</strong> successfully tackle and resolve cyber attacks and threats by following an effective method that is easy to comprehend.
                      </p>
                   </div>
                </div>

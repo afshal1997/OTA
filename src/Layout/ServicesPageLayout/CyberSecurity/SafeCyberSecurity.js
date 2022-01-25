@@ -33,9 +33,7 @@ const SafeCyberSecurity = () => {
                             <div className="Business">
                                 <h5><i><b>A Multilayer cybersecurity approach to keep your data safe and sound.</b></i></h5>
                                 <h6>
-                                    <b>
-                                        Cyber attacks are available in all shapes and sizes. While some are overt ransomware attacks and others are covert operations; the only target is to hijack your valuable data or tools in exchange for money or to infiltrate your system. We secure your data from:
-                                    </b>
+                                Our <strong>internet security</strong> team offers <strong>cybersecurity consulting services</strong> that thoroughly examine your firm’s threat landscape, ensuring your IT infrastructure is constantly secure and safe against all forms of attacks. To inherently scrutinize and enhance your security outlook, we provide <strong>malware analysis</strong>, penetration testing, threat management, network security monitoring, among others.
                                 </h6>
                             </div>
                         </Bounce>

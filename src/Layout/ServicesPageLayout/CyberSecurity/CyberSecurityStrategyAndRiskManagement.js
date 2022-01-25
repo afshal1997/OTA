@@ -6,6 +6,7 @@ import Bounce from "react-reveal/Bounce";
 import { StrategyAndRiskManagement } from "../../../Constants/CyberSecurityServicesDiscription";
 import { CHANGE_MODAL } from "../../../Store/Action";
 import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const CyberSecurityStrategyAndRiskManagement = () => {
   const dispatch = useDispatch();
@@ -24,7 +25,8 @@ const CyberSecurityStrategyAndRiskManagement = () => {
                     </Zoom>
                     <Fade>
                       <p>
-                        <b>{StrategyAndRiskManagement.description}</b>
+                        Assess your existing levels of security maturity and compliance status by identifying possible threats and developing a customized roadmap to troubleshoot those risks.
+
                       </p>
                       <Row>
                         {StrategyAndRiskManagement.list.map((li, id) => {
@@ -48,13 +50,7 @@ const CyberSecurityStrategyAndRiskManagement = () => {
                       </Row>
                     </Fade>
                     <Col lg="3">
-                      <a
-                        href="#"
-                        onClick={() => dispatch(CHANGE_MODAL(true))}
-                        class={`${StrategyAndRiskManagement.button[1]}`}
-                      >
-                        {StrategyAndRiskManagement.button[0]}
-                      </a>
+                      <GetStarted buttonClass={StrategyAndRiskManagement.button[1]} buttonText={StrategyAndRiskManagement.button[0]}></GetStarted>
                     </Col>
                   </ul>
                 </div>

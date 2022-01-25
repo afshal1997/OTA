@@ -33,7 +33,7 @@ const CyberSecurityPenetrationTesting = () => {
                     </Zoom>
                     <Fade>
                       <p>
-                        <b>{PenetrationTestingService.description}</b>
+                        Exploiting weaknesses and vulnerabilities in networks, web applications, or an enterprise's entire IT infrastructure by taking the perspective of an outside intruder or an internal individual with malicious intent.
                       </p>
                       <Row>
                         {PenetrationTestingService.list.map((li, id) => {
