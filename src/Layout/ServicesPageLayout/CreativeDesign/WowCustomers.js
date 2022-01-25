@@ -9,6 +9,7 @@ import {
 } from "../../../Constants/CreativeDesignWowCustomers";
 import { CHANGE_MODAL } from "../../../Store/Action";
 import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const WowCustomers = () => {
   const dispatch = useDispatch();
@@ -37,7 +38,9 @@ const WowCustomers = () => {
           <Col lg={7} className="m-auto">
             <Bounce right>
               <h6>
-                <b>{MakeCustomersGo.description}</b>
+                <p>
+                  In need of a <strong>stellar logo and website design package</strong> ? Let Outsource to Asia handle graphic designing for your brand through compelling, dazzling, and ornate graphics. Be it a logo or web design, print or digital media, our team creates vivid designs across platforms and mediums. We create professional, aesthetically pleasing,<strong> high-quality graphics for small to medium-sized businesses</strong> , with cost & time-saving solutions, plus a highly personalized experience for our clients.
+                </p>
               </h6>
             </Bounce>
           </Col>
@@ -63,7 +66,7 @@ const WowCustomers = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        <b>{BrandLogoDesign.description}</b>
+                        We craft logos that live and breathe your brand sentiment and vision. An artistic masterpiece is more than just an interesting logo, it’s the combination of strategy, planning, market research, and experience. Our one-of-a-kind <strong>logo package</strong> is:
                       </h6>
                       <Row>
                         {BrandLogoDesign.list.map((li, id) => {
@@ -87,13 +90,7 @@ const WowCustomers = () => {
                       </Row>
                     </Fade>
                     <Col lg="3">
-                      <a
-                        href="#"
-                        onClick={() => dispatch(CHANGE_MODAL(true))}
-                        class={`${BrandLogoDesign.button[1]}`}
-                      >
-                        {BrandLogoDesign.button[0]}
-                      </a>
+                      <GetStarted buttonText={BrandLogoDesign.button[0]} buttonClass={`${BrandLogoDesign.button[1]} `} ></GetStarted>
                     </Col>
                   </ul>
                 </div>

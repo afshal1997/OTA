@@ -23,17 +23,17 @@ const CreativeDesigningBanner = () => {
                                         <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Creative</text>
                                     </g>
                                 </svg>
-                                <h2>Creative Designing</h2>
+                                <h2>Graphic Design</h2>
                             </div>
                         </Bounce>
                     </Col>
                     <Col lg={6} className="m-auto text-white">
                         <Bounce left cascade>
                             <div className="Business">
-                                <h5><i><b>Design That Leads To Undivided Attention</b></i></h5>
+                                <h5><i>Let our creativity be your <strong>brand’s identity</strong></i></h5>
                                 <h6>
                                     <b>
-                                        Our creative designs don't need words to describe how phenomenon they are; being a mixed culture outsourcing agency, we drive every business towards success – either a small scale organization or a veteran company; we always come up with the out of the box ideas tailored to your consumer needs so your customers get hooked to your services/products in the matter of seconds.
+                                    Our expert artisans have mastered the art of creating attractive designs that boost your sales significantly. <strong>Creating a brand identity</strong> is crucial to how and what we communicate with clients, engaging them and converting them into buyers and admirers.
                                     </b>
                                 </h6>
                             </div>

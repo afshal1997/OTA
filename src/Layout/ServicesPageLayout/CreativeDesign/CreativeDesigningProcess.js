@@ -20,9 +20,8 @@ const CreativeDesigningProcess = () => {
                                 <h1>Creative Designing</h1>
                             </Zoom>
                             <p>
-                                Represent Your Brand with State-of-the-Art Designs
-                                That Explains Your Story Even Better – It Eventually
-                                Becomes a Reality!
+                                Our <strong>branding service</strong> enables your business to distinguish itself and convey ideas through any medium. We consolidate strategy, creativity, and innovation to assist brands with developing a cohesive digital presence through a streamlined process.
+
                             </p>
                         </div>
                     </div>

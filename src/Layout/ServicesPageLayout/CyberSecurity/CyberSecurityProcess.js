@@ -27,7 +27,7 @@ const CyberSecurityProcess = () => {
                </div>
             </Col>
             <div className="WhyChooseUs">
-               <img className="w-100 processImg" src={WebDevelopmentImage02} alt="WebDevelopmentImage02"></img>
+               <img className="w-100 processImg" src={WebDevelopmentImage02} alt="Cyber Security"></img>
                <Row className="mobile-view">
                   <Col>
                      <Card className="WhyChooseUSCards text-dark">

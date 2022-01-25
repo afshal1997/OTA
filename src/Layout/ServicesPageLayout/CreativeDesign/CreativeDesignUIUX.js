@@ -6,6 +6,7 @@ import Bounce from "react-reveal/Bounce";
 import { UIUXDesign } from "../../../Constants/CreativeDesignWowCustomers";
 import { CHANGE_MODAL } from "../../../Store/Action";
 import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const CreativeDesignUIUX = () => {
   const dispatch = useDispatch();
@@ -24,7 +25,7 @@ const CreativeDesignUIUX = () => {
                     </Zoom>
                     <Fade>
                       <p>
-                        <b>{UIUXDesign.description}</b>
+                        Employ the best <strong>UI/UX designers</strong> that concoct distinctive visuals and harmonize graphic identity with your brand in mind. We deliver <strong>custom web and app designs</strong> that are:
                       </p>
                       <Row>
                         {UIUXDesign.list.map((li, id) => {
@@ -48,13 +49,8 @@ const CreativeDesignUIUX = () => {
                       </Row>
                     </Fade>
                     <Col lg="3">
-                      <a
-                        href="#"
-                        onClick={() => dispatch(CHANGE_MODAL(true))}
-                        class={`${UIUXDesign.button[1]}`}
-                      >
-                        {UIUXDesign.button[0]}
-                      </a>
+                      <GetStarted buttonClass={`${UIUXDesign.button[1]}`} buttonText={UIUXDesign.button[0]}
+                      ></GetStarted>
                     </Col>
                   </ul>
                 </div>
@@ -72,7 +68,7 @@ const CreativeDesignUIUX = () => {
           </Col>
         </Row>
       </Container>
-    </div>
+    </div >
   );
 };
 

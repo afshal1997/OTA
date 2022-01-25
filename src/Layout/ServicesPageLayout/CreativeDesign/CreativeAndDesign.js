@@ -41,9 +41,8 @@ const CreativeAndDesign = () => {
                   </Fade>
                 </h1>
                 <p>
-                    Represent Your Brand with State-of-the-Art Designs That
-                    Explains Your Story Even Better – It Eventually Becomes a
-                    Reality!
+                  Rouse your audience through innovative and top-notch <strong>graphics, logos, and illustrations</strong> from our creative and graphic design agency.
+
                 </p>
                 <Row>
                   <Col lg={4}>

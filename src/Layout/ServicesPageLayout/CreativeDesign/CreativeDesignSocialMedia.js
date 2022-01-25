@@ -6,6 +6,7 @@ import Bounce from "react-reveal/Bounce";
 import { SocialMediaDesign } from "../../../Constants/CreativeDesignWowCustomers";
 import { useDispatch } from "react-redux";
 import { CHANGE_MODAL } from "../../../Store/Action";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const CreativeDesignSocialMedia = () => {
   const dispatch = useDispatch();
@@ -33,7 +34,7 @@ const CreativeDesignSocialMedia = () => {
                     </Zoom>
                     <Fade>
                       <p>
-                        <b>{SocialMediaDesign.description}</b>
+                        Our designers have fostered an effective design strategy to help your brand image be impactful and remembered with clean, clear, and unique graphics that match your brand's visual identity. Grasping the power of social media that:
                       </p>
                       <Row>
                         {SocialMediaDesign.list.map((li, id) => {
@@ -57,13 +58,9 @@ const CreativeDesignSocialMedia = () => {
                       </Row>
                     </Fade>
                     <Col lg="3">
-                      <a
-                        href="#"
-                        onClick={() => dispatch(CHANGE_MODAL(true))}
-                        class={`${SocialMediaDesign.button[1]}`}
-                      >
-                        {SocialMediaDesign.button[0]}
-                      </a>
+                      <GetStarted buttonClass={SocialMediaDesign.button[1]} buttonText={SocialMediaDesign.button[0]}>
+
+                      </GetStarted>
                     </Col>
                   </ul>
                 </div>
