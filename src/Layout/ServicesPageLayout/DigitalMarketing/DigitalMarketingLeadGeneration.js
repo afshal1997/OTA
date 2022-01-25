@@ -33,8 +33,7 @@ const DigitalMarketingLeadGeneration = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        <b>{LeadGeneration.description}</b>
-                      </h6>
+                        We are <strong>experts in online lead generation</strong> be it Inbound advertising or account-based marketing. We create a lead executive process that is constantly evolving and self-sustaining.                      </h6>
                       <Row>
                         {LeadGeneration.list.map((li, id) => {
                           if (id < 4) {

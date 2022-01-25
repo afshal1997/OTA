@@ -41,9 +41,7 @@ const DigitalMarketingMainBanner = () => {
                   </Fade>
                 </h1>
                 <p>
-                    Outline your brand with exclusive digital marketing that
-                    interprets what it’s like to be extraordinary. We help
-                    brands that are as smart as they're efficient.
+                  <strong>Online marketing</strong> that highlights your brand in the digital world. Ever wondered what it feels like to be in the spotlight? This is your chance.
                 </p>
                 <Row>
                   <Col lg={4}>

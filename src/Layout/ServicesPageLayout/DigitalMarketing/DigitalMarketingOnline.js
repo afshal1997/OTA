@@ -20,21 +20,19 @@ const DigitalMarketingOnline = () => {
                                         </linearGradient>
                                     </defs>
                                     <g>
-                                        <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Online</text>
+                                        <text id="text" y="103" strokeWidth="1" stroke="url(#gradient)" fill="rgb(0, 0, 0,0.2)">Custom</text>
                                     </g>
                                 </svg>
-                                <h2>Digital Marketing</h2>
+                                <h2>Online Marketing</h2>
                             </div>
                         </Bounce>
                     </Col>
                     <Col lg={6} className="m-auto text-white">
                         <Bounce left cascade>
                             <div className="Business">
-                                <h5><i><b>OPPORTUNITY YOU NEVER WANT TO MISS</b></i></h5>
+                                <h5><i>Target clients at the ideal time on the ideal platform</i></h5>
                                 <h6>
-                                    <b>
-                                        We are trees that’s clearing the online marketing air for you. Our team of digital heroes design and enhance your online identity with a silver lining creating its spotlight which helps your products/services shine and stay out of the crowd. Our deliverables are focused around publishing your brand on digital profits and become the headlines through the gossip gals! Let's be more specific about our services;
-                                    </b>
+                                    At OTA we comprehend that every one of our customers is unique and requires diverse marketing plans. Hence, we give a wide scope of <strong>digital marketing services</strong> to meet your requirements. In light of your requirements, we will foster a custom internet marketing plan and execute it to assist with further development. We need to guarantee that your business is effective, thus, we put a huge amount of effort into crafting a unique marketing package.
                                 </h6>
                             </div>
                         </Bounce>

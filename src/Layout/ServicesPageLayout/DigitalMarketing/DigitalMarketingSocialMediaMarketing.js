@@ -24,7 +24,8 @@ const DigitalMarketingSocialMediaMarketing = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        <b>{SocialMediaMarketing.description}</b>
+                        Amplify your <strong>brand awareness</strong> with Outsource to Asia’s in-house SMM Experts who are highly qualified in managing campaigns for different Social Media Marketing channels like Facebook, Instagram, Pinterest, Twitter, Reddit, and LinkedIn.
+
                       </h6>
                       <Row>
                         {SocialMediaMarketing.list.map((li, id) => {

@@ -37,7 +37,7 @@ const DigitalMarketingSeo = () => {
           <Col lg={7} className="m-auto">
             <Bounce right>
               <h6>
-                <b>{TheExpertiseOf.description}</b>
+                In need of <strong>SEO services for your local business</strong> ? We gander at things with your perspective; with a fresh mind.  We pursue your progress so we can give you - an extravagance of commitment, deals leading stocks to run out, and perks tearing your pockets apart. We convey <strong>quality content writing service</strong> , not bogus guarantees, ensuring we boost your financial plan, so you get max returns on investment (ROI).
               </h6>
             </Bounce>
           </Col>
@@ -63,7 +63,8 @@ const DigitalMarketingSeo = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        <b>{SearchEngineOptimization.description}</b>
+                        Get top rankings for desired search terms and drive qualified leads with effective keyword research and competitors analysis. Let us your website to the highest point of the internet search results that are pivotal to building your business.  Contact us for <strong>SEO outsourcing</strong> and we’ll provide <strong>affordable SEO packages</strong>.
+
                       </h6>
                       <Row>
                         {SearchEngineOptimization.list.map((li, id) => {
