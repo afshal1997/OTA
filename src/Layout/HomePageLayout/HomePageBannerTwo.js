@@ -23,13 +23,8 @@ const HomePageBannerTwo = () => {
                     <Col className="col-11">
                       <h3>A Wide Array of Services Provided Under One Roof</h3>
                       <p>
-                        From the nascent stages of design &#38; development to
-                        advertising it on the internet, we offer a slew of
-                        services to help you establish your brand in the digital
-                        world. SEO, SEM, SMO, web development, CMS development,
-                        e-commerce development, and mobile app development are
-                        just a few of the services our full-service digital
-                        marketing agency delivers.
+                        From the nascent stages of design &#38; development to advertising it on the internet, we offer a slew of services to help you establish your brand in the digital world. Creative Web &#38; Logo Design, web and app development, custom CMS & e-commerce development, SEO, SEM, SMO, Video Animation, Content Writing, and Cyber Security are just a few of the services our <strong>full-service digital marketing agency</strong> delivers.
+
                       </p>
                     </Col>
                   </Row>
@@ -45,12 +40,7 @@ const HomePageBannerTwo = () => {
                         Support
                       </h3>
                       <p>
-                        The quality we provide is exceptional and our projects
-                        always meet deadlines. We have a strict quality control
-                        mechanism in place to ensure that everything we offer
-                        exceeds our clients' expectations. Our customer support
-                        team works around the clock for flawless communication
-                        with proposed and/or existing clients.
+                        Our projects are always accomplished within time, with no compromises on quality. We have a strong quality control procedure in place to guarantee that everything we supply meets and even exceeds the expectations of our clients. Our customer support team works around the clock for flawless communication with both prospects and existing clients.
                       </p>
                     </Col>
                   </Row>
@@ -67,17 +57,7 @@ const HomePageBannerTwo = () => {
                     <Col className="col-11">
                       <h3>An Awe-inspiring Digital Agency Experience</h3>
                       <p>
-                        We're a bunch of young, energetic, and innovative folks
-                        that are willing to go above and beyond for your
-                        company. We develop eye-catching websites, engaging
-                        content, strategize distinctive campaigns, and help
-                        companies expand by turning followers into customers.
-                        We've established a number of success stories by
-                        assisting brands in growing their businesses. Working
-                        with us means collaborating with a group of articulate
-                        writers, tech geeks, and visionary minds who will assist
-                        you in increasing lead generation, sales prospects, and
-                        revenue.
+                        We're a cluster of young, energetic, and innovative minds that go above and beyond to solve your problems. We develop eye-catching websites, engaging content, strategize distinctive campaigns, and help companies expand by turning followers into customers. We've established a plethora of success stories by assisting brands in <strong>growing their businesses online</strong>. Working with us means collaborating with a group of articulate writers, tech geeks, and visionary minds who will assist you in increasing lead generation, sales prospects, and revenue.
                       </p>
                       <Row>
                         <Col lg={4} className="m-auto">

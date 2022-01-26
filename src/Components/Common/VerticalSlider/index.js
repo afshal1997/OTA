@@ -74,7 +74,7 @@ const index = () => {
                                         <h2 className="mb-0">Looking for a</h2>
                                         <h2><strong>better solution</strong></h2>
                                         <p>
-                                            Stop staring at the problem, outsource it to us. Outsource to Asia™ is your ticket to survive in the ruthless digital world. We assist customers in the design and development of future-proof, substantial, and secure digital products that are based on the requirements of users and meet their business objectives.
+                                            Stop staring at the problem; outsource it to us. Outsource to Asia™ is your ticket to survive in the ruthless world of <strong>digital marketing</strong>. We assist customers in designing and developing future-proof, substantial, and secure digital products based on users' requirements and meet their business objectives.
                                         </p>
                                     </Bounce>
                                 </div>
@@ -105,7 +105,7 @@ const index = () => {
                                         <h2 className="mb-0">Save Time, Money,</h2>
                                         <h2><strong>And Resources</strong></h2>
                                         <p>
-                                            We are honest and forthright upfront, always offering a comprehensive breakdown of the time necessary to finish a project and how much it is going to cost when preparing a proposal for a potential customer. Letting us handle your digital needs relinquish your resources, so you can focus on more pressing matters.
+                                            We are honest and forthright upfront, always offering a comprehensive breakdown of the time necessary to finish a project and how much it will cost when preparing a proposal for a potential customer. Letting us handle your digital needs relinquish your resources so that you can focus on more pressing matters.
                                         </p>
                                     </Bounce>
                                 </div>
@@ -136,7 +136,7 @@ const index = () => {
                                         <h2 className="mb-0">Customer-Centric</h2>
                                         <h2><strong>Approach</strong></h2>
                                         <p>
-                                            Having helped brands generate better businesses, we have created several success stories. We will not sell you stuff you don’t require. In our endeavor of providing effective services and solutions, we have made great relations with our clients. Our professionals leave no stone unturned to ensure good returns from every penny invested in the project.
+                                            Having helped brands generate better businesses, we have created several success stories. We will not unnecessarily pitch you stuff you don’t require. We have made excellent relations with our clients through our endeavor of providing effective services and solutions. Our <strong>digital marketing services</strong> ensure that every cent spent is an investment for the future.
                                         </p>
                                     </Bounce>
                                 </div>
@@ -167,7 +167,7 @@ const index = () => {
                                         <h2 className="mb-0">Unmatched Customer</h2>
                                         <h2><strong>Retention Rate</strong></h2>
                                         <p>
-                                            From SEO &#38; PPC to Social Media marketing &#38; management, all of our consultants are experts in their professions. We are quite pleased with our great client retention rate, which is only possible because we consistently deliver positive outcomes! We are so confident in our abilities that we will never bind you to a long-term commitment.
+                                            Be it SEO &#38; PPC or Social Media marketing &#38; management, all our consultants boast proven expertise in their profession. We are rather pleased with our distinguished client retention rate, which is only possible because we consistently deliver positive outcomes! We employ a holistic understanding of requirements interpreted from not just the client but also through the competitive analysis of the market.
                                         </p>
                                     </Bounce>
                                 </div>

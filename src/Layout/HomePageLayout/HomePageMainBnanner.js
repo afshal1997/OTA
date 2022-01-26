@@ -61,7 +61,7 @@ function HomePageMainBnanner() {
                                         <h1>Offshore Partners For <Zoom right cascade><span>Digital Supremacy</span></Zoom></h1>
                                         <Bounce>
                                             <p>
-                                                Crafting ingenious digital experiences that power startups, scale-up corporations <br></br> and bring digital transformation to family businesses.
+                                                <strong>Full-service web development company</strong> Crafting ingenious digital experiences that power startups, scale-up corporations <br></br> and bring digital transformation to family businesses.
                                             </p>
                                         </Bounce>
                                     </div>
