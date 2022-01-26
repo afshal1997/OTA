@@ -6,6 +6,9 @@ import WatchVides from "../../Layout/BlogPageLayout/WatchVides";
 import { CHANGE_MODAL } from "../../Store/Action";
 import ClientSlider from "../Common/ClientSlider/ClientSlider";
 import SocialMediaContact from "../Common/SocialMediaContact";
+import '../../Layout/AboutUsPageLayout/AboutUsMediaQuery.css'
+import '../../Layout/AboutUsPageLayout/AboutPage.css'
+
 const PrivacyPolicy = () => {
   const dispatch = useDispatch();
   return (

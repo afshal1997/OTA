@@ -2,7 +2,8 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { useDispatch } from "react-redux";
 import { CHANGE_MODAL } from "../../Store/Action";
-
+import '../../Layout/AboutUsPageLayout/AboutUsMediaQuery.css'
+import '../../Layout/AboutUsPageLayout/AboutPage.css'
 const TermAndConditions = () => {
   const dispatch = useDispatch();
   return (

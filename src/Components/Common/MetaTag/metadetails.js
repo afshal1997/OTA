@@ -8,20 +8,20 @@ export const metaDetails = {
       description: 'Grow your business online by outsourcing Web Design And Development Services To A Well Renowned Digital Agency In the USA. Let’s Grow Together!'
    },
    'white-labelling': {
-      title: '',
-      description: ''
+      title: 'Leading White Labeling Services For Digital Agencies in USA. ',
+      description: 'Most Affordable and Reliable White Label Agency in the US for Top-Notch White Labeling Services. Be Our White Labeling Partner And Grow Together!'
    },
    'digital-startup': {
-      title: '',
-      description: ''
+      title: 'Affordable Lead Generation Services For US Digital Startups',
+      description: 'Get tips and resources for how to build a successful business online with our Affordable Lead Generation Services For Digital Startups in the US.'
    },
    'resource-outsourcing': {
-      title: '',
-      description: ''
+      title: 'Outsource Human Resources Services To Grow Your Business',
+      description: ' Grow your business with our Outsource Human Resource program, be it outsourcing designer and developers or sales representatives and project managers!'
    },
    'call-center': {
-      title: '',
-      description: ''
+      title: 'Contact Center Outsourcing For BPO & Inbound Call Center',
+      description: ' From Inbound and Outbound call center outsourcing to BPO and customer support, we resolve customer queries, pitch sales, and churn leads into revenue.'
    },
    'creative-design': {
       title: 'Creative Agency for Affordable Web & Logo Design Packages',
@@ -52,35 +52,35 @@ export const metaDetails = {
       description: 'Digital Security Specialists that strengthen your Internet Security with Cyber Security services such as Malware Analysis & Threat Management.'
    },
    'case-studies': {
-      title: '',
-      description: ''
+      title: 'Case Study: A chronology Of Some Our Most Brilliant Projects',
+      description: 'We’re sure, a case study of some of the most challenging and demanding tasks of our clients will vouch on our behalf. We Can Help You Too!'
    },
    'pricing': {
-      title: '',
-      description: ''
+      title: 'Pricing & Packages For Quality Services | Outsource To Asia',
+      description: 'Reasonable Prices / Unparalleled Services. Adding up all the features and services we provide, you get a bargain that none of our rivals can match!'
    },
    'portfolio': {
-      title: '',
-      description: ''
+      title: 'Portfolio - Fueling Enterprises through Breathtaking Projects',
+      description: 'Delivering over 270+ highly successful projects in such a short period with a pool of 48 craftsmen, feel free to admire our virtual portfolio.'
    },
    'blog': {
-      title: '',
-      description: ''
+      title: 'Blog - Stay Tuned With The Latest Tech News Around The World',
+      description: 'Covering Latest Trends and Tips regarding Creative Designing, Web & App Development, Digital Marketing, Content Writing, Cyber Security, and more.'
    },
    'contact-us': {
-      title: '',
-      description: ''
+      title: 'Contact - Need Help For Your Brand? Get In Touch With Us!',
+      description: 'From answering your queries and reservations to giving ideas to build a startup or scale-up business; we do it all. Hit us up for a free consultation!'
    },
    'terms-and-conditions': {
-      title: '',
-      description: ''
+      title: 'Terms & Conditions - Outsource To Asia LLC',
+      description: 'We recommend our visitors and customers thoroughly read our terms and condition of service before they enter the website or avail any of our services.'
    },
    'privacy-policy': {
-      title: '',
-      description: ''
+      title: 'User Privacy Policy - Outsource To Asia LLC',
+      description: 'Read our privacy policy for a clear-cut assessment of how we use personal data and other information provided to us either by you or by a third party.'
    },
    'refund-policy': {
-      title: '',
-      description: ''
+      title: 'Refund Policy: Outsource To Asia Product & Service',
+      description: 'You can claim a refund if Outsource To Asia’s service is not satisfactory. Read our Privacy Policy to find out when and how you can claim a refund.'
    }
 }

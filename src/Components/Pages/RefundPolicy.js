@@ -4,7 +4,8 @@ import WatchVides from "../../Layout/BlogPageLayout/WatchVides";
 import GetStarted from "../Common/Buttons/GetStarted";
 import ClientSlider from "../Common/ClientSlider/ClientSlider";
 import SocialMediaContact from "../Common/SocialMediaContact";
-
+import '../../Layout/AboutUsPageLayout/AboutUsMediaQuery.css'
+import '../../Layout/AboutUsPageLayout/AboutPage.css'
 const RefundPolicy = () => {
   return (
     <div>
