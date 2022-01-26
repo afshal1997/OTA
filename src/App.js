@@ -11,6 +11,7 @@ import ApplyNowModal from "./Components/Common/Modal/ApplyNowModal";
 import { addAltAttribute } from "./Constants/functions";
 import WebSchema from "./Components/Common/Schema/Schema";
 import { CHANGE_MODAL } from "./Store/Action";
+import OTAMeTagsAndDescriptions from "./Components/Common/MetaTag/MetaTag";
 const App = () => {
   const { modalReducer } = useSelector((state) => state);
   const dispatch = useDispatch()
@@ -34,6 +35,7 @@ const App = () => {
 
       <Router>
         <Layout>
+          <OTAMeTagsAndDescriptions />
           <WebSchema />
           <ScrollToTop />
           <ApplyNowModal show={modalReducer.isModalOpen} />

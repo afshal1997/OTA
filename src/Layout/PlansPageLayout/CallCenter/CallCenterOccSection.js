@@ -26,33 +26,17 @@ const CallCenterOccSection = () => {
                       stroke="url(#gradient)"
                       fill="rgb(0, 0, 0,0.2)"
                     >
-                      OCC
+                      CCO
                     </text>
                   </g>
                 </svg>
                 <h1>
-                  Why OCC <br></br> is Necessary?
+                  Why is Call Center Outsourcing necessary?
                 </h1>
                 <p>
-                  It provides an edge to the operating costs comes from good
-                  infrastructure, a long recruitment process and 24/7 operating
-                  cost of the department.
-                </p>
-                <h5>
-                  <i>
-                    <b>According to Statista</b>
-                  </i>
-                </h5>
-                <p>
-                  “Businesses enjoy a 59% cut cost by hiring a customer service
-                  team”.
-                </p>
-                <p>
-                  In the age of the internet where bad rumors and negative
-                  reviews can ruin a business but outsourcing a Call Centre
-                  takes charge of keeping customers happy and makes their
-                  shopping experience with your brand delightful to keep you
-                  away from the worries of bad publicity.
+                  In the age of digitalization, bad rumors and negative reviews can destroy a business. This is why great customer service is paramount to your brand’s success. Outsource to Asia supports your business by giving you an edge over your competition by cutting down costs and reshaping your customer support process and infrastructure.
+                  Without a good customer experience, most clients won’t return even after receiving a satisfactory product or service. Our comprehensive, adaptable, and cost-effective <strong>BPO outsourcing</strong> solutions will assist you in running your business smoothly and efficiently. We will handle a wide range of client requests and guarantee that all questions and issues are resolved on time.
+
                 </p>
                 <Row>
 

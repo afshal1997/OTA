@@ -32,18 +32,16 @@ const CallCentreOutsourcingSection = () => {
                       stroke="url(#gradient)"
                       fill="rgb(0, 0, 0,0.2)"
                     >
-                      Operating
+                      Outsourcing
                     </text>
                   </g>
                 </svg>
-                <h1>Call Centre Outsourcing</h1>
+                <h1>Call Center</h1>
                 <p>
-                  <b>According to Google</b>
+                  <b>We call them, You choose them</b>
                 </p>
                 <h5>
-                  “A complete outsource of the Call Centre is likely to yield
-                  between a <b>20-30%</b> cost saving on operating costs to the
-                  company”.
+                  <em>“From <strong>Inbound and Outbound call center outsourcing</strong> to telemarketing and tech support, we handle and resolve customer queries, pitch sales to desired demographic, and churn leads into revenue.”</em>
                 </h5>
                 <Row>
                   <Col lg={4}>

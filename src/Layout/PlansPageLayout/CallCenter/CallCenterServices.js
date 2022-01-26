@@ -37,17 +37,10 @@ const CallCenterServices = () => {
                   </g>
                 </svg>
                 <h1>
-                  Better <br></br> Services
+                  Making Clients Happy
                 </h1>
                 <p>
-                  If you are in the service industry, you would know it is
-                  difficult to keep customers happy and make them feel like
-                  family. With the world growing at a faster pace and thousands
-                  of alternatives available in the market. It has become more
-                  and more difficult for companies to maintain their brand image
-                  or even keep themselves successful in the business. With great
-                  responsibility like customer handling, it requires a lot of
-                  investment, money, time, calm staff and a good infrastructure.
+                  If you are in the service industry, you would realize how hard it is to please clients Our objective at Outsource to Asia is to give our clients the best staff available. We will ensure that your customers' demands are met with our <strong>call centre outsourcing services</strong>. We understand that many of our clients have concerns regarding <strong>contact centre outsourcing</strong>, which is why we are here to assist. We are one of the finest <strong>inbound call center outsourcing</strong> out there and can handle all communication channels, including phone, chat, text, and email.
                 </p>
                 <Row>
                   <Col lg={4}>
