@@ -8,7 +8,7 @@ import CallCenterIcon04 from '../../../Assets/Services/Icons/Icon04.png'
 import CallCenterIcon09 from '../../../Assets/Services/Icons/Icon09.png'
 import CallCenterIcon10 from '../../../Assets/Services/Icons/Icon10.png'
 import Zoom from 'react-reveal/Zoom';
-
+import { Link } from 'react-router-dom'
 const WebDevelopmentProcess = () => {
     return (
         <div>
@@ -21,7 +21,7 @@ const WebDevelopmentProcess = () => {
                                 <h1>Web Development</h1>
                             </Zoom>
                             <p>
-                                For perfect execution of <strong>custom web application development</strong>, we develop and undergo a concrete plan and strategy based exclusively on your needs and requirements.
+                                For perfect execution of <strong>custom web <Link to='/ios-android-app-development' className='text-decoration-none'>application development</Link></strong>, we develop and undergo a concrete plan and strategy based exclusively on your needs and requirements.
                             </p>
                         </div>
                     </div>

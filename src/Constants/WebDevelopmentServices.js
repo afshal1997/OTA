@@ -2,13 +2,13 @@
 import WebDevelopmentImage03 from '../Assets/Services/WebDevelopment/WebDevelopmentImage03.png'
 import WebDevelopmentImage04 from '../Assets/Services/WebDevelopment/WebDevelopmentImage04.png'
 import WebDevelopmentImage05 from '../Assets/Services/WebDevelopment/WebDevelopmentImage05.png'
-
+import RenownedOutsourceWebDescription from '../Components/Common/ServiceTest/RenownedOutsourceWebDescription'
 
 export const RenownedOutsourceWeb = {
     heading: 'Web',
     title: 'Development',
     title2: 'Renowned Outsource Web',
-    description: "You want to roll in greater numbers when it comes to generating ROI. We save you from the hustle of hiring people, training them, and then expect something in return. Whereas, we already have a team of highly-qualified and industrial-experienced mighty developers uplifting the web development."
+    description: <RenownedOutsourceWebDescription />
 }
 
 export const BasicWebsite = {

@@ -5,6 +5,7 @@ import Bounce from "react-reveal/Bounce";
 import Zoom from "react-reveal/Zoom";
 import { DesignCustomWebsite } from "../../../Constants/WebDevelopmentServices";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
+import { Link } from "react-router-dom";
 
 const WebDevelopmentDesignCustomWebsite = () => {
   return (
@@ -22,7 +23,7 @@ const WebDevelopmentDesignCustomWebsite = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        Take control of your website through custom design and code. Our <strong>custom web design</strong> allows flexibility with the ever-evolving businesses spectrum, and is:
+                        Take control of your website through <strong><Link to='/creative-design-packages' className='text-decoration-none'>custom design</Link> </strong> and code. Our <strong>custom web design</strong> allows flexibility with the ever-evolving businesses spectrum, and is:
 
                       </h6>
                       <Row>
