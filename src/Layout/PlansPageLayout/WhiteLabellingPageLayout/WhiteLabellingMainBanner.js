@@ -5,6 +5,7 @@ import SocialMediaContact from "../../../Components/Common/SocialMediaContact";
 import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
+import { Link } from "react-router-dom";
 const WhiteLabellingMainBanner = () => {
   return (
     <div className="WhiteLabellingMainBanner">
@@ -43,7 +44,7 @@ const WhiteLabellingMainBanner = () => {
                   </Bounce>
                 </h3>
                 <p>
-                Get the edge that will set you apart from your competitors. Our <strong>White Labeling Marketing Agency</strong> is the impetus your digital agency needs for unprecedented growth.
+                  Get the edge that will set you apart from your competitors. Our <strong>White Labeling Marketing Agency</strong> is the impetus your <strong><Link to='/seo-digital-marketing' className='text-decoration-none'>digital agency</Link></strong> needs for unprecedented growth.
                 </p>
                 <Row>
                   <Col lg={4}>

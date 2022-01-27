@@ -8,7 +8,7 @@ import {
   WhiteLabellingWeDo,
 } from "../../../Constants/WhiteLabellingServices";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
-
+import { Link } from 'react-router-dom'
 const WeDo = () => {
   return (
     <div>
@@ -62,7 +62,10 @@ const WeDo = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        Our design and development process is carried out with keen attention to detail to enhance our <strong>white labeling services</strong> experience. The process kick starts after a deep insight into the current trends and your requirements to get quality results. Your business philosophy and idea are analyzed to come up with an appropriate strategy. Our job is done only when every step is well-aligned with what your business needs. Outsource to Asia’s <strong>creative designing</strong> team are experts in delivering the following services with full commitment:
+                        <strong><Link to='/web-development-services' className='text-decoration-none'>Our design and development process </Link></strong>
+                        is carried out with keen attention to detail to enhance our <strong>white labeling services</strong> experience. The process kick starts after a deep insight into the current trends and your requirements to get quality results. Your business philosophy and idea are analyzed to come up with an appropriate strategy. Our job is done only when every step is well-aligned with what your business needs. Outsource to Asia’s
+                        <strong><Link to='/creative-design-packages' className='text-decoration-none'> creative designing </Link></strong>
+                        team are experts in delivering the following services with full commitment:
                       </h6>
                       <Row>
                         {WhiteLabellingDesignDevelopment.list.map((li, id) => {
