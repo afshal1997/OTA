@@ -3,7 +3,7 @@ import Bounce from 'react-reveal/Bounce';
 import Fade from 'react-reveal/Fade';
 import { Col, Container, Row } from 'react-bootstrap';
 import Rocket from '../../../Assets/PlansAssets/DigitalStartup/DigitalStartupImg01.png'
-
+import { Link } from 'react-router-dom'
 const ServicesProvidingBanner = () => {
     return (
         <div className="OutsourcingBusiness">
@@ -32,7 +32,7 @@ const ServicesProvidingBanner = () => {
                             <div className="Business">
                                 <h5><i><b>For Digital Startups</b></i></h5>
                                 <h6>
-                                    The digital industry is rife with competition and can be quite brutal for newcomers. As a bootstrapped firm ourselves, we admire startups for their enthusiasm and drive to create unique solutions that tackle real-world issues. Leverage our expertise and discover <strong>how to build a successful business</strong> by utilizing various <strong>digital marketing services</strong> to help <strong>digital startups</strong> of all sizes and markets.
+                                    The digital industry is rife with competition and can be quite brutal for newcomers. As a bootstrapped firm ourselves, we admire startups for their enthusiasm and drive to create unique solutions that tackle real-world issues. Leverage our expertise and discover <strong>how to build a successful business</strong> by utilizing various <strong><Link to='/seo-digital-marketing' className='text-decoration-none'> digital marketing services</Link></strong> to help <strong>digital startups</strong> of all sizes and markets.
                                 </h6>
                             </div>
                         </Bounce>

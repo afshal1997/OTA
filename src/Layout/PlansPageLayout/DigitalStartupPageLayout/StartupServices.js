@@ -9,7 +9,7 @@ import {
 } from "../../../Constants/DigitalStartupServicesDiscription";
 import { CHANGE_MODAL } from "../../../Store/Action";
 import { useDispatch } from "react-redux";
-
+import { Link } from 'react-router-dom'
 const StartupServices = () => {
   const dispatch = useDispatch();
   return (
@@ -63,7 +63,7 @@ const StartupServices = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        We acutely focus on analyzing your brand inclinations to concoct the right techniques for <strong>creating an uplifting brand identity</strong>. Highlights of a brand persona built at OTA are
+                        We acutely focus on analyzing your brand inclinations to concoct the right techniques for <strong>creating an uplifting <Link to='/creative-design-packages' className='text-decoration-none'>brand identity</Link> </strong>. Highlights of a brand persona built at OTA are
                       </h6>
                       {DevelopBrandPersonal.list.map((li) => {
                         return (
