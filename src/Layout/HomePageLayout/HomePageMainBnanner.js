@@ -4,7 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import Zoom from 'react-reveal/Zoom';
 import Bounce from 'react-reveal/Bounce';
 import SocialMediaContact from '../../Components/Common/SocialMediaContact'
-
+import { Link } from 'react-router-dom'
 function HomePageMainBnanner() {
     return (
         <div>
@@ -61,7 +61,7 @@ function HomePageMainBnanner() {
                                         <h1>Offshore Partners For <Zoom right cascade><span>Digital Supremacy</span></Zoom></h1>
                                         <Bounce>
                                             <p>
-                                                <strong>Full-service web development company</strong> Crafting ingenious digital experiences that power startups, scale-up corporations <br></br> and bring digital transformation to family businesses.
+                                                Full-service <strong><Link to='/web-development-services' className='text-decoration-none'>web development company</Link> </strong> Crafting ingenious digital experiences that power startups, scale-up corporations <br></br> and bring digital transformation to family businesses.
                                             </p>
                                         </Bounce>
                                     </div>
