@@ -6,7 +6,7 @@ import Bounce from "react-reveal/Bounce";
 import { PenetrationTestingService } from "../../../Constants/CyberSecurityServicesDiscription";
 import { CHANGE_MODAL } from "../../../Store/Action";
 import { useDispatch } from "react-redux";
-
+import { Link } from 'react-router-dom'
 const CyberSecurityPenetrationTesting = () => {
   const dispatch = useDispatch();
   return (
@@ -33,7 +33,7 @@ const CyberSecurityPenetrationTesting = () => {
                     </Zoom>
                     <Fade>
                       <p>
-                        Exploiting weaknesses and vulnerabilities in networks, web applications, or an enterprise's entire IT infrastructure by taking the perspective of an outside intruder or an internal individual with malicious intent.
+                        Exploiting weaknesses and vulnerabilities in networks, <strong><Link to='/web-development-services' className='text-decoration-none'>web applications</Link></strong>, or an enterprise's entire IT infrastructure by taking the perspective of an outside intruder or an internal individual with malicious intent.
                       </p>
                       <Row>
                         {PenetrationTestingService.list.map((li, id) => {

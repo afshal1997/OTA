@@ -4,12 +4,9 @@ import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import { StrategyAndRiskManagement } from "../../../Constants/CyberSecurityServicesDiscription";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
-
+import { Link } from "react-router-dom";
 const CyberSecurityStrategyAndRiskManagement = () => {
-  const dispatch = useDispatch();
   return (
     <div className="mt-5 pt-5">
       <Container>
@@ -25,7 +22,7 @@ const CyberSecurityStrategyAndRiskManagement = () => {
                     </Zoom>
                     <Fade>
                       <p>
-                        Assess your existing levels of security maturity and compliance status by identifying possible threats and developing a customized roadmap to troubleshoot those risks.
+                        Assess your existing levels of security maturity and compliance status by identifying possible threats and <strong><Link to='/ios-android-app-development' className='text-decoration-none'>developing a customized</Link></strong> roadmap to troubleshoot those risks.
 
                       </p>
                       <Row>
