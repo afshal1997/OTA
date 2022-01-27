@@ -5,6 +5,7 @@ import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import { BusinessAndSolutionsContent } from "../../../Constants/ContentWrittingServices";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
+import { Link } from "react-router-dom";
 const ContentWrittingWebPageCopy = () => {
   return (
     <div className="mt-5 pt-5 mb-5">
@@ -34,7 +35,9 @@ const ContentWrittingWebPageCopy = () => {
                     </Zoom>
                     <Fade>
                       <p>
-                        Without good content, even an impeccably designed website will struggle to engage visitors, let alone generate leads. Our expert <strong>copywriters</strong> churn out high-quality web copies that are compelling, gripping, and relevant.
+                        Without good content, even an impeccably designed website will struggle to engage visitors, let alone <strong><Link to='/digital-startup' className='text-decoration-none'>generate leads</Link></strong>. Our expert <strong>copywriters</strong> churn out
+                        <strong> <Link to='/web-development-services' className='text-decoration-none'>high-quality web </Link></strong>
+                        copies that are compelling, gripping, and relevant.
                       </p>
                       <Row>
                         {BusinessAndSolutionsContent.list.map((li, id) => {

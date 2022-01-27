@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';
 import ContentWrittingImg01 from '../../../Assets/Services/ContentWritting/ContentWrittingImg01.png'
-
+import { Link } from 'react-router-dom'
 const ContentWrittingBetterBusiness = () => {
     return (
         <div className="OutsourcingBusiness">
@@ -33,7 +33,7 @@ const ContentWrittingBetterBusiness = () => {
                                 <h5><i>
                                     Words that leave a mark on one’s soul</i></h5>
                                 <h6>
-                                    Words are the instrumental mechanisms of human expression and the primal conveyors of substance for search engines. <strong>We're a digital marketing agency</strong> that knows the significance of great quality content all through your marketing strategy. Our team of <strong>professional content writers</strong> guarantees each piece of content that we dispatch is of outstanding quality and gives the outcomes you desire.
+                                    Words are the instrumental mechanisms of human expression and the primal conveyors of substance for search engines. <strong>We're a <Link to='/seo-digital-marketing' className='text-decoration-none'>digital marketing agency</Link></strong> that knows the significance of great quality content all through your marketing strategy. Our team of <strong>professional content writers</strong> guarantees each piece of content that we dispatch is of outstanding quality and gives the outcomes you desire.
                                 </h6>
                             </div>
                         </Bounce>

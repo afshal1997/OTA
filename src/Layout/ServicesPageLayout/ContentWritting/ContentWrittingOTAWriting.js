@@ -8,6 +8,7 @@ import {
   OTAWrittingService,
 } from "../../../Constants/ContentWrittingServices";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
+import { Link } from "react-router-dom";
 
 const ContentWrittingOTAWriting = () => {
   return (
@@ -35,7 +36,7 @@ const ContentWrittingOTAWriting = () => {
           <Col lg={7} className="m-auto">
             <Bounce right>
               <h6>
-                When you work with OTA, we align our <strong>content writing services</strong> with your brand’s business and marketing objectives, feeding your marketing machine the content it needs to create genuine outcomes for your company. Given our team's adaptation of the most recent news, trends, and insights, we dig deep into driving consumer attention to indelible memory through effective <strong>content writing</strong> tricks!
+                When you work with <strong><Link to='/' className='text-decoration-none'>OTA</Link></strong>, we align our <strong>content writing services</strong> with your brand’s business and marketing objectives, feeding your marketing machine the content it needs to create genuine outcomes for your company. Given our team's adaptation of the most recent news, trends, and insights, we dig deep into driving consumer attention to indelible memory through effective <strong>content writing</strong> tricks!
               </h6>
             </Bounce>
           </Col>
