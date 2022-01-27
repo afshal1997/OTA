@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
 import AboutUsForm from "../../Components/Common/AboutUsForm/AboutUsFrom";
 import SocialMediaContact from "../../Components/Common/SocialMediaContact";
 import { CHANGE_MODAL } from "../../Store/Action";
@@ -36,7 +37,7 @@ const ContactUsMainBanner = () => {
                   <h1 className="mt-0">Contact Us</h1>
                   <h3>Need A Hand? We Would Love To Hold You</h3>
                   <p>
-                    From answering entrepreneur’s queries or giving ideas to a
+                    From <strong><Link to='/call-center-outsourcing' className='text-decoration-none'>answering entrepreneur’s queries</Link></strong> or giving ideas to a
                     veteran brand; we do it all. Hit us up for a free
                     consultation! With our vast portfolio of high end clients,
                     we ensure that our resources fit your guidelines either
