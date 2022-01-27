@@ -3,8 +3,8 @@ import { Col, Container, Row } from "react-bootstrap";
 import AboutUsFrom from "../../../Components/Common/AboutUsForm/AboutUsFrom";
 import SocialMediaContact from "../../../Components/Common/SocialMediaContact";
 import Fade from "react-reveal/Fade";
-import Bounce from "react-reveal/Bounce";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
+import { Link } from "react-router-dom";
 
 const MainBannerResourcesOutsourcing = () => {
   return (
@@ -43,7 +43,7 @@ const MainBannerResourcesOutsourcing = () => {
                     Lifting the burden off your shoulders!
                   </h3>
                   <p>
-                    From <strong>outsourcing designers and developers to sales representatives and project managers</strong>, we help your organization achieve goals in minimum capacity - in both time, complexity, and infrastructure cost.
+                    From <strong><Link to='/web-development-services' className='text-decoration-none'>outsourcing designers and developers</Link> to sales representatives and project managers</strong>, we help your organization achieve goals in minimum capacity - in both time, complexity, and infrastructure cost.
                   </p>
                   <Row>
                     <Col lg={4}>

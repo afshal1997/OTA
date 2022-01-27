@@ -4,6 +4,7 @@ import Bounce from 'react-reveal/Bounce';
 import ResourcesOutsourcingBusinessImg01 from '../../../Assets/PlansAssets/ResourcesOutsourcing/ResourcesOutsourcingBusinessImg01.png'
 import ResourcesOutsourcingBusinessIcon01 from '../../../Assets/PlansAssets/ResourcesOutsourcing/ResourcesOutsourcingBusinessIcon01.png'
 import ResourcesOutsourcingBusinessIcon02 from '../../../Assets/PlansAssets/ResourcesOutsourcing/ResourcesOutsourcingBusinessIcon02.png'
+import { Link } from 'react-router-dom';
 
 
 const ResourcesOutsourcingBusiness = () => {
@@ -32,7 +33,7 @@ const ResourcesOutsourcingBusiness = () => {
                                 </svg>
                                 <h2>Resource Outsourcing</h2>
                                 <p>
-                                    Every organization, whether small or large, strives to get the most out of the least amount of resources, which includes cost-cutting, strong infrastructure, and a regulated environment. We understand how difficult it is to manage the infrastructure while keeping departments in check. So we provide companies with an incredible opportunity to <strong>outsource human resources</strong>, by choosing the resources you want us to provide and manage. <strong>Grow your business</strong> effortlessly by availing our <strong>Resource Outsourcing services</strong>.
+                                    Every organization, whether small or large, strives to get the most out of the least amount of resources, which includes cost-cutting, strong infrastructure, and a regulated environment. We understand how difficult it is to manage the infrastructure while keeping departments in check. So we provide companies with an incredible opportunity to <strong>outsource human resources</strong>, by choosing the resources you want us to provide and manage. <strong><Link to='/digital-startup' className='text-decoration-none'>Grow your business</Link></strong> effortlessly by availing our <strong>Resource Outsourcing services</strong>.
                                 </p>
                                 <p>
                                     <b><i>
