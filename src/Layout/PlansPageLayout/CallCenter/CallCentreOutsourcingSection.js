@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import CallCenterImg01 from "../../../Assets/PlansAssets/CallCenter/CallCenterImg01.png";
 import Bounce from "react-reveal/Bounce";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
-
+import { Link } from 'react-router-dom'
 const CallCentreOutsourcingSection = () => {
   return (
     <div className="CallCentreOutsourcingbg pt-5 pb-5">
@@ -41,7 +41,7 @@ const CallCentreOutsourcingSection = () => {
                   <b>We call them, You choose them</b>
                 </p>
                 <h5>
-                  <em>“From <strong>Inbound and Outbound call center outsourcing</strong> to telemarketing and tech support, we handle and resolve customer queries, pitch sales to desired demographic, and churn leads into revenue.”</em>
+                  <em>From <strong>Inbound and Outbound call center outsourcing</strong> to telemarketing and tech support, we handle and resolve customer queries, pitch sales to desired demographic, and churn <strong><Link to='/digital-startup' className='text-decoration-none'> leads into revenue </Link></strong>.</em>
                 </h5>
                 <Row>
                   <Col lg={4}>

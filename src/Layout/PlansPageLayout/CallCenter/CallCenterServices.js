@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import CallCenterImg02 from "../../../Assets/PlansAssets/CallCenter/CallCenterImg02.png";
 import Bounce from "react-reveal/Bounce";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
+import { Link } from "react-router-dom";
 
 const CallCenterServices = () => {
   return (
@@ -40,7 +41,7 @@ const CallCenterServices = () => {
                   Making Clients Happy
                 </h1>
                 <p>
-                  If you are in the service industry, you would realize how hard it is to please clients Our objective at Outsource to Asia is to give our clients the best staff available. We will ensure that your customers' demands are met with our <strong>call centre outsourcing services</strong>. We understand that many of our clients have concerns regarding <strong>contact centre outsourcing</strong>, which is why we are here to assist. We are one of the finest <strong>inbound call center outsourcing</strong> out there and can handle all communication channels, including phone, chat, text, and email.
+                  If you are in the service industry, you would realize how hard it is to please clients Our objective at <strong><Link to='/' className='text-decoration-none'>Outsource to Asia</Link></strong> is to give our clients the best staff available. We will ensure that your customers' demands are met with our <strong>call centre outsourcing services</strong>. We understand that many of our clients have concerns regarding <strong>contact centre outsourcing</strong>, which is why we are here to assist. We are one of the finest <strong>inbound call center outsourcing</strong> out there and can handle all communication channels, including phone, chat, text, and email.
                 </p>
                 <Row>
                   <Col lg={4}>
