@@ -7,6 +7,7 @@ import { SocialMediaDesign } from "../../../Constants/CreativeDesignWowCustomers
 import { useDispatch } from "react-redux";
 import { CHANGE_MODAL } from "../../../Store/Action";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
+import { Link } from "react-router-dom";
 
 const CreativeDesignSocialMedia = () => {
   const dispatch = useDispatch();
@@ -34,7 +35,7 @@ const CreativeDesignSocialMedia = () => {
                     </Zoom>
                     <Fade>
                       <p>
-                        Our designers have fostered an effective design strategy to help your brand image be impactful and remembered with clean, clear, and unique graphics that match your brand's visual identity. Grasping the power of social media that:
+                        Our designers have fostered an effective design strategy to help your brand image be impactful and remembered with clean, clear, and unique graphics that match your brand's visual identity. Grasping the <strong><Link to='/seo-digital-marketing' className='text-decoration-none'> power of social media </Link></strong> that:
                       </p>
                       <Row>
                         {SocialMediaDesign.list.map((li, id) => {

@@ -5,6 +5,7 @@ import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import { UIUXDesign } from "../../../Constants/CreativeDesignWowCustomers";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
+import { Link } from "react-router-dom";
 
 const CreativeDesignUIUX = () => {
   return (
@@ -22,7 +23,9 @@ const CreativeDesignUIUX = () => {
                     </Zoom>
                     <Fade>
                       <p>
-                        Employ the best <strong>UI/UX designers</strong> that concoct distinctive visuals and harmonize graphic identity with your brand in mind. We deliver <strong>custom web and app designs</strong> that are:
+                        Employ the best <strong>UI/UX designers</strong> that concoct distinctive visuals and harmonize graphic identity with your brand in mind. We deliver <strong>
+                          <Link  to='/web-development-services' className='text-decoration-none'>custom web</Link> and <Link to='/ios-android-app-development' className='text-decoration-none'> app designs</Link>
+                        </strong> that are:
                       </p>
                       <Row>
                         {UIUXDesign.list.map((li, id) => {

@@ -10,6 +10,7 @@ import {
 import { CHANGE_MODAL } from "../../../Store/Action";
 import { useDispatch } from "react-redux";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
+import { Link } from "react-router-dom";
 
 const WowCustomers = () => {
   const dispatch = useDispatch();
@@ -39,7 +40,7 @@ const WowCustomers = () => {
             <Bounce right>
               <h6>
                 <p>
-                  In need of a <strong>stellar logo and website design package</strong> ? Let Outsource to Asia handle graphic designing for your brand through compelling, dazzling, and ornate graphics. Be it a logo or web design, print or digital media, our team creates vivid designs across platforms and mediums. We create professional, aesthetically pleasing,<strong> high-quality graphics for small to medium-sized businesses</strong> , with cost & time-saving solutions, plus a highly personalized experience for our clients.
+                  In need of a <strong>stellar logo and <Link to='/web-development-services' className='text-decoration-none'>website design package </Link></strong> ? Let Outsource to Asia handle graphic designing for your brand through compelling, dazzling, and ornate graphics. Be it a logo or web design, print or digital media, our team creates vivid designs across platforms and mediums. We create professional, aesthetically pleasing,<strong> high-quality graphics for small to medium-sized businesses</strong> , with cost & time-saving solutions, plus a highly personalized experience for our clients.
                 </p>
               </h6>
             </Bounce>
