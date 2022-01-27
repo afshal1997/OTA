@@ -30,10 +30,14 @@ const PricingPlansTabs = () => {
                     <Col lg={6} className="m-auto text-white">
                         <Bounce left cascade>
                             <div className="Business">
-                                <h5><i><b>Introducing Outsource to asia new pricing packages.</b></i></h5>
+                                <h5>
+                                    <strong>
+                                        Affordable Outsourcing Packages To Get You Started
+                                    </strong>
+                                </h5>
                                 <h6>
                                     <b>
-                                        We are driven by our passion for our work and by our inquisitiveness to explore the use of tools and techniques that work best in the digital world. Many companies may be initially inexpensive, but they are not affordable throughout the course of your project! When you add up all of the features and services we provide, you get a bargain that none of our rivals can match.
+                                        Driven by our enthusiasm for our work and our inquisitiveness to explore the use of tools and techniques that work best in the digital world, we shape ideas into results. Many companies may be initially inexpensive, but unlike us, they are not affordable throughout the course of your project! When you add up all of the features and services we provide, you get a bargain that none of our rivals can match.
                                     </b>
                                 </h6>
                             </div>

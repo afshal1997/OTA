@@ -6,6 +6,7 @@ import SocialMediaContact from "../../Components/Common/SocialMediaContact";
 import AboutUsFrom from "../../Components/Common/AboutUsForm/AboutUsFrom";
 import { CHANGE_MODAL } from "../../Store/Action";
 import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
 
 const PricingMainBanner = () => {
   const dispatch = useDispatch();
@@ -41,7 +42,7 @@ const PricingMainBanner = () => {
                   </Fade>
                 </h1>
                 <p>
-                  From envisioning your web identity to advertising it on the internet, we fulfill all your digital needs for your brand to go big! Choose a package that is right for your business.
+                  From envisioning your web identity to advertising it on the internet, we demystify and fulfill all your digital needs for your brand to go big! Pick a <strong><Link to='creative-design-packages' className='text-decoration-none'>full branding package</Link></strong> that is ideal for your brand.
                 </p>
                 <Row>
                   <Col lg={4}>
