@@ -68,16 +68,16 @@ function Header() {
                 </Dropdown.Toggle>
                 <Dropdown.Menu className="shadow-lg">
                   <Dropdown.Item>
-                    <Link to="/white-labelling">White Labelling</Link>
+                    <Link to="/white-label-agency">White Labelling</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
                     <Link to="/digital-startup">Digital Startup</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
-                    <Link to="/resource-outsourcing">Resource Outsourcing</Link>
+                    <Link to="/outsource-human-resources">Resource Outsourcing</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
-                    <Link to="/call-center">Call Center</Link>
+                    <Link to="/call-center-outsourcing">Call Center</Link>
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
@@ -87,25 +87,25 @@ function Header() {
                 </Dropdown.Toggle>
                 <Dropdown.Menu className="shadow-lg">
                   <Dropdown.Item>
-                    <Link to="/creative-design">Creative & Design</Link>
+                    <Link to="/creative-design-packages">Creative & Design</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
-                    <Link to="/web-development">Web Development</Link>
+                    <Link to="/web-development-services">Web Development</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
-                    <Link to="/digital-marketing">Digital Marketing</Link>
+                    <Link to="/seo-digital-marketing">Digital Marketing</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
-                    <Link to="/app-development">App Development</Link>
+                    <Link to="/ios-android-app-development">App Development</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
-                    <Link to="/video-development">Video Animation</Link>
+                    <Link to="/corporate-video-production">Video Animation</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
-                    <Link to="/content-writing">Content Writing</Link>
+                    <Link to="/content-writing-services">Content Writing</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
-                    <Link to="/cyber-security">Cyber Security</Link>
+                    <Link to="/cyber-security-services">Cyber Security</Link>
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>

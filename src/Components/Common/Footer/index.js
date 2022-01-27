@@ -47,7 +47,7 @@ function Footer() {
               <div className="footerUl">
                 <ul>
                   <li>
-                    <Link to="/white-labelling">White Labelling</Link>
+                    <Link to="/white-label-agency">White Labelling</Link>
                   </li>
                   <li>
                     <Link to="/digital-startup">Digital Startup</Link>
@@ -69,25 +69,25 @@ function Footer() {
               <div className="footerUl">
                 <ul>
                   <li>
-                    <Link to="/creative-design">Creative & Design</Link>
+                    <Link to="/creative-design-packages">Creative & Design</Link>
                   </li>
                   <li>
-                    <Link to="/web-development">Web Development</Link>
+                    <Link to="/web-development-services">Web Development</Link>
                   </li>
                   <li>
-                    <Link to="/digital-marketing">Digital Marketing</Link>
+                    <Link to="/seo-digital-marketing">Digital Marketing</Link>
                   </li>
                   <li>
-                    <Link to="/app-development">App Development</Link>
+                    <Link to="/ios-android-app-development">App Development</Link>
                   </li>
                   <li>
-                    <Link to="/video-development">Video Animation</Link>
+                    <Link to="/corporate-video-production">Video Animation</Link>
                   </li>
                   <li>
-                    <Link to="/content-writing">Content Writing</Link>
+                    <Link to="/content-writing-services">Content Writing</Link>
                   </li>
                   <li>
-                    <Link to="/cyber-security">Cyber Security</Link>
+                    <Link to="/cyber-security-services">Cyber Security</Link>
                   </li>
                 </ul>
               </div>

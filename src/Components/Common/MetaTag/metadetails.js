@@ -7,7 +7,7 @@ export const metaDetails = {
       title: 'Leading Outsource Web Design And Development Agency In USA',
       description: 'Grow your business online by outsourcing Web Design And Development Services To A Well Renowned Digital Agency In the USA. Let’s Grow Together!'
    },
-   'white-labelling': {
+   'white-label-agency': {
       title: 'Leading White Labeling Services For Digital Agencies in USA. ',
       description: 'Most Affordable and Reliable White Label Agency in the US for Top-Notch White Labeling Services. Be Our White Labeling Partner And Grow Together!'
    },
@@ -15,39 +15,39 @@ export const metaDetails = {
       title: 'Affordable Lead Generation Services For US Digital Startups',
       description: 'Get tips and resources for how to build a successful business online with our Affordable Lead Generation Services For Digital Startups in the US.'
    },
-   'resource-outsourcing': {
+   'outsource-human-resources': {
       title: 'Outsource Human Resources Services To Grow Your Business',
       description: ' Grow your business with our Outsource Human Resource program, be it outsourcing designer and developers or sales representatives and project managers!'
    },
-   'call-center': {
+   'call-center-outsourcing': {
       title: 'Contact Center Outsourcing For BPO & Inbound Call Center',
       description: ' From Inbound and Outbound call center outsourcing to BPO and customer support, we resolve customer queries, pitch sales, and churn leads into revenue.'
    },
-   'creative-design': {
+   'creative-design-packages': {
       title: 'Creative Agency for Affordable Web & Logo Design Packages',
       description: 'Creative design agency in the USA providing Stellar and Affordable web and logo design packages for a unique brand identity. Get yours within 24 hours!'
    },
-   'web-development': {
+   'web-development-services': {
       title: 'Custom Web Design & Development Packages at Affordable Rates',
       description: 'Create Your Digital Presence with Custom Web Design & Development Services. Find web designing packages tailored to your requirements. Order Now!'
    },
-   'app-development': {
+   'ios-android-app-development': {
       title: 'iOS and Android App Development Services | Outsource To Asia',
       description: ' Leading App Development Service Provider | Outsource your app development services, be it iOS, Android, Web, or Hybrid Applications. Connect on all devices!'
    },
-   'digital-marketing': {
+   'seo-digital-marketing': {
       title: 'Affordable packages for SEO & Digital Marketing Services',
       description: 'Grow your local business online with affordable SEO packages. Amplify your brand’s awareness with Digital Marketing Services such as SEM and SMM.'
    },
-   'video-development': {
+   'corporate-video-production': {
       title: 'Leading Corporate Video Production & Animation Company in US',
       description: 'Corporate Video Production, Character Animation, Screencast & Motion Graphics services for transforming prospects into clients and clients into fans.'
    },
-   'content-writing': {
+   'content-writing-services': {
       title: '#1 Professional Content Writing Company In United States',
       description: 'Our Professional Content Writers deliver high-quality, SEO-optimized content writing services be it Web Copy, Blog, or Creative Writing. We Deliver!'
    },
-   'cyber-security': {
+   'cyber-security-services': {
       title: 'Cyber Security Consulting Service in US For Malware Analysis',
       description: 'Digital Security Specialists that strengthen your Internet Security with Cyber Security services such as Malware Analysis & Threat Management.'
    },
