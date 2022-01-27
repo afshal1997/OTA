@@ -5,6 +5,7 @@ import AboutUsFrom from "../../Components/Common/AboutUsForm/AboutUsFrom";
 import "./PortfolioPageLayout.css";
 import { CHANGE_MODAL } from "../../Store/Action";
 import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
 
 const PortfolioMainBanner = () => {
   const dispatch = useDispatch();
@@ -36,7 +37,7 @@ const PortfolioMainBanner = () => {
                 </svg>
                 <h1>Guaranteeing</h1>
                 <h3>
-                  Supreme Quality Services and an Optimal Experience Always and
+                  <strong><Link to='/' className='text-decoration-none text-light'>Supreme Quality Services</Link></strong> and an Optimal Experience Always and
                   Forever
                 </h3>
                 <Row>

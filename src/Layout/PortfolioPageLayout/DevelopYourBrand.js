@@ -5,6 +5,7 @@ import "./PortfolioPageLayout.css";
 import MobileAppDevelopmentCarousal from "../../Components/Common/MobileAppDevelopmentCarousal/MobileAppDevelopmentCarousal";
 import { importAll } from "../../Constants/functions";
 import "../../Components/Common/Tabs/TabsStyle.css"
+import { Link } from "react-router-dom";
 const DevelopYourBrand = () => {
   return (
     <div className="DevelopYourBrand" id="OTAPortfolio">
@@ -38,7 +39,7 @@ const DevelopYourBrand = () => {
         <Row>
           <Col lg={7} className="m-auto mt-4">
             <p className="font-size-12 text-center text-light">
-              Our team consists of experienced experts in all sectors of digital marketing. This allows us to develop projects on a large scale, guaranteeing a supreme quality and an optimal experience.
+              Our team consists of experienced experts in all sectors of <strong><Link to='/seo-digital-marketing' className='text-decoration-none'>digital marketing</Link></strong>. This allows us to develop projects on a large scale, guaranteeing a supreme quality and an optimal experience.
             </p>
           </Col>
         </Row>
