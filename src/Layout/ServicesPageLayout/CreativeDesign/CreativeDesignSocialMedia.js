@@ -4,13 +4,10 @@ import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import { SocialMediaDesign } from "../../../Constants/CreativeDesignWowCustomers";
-import { useDispatch } from "react-redux";
-import { CHANGE_MODAL } from "../../../Store/Action";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 import { Link } from "react-router-dom";
 
 const CreativeDesignSocialMedia = () => {
-  const dispatch = useDispatch();
   return (
     <div className="mt-5 pt-5">
       <Container>
