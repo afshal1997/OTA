@@ -9,6 +9,7 @@ import {
 } from "../../../Constants/AppDevelopmentServices";
 import { CHANGE_MODAL } from "../../../Store/Action";
 import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
 
 const AppDevelopmentOtaExclusive = () => {
   const dispatch = useDispatch();
@@ -66,7 +67,7 @@ const AppDevelopmentOtaExclusive = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        OTA has an expert team of <strong>mobile app development professionals</strong> specializing in Android app development services. We help companies create a terrific Android app experience, create new consumer channels, and differentiate themselves from the competition. We ensure our <strong>Android mobile application development services</strong> match your necessities, by being:
+                        <strong><Link to='/' className='text-decoration-none'>OTA</Link></strong> has an expert team of <strong>mobile app development professionals</strong> specializing in Android app development services. We help companies create a terrific Android app experience, create new consumer channels, and differentiate themselves from the competition. We ensure our <strong>Android mobile application development services</strong> match your necessities, by being:
                       </h6>
                       <Row>
                         {AndroidAppService.list.map((li, id) => {

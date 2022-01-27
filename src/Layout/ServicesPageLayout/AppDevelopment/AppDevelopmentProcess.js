@@ -9,6 +9,7 @@ import AppDevelopment10 from '../../../Assets/Services/Icons/Icon10.png'
 import AppDevelopment11 from '../../../Assets/Services/Icons/Icon15.png'
 import AppDevelopment12 from '../../../Assets/Services/Icons/Icon16.png'
 import Zoom from 'react-reveal/Zoom';
+import { Link } from 'react-router-dom'
 
 const AppDevelopmentProcess = () => {
     return (
@@ -22,7 +23,7 @@ const AppDevelopmentProcess = () => {
                                 <h1>App Development</h1>
                             </Zoom>
                             <p>
-                                Our designers offer groundbreaking <strong>app development services</strong> by coordinating consistently into your project and conveying remarkable experiences for your customers.
+                                <strong><Link to='/creative-design-packages' className='text-decoration-none'>Our designers offer</Link></strong> groundbreaking <strong>app development services</strong> by coordinating consistently into your project and conveying <strong><Link to='/call-center-outsourcing' className='text-decoration-none'>remarkable experiences for your customers</Link></strong>.
                             </p>
                         </div>
                     </div>

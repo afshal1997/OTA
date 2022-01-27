@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';
 import AppDevelopmentImg01 from '../../../Assets/Services/AppDevelopment/AppDevelopmenimg01.png'
-
+import { Link } from 'react-router-dom'
 
 const AppDevelopmentApps = () => {
     return (
@@ -37,7 +37,7 @@ const AppDevelopmentApps = () => {
                                     </i>
                                 </h5>
                                 <h6>
-                                    Without a doubt, app development has the potential to determine the fate of your business. From development to optimization, OTA is your all-in-one <strong> outsourcing app development</strong> partner. We design and create your adaptable application from concept to completion, integrating the new product into your framework and scaling up as needed.
+                                    Without a doubt, app development has the potential to determine the fate of your business. From <strong><Link to='/web-development-services' className='text-decoration-none'>development to optimization</Link></strong>, OTA is your all-in-one <strong> outsourcing app development</strong> partner. We design and create your adaptable application from concept to completion, integrating the new product into your framework and scaling up as needed.
                                 </h6>
                             </div>
                         </Bounce>
