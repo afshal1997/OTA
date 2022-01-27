@@ -8,7 +8,7 @@ import {
   WowMakeCustomersGoService,
 } from "../../../Constants/VideoDevelopmentServices";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
-
+import { Link } from 'react-router-dom'
 const VideoDevelopmentMotionGraphics = () => {
   return (
     <div className="mt-5 pt-4">
@@ -36,7 +36,7 @@ const VideoDevelopmentMotionGraphics = () => {
           <Col lg={7} className="m-auto">
             <Bounce right>
               <h6>
-                <strong>Video Animation</strong> is an integral tool that helps you vividly imagine and grasp the specific idea of a film, animated feature, advertisement, or production. Connect with an award-winning <strong>animation outsourcing company</strong> and lift your ROI with wholeheartedly engaging <strong>video production services</strong>.
+                <strong>Video Animation</strong> is an integral tool that helps you vividly imagine and grasp the specific idea of a film, animated feature, advertisement, or production. Connect with an award-winning <strong>animation <Link to='/' className='text-decoration-none'>outsourcing company</Link></strong> and lift your ROI with wholeheartedly engaging <strong>video production services</strong>.
               </h6>
             </Bounce>
           </Col>
@@ -62,7 +62,7 @@ const VideoDevelopmentMotionGraphics = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        Play with pictorial objectives and creative edits to furnish astounding <strong>motion graphics</strong> for your viewers.
+                        Play with pictorial <strong><Link to='/creative-design-packages' className='text-decoration-none'>objectives and creative edits</Link></strong> to furnish astounding <strong>motion graphics</strong> for your viewers.
 
                       </h6>
                       <Row>
