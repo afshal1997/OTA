@@ -6,6 +6,9 @@ import Icon5 from "../Assets/HomeAssets/icon5.png";
 import Icon6 from "../Assets/HomeAssets/icon6.png";
 import Icon7 from "../Assets/HomeAssets/icon7.png";
 import Icon8 from "../Assets/HomeAssets/icon8.png";
+import ServiceTest from "../Components/Common/ServiceTest";
+import { CyberSecurityServiceLink } from "../Components/Common/ServiceTest/CyberSecurityServiceLink";
+import AppDevelopmentServiceLink from "../Components/Common/ServiceTest/AppDevelopmentServiceLink";
 export const servicesCards = [
    {
       icon: Icon1,
@@ -31,15 +34,13 @@ export const servicesCards = [
    {
       icon: Icon4,
       title: "Content Writing",
-      details:
-         "Employing highly impactful and creative content coupled with the latest industrial trends to give you the best digital experience.",
+      details: <ServiceTest />,
       href: "/content-writing-services",
    },
    {
       icon: Icon5,
       title: "App Development",
-      details:
-         "Creating robust and scalable apps, custom-made with integrating new technological advances with intuitive design to build closely tailored solutions for any sector.",
+      details: <AppDevelopmentServiceLink />,
       href: "/ios-android-app-development",
    },
    {
@@ -52,8 +53,7 @@ export const servicesCards = [
    {
       icon: Icon7,
       title: "Cyber Security",
-      details:
-         "Your virtual Chief Information Security Officer, delivering specialized cyber security expertise to your organization, designing a full-fledged cyber security program, and notably reducing risk.",
+      details: <CyberSecurityServiceLink />,
       href: '/cyber-security-services'
    },
    {

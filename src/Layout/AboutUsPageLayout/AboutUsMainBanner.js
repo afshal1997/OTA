@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import AboutUsForm from "../../Components/Common/AboutUsForm/AboutUsFrom";
 import SocialMediaContact from "../../Components/Common/SocialMediaContact";
 import { CHANGE_MODAL } from "../../Store/Action";
+import { Link } from 'react-router-dom'
 const AboutUsMainBanner = () => {
   const dispatch = useDispatch();
   return (
@@ -44,7 +45,10 @@ const AboutUsMainBanner = () => {
                     maximizes ROI.
                   </p>
                   <p>
-                    <strong>Outsource Web Design And Development Services</strong> To A Well-Known <strong>Digital Outsourcing Agency In The United States</strong> To Expand Your Business Online. Let's Grow As One!
+                    <strong>
+                      <Link to='/web-development-services' className='text-decoration-none'>Outsource Web Design And Development Services</Link>
+                    </strong>
+                    To A Well-Known <strong>Digital Outsourcing Agency In The United States</strong> To Expand Your Business Online. Let's Grow As One!
                   </p>
                   <Row>
                     <Col lg={4}>
