@@ -9,7 +9,7 @@ import {
 } from "../../../Constants/DigitalMarketingServices";
 import { CHANGE_MODAL } from "../../../Store/Action";
 import { useDispatch } from "react-redux";
-
+import { Link } from 'react-router-dom'
 const DigitalMarketingSeo = () => {
   const dispatch = useDispatch();
   return (
@@ -37,7 +37,7 @@ const DigitalMarketingSeo = () => {
           <Col lg={7} className="m-auto">
             <Bounce right>
               <h6>
-                In need of <strong>SEO services for your local business</strong> ? We gander at things with your perspective; with a fresh mind.  We pursue your progress so we can give you - an extravagance of commitment, deals leading stocks to run out, and perks tearing your pockets apart. We convey <strong>quality content writing service</strong> , not bogus guarantees, ensuring we boost your financial plan, so you get max returns on investment (ROI).
+                In need of <strong>SEO services for your local business</strong> ? We gander at things with your perspective; with a fresh mind.  We pursue your progress so we can give you - an extravagance of commitment, deals leading stocks to run out, and perks tearing your pockets apart. We convey <strong><Link to='/content-writing-services' className='text-decoration-none'>quality content writing service</Link></strong> , not bogus guarantees, ensuring we boost your financial plan, so you get max returns on investment (ROI).
               </h6>
             </Bounce>
           </Col>

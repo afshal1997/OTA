@@ -6,6 +6,7 @@ import Zoom from "react-reveal/Zoom";
 import { LeadGeneration } from "../../../Constants/DigitalMarketingServices";
 import { CHANGE_MODAL } from "../../../Store/Action";
 import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
 
 const DigitalMarketingLeadGeneration = () => {
   const dispatch = useDispatch();
@@ -33,7 +34,7 @@ const DigitalMarketingLeadGeneration = () => {
                     </Zoom>
                     <Fade>
                       <h6>
-                        We are <strong>experts in online lead generation</strong> be it Inbound advertising or account-based marketing. We create a lead executive process that is constantly evolving and self-sustaining.                      </h6>
+                        We are <strong>experts in <Link to='/digital-startup' className='text-decoration-none'>online lead generation</Link></strong> be it Inbound advertising or account-based marketing. We create a lead executive process that is constantly evolving and self-sustaining.                      </h6>
                       <Row>
                         {LeadGeneration.list.map((li, id) => {
                           if (id < 4) {
