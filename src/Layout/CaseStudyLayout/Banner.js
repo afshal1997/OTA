@@ -1,13 +1,10 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Fade from "react-reveal/Fade";
-import Bounce from "react-reveal/Bounce";
-import { useDispatch } from "react-redux";
 import AboutUsFrom from "../../Components/Common/AboutUsForm/AboutUsFrom";
-import { CHANGE_MODAL } from "../../Store/Action";
 import SocialMediaContact from "../../Components/Common/SocialMediaContact/";
+import { Link } from 'react-router-dom'
 const CaseStudyBanner = () => {
-  const dispatch = useDispatch();
   return (
     <div className="WhiteLabellingMainBanner">
       <div className="DigitalStartupMainBanner">
@@ -40,7 +37,7 @@ const CaseStudyBanner = () => {
                   </Fade>
                 </h1>
                 <p>
-                  Before you can outsource your IT production, you have to
+                  Before you can outsource your <strong><Link to='/cyber-security-services' className='text-decoration-none'>IT production</Link></strong>, you have to
                   make sure that you and your company are in safe hands. A
                   case study of our clients and how we have helped them might
                   vouch on our behalf.

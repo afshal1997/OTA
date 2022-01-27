@@ -5,6 +5,7 @@ import beyondant from "../../Assets/CaseStudy/beyondant.jpg";
 import Millenial from "../../Assets/CaseStudy/Millenial.jpg";
 import Proform360 from "../../Assets/CaseStudy/Proform360.jpg";
 import Adzum from "../../Assets/CaseStudy/Adzum.jpg";
+import { Link } from "react-router-dom";
 
 const CaseStudies = () => {
   return (
@@ -28,7 +29,7 @@ const CaseStudies = () => {
                       <Fade>
                         <h6>
                           <b>
-                            The client’s main goal was to generate new leads. He
+                            The client’s main goal was to <strong><Link to='/digital-startup' className='text-decoration-none'>generate new leads</Link></strong>. He
                             sought to scale his business up and was looking to
                             improve the brand’s perception on the web.
                             Precisely, he wanted an engaging website that draws
@@ -41,8 +42,7 @@ const CaseStudies = () => {
                             <h2>CHALLENGE:</h2>
                             <p>
                               The client aimed to increase brand awareness, web
-                              traffic, and sales for their social media
-                              marketing business.
+                              traffic, and sales for their <strong><Link to='/seo-digital-marketing' className='text-decoration-none'>social media marketing</Link></strong> business.
                             </p>
                           </Col>
                         </Row>
@@ -52,7 +52,7 @@ const CaseStudies = () => {
                             <p>
                               In addition to building a fresh website to
                               revitalize Proform 360’s digital presence, we also
-                              suggested an engaging landing page. A team of
+                              suggested an <strong><Link to='/creative-design-packages' className='text-decoration-none'>engaging landing page</Link></strong>. A team of
                               marketing experts was drafted and a Google PPC
                               campaign was put into action.
                             </p>
@@ -108,7 +108,7 @@ const CaseStudies = () => {
                             <p>
                               We entered into a joint venture with Beyondant. An
                               entire production team comprising of UI/UX
-                              developer, Web Developer, App Developer, Virtual
+                              developer, Web Developer, <strong><Link to='/ios-android-app-development' className='text-decoration-none'>App Developer</Link></strong>, Virtual
                               Assistant, QA Tester, and Project Manager was
                               provided. They oversaw the development of a
                               full-fledged website with eCommerce features,
