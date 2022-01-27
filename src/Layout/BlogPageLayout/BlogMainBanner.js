@@ -3,12 +3,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import AboutUsFrom from "../../Components/Common/AboutUsForm/AboutUsFrom";
 import SocialMediaContact from "../../Components/Common/SocialMediaContact";
 import Fade from "react-reveal/Fade";
-import Bounce from "react-reveal/Bounce";
-import { CHANGE_MODAL } from "../../Store/Action";
-import { useDispatch } from "react-redux";
+import GetStarted from "../../Components/Common/Buttons/GetStarted";
 
 const BlogMainBanner = () => {
-  const dispatch = useDispatch();
   return (
     <div>
       <div className="BlogPageMainBanner">
@@ -42,18 +39,12 @@ const BlogMainBanner = () => {
                     </Fade>
                   </h1>
                   <h3>
-                      Stay tuned with the latest news about Digital Marketing
-                      industry.
+                    Stay tuned with the latest news about Digital Marketing
+                    industry.
                   </h3>
                   <Row>
                     <Col lg={4}>
-                      <a
-                        href="#"
-                        onClick={() => dispatch(CHANGE_MODAL(true))}
-                        className="getStarted-btn"
-                      >
-                        Get Started
-                      </a>
+                      <GetStarted buttonClass={'getStarted-btn'} buttonText={'Get Started'} />
                     </Col>
                   </Row>
                 </div>

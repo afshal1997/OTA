@@ -4,11 +4,9 @@ import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import { PenetrationTestingService } from "../../../Constants/CyberSecurityServicesDiscription";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
 import { Link } from 'react-router-dom'
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 const CyberSecurityPenetrationTesting = () => {
-  const dispatch = useDispatch();
   return (
     <div>
       <Container>
@@ -57,13 +55,7 @@ const CyberSecurityPenetrationTesting = () => {
                       </Row>
                     </Fade>
                     <Col lg="3">
-                      <a
-                        href="#"
-                        onClick={() => dispatch(CHANGE_MODAL(true))}
-                        class={`${PenetrationTestingService.button[1]}`}
-                      >
-                        {PenetrationTestingService.button[0]}
-                      </a>
+                      <GetStarted buttonClass={`${PenetrationTestingService.button[1]}`} buttonText={PenetrationTestingService.button[0]} />
                     </Col>
                   </ul>
                 </div>

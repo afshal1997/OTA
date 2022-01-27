@@ -7,13 +7,10 @@ import {
   BrandLogoDesign,
   MakeCustomersGo,
 } from "../../../Constants/CreativeDesignWowCustomers";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 import { Link } from "react-router-dom";
 
 const WowCustomers = () => {
-  const dispatch = useDispatch();
   return (
     <div>
       <Container>

@@ -1,15 +1,12 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Fade from "react-reveal/Fade";
-import Bounce from "react-reveal/Bounce";
 import SocialMediaContact from "../../Components/Common/SocialMediaContact";
 import AboutUsFrom from "../../Components/Common/AboutUsForm/AboutUsFrom";
-import { CHANGE_MODAL } from "../../Store/Action";
-import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+import GetStarted from "../../Components/Common/Buttons/GetStarted";
 
 const PricingMainBanner = () => {
-  const dispatch = useDispatch();
   return (
     <div className="PricingMainBanner">
       <div className="DigitalStartupMainBanner">
@@ -45,14 +42,9 @@ const PricingMainBanner = () => {
                   From envisioning your web identity to advertising it on the internet, we demystify and fulfill all your digital needs for your brand to go big! Pick a <strong><Link to='creative-design-packages' className='text-decoration-none'>full branding package</Link></strong> that is ideal for your brand.
                 </p>
                 <Row>
+
                   <Col lg={4}>
-                    <a
-                      href="#"
-                      onClick={() => dispatch(CHANGE_MODAL(true))}
-                      className="getStarted-btn"
-                    >
-                      Get Started
-                    </a>
+                    <GetStarted buttonClass={'getStarted-btn'} buttonText={'Get Started'} />
                   </Col>
                 </Row>
               </div>

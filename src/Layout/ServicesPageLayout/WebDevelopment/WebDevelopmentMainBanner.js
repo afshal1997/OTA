@@ -3,11 +3,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import AboutUsFrom from "../../../Components/Common/AboutUsForm/AboutUsFrom";
 import SocialMediaContact from "../../../Components/Common/SocialMediaContact";
 import Fade from "react-reveal/Fade";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const WebDevelopmentMainBanner = () => {
-  const dispatch = useDispatch();
   return (
     <div className="WebDevelopmentMainBanner">
       <div className="DigitalStartupMainBanner">
@@ -44,13 +42,7 @@ const WebDevelopmentMainBanner = () => {
                 </p>
                 <Row>
                   <Col lg={4}>
-                    <a
-                      onClick={() => dispatch(CHANGE_MODAL(true))}
-                      href="#"
-                      class="getStarted-btn"
-                    >
-                      Get Started
-                    </a>
+                    <GetStarted buttonClass={'getStarted-btn'} buttonText={'Get Started'} />
                   </Col>
                 </Row>
               </div>

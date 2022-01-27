@@ -4,11 +4,9 @@ import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import Zoom from "react-reveal/Zoom";
 import { SocialMediaMarketing } from "../../../Constants/DigitalMarketingServices";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const DigitalMarketingSocialMediaMarketing = () => {
-  const dispatch = useDispatch();
   return (
     <div>
       <Container>
@@ -49,13 +47,8 @@ const DigitalMarketingSocialMediaMarketing = () => {
                       </Row>
                     </Fade>
                     <Col lg="3">
-                      <a
-                        href="#"
-                        onClick={() => dispatch(CHANGE_MODAL(true))}
-                        class={`${SocialMediaMarketing.button[1]}`}
-                      >
-                        {SocialMediaMarketing.button[0]}
-                      </a>
+                      <GetStarted buttonClass={`${SocialMediaMarketing.button[1]}`} buttonText={SocialMediaMarketing.button[0]} />
+                      
                     </Col>
                   </ul>
                 </div>
