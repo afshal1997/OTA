@@ -66,7 +66,7 @@ const CyberSecurityProcess = () => {
                      <Card className="WhyChooseUSCards text-dark">
                         <Col lg={8} className="m-auto text-center p-0">
                            <img className="w-50 position-relative mb-4" src={Resolve} alt="Resolve"></img>
-                           <p><b>Ressolve</b></p>
+                           <p><b>Resolve</b></p>
                         </Col>
                      </Card>
                   </Col>

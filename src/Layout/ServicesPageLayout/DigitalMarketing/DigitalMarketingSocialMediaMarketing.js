@@ -48,7 +48,6 @@ const DigitalMarketingSocialMediaMarketing = () => {
                     </Fade>
                     <Col lg="3">
                       <GetStarted buttonClass={`${SocialMediaMarketing.button[1]}`} buttonText={SocialMediaMarketing.button[0]} />
-                      
                     </Col>
                   </ul>
                 </div>
