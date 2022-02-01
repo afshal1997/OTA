@@ -109,8 +109,8 @@ function Footer() {
                           3145 Silbury Hl. Downingtown Pennsylvania, 19335
                         </p>
                         <p>
-                          <a href="mailto:info@outsourcetoasia.io">
-                            info@outsourcetoasia.io
+                          <a href="mailto:info@outsourcetoasia.co">
+                            info@outsourcetoasia.co
                           </a>
                         </p>
                         <p>
@@ -136,12 +136,12 @@ function Footer() {
                           PECHS, Karachi, Pakistan
                         </p>
                         <p>
-                          <a href="mailto:info@outsourcetoasia.io">
-                            info@outsourcetoasia.io
+                          <a href="mailto:info@outsourcetoasia.co">
+                            info@outsourcetoasia.co
                           </a>
                         </p>
                         <p>
-                          <a href="tel:02133374275">021-333-74275</a>
+                          <a href="tel:+923352155171">+923352155171</a>
                         </p>
                       </Col>
                       <Col lg={3} className="col-3 m-auto">

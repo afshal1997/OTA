@@ -47,8 +47,8 @@ const index = () => {
             </li>
 
             <li>
-              <a href="mailto:info@outsourcetoasia.io">
-                <i className="fas fa-envelope-open"></i>info@outsourcetoasia.io
+              <a href="mailto:info@outsourcetoasia.co">
+                <i className="fas fa-envelope-open"></i>info@outsourcetoasia.co
               </a>
             </li>
           </ul>

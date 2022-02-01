@@ -2,7 +2,7 @@ export const ContactUsInformation = [
   {
     containerClasses: "d-flex align-items-start my-3",
     className: "far fa-envelope-open text-secondary mx-3 my-1",
-    text: "info@outsourcetoasia.io",
+    text: "info@outsourcetoasia.co",
   },
   {
     containerClasses: "d-flex align-items-start my-3",
