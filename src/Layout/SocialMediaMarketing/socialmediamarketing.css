@@ -1,0 +1,14 @@
+.socialmediamarketing {
+  background: url("../../Assets/Services/SocialMediaMarketing.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px 10px;
+  height: 100vh;
+}
+.smm-container-bg {
+  background: url("../../Assets/Services/SMM/typesbg.png");
+  background-size: 100% 600px ;
+  background-repeat: no-repeat;
+}

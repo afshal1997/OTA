@@ -93,6 +93,10 @@ const ThankYou = Loadable({
   loader: () => import(/*webpackChunkName:"ThankYou"*/ "./Layout/ThankYou/ThankYou"),
   loading: () => <Loader />,
 });
+const SocialMediaMarketing = Loadable({
+  loader: () => import(/*webpackChunkName:"ThankYou"*/ "./Layout/SocialMediaMarketing"),
+  loading: () => <Loader />,
+});
 const routes = [
   {
     path: "/",
@@ -206,6 +210,11 @@ const routes = [
     path: "/terms-and-conditions",
     exact: true,
     component: TermAndConditions,
+  },
+  {
+    path: "/social-media-marketing",
+    exact: true,
+    component: SocialMediaMarketing,
   },
   {
     path: "/thank-you",
