@@ -1,0 +1,9 @@
+.leadgenbanner-bg {
+  background: url("../../Assets/Services/LeadGenaration/Lead-Generation.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px 10px;
+  height: 100vh;
+}

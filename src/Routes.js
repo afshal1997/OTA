@@ -2,6 +2,7 @@ import { Redirect } from "react-router-dom";
 import Loadable from 'react-loadable'
 import Loader from "./Components/Common/Loader/Loader";
 import SearchEngineOptimization from "./Layout/SearchEngineOptimization/SearchEngineOptimization";
+import LeadGeneration from "./Layout/LeadGeneration/LeadGenartion";
 const Home = Loadable({
   loader: async () => {
     const fileToLoad = await import(/*webpackChunkName:"Home"*/ "./Components/Pages/Home")
@@ -221,6 +222,11 @@ const routes = [
     path: "/search-engine-optimization",
     exact: true,
     component: SearchEngineOptimization,
+  },
+  {
+    path: "/lead-generation",
+    exact: true,
+    component: LeadGeneration,
   },
   {
     path: "/thank-you",

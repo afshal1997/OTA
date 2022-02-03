@@ -45,16 +45,7 @@ const BlogPageOutsourceImportance = () => {
           <ShowMoreText>
             {
               <>
-                <strong>
-                  Outsourcing not only helps businesses to flourish but also to
-                  third world countries with poor employment opportunities and
-                  low sources of income. This concept embraces nations like
-                  Pakistan and India where there is remarkable talent going down
-                  the drain which needs to be tapped and used properly in the
-                  field of customer service, marketing, human resources and many
-                  others. As a result, outsourcing lowers the unemployment rates
-                  and boosts the economy in a matter of time.
-                </strong>
+                
                 <strong>
                   Some of the hottest outsourcing markets in the Philippines
                   right now include call centers, SEO, IT services, internet
