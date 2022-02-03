@@ -1,19 +1,18 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
-import GetStarted from '../../Components/Common/Buttons/GetStarted'
+import { Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import GetStarted from '../../Components/Common/Buttons/GetStarted';
+import PagesLayout from '../PagesLayout';
 import AboutUsForm from '../../Components/Common/AboutUsForm/AboutUsFrom'
 import SocialMediaContact from '../../Components/Common/SocialMediaContact'
-import SMPPROCESS from './SocialmediaMarketingProcess'
-import './socialmediamarketing.css'
-import '../../Layout/HomePageLayout/HomePage.css'
+import './seo.css'
 import '../../Layout/AboutUsPageLayout/AboutPage.css'
-import AboutSmm from './AboutSmm';
+import SeoProcess from './SeoProcess';
 
-const SocialMediaMarketing = () => {
-   return <>
-      <div className="">
-         <div className="socialmediamarketing">
+const SearchEngineOptimization = () => {
+   return <PagesLayout>
+      <div>
+         <div className="seobanner-bg">
             <Container>
                <Row>
                   <Col lg={6} className="m-auto">
@@ -60,12 +59,12 @@ const SocialMediaMarketing = () => {
                   </Col>
                </Row>
             </Container>
+            <SocialMediaContact />
          </div>
-         <SocialMediaContact />
       </div>
-      <SMPPROCESS />
-      <AboutSmm />
-   </>;
+      <SeoProcess />
+   </PagesLayout>
+      ;
 };
 
-export default SocialMediaMarketing;
+export default SearchEngineOptimization;

@@ -7,7 +7,7 @@ const GetStarted = ({ buttonClass, buttonText }) => {
 
    return (
       <div>
-         <button className={buttonClass} onClick={() => dispatch(CHANGE_MODAL(true))}>
+         <button className={`${buttonClass} open-modal-button`} onClick={() => dispatch(CHANGE_MODAL(true))}>
             {buttonText}
          </button>
       </div>
