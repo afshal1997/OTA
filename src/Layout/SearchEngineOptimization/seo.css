@@ -7,3 +7,8 @@
   padding: 15px 10px;
   height: 100vh;
 }
+.searchengineoptimization img {
+  max-height: 400px !important;
+  width: auto !important;
+  height: 100%;
+}

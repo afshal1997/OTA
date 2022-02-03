@@ -9,9 +9,10 @@ import './socialmediamarketing.css'
 import '../../Layout/HomePageLayout/HomePage.css'
 import '../../Layout/AboutUsPageLayout/AboutPage.css'
 import AboutSmm from './AboutSmm';
+import PagesLayout from '../PagesLayout';
 
 const SocialMediaMarketing = () => {
-   return <>
+   return <PagesLayout>
       <div className="">
          <div className="socialmediamarketing">
             <Container>
@@ -65,7 +66,7 @@ const SocialMediaMarketing = () => {
       </div>
       <SMPPROCESS />
       <AboutSmm />
-   </>;
+   </PagesLayout>;
 };
 
 export default SocialMediaMarketing;

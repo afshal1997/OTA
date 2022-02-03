@@ -8,7 +8,8 @@ import SocialMediaContact from '../../Components/Common/SocialMediaContact'
 import './seo.css'
 import '../../Layout/AboutUsPageLayout/AboutPage.css'
 import SeoProcess from './SeoProcess';
-
+import SeoPricing from './SeoPricing'
+import AllAboutSeo from './AllAboutSeo'
 const SearchEngineOptimization = () => {
    return <PagesLayout>
       <div>
@@ -63,6 +64,8 @@ const SearchEngineOptimization = () => {
          </div>
       </div>
       <SeoProcess />
+      <AllAboutSeo />
+      <SeoPricing />
    </PagesLayout>
       ;
 };
