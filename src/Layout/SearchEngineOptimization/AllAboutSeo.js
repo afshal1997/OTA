@@ -10,7 +10,7 @@ const AllAboutSeo = () => {
          <Col lg={4} className="m-auto ">
             <Bounce right cascade>
                <div className="StartUp">
-                  <span class="BgText">{"SEO"}</span>
+                  <span class="BgText">{"OTA"}</span>
                   <Row className="OurServicesHeading">
                      <Col className="col-1"></Col>
                      <Col className="col-1 m-auto">
@@ -19,7 +19,6 @@ const AllAboutSeo = () => {
                      <Col className="col-10">
                         <Zoom right cascade>
                            <h4 className='font-weight-bolder'>{"Search Engine Optimization"}</h4>
-                           <h5>{'Search Engine Optimization'}</h5>
                         </Zoom>
                      </Col>
                   </Row>
@@ -47,15 +46,15 @@ const AllAboutSeo = () => {
          <Col lg={7} className="m-auto">
             <Bounce right cascade>
                <div className="StartUp pt-5 mt-5">
-                  <span class="BgText">{BasicSEO.heading}</span>
+                  <span class="BgText">{"Android"}</span>
                   <div className="OurServicesHeadingUl">
                      <ul>
                         <Zoom right cascade>
-                           <h1>{BasicSEO.title}</h1>
+                           <h1>Keyword Optimization</h1>
                         </Zoom>
                         <Fade>
                            <h6>
-                              Improve your business standing with <strong>highly responsive web designs</strong> . Whether you want to generate leads, contact prospective clients, or advertise your business, our basic <strong>website development package</strong> is the perfect match, by being:
+                              Keyword research is where it all starts. It draws a roadmap on which keywords you should target for your desired audience.
                            </h6>
                            <Row>
                               {React.Children.toArray(
@@ -94,15 +93,15 @@ const AllAboutSeo = () => {
          <Col lg={7} className="m-auto">
             <Bounce right cascade>
                <div className="StartUp pt-5 mt-5">
-                  <span class="BgText">{OptimizedSEO1.heading}</span>
+                  <span class="BgText">IOS</span>
                   <div className="OurServicesHeadingUl">
                      <ul>
                         <Zoom right cascade>
-                           <h1>{OptimizedSEO1.title}</h1>
+                           <h1>On Page Optimization</h1>
                         </Zoom>
                         <Fade>
                            <h6>
-                              Improve your business standing with <strong>highly responsive web designs</strong> . Whether you want to generate leads, contact prospective clients, or advertise your business, our basic <strong>website development package</strong> is the perfect match, by being:
+                              We write and modify your website's content and a few technical elements to optimize your website for search engines.
                            </h6>
                            <Row>
                               {React.Children.toArray(
@@ -166,7 +165,7 @@ const AllAboutSeo = () => {
                         </Zoom>
                         <Fade>
                            <h6>
-                              Improve your business standing with <strong>highly responsive web designs</strong> . Whether you want to generate leads, contact prospective clients, or advertise your business, our basic <strong>website development package</strong> is the perfect match, by being:
+                              Link building emphasizes increasing the rankings of your website and the actions directed at expanding the number of inbound links.
                            </h6>
                            <Row>
                               {React.Children.toArray(

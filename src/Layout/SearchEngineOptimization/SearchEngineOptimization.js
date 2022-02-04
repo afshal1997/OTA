@@ -10,6 +10,7 @@ import '../../Layout/AboutUsPageLayout/AboutPage.css'
 import SeoProcess from './SeoProcess';
 import SeoPricing from './SeoPricing'
 import AllAboutSeo from './AllAboutSeo'
+import SeoBanner2 from './SeoBanner2';
 const SearchEngineOptimization = () => {
    return <PagesLayout>
       <div>
@@ -63,6 +64,7 @@ const SearchEngineOptimization = () => {
             <SocialMediaContact />
          </div>
       </div>
+      <SeoBanner2/>
       <SeoProcess />
       <AllAboutSeo />
       <SeoPricing />

@@ -237,5 +237,17 @@ const routes = [
     exact: true,
     component: ThankYou,
   },
+  {
+    path: '*',
+    exact: true,
+    component: () => {
+      return (
+        <>
+          <Redirect to="/" />
+        </>
+
+      )
+    },
+  }
 ];
 export default routes;
