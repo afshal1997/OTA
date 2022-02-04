@@ -25,6 +25,15 @@
   width: 100%;
   height: 100%;
 }
+.ota-modal {
+  display: flex;
+  align-items: center;
+}
+.modal {
+  z-index: 99999 !important;
+  width: 100%;
+  height: auto;
+}
 .ota-modal .modal-content {
   background-image: linear-gradient(to bottom right, #1599d1, #6a5982);
   position: relative;

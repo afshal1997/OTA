@@ -54,7 +54,7 @@ const ApplyNowModal = ({ show }) => {
       <Modal
         show={show}
         onHide={handleClose}
-        centered
+        centered={true}
         size="xl"
         className="ota-modal"
       >
