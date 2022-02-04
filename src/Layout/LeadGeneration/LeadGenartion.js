@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import LeadGenerationBanner2 from './LeadGenerationBanner2'
 import './leadgen.css'
 import LeadGenProcess from './LeadGenProcess';
+import LeadGenServices from './LeadGenServices';
 const LeadGeneration = () => {
    return <PagesLayout>
       <div>
@@ -63,6 +64,7 @@ const LeadGeneration = () => {
       </div>
       <LeadGenerationBanner2 />
       <LeadGenProcess />
+      <LeadGenServices />
    </PagesLayout>;
 };
 
