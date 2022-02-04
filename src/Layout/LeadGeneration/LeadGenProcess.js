@@ -22,7 +22,7 @@ const LeadGenProcess = () => {
                   <span class="BgText">Process</span>
                   <div className="OurServicesHeading">
                      <Zoom right cascade>
-                        <h1>Search Engine Optimization</h1>
+                        <h1>Lead Generation</h1>
                      </Zoom>
                      <p>
                         <strong><Link to='/creative-design-packages' className='text-decoration-none'>Our designers offer</Link></strong> groundbreaking <strong>app development services</strong> by coordinating consistently into your project and conveying <strong><Link to='/call-center-outsourcing' className='text-decoration-none'>remarkable experiences for your customers</Link></strong>.

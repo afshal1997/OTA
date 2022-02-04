@@ -28,7 +28,7 @@ const LeadGenerationBanner2 = () => {
                <Col lg={6} className="m-auto text-white">
                   <Bounce left cascade>
                      <div className="Business">
-                        <h5><i>In publishing and graphic design, <strong>demonstrate the visual</strong></i></h5>
+                        <h5><i>Your App-Our Tabs</i></h5>
                         <h6>
                            <b>
                               Lorem ipsum may be used as a placeholder before the final copy is available.<strong>Creating a brand identity</strong> is crucial to how and what we communicate with clients, engaging them and converting them into buyers and admirers.
@@ -84,7 +84,7 @@ const LeadGenerationBanner2 = () => {
          </Container>
       </div>
    </>
-      ;
+      
 };
 
 export default LeadGenerationBanner2;

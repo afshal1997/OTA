@@ -9,6 +9,7 @@ import LeadGenerationBanner2 from './LeadGenerationBanner2'
 import './leadgen.css'
 import LeadGenProcess from './LeadGenProcess';
 import LeadGenServices from './LeadGenServices';
+import LeadGenerationPricingcomponent from './LeadGenerationPricingcomponent'
 const LeadGeneration = () => {
    return <PagesLayout>
       <div>
@@ -65,6 +66,7 @@ const LeadGeneration = () => {
       <LeadGenerationBanner2 />
       <LeadGenProcess />
       <LeadGenServices />
+      <LeadGenerationPricingcomponent />
    </PagesLayout>;
 };
 
