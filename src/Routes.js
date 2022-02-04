@@ -106,12 +106,16 @@ const routes = [
     component: () => {
       return <Redirect to="/home" />;
     },
+    component: Home,
+
   },
 
   {
     path: "/home",
     exact: true,
-    component: Home,
+    component: () => {
+      return <Redirect to="/home" />;
+    },
   },
   {
     path: "/about-us",

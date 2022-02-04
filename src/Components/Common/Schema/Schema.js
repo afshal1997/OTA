@@ -7,7 +7,7 @@ const WebSchema = () => {
       const googleSchemaScript = document.createElement("script");
       googleSchemaScript.type = "application/ld+json";
       googleSchemaScript.innerHTML = JSON.stringify(
-         schema[location.pathname.substring(1)]
+         schema[location.pathname.substring(1) ? location.pathname.substring(1) : 'home']
       );
       const googleCanonicalScriptSchema1 = document.createElement('link')
       const googleCanonicalScriptSchema2 = document.createElement('link')

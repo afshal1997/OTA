@@ -7,8 +7,8 @@ const OTAMeTagsAndDescriptions = () => {
    const { pathname } = useLocation()
    return (
       <MetaTags>
-         <ReactTitle title={metaDetails[`${pathname.substring(1)}`]?.title} />
-         <meta name="description" content={metaDetails[`${pathname.substring(1)}`]?.description} />
+         <ReactTitle title={metaDetails[`${!pathname.substring(1) ? 'home' : pathname.substring(1)}`]?.title} />
+         <meta name="description" content={metaDetails[`${!pathname.substring(1) ? 'home' : pathname.substring(1)}`]?.description} />
       </MetaTags>
    );
 };
