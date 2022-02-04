@@ -5,7 +5,9 @@ import PagesLayout from '../../Layout/PagesLayout'
 import AboutUsForm from '../../Components/Common/AboutUsForm/AboutUsFrom'
 import SocialMediaContact from '../../Components/Common/SocialMediaContact'
 import { Link } from 'react-router-dom';
+import LeadGenerationBanner2 from './LeadGenerationBanner2'
 import './leadgen.css'
+import LeadGenProcess from './LeadGenProcess';
 const LeadGeneration = () => {
    return <PagesLayout>
       <div>
@@ -59,7 +61,8 @@ const LeadGeneration = () => {
             <SocialMediaContact />
          </div>
       </div>
-
+      <LeadGenerationBanner2 />
+      <LeadGenProcess />
    </PagesLayout>;
 };
 

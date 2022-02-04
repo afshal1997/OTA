@@ -1,8 +1,8 @@
 import { Redirect } from "react-router-dom";
 import Loadable from 'react-loadable'
 import Loader from "./Components/Common/Loader/Loader";
-// import SearchEngineOptimization from "./Layout/SearchEngineOptimization/SearchEngineOptimization";
-// import LeadGeneration from "./Layout/LeadGeneration/LeadGenartion";
+import SearchEngineOptimization from "./Layout/SearchEngineOptimization/SearchEngineOptimization";
+import LeadGeneration from "./Layout/LeadGeneration/LeadGenartion";
 const Home = Loadable({
   loader: async () => {
     const fileToLoad = await import(/*webpackChunkName:"Home"*/ "./Components/Pages/Home")
@@ -95,10 +95,10 @@ const ThankYou = Loadable({
   loader: () => import(/*webpackChunkName:"ThankYou"*/ "./Layout/ThankYou/ThankYou"),
   loading: () => <Loader />,
 });
-// const SocialMediaMarketing = Loadable({
-//   loader: () => import(/*webpackChunkName:"ThankYou"*/ "./Layout/SocialMediaMarketing"),
-//   loading: () => <Loader />,
-// });
+const SocialMediaMarketing = Loadable({
+  loader: () => import(/*webpackChunkName:"SocialMediaMarketing"*/ "./Layout/SocialMediaMarketing"),
+  loading: () => <Loader />,
+});
 const routes = [
   {
     path: "/",
@@ -114,7 +114,7 @@ const routes = [
     path: "/home",
     exact: true,
     component: () => {
-      return <Redirect to="/home" />;
+      return <Redirect to="/" />;
     },
   },
   {
@@ -217,21 +217,21 @@ const routes = [
     exact: true,
     component: TermAndConditions,
   },
-  // {
-  //   path: "/social-media-marketing",
-  //   exact: true,
-  //   component: SocialMediaMarketing,
-  // },
-  // {
-  //   path: "/search-engine-optimization",
-  //   exact: true,
-  //   component: SearchEngineOptimization,
-  // },
-  // {
-  //   path: "/lead-generation",
-  //   exact: true,
-  //   component: LeadGeneration,
-  // },
+  {
+    path: "/social-media-marketing",
+    exact: true,
+    component: SocialMediaMarketing,
+  },
+  {
+    path: "/search-engine-optimization",
+    exact: true,
+    component: SearchEngineOptimization,
+  },
+  {
+    path: "/lead-generation",
+    exact: true,
+    component: LeadGeneration,
+  },
   {
     path: "/thank-you",
     exact: true,
