@@ -68,7 +68,7 @@ const BlogPageSlider = () => {
         <Slider className="" {...settings}>
           {React.Children.toArray(
             popularPostsSlides.map(
-              ({ slideImage, slideTitle, subText, details }) => (
+              ({ slideImage, slideTitle, date, details }) => (
                 <Card className="itemSlider">
                   <Row className="align-items-center">
                     <Col lg={5} className="col-5">
@@ -77,7 +77,7 @@ const BlogPageSlider = () => {
                     <Col lg={7} className="col-7 p-0">
                       <Card.Title className="text-light">
                         <h5 className="mb-0">{slideTitle}</h5>
-                        <h6>{subText}</h6>
+                        <h6>{date}</h6>
                       </Card.Title>
                       <div><span>{details}</span></div>
                     </Col>

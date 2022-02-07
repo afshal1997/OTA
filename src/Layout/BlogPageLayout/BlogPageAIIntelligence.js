@@ -1,7 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import ShowMoreText from "../../Components/Common/ShowMoreText";
-import { longText } from "../../Constants";
 import blogImg01 from "./../../Assets/Blog/BlogPageImge01.png";
 
 const BlogPageAIIntelligence = () => {
@@ -31,7 +30,7 @@ const BlogPageAIIntelligence = () => {
             </strong>
           </p>
           <ShowMoreText>
-            <strong>{longText.forIntellegence}</strong>
+            <strong>AI is the intelligence shown by the machines in contrast to the intelligence possessed by humans. It is like a house giving comfort to different technologies such as Natural Language Generation, Speech Recognition, Machine Learning, Virtual Agents etc.AI has evolved for over a century ensuring the development of a new era which is today The logistic regression model used by our email – spam filters – is a part of Artificial Intelligence elements. The online banking system, bank provides guarantee of safe transaction and detection of fraud...</strong>
           </ShowMoreText>
         </div>
       </div>

@@ -12,6 +12,9 @@ import '../../Layout/AboutUsPageLayout/AboutUsMediaQuery.css'
 import '../../Layout/PlansPageLayout/PlansPage.css'
 import '../../Layout/PlansPageLayout/PlanPageMediaQuery.css'
 import { testimonialSliderData } from '../../Constants/testimonialSliderData'
+import SEOBLOG from '../../Layout/BlogPageLayout/SEOBLOG'
+import BlogCustomWebsite from '../../Layout/BlogPageLayout/BlogCustomWebsite'
+import BlogWebsiteDesign from '../../Layout/BlogPageLayout/BlogWebsiteDesign'
 
 
 const Blog = () => {
@@ -21,6 +24,9 @@ const Blog = () => {
             <BlogPageSlider />
             <BlogPageAIIntelligence />
             <BlogPageOutsourceImportance />
+            <SEOBLOG />
+            <BlogCustomWebsite />
+            <BlogWebsiteDesign />
             <WatchVides />
             <ClientSlider />
             <TestmonialsSlider testmonialTitle={testimonialSliderData} />

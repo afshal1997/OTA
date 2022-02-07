@@ -45,7 +45,7 @@ const BlogPageOutsourceImportance = () => {
           <ShowMoreText>
             {
               <>
-                
+
                 <strong>
                   Some of the hottest outsourcing markets in the Philippines
                   right now include call centers, SEO, IT services, internet
@@ -55,8 +55,8 @@ const BlogPageOutsourceImportance = () => {
                   $2000 to operate a team of employees. The industry right now
                   is on the up and up and has a lot to offer in terms of
                   reliability and security when it comes to outsourcing to the
-                  Philippines.{" "}
-                  <a href="https://www.flatworldsolutions.com/articles/10-benefits-of-outsourcing-to-philippines.php">
+                  Philippines.
+                  <a rel="nofollow" href="https://www.flatworldsolutions.com/articles/10-benefits-of-outsourcing-to-philippines.php">
                     https://www.flatworldsolutions.com/articles/10-benefits-of-outsourcing-to-philippines.php
                   </a>
                   .
