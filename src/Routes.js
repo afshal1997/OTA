@@ -217,21 +217,21 @@ const routes = [
     exact: true,
     component: TermAndConditions,
   },
-  {
-    path: "/social-media-marketing",
-    exact: true,
-    component: SocialMediaMarketing,
-  },
-  {
-    path: "/search-engine-optimization",
-    exact: true,
-    component: SearchEngineOptimization,
-  },
-  {
-    path: "/lead-generation",
-    exact: true,
-    component: LeadGeneration,
-  },
+  // {
+  //   path: "/social-media-marketing",
+  //   exact: true,
+  //   component: SocialMediaMarketing,
+  // },
+  // {
+  //   path: "/search-engine-optimization",
+  //   exact: true,
+  //   component: SearchEngineOptimization,
+  // },
+  // {
+  //   path: "/lead-generation",
+  //   exact: true,
+  //   component: LeadGeneration,
+  // },
   {
     path: "/thank-you",
     exact: true,

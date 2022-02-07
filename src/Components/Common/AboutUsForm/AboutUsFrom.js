@@ -10,13 +10,15 @@ const AboutUsFrom = () => {
   const submitFreeTrainingForm = (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
+    formData.append('type', 'banner-form')
     let obj = {};
     for (var pair of formData.entries()) {
       obj[pair[0]] = pair[1];
     }
+
     axios
-      .get(
-        `https://api.outsourcetoasia.io/index.php?name=${obj.user_name}&email=${obj.user_email}&phone=${obj.user_phone}&company=${obj.user_company}&message=${obj.user_message}`,
+      .post(
+        `https://api.outsourcetoasia.io/`,
         formData
       )
       .then((response) => {
