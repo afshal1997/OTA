@@ -498,25 +498,11 @@ a.apply-btn:hover {
 .popular-posts-slider {
   margin: 20px auto;
 }
-
-span.read-more-less--less,
-span.read-more-less--more {
-  background-image: linear-gradient(to right, #b5406a, #6f203d);
-  border-radius: 20px;
-  padding: 10px;
-  display: block;
-  width: 100%;
-  min-width: 120px;
-  max-width: 120px;
-  margin: 20px auto;
-  margin-left: 0;
-  right: 0;
-  text-align: center;
-  font-size: 0.9rem;
-  font-weight: 600;
-  transition: 2s;
-  color: #fff;
-  text-decoration: none;
+.read-more-less--more {
+  box-shadow: none !important;
+}
+.read-more-less--more:hover {
+  color: #d34e81 !important;
 }
 
 .blogPageContent {

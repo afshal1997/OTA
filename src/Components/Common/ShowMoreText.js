@@ -7,14 +7,14 @@ const ShowMoreText = ({ children }) => {
   return (
     <div>
       <p>{showMore && <>{children}</>}</p>
-      <div className="blogPageContent">
+      <div className="blogPageContent col-3">
         <Button
-          className="read-more-less--more text-light"
+          className="read-more-less--more text-light getStarted-btn"
           onClick={() => {
             setShowMore(!showMore);
           }}
         >
-          Read more ▼
+          {!showMore ? 'Read More ▼' : 'Show Less ▲' }
         </Button>
       </div>
     </div>
