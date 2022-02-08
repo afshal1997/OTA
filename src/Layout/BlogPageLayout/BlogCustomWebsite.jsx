@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import ShowMoreText from "../../Components/Common/ShowMoreText";
 import blogImg04 from "./../../Assets/Blog/BlogPageImge04.png";
 const BlogCustomWebsite = () => {
@@ -13,7 +14,7 @@ const BlogCustomWebsite = () => {
                <p>
                   <div>
                      Whether you are building a startup from scratch or running a large corporation, a question will always pop in your mind: Do you need a website for your business? And if so, why?
-                     While living in the digital world, any business owner needs a business website or <strong>custom web development services</strong> unless they are not interested in growing their brand and company. Throughout the last two years, the online business industry worldwide has gone through revolutionary change. Since the pandemic broke out, it has become customary for people to shop their favorite brands online. A business website not only provides products but it is also provided care and build trust among client to understand their needs. You need a business website.
+                     While living in the digital world, any business owner needs a business website or <strong><Link to="/web-development-services">custom web development services</Link></strong> unless they are not interested in growing their brand and company. Throughout the last two years, the online business industry worldwide has gone through revolutionary change. Since the pandemic broke out, it has become customary for people to shop their favorite brands online. A business website not only provides products but it is also provided care and build trust among client to understand their needs. You need a business website.
                      A business website does more than simply sell; it establishes trust and consumer loyalty by meeting their demands.
                   </div>
                </p>
@@ -45,7 +46,7 @@ const BlogCustomWebsite = () => {
                               Appear in Google search results
                            </h4>
                            <p>
-                              More than 81% of the customers go on google before making any purchase. That means your website has a chance of getting traffic and leads through <strong>SEO outsourcing.</strong>
+                              More than 81% of the customers go on google before making any purchase. That means your website has a chance of getting traffic and leads through <strong><Link to="/seo-digital-marketing">SEO outsourcing.</Link></strong>
                            </p>
                         </div>
                         <div>
@@ -53,7 +54,7 @@ const BlogCustomWebsite = () => {
                               Communication with customers
                            </h4>
                            <p>
-                              One more reason for having a business website is that it allows you to engage with your consumers and determine what they want and how they feel about your company. Many business websites have a chat box to answer the queries of customers.
+                              One more reason for having a business website is that it allows you to <Link to='/call-center-outsourcing'>engage with your consumers</Link> and determine what they want and how they feel about your company. Many business websites have a chat box to answer the queries of customers.
                            </p>
                         </div>
                         <div>
@@ -76,7 +77,7 @@ const BlogCustomWebsite = () => {
                         <div>
                            <h4> Beat your competitors</h4>
                            <p>
-                              Have you ever needed to start a business and beat over all of your competitors? If so, having a <strong>custom web design</strong> with a good and responsive user interface will assist you in doing so.
+                              Have you ever needed to start a business and beat over all of your competitors? If so, having a <strong><Link to='/creative-design-packages'>custom web design</Link></strong> with a good and responsive user interface will assist you in doing so.
                               Whether your business has an excellent physical store or a faithful client base, you'll be offering new business opportunities to your competitors with a website.
                            </p>
                         </div>
