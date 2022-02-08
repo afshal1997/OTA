@@ -24,9 +24,9 @@ const Blog = () => {
             <BlogPageSlider />
             <BlogPageAIIntelligence />
             <BlogPageOutsourceImportance />
-            {/* <SEOBLOG />
+            <SEOBLOG />
             <BlogCustomWebsite />
-            <BlogWebsiteDesign /> */}
+            <BlogWebsiteDesign />
             <WatchVides />
             <ClientSlider />
             <TestmonialsSlider testmonialTitle={testimonialSliderData} />

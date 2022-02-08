@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import ShowMoreText from "../../Components/Common/ShowMoreText";
 import blogImg03 from "./../../Assets/Blog/BlogPageImge03.png";
+import { Link } from 'react-router-dom'
 const SEOBLOG = () => {
    return (
       <Container>
@@ -16,7 +17,7 @@ const SEOBLOG = () => {
                <p>
                   <div>
                      The demand for online stores boomed in 2021, regardless of the size and niche of the business. Going into 2022, this trend is likely to continue. Individuals need to associate with brands based on their conditions and are searching for one-of-a-kind and smoothed-out internet-based encounters to make it happen.
-                     To remain cutthroat, organizations should change their digital presence to be more apparent, significant, and accessible to their clients. One critical method for doing that? Zeroing in on <strong>SEO services for local businesses</strong> for your business website.
+                     To remain cutthroat, organizations should change their digital presence to be more apparent, significant, and accessible to their clients. One critical method for doing that? Zeroing in on <strong>SEO services for local businesses </strong> for your business website.
                   </div>
                </p>
                <p>
@@ -46,13 +47,13 @@ const SEOBLOG = () => {
                         <div>
                            <h4>Small business competitive</h4>
                            <p>
-                              To expand your reach and generate more leads, you have to make sure potential clients can easily access you on the web. Web optimization improves your site so you rank higher on search results. Regardless of whether your competitors are greater players in your industry, you can in any case beat them and draw in more customers to visit your page. The key lies in <strong>affordable local SEO services.</strong>
+                              To expand your reach and <strong><Link to='/digital-startup'>generate more leads,</Link></strong> you have to make sure potential clients can easily access you on the web. Web optimization improves your site so you rank higher on search results. Regardless of whether your competitors are greater players in your industry, you can in any case beat them and draw in more customers to visit your page. The key lies in <strong><Link to='/seo-digital-marketing'>affordable local SEO services.</Link></strong>
                            </p>
                         </div>
                         <div>
                            <h4>Primary source of website traffic</h4>
                            <p>
-                              Did you know that companies that have a website are likely to find twice as many customers as businesses that are absent on the web? Regardless of the kind of industry you are in, you should realize that your customers are on the internet, ready to make the next purchase.
+                              Did you know that companies that have a website are likely to find twice as many customers as businesses that are absent on the web? Regardless of the kind of industry you are in, you should realize that your customers are on the internet, <Link to="/contact-us">ready to make the next purchase.</Link>
                               The main objective of brand promotion is to get you, new clients. SEO does exactly that by utilizing various techniques and approaches which translates into more designated traffic and therefore - more clients!
                            </p>
                         </div>
