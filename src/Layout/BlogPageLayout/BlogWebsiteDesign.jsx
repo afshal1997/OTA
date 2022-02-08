@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import ShowMoreText from "../../Components/Common/ShowMoreText";
 import blogImg05 from "./../../Assets/Blog/BlogPageImge05.png";
 const BlogWebsiteDesign = () => {
@@ -16,7 +17,9 @@ const BlogWebsiteDesign = () => {
                <p>
                   <div>
 
-                     48% of individuals accept web design as the main element in choosing a business' credibility. Your website is the foundation of your brand’s image on the web. <strong>Web designing packages</strong> from <strong>Creative design agencies</strong> help polish and enhance that image. That is why designing and coding your website with best practices in mind helps ensure your image is performing at its peak.
+                     48% of individuals accept web design as the main element in choosing a business' credibility. Your website is the foundation of your brand’s image on the web. <strong>
+                        <Link to="/web-development-services">Web designing packages</Link>
+                     </strong> from <strong><Link to='/creative-design-packages'>Creative design agencies</Link></strong> help polish and enhance that image. That is why designing and coding your website with best practices in mind helps ensure your image is performing at its peak.
                   </div>
                </p>
                <p>
@@ -28,7 +31,7 @@ const BlogWebsiteDesign = () => {
                   <div>
                      <p>
                         <h4>Clean Design</h4>
-                        The entire purpose of your website is for people to use it and generate more business. So create a site that is simple for them to utilize!. It's a good practice to settle for a clean yet elegant design. You don't want to overwhelm visitors with a barrage of colors, images, and weird-looking fonts.
+                        The entire purpose of your website is for people to use it and <Link to="/seo-digital-marketing">generate more business.</Link> So create a site that is simple for them to utilize!. It's a good practice to settle for a clean yet elegant design. You don't want to overwhelm visitors with a barrage of colors, images, and weird-looking fonts.
                      </p>
                   </div>
                   <div>
