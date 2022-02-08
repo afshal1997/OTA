@@ -19,7 +19,7 @@ const AboutUsFrom = () => {
     axios
       .post(
         `https://api.outsourcetoasia.io/`,
-        formData
+        obj
       )
       .then((response) => {
         history.push("/thank-you");
@@ -62,7 +62,7 @@ const AboutUsFrom = () => {
                 aria-label="Email"
                 aria-describedby="Email"
                 type="email"
-                name="user_email"
+                name="email"
               />
             </InputGroup>
             <InputGroup className="mb-3">
@@ -75,7 +75,7 @@ const AboutUsFrom = () => {
                 aria-label="number"
                 aria-describedby="number"
                 minLength="10"
-                name="user_phone"
+                name="phone"
               />
             </InputGroup>
             {error && (
