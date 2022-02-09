@@ -22,6 +22,13 @@ const AboutUsFrom = () => {
         obj
       )
       .then((response) => {
+        if (!response.data.success) {
+          setError(true);
+          setTimeout(() => {
+            setError(false)
+          }, 8000);
+          return
+        }
         history.push("/thank-you");
       })
       .catch((error) => {
