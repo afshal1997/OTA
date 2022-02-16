@@ -15,11 +15,12 @@ import { testimonialSliderData } from '../../Constants/testimonialSliderData'
 import SEOBLOG from '../../Layout/BlogPageLayout/SEOBLOG'
 import BlogCustomWebsite from '../../Layout/BlogPageLayout/BlogCustomWebsite'
 import BlogWebsiteDesign from '../../Layout/BlogPageLayout/BlogWebsiteDesign'
+import DigitalMarketingBlog from '../../Layout/BlogPageLayout/DigitalMarketingBlog'
 
 
 const Blog = () => {
     return (
-        <div>
+        <div className='ota-blogs'>
             <BlogMainBanner />
             <BlogPageSlider />
             <BlogPageAIIntelligence />
@@ -27,6 +28,7 @@ const Blog = () => {
             <SEOBLOG />
             <BlogCustomWebsite />
             <BlogWebsiteDesign />
+            <DigitalMarketingBlog />
             <WatchVides />
             <ClientSlider />
             <TestmonialsSlider testmonialTitle={testimonialSliderData} />

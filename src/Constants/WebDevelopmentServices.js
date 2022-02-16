@@ -5,9 +5,9 @@ import WebDevelopmentImage05 from '../Assets/Services/WebDevelopment/WebDevelopm
 import RenownedOutsourceWebDescription from '../Components/Common/ServiceTest/RenownedOutsourceWebDescription'
 
 export const RenownedOutsourceWeb = {
-    heading: 'Web',
-    title: 'Development',
-    title2: 'Renowned Outsource Web',
+    heading: 'Affordable',
+    title: 'Custom',
+    title2: 'Web Development services',
     description: <RenownedOutsourceWebDescription />
 }
 
