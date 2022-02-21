@@ -13,7 +13,7 @@ import { testimonialSliderData } from "../../Constants/testimonialSliderData";
 
 export default function Home() {
     return (
-        <div>
+        <>
             <HomePageMainBnanner />
             <HomePageBannerTwo />
             <MainSliderConatiner />
@@ -22,6 +22,6 @@ export default function Home() {
             <ClientSlider />
             <TestmonialsSlider testmonialTitle={testimonialSliderData} />
             <Consultation />
-        </div>
+        </>
     )
 }

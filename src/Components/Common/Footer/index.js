@@ -1,12 +1,31 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./footer.css";
 import loGo from "../../../Assets/logo/logo.png";
 import Pakistan from "../../../Assets/footer/pakistan.png";
 import Pennsylvania from "../../../Assets/footer/pennsylvania.png";
+import { CHANGE_MODAL } from "../../../Store/Action";
+import { useDispatch, useSelector } from "react-redux";
+import ApplyNowModal from './../Modal/ApplyNowModal';
 
 function Footer() {
+  const { modalReducer } = useSelector((state) => state);
+  const dispatch = useDispatch()
+  useEffect(() => {
+    const now = new Date();
+    let time = now.getTime();
+    const hourImMs = 60 * 60 * 1000
+    const checkTimer = +localStorage.getItem('contact-ota') + hourImMs
+    const estimatedTimeToShowPopup = now > checkTimer
+    if (!localStorage.getItem("contact-ota") || estimatedTimeToShowPopup) {
+      setTimeout(() => {
+        localStorage.setItem("contact-ota", time);
+        dispatch(CHANGE_MODAL(true));
+      }, 10000);
+    }
+  }, [])
+
   if (window.location.pathname === "/thank-you") {
     return <></>;
   }
@@ -197,6 +216,8 @@ function Footer() {
           </Row>
         </Container>
       </div>
+      <ApplyNowModal show={modalReducer.isModalOpen} />
+
     </div>
   );
 }
