@@ -5,9 +5,11 @@ export const ContactUsInformation = [
     text: "info@outsourcetoasia.co",
   },
   {
+    type: "anchor",
     containerClasses: "d-flex align-items-start my-3",
     className: "fas fa-phone-volume text-secondary mx-3 my-1",
-    text: "+844 990-4252",
+    href: "+16109897744",
+    text: "+1(610) 989-7744",
   },
   {
     containerClasses: "d-flex align-items-start mt-3 mb-2",

@@ -133,7 +133,7 @@ function Footer() {
                           </a>
                         </p>
                         <p>
-                          <a href="tel:+844 990-4252">+844 990-4252</a>
+                          <a href="tel:+16109897744">+1(610) 989-7744</a>
                         </p>
                       </Col>
                       <Col lg={3} className="col-3">

@@ -210,13 +210,14 @@ const ContactWithUs = () => {
               <h2 className="fw-bold mx-3">Contact Info! </h2>
               {React.Children.toArray(
                 ContactUsInformation.map(
-                  ({ text, heading, className, containerClasses }) => {
+                  ({ text, heading, className, containerClasses, type, href }) => {
                     return (
                       <div className={containerClasses}>
                         <i className={className}></i>
                         <span className="mx-1">
                           <h5 className="fw-bold">{heading}</h5>
-                          <p>{text}</p>
+
+                          {type === "anchor" ? <a className="text-decoration-none text-light" href={`tel:${href}`}>{text}</a> : <p>{text}</p>}
                         </span>
                       </div>
                     );

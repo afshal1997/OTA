@@ -1,7 +1,7 @@
 $primary: #d34e81;
 $secondary: #13aef6;
 @import "~bootstrap/scss/bootstrap.scss";
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap);
 body {
   font-family: "Raleway", sans-serif;
   padding: 0;
@@ -20,11 +20,9 @@ body {
   background-position: 34% 100%;
   padding: 40px 10px;
 }
-
 .FirmsWe h4 {
   color: #fff;
 }
-
 .FirmsWe h2 {
   line-height: 0.5;
   text-transform: uppercase;
