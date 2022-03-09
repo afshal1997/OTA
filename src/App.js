@@ -1,4 +1,4 @@
-import React, { Profiler, useEffect } from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import routes from "./Routes";
 import "./App.css";
@@ -10,31 +10,29 @@ const App = () => {
     AOS.init();
   }, []);
   return (
-    <Profiler>
-      <Router>
-        <Layout>
-          <Switch>
-            {React.Children.toArray(
-              routes.map((route) => {
-                return route.component ? (
-                  <Route
-                    path={route.path}
-                    exact={route.exact}
-                    render={(props) => {
-                      return (
-                        <>
-                          <route.component {...props} />
-                        </>
-                      );
-                    }}
-                  />
-                ) : null;
-              })
-            )}
-          </Switch>
-        </Layout>
-      </Router>
-    </Profiler>
+    <Router>
+      <Layout>
+        <Switch>
+          {React.Children.toArray(
+            routes.map((route) => {
+              return route.component ? (
+                <Route
+                  path={route.path}
+                  exact={route.exact}
+                  render={(props) => {
+                    return (
+                      <>
+                        <route.component {...props} />
+                      </>
+                    );
+                  }}
+                />
+              ) : null;
+            })
+          )}
+        </Switch>
+      </Layout>
+    </Router>
   );
 }
 

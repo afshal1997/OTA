@@ -1,4 +1,3 @@
-import React from "react";
 import ReactDOM from "react-dom";
 import "./theme.scss";
 import App from "./App";
@@ -15,10 +14,9 @@ const masterReducer = combineReducers({
 });
 const store = createStore(masterReducer, applyMiddleware(thunk));
 ReactDOM.render(
-  <React.StrictMode>
-    <Provider store={store}>
-      <App />
-    </Provider>
-  </React.StrictMode>,
+  <Provider store={store}>
+    <App />
+  </Provider>
+  ,
   document.getElementById("root")
 );

@@ -1,4 +1,4 @@
-const whatsappWatiLogo = document.getElementsByClassName('wa-chat-box-brand')[0]
+const whatsappWatiLogo = document?.getElementsByClassName('wa-chat-box-brand')[0]
 export const addAltAttribute = () => {
    if (whatsappWatiLogo) {
       whatsappWatiLogo.alt = 'whatapp-contact-image'

@@ -15,11 +15,14 @@ export default function LogoSlider(props) {
 
     return (
         <Slider className={props.className} {...props.settings}>
-            {sliderLogos.map((slides, id) => (
-                <div className={`slider${id}`}>
-                    <img src={slides} alt={`slide ${id}`} loading='lazy'></img>
-                </div>
-            ))
+            {
+                React.Children.toArray(
+                    sliderLogos.map((slides, id) => (
+                        <div className={`slider${id}`}>
+                            <img src={slides} alt={`slide ${id}`} loading='lazy'></img>
+                        </div>
+                    ))
+                )
             }
         </Slider>
     );
