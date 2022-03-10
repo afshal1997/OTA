@@ -7,11 +7,9 @@ import {
   SearchEngineOptimization,
   TheExpertiseOf,
 } from "../../../Constants/DigitalMarketingServices";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
 import { Link } from 'react-router-dom'
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 const DigitalMarketingSeo = () => {
-  const dispatch = useDispatch();
   return (
     <div>
       <Container>
@@ -87,17 +85,19 @@ const DigitalMarketingSeo = () => {
                         })}
                       </Row>
                     </Fade>
-                    <Col lg="3">
-                      <a
-                        href="#"
-                        onClick={() => {
-                          dispatch(CHANGE_MODAL(true));
-                        }}
-                        class={`${SearchEngineOptimization.button[1]}`}
-                      >
-                        {SearchEngineOptimization.button[0]}
-                      </a>
-                    </Col>
+                    <Row>
+                      <Col lg="3">
+                        <GetStarted
+                          buttonClass={SearchEngineOptimization.button[1]}
+                          buttonText={SearchEngineOptimization.button[0]}
+                        />
+                      </Col>
+                      <Col lg="3">
+                        <Link to="/seo-digital-marketing" className={SearchEngineOptimization.button[1]}>
+                          Read More
+                        </Link>
+                      </Col>
+                    </Row>
                   </ul>
                 </div>
               </div>

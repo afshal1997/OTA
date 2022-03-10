@@ -4,12 +4,10 @@ import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import Zoom from "react-reveal/Zoom";
 import { LeadGeneration } from "../../../Constants/DigitalMarketingServices";
-import { CHANGE_MODAL } from "../../../Store/Action";
-import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+import GetStarted from "../../../Components/Common/Buttons/GetStarted";
 
 const DigitalMarketingLeadGeneration = () => {
-  const dispatch = useDispatch();
   return (
     <div className="mb-5">
       <Container>
@@ -56,15 +54,20 @@ const DigitalMarketingLeadGeneration = () => {
                         })}
                       </Row>
                     </Fade>
-                    <Col lg="3">
-                      <a
-                        href="#"
-                        onClick={() => dispatch(CHANGE_MODAL(true))}
-                        class={`${LeadGeneration.button[1]}`}
-                      >
-                        {LeadGeneration.button[0]}
-                      </a>
-                    </Col>
+                    <Row>
+                      <Col lg="3">
+                        <GetStarted
+                          buttonClass={LeadGeneration.button[1]}
+                          buttonText={LeadGeneration.button[0]}
+                        />
+                      </Col>
+                      <Col lg="3">
+                        <Link to="/lead-generation-services" className={LeadGeneration.button[1]}>
+                          Read More
+                        </Link>
+                      </Col>
+                    </Row>
+
                   </ul>
                 </div>
               </div>

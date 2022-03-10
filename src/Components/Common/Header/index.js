@@ -93,7 +93,16 @@ function Header() {
                     <Link to="/web-development-services">Web Development</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
-                    <Link to="/seo-digital-marketing">Digital Marketing</Link>
+                    <Link to="/digital-marketing-services">Digital Marketing</Link>
+                  </Dropdown.Item>
+                  <Dropdown.Item>
+                    <Link to="/seo-services">SEO Services</Link>
+                  </Dropdown.Item>
+                  <Dropdown.Item>
+                    <Link to="/social-media-marketing">Social Media Marketing</Link>
+                  </Dropdown.Item>
+                  <Dropdown.Item>
+                    <Link to="/lead-generation-services">Lead Generation Services</Link>
                   </Dropdown.Item>
                   <Dropdown.Item>
                     <Link to="/ios-android-app-development">App Development</Link>

@@ -5,6 +5,7 @@ import Bounce from "react-reveal/Bounce";
 import Zoom from "react-reveal/Zoom";
 import { SocialMediaMarketing } from "../../../Constants/DigitalMarketingServices";
 import GetStarted from "../../../Components/Common/Buttons/GetStarted";
+import { Link } from 'react-router-dom';
 
 const DigitalMarketingSocialMediaMarketing = () => {
   return (
@@ -46,8 +47,20 @@ const DigitalMarketingSocialMediaMarketing = () => {
                         })}
                       </Row>
                     </Fade>
+                    <Row>
+                      <Col lg="3">
+                        <GetStarted
+                          buttonClass={SocialMediaMarketing.button[1]}
+                          buttonText={SocialMediaMarketing.button[0]}
+                        />
+                      </Col>
+                      <Col lg="3">
+                        <Link to="/social-media-marketing" className={SocialMediaMarketing.button[1]}>
+                          Read More
+                        </Link>
+                      </Col>
+                    </Row>
                     <Col lg="3">
-                      <GetStarted buttonClass={`${SocialMediaMarketing.button[1]}`} buttonText={SocialMediaMarketing.button[0]} />
                     </Col>
                   </ul>
                 </div>
